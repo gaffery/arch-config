@@ -1,0 +1,12 @@
+# GIMP gimp-eraser-tool options
+
+(foreground (color-rgb 0.353063 0.242786 0.148486))
+(background (color-rgb 0.424231 0.305394 0.200061))
+(brush "2. Block 01")
+(dynamics "Dynamics Off")
+(palette "Blues")
+(brush-size 11.000000)
+(brush-aspect-ratio 3.157895)
+(brush-hardness 0.950000)
+
+# end of gimp-eraser-tool options

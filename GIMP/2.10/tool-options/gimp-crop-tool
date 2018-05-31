@@ -1,0 +1,12 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 10.000000)
+(aspect-numerator 16.000000)
+(desired-fixed-size-height 1280.000000)
+(desired-fixed-size-width 800.000000)
+(desired-fixed-width 1280.000000)
+(fixed-rule-active yes)
+(overridden-fixed-aspect yes)
+(overridden-fixed-size yes)
+
+# end of gimp-crop-tool options

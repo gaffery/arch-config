@@ -1,0 +1,13 @@
+# GIMP gimp-clone-tool options
+
+(foreground (color-rgb 0.243137 0.254902 0.215686))
+(background (color-rgb 0.424231 0.305394 0.200061))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(pattern "Paper")
+(palette "Blues")
+(brush-size 150.000000)
+(brush-hardness 0.500000)
+(sample-merged yes)
+
+# end of gimp-clone-tool options

@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-levels-config "2018-05-15 21:06:53"
+    (time 1526389613)
+    (in-low 0.000000)
+    (in-high 0.392000)
+    (out-low 0.000000)
+    (out-high 0.767000))
+
+# end of settings

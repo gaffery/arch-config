@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-appfinder" version="1.0">
+  <property name="last" type="empty">
+    <property name="window-height" type="int" value="740"/>
+    <property name="window-width" type="int" value="1262"/>
+    <property name="pane-position" type="int" value="241"/>
+    <property name="category" type="string" value="All Applications"/>
+  </property>
+  <property name="actions" type="array">
+  </property>
+  <property name="always-center" type="bool" value="true"/>
+  <property name="remember-category" type="bool" value="true"/>
+  <property name="icon-view" type="bool" value="true"/>
+  <property name="text-beside-icons" type="bool" value="false"/>
+  <property name="category-icon-size" type="uint" value="3"/>
+  <property name="item-icon-size" type="uint" value="2"/>
+  <property name="enable-service" type="bool" value="true"/>
+</channel>

@@ -1,0 +1,13 @@
+# GIMP gimp-ink-tool options
+
+(foreground (color-rgb 0.847059 0.505882 0.223529))
+(background (color-rgb 0.113725 0.074510 0.043137))
+(brush-size 400.000000)
+(brush-hardness 0.500000)
+(size 10.000000)
+(tilt-angle 5.000000)
+(vel-sensitivity 1.000000)
+(tilt-sensitivity 0.000000)
+(blob-angle 1.107149)
+
+# end of gimp-ink-tool options

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=30;y=9"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="16"/>
+      <property name="background-alpha" type="uint" value="0"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="0"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="3"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=2;x=5093;y=9"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="size" type="uint" value="16"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="background-alpha" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="span-monitors" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="background-color" type="string" value="#88B7E3"/>
+        <property name="tabs-position" type="int" value="4"/>
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+        <property name="font-description" type="string" value="Sans 14"/>
+      </property>
+      <property name="new-window" type="empty">
+        <property name="sticky" type="bool" value="true"/>
+        <property name="always-on-top" type="bool" value="true"/>
+        <property name="width" type="int" value="270"/>
+        <property name="height" type="int" value="337"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="vlc"/>
+    </property>
+    <property name="plugin-3" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="basket note pads"/>
+        <value type="string" value="sylpheed"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="便笺"/>
+      </property>
+      <property name="names-hidden" type="array">
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="xfce4-notes-plugin"/>
+  </property>
+</channel>

@@ -1,0 +1,12 @@
+# GIMP gimp-pencil-tool options
+
+(foreground (color-rgb 0.627451 0.815686 0.658824))
+(background (color-rgb 0.137255 0.137255 0.137255))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Caramel")
+(brush-size 51.000000)
+(brush-hardness 0.500000)
+
+# end of gimp-pencil-tool options

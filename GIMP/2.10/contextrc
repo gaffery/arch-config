@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-convolve-tool")
+(paint-info "gimp-convolve")
+(foreground (color-rgb 0.897917 0.697429 0.438437))
+(background (color-rgb 0.424231 0.305394 0.200061))
+(brush "2. Hardness 050")
+(dynamics "Dynamics Off")
+(mybrush "modelling")
+(pattern "Paper")
+(gradient "FG to Transparent")
+(palette "Blues")
+(font "Sans-serif")
+
+# end of user context

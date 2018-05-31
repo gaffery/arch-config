@@ -1,0 +1,12 @@
+# GIMP gimp-airbrush-tool options
+
+(foreground (color-rgb 0.494118 0.454902 0.435294))
+(brush "2. Hardness 050")
+(dynamics "Pressure Opacity")
+(gradient "Tropical Colors")
+(palette "Blues")
+(brush-size 500.000000)
+(brush-hardness 0.500000)
+(rate 30.000000)
+
+# end of gimp-airbrush-tool options

@@ -1,0 +1,16 @@
+# settings
+
+(GimpGegl-gegl-bayer-matrix-config "2018-05-26 10:19:52"
+    (time 1527301192)
+    (subdivisions 1)
+    (x-scale 1)
+    (y-scale 1)
+    (rotation 0)
+    (reflect no)
+    (amplitude 0.000000)
+    (offset 0.000000)
+    (exponent 0.000000)
+    (x-offset 0)
+    (y-offset 0))
+
+# end of settings

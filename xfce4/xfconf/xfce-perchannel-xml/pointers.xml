@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="pointers" version="1.0">
+  <property name="Wacom_Bamboo_One_M_Pen_stylus" type="empty">
+    <property name="Properties" type="empty">
+      <property name="Wacom_Rotation" type="int" value="3"/>
+    </property>
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="ReverseScrolling" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="0.000000"/>
+    <property name="Mode" type="string" value="ABSOLUTE"/>
+  </property>
+  <property name="Gaming_KB__Gaming_KB_" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="ReverseScrolling" type="bool" value="false"/>
+    <property name="Threshold" type="int" value="4"/>
+    <property name="Acceleration" type="double" value="2.000000"/>
+  </property>
+  <property name="Wacom_Intuos_PT_M_2_Pen_stylus" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="0.000000"/>
+  </property>
+</channel>
