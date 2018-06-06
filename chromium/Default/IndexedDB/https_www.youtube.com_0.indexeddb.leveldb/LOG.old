@@ -1,0 +1,3 @@
+2018/06/06-20:46:32.682 10332 Reusing MANIFEST /home/gaffey/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/06/06-20:46:32.682 10332 Recovering log #3
+2018/06/06-20:46:32.686 10332 Reusing old log /home/gaffey/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

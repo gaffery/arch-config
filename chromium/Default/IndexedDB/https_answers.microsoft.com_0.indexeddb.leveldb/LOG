@@ -1,0 +1,3 @@
+2018/05/26-21:04:09.777 4067 Reusing MANIFEST /home/gaffey/.config/chromium/Default/IndexedDB/https_answers.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/05/26-21:04:09.777 4067 Recovering log #3
+2018/05/26-21:04:09.778 4067 Reusing old log /home/gaffey/.config/chromium/Default/IndexedDB/https_answers.microsoft.com_0.indexeddb.leveldb/000003.log 
