@@ -1,1 +1,0 @@
-'use strict';(function(){var b="/";self.onmessage=function(a){a=a.data;if("base_uri"==a.method)b=a.value;else if("lint"==a.method)try{self.eslint||self.importScripts(b+"vendor/eslint/eslint.js");var c=(new self.eslint).verify(a.text,a.config,a.options);self.postMessage({results:c,id:a.id})}catch(d){self.postMessage({error:d,id:a.id})}}})();
