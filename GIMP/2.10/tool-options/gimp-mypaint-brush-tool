@@ -1,12 +1,10 @@
 # GIMP gimp-mypaint-brush-tool options
 
-(foreground (color-rgb 0.897917 0.697429 0.438437))
-(background (color-rgb 0.424231 0.305394 0.200061))
-(mybrush "modelling")
+(foreground (color-rgb 0.980392 0.937255 0.925490))
+(mybrush "knife")
 (brush-size 51.000000)
 (brush-hardness 0.500000)
-(radius 4.000000)
-(opaque 0.800000)
-(hardness 0.710000)
+(radius 2.900000)
+(hardness 0.800000)
 
 # end of gimp-mypaint-brush-tool options

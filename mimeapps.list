@@ -44,3 +44,7 @@ application/x-ipynb+json=leafpad.desktop;
 text/x-log=leafpad.desktop;
 image/x-tga=gpicview.desktop;
 application/x-shellscript=leafpad.desktop;
+audio/x-mpegurl=leafpad.desktop;mpv.desktop;
+text/x-microdvd=leafpad.desktop;
+application/x-compressed-tar=xarchiver.desktop;
+text/x-scheme=leafpad.desktop;

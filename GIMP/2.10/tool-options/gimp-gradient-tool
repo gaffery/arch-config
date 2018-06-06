@@ -1,6 +1,6 @@
 # GIMP gimp-gradient-tool options
 
-(foreground (color-rgb 0.764706 0.352941 0.239216))
+(foreground (color-rgb 0.902109 0.580503 0.450823))
 (gradient "FG to Transparent")
 (brush-size 51.000000)
 (brush-hardness 0.500000)

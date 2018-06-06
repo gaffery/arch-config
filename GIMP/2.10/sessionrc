@@ -16,7 +16,7 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "350")
-        (right-docks-width "747")
+        (right-docks-width "396")
         (maximized "no"))
     (gimp-dock
         (side left)
@@ -147,7 +147,7 @@
     (factory-entry "gimp-file-open-location-dialog")
     (position 2579 96))
 
-(hide-docks yes)
+(hide-docks no)
 (single-window-mode yes)
 (tabs-position 0)
 (last-tip-shown 0)
