@@ -1251,12 +1251,12 @@
    },
    "7I+AXP75S5DVItgGv9skSDRtI+4k2o7edYEeA0xGC5Q=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1559828289.040917,
+      "expiry": 1559828441.322832,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1528292289.040921
+      "sts_observed": 1528292441.322838
    },
    "7I7O/k63hSGVcntjcGP3B4U4wgqPpDsW24QVI6QVEvw=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -2574,12 +2574,12 @@
          "expect_ct_observed": 1528292286.566399,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1559828322.722239,
+      "expiry": 1559828452.532461,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1528292322.722247
+      "sts_observed": 1528292452.532469
    },
    "Imip1Y7nHfPZTYQgI7EifDZOyiqlFeRT0HU8heztW1Q=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -4597,16 +4597,16 @@
       "dynamic_spki_hashes_expiry": 0.0,
       "expect_ct": {
          "expect_ct_enforce": false,
-         "expect_ct_expiry": 1530884322.845325,
-         "expect_ct_observed": 1528292322.845325,
+         "expect_ct_expiry": 1530884452.580627,
+         "expect_ct_observed": 1528292452.580627,
          "expect_ct_report_uri": "https://api.github.com/_private/browser/errors"
       },
-      "expiry": 1559828322.845307,
+      "expiry": 1559828452.580605,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": true,
-      "sts_observed": 1528292322.845314
+      "sts_observed": 1528292452.580613
    },
    "bbCtnzZlod6kBtgbrmJVtpR4DAGQM5vGQ25twzM/LdY=": {
       "dynamic_spki_hashes_expiry": 0.0,
@@ -5743,12 +5743,12 @@
    },
    "kTBZlNzaAygsyUNLLJvF9CS33eqAcPjUb75PGjCOtnM=": {
       "dynamic_spki_hashes_expiry": 0.0,
-      "expiry": 1559828322.664748,
+      "expiry": 1559828452.449665,
       "mode": "force-https",
       "pkp_include_subdomains": false,
       "pkp_observed": 0.0,
       "sts_include_subdomains": false,
-      "sts_observed": 1528292322.664755
+      "sts_observed": 1528292452.449671
    },
    "kXyr796zz9K5AtTrTBCo+mzEjxRE5D3d1aiRUMHyUog=": {
       "dynamic_spki_hashes_expiry": 0.0,
