@@ -1,8 +1,8 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
-(foreground (color-rgb 0.980392 0.937255 0.925490))
+(tool "gimp-rotate-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.945098 0.929412 0.925490))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
 (mybrush "knife")

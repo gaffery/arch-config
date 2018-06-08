@@ -3,7 +3,7 @@
   dbus = False
   enabled_plugins = ,
   focus = system
-  inactive_color_offset = 1.0
+  inactive_color_offset = 0.708333333333
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
   tab_position = hidden

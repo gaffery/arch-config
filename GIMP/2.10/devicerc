@@ -52,18 +52,12 @@
 (GimpDeviceInfo "Logitech USB Optical Mouse"
     (icon-name "gimp-cursor")
     (name "Logitech USB Optical Mouse")
-    (tool-options "GimpMybrushOptions"
-        (tool "gimp-mypaint-brush-tool")
-        (foreground (color-rgb 0.980392 0.937255 0.925490))
-        (mybrush "knife")
-        (brush-size 51.000000)
-        (brush-hardness 0.500000)
-        (radius 2.900000)
-        (hardness 0.800000))
+    (tool-options "GimpTransformOptions"
+        (tool "gimp-rotate-tool"))
     (use-fg-bg yes)
     (use-brush no)
     (use-dynamics no)
-    (use-mypaint-brush yes)
+    (use-mypaint-brush no)
     (use-gradient no)
     (use-pattern no)
     (use-palette no)
