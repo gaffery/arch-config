@@ -11,7 +11,7 @@
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-file-size-binary" type="bool" value="false"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_ISO"/>
-  <property name="last-window-width" type="int" value="1272"/>
+  <property name="last-window-width" type="int" value="1085"/>
   <property name="last-window-height" type="int" value="692"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="hidden-bookmarks" type="array">

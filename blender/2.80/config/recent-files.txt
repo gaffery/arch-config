@@ -1,4 +1,0 @@
-/home/gaffey/Project/MagicGirl/MagicGirl23.blend
-/home/gaffey/Project/Asset/MATlib/misc.blend
-/home/gaffey/Project/Blender/shot1.blend
-/home/gaffey/Project/Blender/20170315_3.blend
