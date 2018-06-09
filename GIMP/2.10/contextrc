@@ -1,11 +1,11 @@
 # GIMP user context
 
-(tool "gimp-rotate-tool")
-(paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.945098 0.929412 0.925490))
+(tool "gimp-mypaint-brush-tool")
+(paint-info "gimp-mybrush")
+(foreground (color-rgb 0.996078 0.333333 0.188235))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(mybrush "knife")
+(mybrush "pen")
 (pattern "Paper")
 (gradient "FG to Transparent")
 (palette "Blues")

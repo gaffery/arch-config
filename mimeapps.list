@@ -49,3 +49,4 @@ text/x-microdvd=leafpad.desktop;
 application/x-compressed-tar=xarchiver.desktop;
 text/x-scheme=leafpad.desktop;
 application/x-bzip-compressed-tar=xarchiver.desktop;
+application/x-gtk-builder=chromium.desktop;

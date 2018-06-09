@@ -100,11 +100,11 @@ Indian:in:Malayalam (Lalitha):mal_lalitha:ml
 Indian:in:Malayalam (enhanced Inscript, with rupee):mal_enhanced:ml
 Indian:in:Oriya:ori:or
 Indian:in:Ol Chiki:olck:sat
-Indian:in:Tamil (Unicode):tam_unicode:ta
-Indian:in:Tamil (keyboard with numerals):tam_keyboard_with_numerals:ta
-Indian:in:Tamil (TAB typewriter):tam_TAB:ta
-Indian:in:Tamil (TSCII typewriter):tam_TSCII:ta
-Indian:in:Tamil:tam:ta
+Indian:in:Tamil (TamilNet '99):tam_tamilnet:ta
+Indian:in:Tamil (TamilNet '99 with Tamil numerals):tam_tamilnet_with_tam_nums:ta
+Indian:in:Tamil (TamilNet '99, TAB encoding):tam_tamilnet_TAB:ta
+Indian:in:Tamil (TamilNet '99, TSCII encoding):tam_tamilnet_TSCII:ta
+Indian:in:Tamil (Inscript):tam:ta
 Indian:in:Telugu:tel:te
 Indian:in:Telugu (KaGaPa phonetic):tel-kagapa:te
 Indian:in:Telugu (Sarala):tel-sarala:te
@@ -152,6 +152,7 @@ English (Cameroon):cm:Cameroon Multilingual (Dvorak):dvorak:en
 English (Cameroon):cm:Mmuock:mmuock:en
 English (Cameroon):cm:Mmuock:mmuock:en
 Burmese:mm:my
+Burmese:mm:Burmese Zawgyi:zawgyi:my
 French (Canada):ca:fr
 French (Canada):ca:French (Canada, Dvorak):fr-dvorak:fr
 French (Canada):ca:French (Canada, legacy):fr-legacy:fr
@@ -168,6 +169,7 @@ Chinese:cn:zh
 Chinese:cn:Tibetan:tib:bo
 Chinese:cn:Tibetan (with ASCII numerals):tib_asciinum:bo
 Chinese:cn:Uyghur:ug:ug
+Chinese:cn:Hanyu Pinyin (altgr):altgr-pinyin:zh
 Croatian:hr:hr
 Croatian:hr:Croatian (with guillemets):alternatequotes:hr
 Croatian:hr:Croatian (with Croatian digraphs):unicode:hr
@@ -293,6 +295,7 @@ Greek:gr:Greek (extended):extended:el
 Greek:gr:Greek (no dead keys):nodeadkeys:el
 Greek:gr:Greek (polytonic):polytonic:el
 Greek:gr:Greek (Sun Type 6/7):sun_type6:el
+Greek:gr:Greek (Colemak):colemak:el
 Hungarian:hu:hu
 Hungarian:hu:Hungarian (standard):standard:hu
 Hungarian:hu:Hungarian (no dead keys):nodeadkeys:hu
@@ -505,6 +508,7 @@ Swedish:se:Northern Saami (Sweden):smi:se
 Swedish:se:Swedish (Macintosh):mac:sv
 Swedish:se:Swedish (Svdvorak):svdvorak:sv
 Swedish:se:Swedish (based on US Intl. Dvorak):us_dvorak:sv
+Swedish:se:Swedish (US, with Swedish letters):us:sv
 Swedish:se:Swedish Sign Language:swl:
 Swedish:se:Swedish (Dvorak A5):dvorak_a5:sv
 Swedish:se:Swedish (Sun Type 6/7):sun_type6:sv
@@ -529,8 +533,8 @@ Arabic (Syria):sy:Kurdish (Syria, Latin Alt-Q):ku_alt:ku
 Tajik:tj:tg
 Tajik:tj:Tajik (legacy):legacy:tg
 Sinhala (phonetic):lk:si
-Sinhala (phonetic):lk:Tamil (Sri Lanka, Unicode):tam_unicode:ta
-Sinhala (phonetic):lk:Tamil (Sri Lanka, TAB Typewriter):tam_TAB:ta
+Sinhala (phonetic):lk:Tamil (Sri Lanka, TamilNet '99):tam_unicode:ta
+Sinhala (phonetic):lk:Tamil (Sri Lanka, TamilNet '99, TAB encoding):tam_TAB:ta
 Sinhala (phonetic):lk:Sinhala (US, with Sinhala letters):us:si
 Thai:th:th
 Thai:th:Thai (TIS-820.2538):tis:th
