@@ -18,7 +18,7 @@
     <value type="string" value="network://"/>
     <value type="string" value="network:///"/>
   </property>
-  <property name="last-show-hidden" type="bool" value="false"/>
+  <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_TYPE"/>
