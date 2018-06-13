@@ -1,8 +1,8 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
-(foreground (color-rgb 0.996078 0.333333 0.188235))
+(tool "gimp-curves-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.219608 0.219608 0.219608))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
 (mybrush "pen")

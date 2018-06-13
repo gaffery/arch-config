@@ -50,3 +50,6 @@ application/x-compressed-tar=xarchiver.desktop;
 text/x-scheme=leafpad.desktop;
 application/x-bzip-compressed-tar=xarchiver.desktop;
 application/x-gtk-builder=chromium.desktop;
+application/x-theme=leafpad.desktop;
+text/css=leafpad.desktop;
+image/x-xpixmap=gimp.desktop;
