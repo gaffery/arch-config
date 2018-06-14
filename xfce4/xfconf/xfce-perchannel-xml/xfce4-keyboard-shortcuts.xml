@@ -69,12 +69,12 @@
       <property name="&lt;Super&gt;2" type="string" value="mapwacom -d &quot;Wacom Intuos PT M 2 Pen stylus&quot; -s &quot;DP-0&quot;">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Print" type="empty">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="Scroll_Lock" type="string" value="exo-open --launch MailReader"/>
       <property name="&lt;Alt&gt;F1" type="string" value="exo-open --launch TerminalEmulator"/>
-      <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
+      <property name="&lt;Alt&gt;F3" type="string" value="synapse"/>
+      <property name="Print" type="string" value="xfce4-screenshooter">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">

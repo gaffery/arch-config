@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 1280 0)
-    (size 1272 1412)
+    (position 0 0)
+    (size 2556 1414)
     (open-on-exit)
     (aux-info
         (left-docks-width "350")
         (right-docks-width "396")
-        (maximized "no"))
+        (maximized "yes"))
     (gimp-dock
         (side left)
         (book
@@ -28,7 +28,7 @@
                 (aux-info
                     (current-page "ColorselWheel"))))
         (book
-            (position 886)
+            (position 887)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (locked)
@@ -46,7 +46,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 479)
+            (position 480)
             (current-page 0)
             (dockable "gimp-mypaint-brush-list"
                 (locked)
