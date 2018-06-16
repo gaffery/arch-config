@@ -63,10 +63,10 @@
       <property name="KP_Multiply" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Super&gt;1" type="string" value="mapwacom -d &quot;Wacom Intuos PT M 2 Pen stylus&quot; -s &quot;HDMI-0&quot;">
+      <property name="&lt;Super&gt;1" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Super&gt;2" type="string" value="mapwacom -d &quot;Wacom Intuos PT M 2 Pen stylus&quot; -s &quot;DP-0&quot;">
+      <property name="&lt;Super&gt;2" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="exo-open --launch TerminalEmulator"/>
@@ -157,21 +157,24 @@
       <property name="&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
       <property name="&lt;Super&gt;KP_5" type="string" value="maximize_window_key"/>
-      <property name="&lt;Super&gt;f" type="string" value="fullscreen_key"/>
       <property name="Left" type="string" value="left_key"/>
       <property name="Right" type="string" value="right_key"/>
-      <property name="&lt;Super&gt;Up" type="string" value="prev_workspace_key"/>
       <property name="Up" type="string" value="up_key"/>
       <property name="&lt;Super&gt;Home" type="string" value="move_window_prev_workspace_key"/>
       <property name="&lt;Super&gt;End" type="string" value="move_window_next_workspace_key"/>
       <property name="&lt;Alt&gt;F4" type="string" value="close_window_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="raiselower_window_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="next_workspace_key"/>
       <property name="&lt;Super&gt;s" type="string" value="shade_window_key"/>
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
       <property name="&lt;Super&gt;q" type="string" value="maximize_horiz_key"/>
       <property name="&lt;Super&gt;e" type="string" value="maximize_vert_key"/>
+      <property name="F11" type="string" value="fullscreen_key"/>
+      <property name="&lt;Super&gt;Up" type="string" value="prev_workspace_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="next_workspace_key"/>
+      <property name="&lt;Super&gt;1" type="string" value="move_window_workspace_1_key"/>
+      <property name="&lt;Super&gt;2" type="string" value="move_window_workspace_2_key"/>
+      <property name="&lt;Super&gt;3" type="string" value="move_window_workspace_3_key"/>
     </property>
   </property>
   <property name="providers" type="array">

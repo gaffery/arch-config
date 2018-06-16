@@ -1,11 +1,11 @@
 # GIMP user context
 
-(tool "gimp-move-tool")
-(paint-info "gimp-paintbrush")
-(foreground (color-rgb 1.000000 0.636605 0.636605))
+(tool "gimp-mypaint-brush-tool")
+(paint-info "gimp-mybrush")
+(foreground (color-rgb 0.526122 0.090032 0.090032))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(mybrush "marker fat")
+(mybrush "pen")
 (pattern "Paper")
 (gradient "FG to Transparent")
 (palette "Blues")
