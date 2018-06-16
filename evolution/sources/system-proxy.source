@@ -1,0 +1,32 @@
+
+[Data Source]
+DisplayName=Default Proxy Settings
+DisplayName[de]=Standard-Proxy-Einstellungen
+DisplayName[hu]=Alapértelmezett proxybeállítások
+DisplayName[id]=Pengaturan Proksi Bawaan
+DisplayName[it]=Impostazioni proxy predefinite
+DisplayName[lt]=Numatytieji tarpinio serverio nustatymai
+DisplayName[lv]=Noklusējuma starpnieka iestatījumi
+DisplayName[nl]=Standaard proxy-instellingen
+DisplayName[pl]=Domyślne ustawienia pośrednika
+DisplayName[pt_BR]=Configurações padrão de proxy
+DisplayName[sv]=Standardproxyinställningar
+DisplayName[tr]=Öntanımlı Vekil Sunucu Ayarları
+Enabled=true
+Parent=
+
+[Proxy]
+Method=default
+IgnoreHosts=localhost;127.0.0.0/8;::1;
+AutoconfigUrl=
+FtpHost=
+FtpPort=0
+HttpAuthPassword=
+HttpAuthUser=
+HttpHost=
+HttpPort=8080
+HttpUseAuth=false
+HttpsHost=
+HttpsPort=0
+SocksHost=
+SocksPort=0

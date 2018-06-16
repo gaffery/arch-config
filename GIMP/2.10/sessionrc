@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 0)
-    (size 2556 1414)
+    (position 733 0)
+    (size 1823 1414)
     (open-on-exit)
     (aux-info
         (left-docks-width "350")
         (right-docks-width "396")
-        (maximized "yes"))
+        (maximized "no"))
     (gimp-dock
         (side left)
         (book
@@ -46,7 +46,7 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 480)
+            (position 481)
             (current-page 0)
             (dockable "gimp-mypaint-brush-list"
                 (locked)
