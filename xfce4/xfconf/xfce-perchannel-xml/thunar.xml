@@ -21,7 +21,7 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_LARGE"/>

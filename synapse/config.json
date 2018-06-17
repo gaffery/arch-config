@@ -1,7 +1,8 @@
 {
   "ui" : {
     "global" : {
-      "ui-type" : "essential"
+      "ui-type" : "essential",
+      "show-indicator" : false
     }
   }
 }
