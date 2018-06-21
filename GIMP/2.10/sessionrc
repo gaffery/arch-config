@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 1280 0)
-    (size 1276 1414)
+    (position 0 0)
+    (size 2556 1414)
     (open-on-exit)
     (aux-info
-        (left-docks-width "350")
-        (right-docks-width "752")
-        (maximized "no"))
+        (left-docks-width "253")
+        (right-docks-width "1485")
+        (maximized "yes"))
     (gimp-dock
         (side left)
         (book
@@ -28,7 +28,7 @@
                 (aux-info
                     (current-page "ColorselWheel"))))
         (book
-            (position 800)
+            (position 786)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (locked)
@@ -46,18 +46,19 @@
                 (aux-info
                     (show-button-bar "true"))))
         (book
-            (position 501)
+            (position 519)
             (current-page 0)
             (dockable "gimp-mypaint-brush-list"
                 (locked)
                 (tab-style automatic)
                 (preview-size 32)
                 (aux-info
-                    (show-button-bar "true"))))))
+                    (show-button-bar "true")
+                    (tag-filter "classic, "))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 455 360)
-    (size 1017 720))
+    (size 1130 757))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
     (position 464 463))
@@ -71,7 +72,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 431 365)
-    (size 1017 720))
+    (size 1130 757))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 51 170))
@@ -100,7 +101,7 @@
     (size 579 835))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
-    (position 986 283)
+    (position 1088 274)
     (size 1153 931))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")

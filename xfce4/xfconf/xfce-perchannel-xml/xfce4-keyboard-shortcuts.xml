@@ -70,12 +70,14 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="exo-open --launch TerminalEmulator"/>
-      <property name="&lt;Alt&gt;F3" type="string" value="synapse"/>
       <property name="Scroll_Lock" type="string" value="zim"/>
       <property name="1" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="Print" type="string" value="xfce4-screenshooter -r -c">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;F3" type="string" value="kupfer">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
     </property>

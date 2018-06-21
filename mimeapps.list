@@ -80,3 +80,4 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 image/x-xcf=gimp.desktop;
 text/x-modelica=leafpad.desktop;
+text/x-csrc=leafpad.desktop;

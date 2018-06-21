@@ -1,6 +1,6 @@
 # GIMP gimp-convolve-tool options
 
-(foreground (color-rgb 0.149020 0.215686 0.039216))
+(foreground (color-rgb 0.478431 0.282353 0.207843))
 (background (color-rgb 0.424231 0.305394 0.200061))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
