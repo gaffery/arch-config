@@ -7,25 +7,41 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/AlienwareTimeMachine01.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="color1" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
             <value type="uint" value="65535"/>
-            <value type="uint" value="0"/>
-            <value type="uint" value="0"/>
+          </property>
+          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
+          <property name="backdrop-cycle-period" type="int" value="0"/>
+          <property name="backdrop-cycle-timer" type="uint" value="1"/>
+          <property name="color2" type="array">
+            <value type="uint" value="5397"/>
+            <value type="uint" value="8738"/>
+            <value type="uint" value="13107"/>
             <value type="uint" value="65535"/>
           </property>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/AlienwareTimeMachine03.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/archlinuxmage.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
+          <property name="backdrop-cycle-period" type="int" value="0"/>
+          <property name="color1" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="65535"/>
+          </property>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/AlienwareTimeMachine02.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Warm-no-logo.png"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -104,12 +120,12 @@
         </property>
       </property>
     </property>
-    <property name="single-workspace-mode" type="bool" value="false"/>
-    <property name="single-workspace-number" type="int" value="0"/>
+    <property name="single-workspace-mode" type="bool" value="true"/>
+    <property name="single-workspace-number" type="int" value="1"/>
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="1285"/>
-    <property name="window-height" type="int" value="856"/>
+    <property name="window-height" type="int" value="796"/>
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>

@@ -1,12 +1,12 @@
 # GIMP gimp-paintbrush-tool options
 
-(foreground (color-rgb 0.392157 0.007843 0.039216))
+(foreground (color-rgb 0.403922 0.400000 0.223529))
 (background (color-rgb 0.424231 0.305394 0.200061))
 (brush "2. Block 01")
 (dynamics "Perspective")
 (gradient "Tropical Colors")
 (palette "Blues")
-(brush-size 41.000000)
+(brush-size 1.000000)
 (brush-aspect-ratio 3.157895)
 (brush-angle 90.000000)
 (brush-hardness 0.950000)

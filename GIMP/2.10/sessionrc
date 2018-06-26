@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 0)
-    (size 2556 1414)
+    (position 86 208)
+    (size 1276 1414)
     (open-on-exit)
     (aux-info
         (left-docks-width "253")
-        (right-docks-width "1485")
-        (maximized "yes"))
+        (right-docks-width "1276")
+        (maximized "no"))
     (gimp-dock
         (side left)
         (book
@@ -39,12 +39,22 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 2)
             (dockable "gimp-tool-options"
                 (locked)
                 (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true"))))
+                    (show-button-bar "true")))
+            (dockable "gimp-tool-preset-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-mypaint-brush-list"
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true")
+                    (tag-filter "kaerhon_v1, "))))
         (book
             (position 519)
             (current-page 0)

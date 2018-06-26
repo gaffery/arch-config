@@ -11,8 +11,8 @@
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-file-size-binary" type="bool" value="true"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_ISO"/>
-  <property name="last-window-width" type="int" value="1276"/>
-  <property name="last-window-height" type="int" value="694"/>
+  <property name="last-window-width" type="int" value="1219"/>
+  <property name="last-window-height" type="int" value="728"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="hidden-bookmarks" type="array">
     <value type="string" value="network://"/>
@@ -21,7 +21,7 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_LARGE"/>

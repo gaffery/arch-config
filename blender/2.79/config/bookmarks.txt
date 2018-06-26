@@ -1,12 +1,12 @@
 [Bookmarks]
 [Recent]
+/home/gaffey/Learn/test/
+/home/gaffey/
 /home/gaffey/armory_templates/vehicle/
 /home/gaffey/armory_templates/archery/
 /home/gaffey/armory_templates/celshade/
 /home/gaffey/armory_templates/first_person/
 /home/gaffey/armory_templates/third_person/
 /home/gaffey/armory_templates/third_person_b28/
-/home/gaffey/
 /home/gaffey/Learn/blender/
 /home/
-/home/gaffey/Project/MagicGirl/
