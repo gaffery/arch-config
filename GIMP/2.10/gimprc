@@ -70,6 +70,7 @@
 (toolbox-color-area no)
 (theme "System")
 (icon-theme "Symbolic-Inverted")
+(icon-size small)
 (user-manual-online yes)
 (dock-window-hint normal)
 (channel-new-color (color-rgba 0.000000 0.000000 0.000000 1.000000))

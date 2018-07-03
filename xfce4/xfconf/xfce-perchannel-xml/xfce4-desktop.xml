@@ -6,7 +6,7 @@
       <property name="monitor0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
+          <property name="image-style" type="int" value="0"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Cold-no-logo.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="color1" type="array">
@@ -27,7 +27,7 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
+          <property name="image-style" type="int" value="0"/>
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/archlinuxmage.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
@@ -37,11 +37,23 @@
             <value type="uint" value="0"/>
             <value type="uint" value="65535"/>
           </property>
+          <property name="color2" type="array">
+            <value type="uint" value="35489"/>
+            <value type="uint" value="48509"/>
+            <value type="uint" value="65535"/>
+            <value type="uint" value="65535"/>
+          </property>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/mate/desktop/Ubuntu-Mate-Warm-no-logo.png"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/archlinuxmage.jpg"/>
+          <property name="color1" type="array">
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="0"/>
+            <value type="uint" value="65535"/>
+          </property>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -119,9 +131,26 @@
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/AlienwareTimeMachine03.jpg"/>
         </property>
       </property>
+      <property name="monitorDP-2" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+        <property name="workspace1" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+        <property name="workspace2" type="empty">
+          <property name="color-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-teal.jpg"/>
+        </property>
+      </property>
     </property>
     <property name="single-workspace-mode" type="bool" value="true"/>
-    <property name="single-workspace-number" type="int" value="1"/>
+    <property name="single-workspace-number" type="int" value="2"/>
   </property>
   <property name="last" type="empty">
     <property name="window-width" type="int" value="1285"/>

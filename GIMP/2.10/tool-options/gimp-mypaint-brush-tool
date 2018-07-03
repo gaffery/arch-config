@@ -1,14 +1,11 @@
 # GIMP gimp-mypaint-brush-tool options
 
-(foreground (color-rgb 0.019608 0.011765 0.007843))
-(background (color-rgb 0.424231 0.305394 0.200061))
-(opacity 0.724000)
+(foreground (color-rgb 0.148165 0.163806 0.115679))
+(background (color-rgb 0.879301 0.774807 0.475135))
 (mybrush "Airbrush a")
 (brush-size 51.000000)
 (brush-hardness 0.500000)
-(use-smoothing yes)
-(smoothing-quality 14)
-(radius 3.700000)
+(radius 2.700000)
 (opaque 0.500000)
 (hardness 0.360000)
 

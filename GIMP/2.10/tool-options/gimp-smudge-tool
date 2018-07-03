@@ -1,13 +1,13 @@
 # GIMP gimp-smudge-tool options
 
-(foreground (color-rgb 0.521569 0.454902 0.286275))
-(background (color-rgb 0.424231 0.305394 0.200061))
+(foreground (color-rgb 0.584588 0.336202 0.145892))
+(background (color-rgb 0.879301 0.774807 0.475135))
 (opacity 0.500000)
 (brush "2. Hardness 050")
 (dynamics "Pressure Opacity")
 (gradient "FG to BG (RGB)")
 (palette "Blues")
-(brush-size 180.000000)
+(brush-size 30.000000)
 (brush-hardness 0.500000)
 (jitter-amount 0.339806)
 (rate 60.000000)

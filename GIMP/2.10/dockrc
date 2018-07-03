@@ -1,5 +1,39 @@
 # recently closed docks
 
+(GimpSessionInfo "Tool Options, Tool Presets, Tool Preset Editor - MyPaint Brushes"
+    (factory-entry "gimp-dock-window")
+    (position 424 151)
+    (size 328 1389)
+    (open-on-exit)
+    (aux-info
+        (show-image-menu "false")
+        (follow-active-image "true"))
+    (gimp-dock
+        (book
+            (current-page 1)
+            (dockable "gimp-tool-options"
+                (locked)
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-tool-preset-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")))
+            (dockable "gimp-tool-preset-editor"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true")
+                    (edit-active "true"))))
+        (book
+            (position 519)
+            (current-page 0)
+            (dockable "gimp-mypaint-brush-list"
+                (locked)
+                (tab-style automatic)
+                (preview-size 32)
+                (aux-info
+                    (show-button-bar "true"))))))
 (GimpSessionInfo "Tool Options | MyPaint Brushes"
     (factory-entry "gimp-dock-window")
     (position 1970 41)

@@ -1,0 +1,15 @@
+#History lists
+
+[shortcuts]
+".[path](null)"
+"Home[path]/home/gaffey"
+"Desktop[path]/home/gaffey/Desktop"
+"Collections[path]/home/gaffey/.local/share/geeqie/collections"
+
+[path_list]
+"/home/gaffey/Desktop"
+"/home/gaffey"
+"/home/gaffey/Learn"
+"/home/gaffey/Learn/Paint"
+
+#end

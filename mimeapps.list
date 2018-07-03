@@ -31,9 +31,9 @@ application/x-extension-xht=firefox.desktop
 [Added Associations]
 text/plain=leafpad.desktop;
 video/mp4=mpv.desktop;
-image/jpeg=gpicview.desktop;gimp.desktop;
+image/jpeg=ristretto.desktop;gimp.desktop;feh.desktop;gpicview.desktop;
 application/x-blender=blender.desktop;
-image/png=gpicview.desktop;
+image/png=ristretto.desktop;gpicview.desktop;
 application/x-desktop=leafpad.desktop;
 text/x-matlab=leafpad.desktop;
 text/x-python=leafpad.desktop;
@@ -82,3 +82,4 @@ image/x-xcf=gimp.desktop;
 text/x-modelica=leafpad.desktop;
 text/x-csrc=leafpad.desktop;
 application/xml=chromium.desktop;
+video/webm=mpv.desktop;

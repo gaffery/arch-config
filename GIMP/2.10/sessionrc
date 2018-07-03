@@ -7,31 +7,33 @@
 
 (session-info "toplevel"
     (factory-entry "gimp-empty-image-window")
-    (position 476 141)
+    (position 646 319)
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 86 208)
-    (size 1276 1414)
+    (position 0 0)
+    (size 2556 1414)
     (open-on-exit)
     (aux-info
-        (left-docks-width "253")
-        (right-docks-width "1276")
-        (maximized "no"))
+        (left-docks-width "200")
+        (right-docks-width "412")
+        (maximized "yes"))
     (gimp-dock
         (side left)
         (book
             (current-page 0)
             (dockable "gimp-color-editor"
-                (locked)
                 (tab-style automatic)
                 (aux-info
-                    (current-page "ColorselWheel"))))
+                    (current-page "ColorselWheel")))
+            (dockable "gimp-tool-options"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))
         (book
-            (position 786)
+            (position 377)
             (current-page 0)
             (dockable "gimp-layer-list"
-                (locked)
                 (tab-style automatic)
                 (preview-size 64)
                 (aux-info
@@ -39,36 +41,16 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 2)
-            (dockable "gimp-tool-options"
-                (locked)
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-tool-preset-list"
-                (tab-style automatic)
-                (aux-info
-                    (show-button-bar "true")))
-            (dockable "gimp-mypaint-brush-list"
-                (tab-style automatic)
-                (preview-size 32)
-                (aux-info
-                    (show-button-bar "true")
-                    (tag-filter "kaerhon_v1, "))))
-        (book
-            (position 519)
             (current-page 0)
-            (dockable "gimp-mypaint-brush-list"
-                (locked)
-                (tab-style automatic)
+            (dockable "gimp-mypaint-brush-grid"
+                (tab-style preview-name)
                 (preview-size 32)
                 (aux-info
-                    (show-button-bar "true")
-                    (tag-filter "classic, "))))))
+                    (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 455 360)
-    (size 1130 757))
+    (size 960 720))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
     (position 464 463))
@@ -78,17 +60,17 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 463 382)
-    (size 1130 757))
+    (size 1017 720))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 431 365)
-    (size 1130 757))
+    (position 1964 326)
+    (size 1017 720))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
     (position 51 170))
 (session-info "toplevel"
     (factory-entry "gimp-preferences-dialog")
-    (position 725 410)
+    (position 228 358)
     (size 1011 651))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
@@ -111,7 +93,7 @@
     (size 579 835))
 (session-info "toplevel"
     (factory-entry "gimp-keyboard-shortcuts-dialog")
-    (position 1088 274)
+    (position 551 341)
     (size 1153 931))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
@@ -134,7 +116,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
     (position 1526 402)
-    (size 373 520))
+    (size 472 543))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
     (position 630 67))
@@ -147,8 +129,8 @@
     (size 291 714))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 708 805)
-    (size 373 529))
+    (position 741 431)
+    (size 535 576))
 (session-info "toplevel"
     (factory-entry "gimp-color-picker-tool-dialog")
     (position 1302 238)
@@ -160,6 +142,9 @@
     (factory-entry "gimp-action-search-dialog")
     (position 1884 147)
     (size 160 720))
+(session-info "toplevel"
+    (factory-entry "gimp-operation-tool-dialog")
+    (position 348 636))
 
 (hide-docks yes)
 (single-window-mode yes)
