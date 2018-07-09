@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 0)
-    (size 2556 1414)
+    (position 1280 0)
+    (size 1276 1414)
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
         (right-docks-width "412")
-        (maximized "yes"))
+        (maximized "no"))
     (gimp-dock
         (side left)
         (book
@@ -50,7 +50,7 @@
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 455 360)
-    (size 960 720))
+    (size 1017 720))
 (session-info "toplevel"
     (factory-entry "gimp-shear-tool-dialog")
     (position 464 463))
@@ -115,7 +115,7 @@
     (position 659 372))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 1526 402)
+    (position 1969 555)
     (size 472 543))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
@@ -137,7 +137,7 @@
     (size 343 234))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-location-dialog")
-    (position 2579 96))
+    (position 2104 96))
 (session-info "toplevel"
     (factory-entry "gimp-action-search-dialog")
     (position 1884 147)

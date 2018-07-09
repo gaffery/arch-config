@@ -29,14 +29,14 @@ application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 
 [Added Associations]
-text/plain=leafpad.desktop;
+text/plain=mousepad.desktop;leafpad.desktop;
 video/mp4=mpv.desktop;
 image/jpeg=ristretto.desktop;gimp.desktop;feh.desktop;gpicview.desktop;
 application/x-blender=blender.desktop;
 image/png=ristretto.desktop;gpicview.desktop;
 application/x-desktop=leafpad.desktop;
 text/x-matlab=leafpad.desktop;
-text/x-python=leafpad.desktop;
+text/x-python=mousepad.desktop;leafpad.desktop;
 application/zip=xarchiver.desktop;
 application/x-7z-compressed=xarchiver.desktop;
 application/json=leafpad.desktop;
@@ -83,3 +83,8 @@ text/x-modelica=leafpad.desktop;
 text/x-csrc=leafpad.desktop;
 application/xml=chromium.desktop;
 video/webm=mpv.desktop;
+audio/mpeg=mpv.desktop;
+audio/mp4=mpv.desktop;
+text/x-python3=leafpad.desktop;
+text/x-opml+xml=chromium.desktop;
+application/x-cd-image=xarchiver.desktop;

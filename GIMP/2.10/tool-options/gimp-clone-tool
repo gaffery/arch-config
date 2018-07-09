@@ -1,7 +1,7 @@
 # GIMP gimp-clone-tool options
 
-(foreground (color-rgb 0.960174 0.940627 0.879973))
-(background (color-rgb 0.579309 0.507149 0.431098))
+(foreground (color-rgb 0.502312 0.475563 0.371099))
+(background (color-rgb 0.290929 0.322576 0.282338))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
 (pattern "Paper")

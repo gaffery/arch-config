@@ -67,6 +67,7 @@
 ; (gtk_accel_path "<Actions>/MainWindow/set_toolbar_style_text_only" "")
 ; (gtk_accel_path "<Actions>/MainWindow/set_pathbar_none" "")
 ; (gtk_accel_path "<Actions>/GtkInterface/show_search_section" "")
+; (gtk_accel_path "<Actions>/PageView/toggle_format_strike" "")
 ; (gtk_accel_path "<Actions>/PageView/apply_format_h5" "<Primary>5")
 ; (gtk_accel_path "<Actions>/PageView/apply_format_sup" "<Primary><Shift>p")
 ; (gtk_accel_path "<Actions>/MainWindow/toggle_panes" "F9")

@@ -46,8 +46,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/archlinuxmage.jpg"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/DarkestHour.jpg"/>
           <property name="color1" type="array">
             <value type="uint" value="0"/>
             <value type="uint" value="0"/>

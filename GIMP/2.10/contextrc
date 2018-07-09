@@ -2,14 +2,15 @@
 
 (tool "gimp-warp-tool")
 (paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.148165 0.163806 0.115679))
-(background (color-rgb 0.879301 0.774807 0.475135))
+(foreground (color-rgb 0.502312 0.475563 0.371099))
+(background (color-rgb 0.290929 0.322576 0.282338))
 (brush "2. Hardness 050")
 (dynamics "Pressure Opacity")
-(mybrush "Airbrush a")
+(mybrush "basic digital brush")
 (pattern "Pine")
-(gradient "FG to BG (RGB)")
+(gradient "FG to Transparent")
 (palette "Blues")
 (font "Sans-serif")
+(tool-preset "Wacom Intuos PT M 2 Pen stylus")
 
 # end of user context
