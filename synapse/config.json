@@ -1,7 +1,7 @@
 {
   "ui" : {
     "shortcuts" : {
-      "activate" : "<Alt>F3",
+      "activate" : "<Alt>F1",
       "execute" : "Return",
       "execute-without-hide" : "<Shift>Return",
       "delete-char" : "BackSpace",
@@ -21,6 +21,10 @@
       "paste" : "<Control>v",
       "alt-paste" : "<Shift>Insert",
       "exit" : "<Alt>F4"
+    },
+    "global" : {
+      "ui-type" : "essential",
+      "show-indicator" : false
     }
   }
 }

@@ -258,11 +258,13 @@
                    vertex="#000000"
                    vertex_select="#9acbff"
                    vertex_size="3"
+                   vertex_bevel="#00a5ff"
                    vertex_unreferenced="#000000"
                    edge_select="#9acbff"
                    edge_seam="#db2512"
                    edge_sharp="#00ffff"
                    edge_crease="#cc0099"
+                   edge_bevel="#00a5ff"
                    edge_facesel="#4b4b4b"
                    freestyle_edge_mark="#7fff7f"
                    face="#00000000"
@@ -320,9 +322,9 @@
                               tab_back="#404040ff"
                               tab_outline="#323232">
             <gradients>
-              <ThemeGradientColors show_grad="TRUE"
+              <ThemeGradientColors show_grad="FALSE"
                                    gradient="#3b3b3b"
-                                   high_gradient="#000000">
+                                   high_gradient="#323232">
               </ThemeGradientColors>
             </gradients>
             <panelcolors>
@@ -348,6 +350,7 @@
                         vertex="#000000"
                         vertex_select="#9bcdff"
                         vertex_size="6"
+                        vertex_bevel="#000000"
                         vertex_unreferenced="#000000"
                         handle_free="#000000"
                         handle_auto="#909000"
@@ -544,6 +547,7 @@
                         vertex="#000000"
                         vertex_select="#9acbff"
                         vertex_size="3"
+                        vertex_bevel="#000000"
                         vertex_unreferenced="#000000"
                         face="#a47c5b0a"
                         face_select="#9acbff33"

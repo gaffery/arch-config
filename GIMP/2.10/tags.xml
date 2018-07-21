@@ -257,6 +257,7 @@
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/tanda/acrylic-03-only-water.myb" checksum="8e76d58e5779a6d3938bace274dfe2b8">
+    <tag>classic</tag>
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/tanda/acrylic-03-paint.myb" checksum="ddeb904dbe98e0ada934917c4631764b">
@@ -949,7 +950,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Wood/wood1.pat" checksum="0c055f250ddbccc1b32d05f8c0ad7012">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="e84ee6d48e88fccb14ccbc10bf280964">
+  <resource identifier="gimp-gradient-custom" checksum="7f1cf3e3024abfa40ab92e41add07995">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="12ad9439c57e897e50fb0399439e5b2b">
@@ -1177,7 +1178,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="c82d631b1b00c1270a80a63cc9141952">
+  <resource identifier="gimp-palette-color-history" checksum="fdec8280bf29f5a39f13a7aa7c355fde">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">

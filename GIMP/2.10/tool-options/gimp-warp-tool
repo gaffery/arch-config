@@ -1,6 +1,6 @@
 # GIMP gimp-warp-tool options
 
-(effect-size 1.000000)
+(effect-size 65.000000)
 (effect-strength 62.800000)
 (interpolation linear)
 (abyss-policy loop)

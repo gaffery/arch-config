@@ -38,10 +38,10 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-0" type="string" value="1. Toshiba, Inc. 157&quot;">
+    <property name="HDMI-0" type="string" value="1. MON 35&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Resolution" type="string" value="2560x1080"/>
+      <property name="RefreshRate" type="double" value="60.006001"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -50,10 +50,10 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="DP-2" type="string" value="1. Dell 24&quot;">
+    <property name="DP-2" type="string" value="1. MON 35&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="Resolution" type="string" value="2560x1440"/>
-      <property name="RefreshRate" type="double" value="59.950550"/>
+      <property name="Resolution" type="string" value="2560x1080"/>
+      <property name="RefreshRate" type="double" value="59.988287"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -75,5 +75,5 @@
       </property>
     </property>
   </property>
-  <property name="Notify" type="bool" value="true"/>
+  <property name="Notify" type="bool" value="false"/>
 </channel>
