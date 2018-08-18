@@ -66,11 +66,12 @@
 [plugins]
 [profiles]
   [[default]]
+    allow_bold = False
     background_darkness = 0.8
     background_type = transparent
     copy_on_selection = True
     cursor_color = "#aaaaaa"
-    font = Monospace 14
+    font = Monospace 16
     foreground_color = "#ffffff"
     icon_bell = False
     palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"

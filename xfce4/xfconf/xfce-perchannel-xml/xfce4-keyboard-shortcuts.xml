@@ -69,7 +69,6 @@
       <property name="&lt;Super&gt;2" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Scroll_Lock" type="string" value="zim"/>
       <property name="1" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
@@ -78,6 +77,7 @@
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="synapse"/>
       <property name="&lt;Alt&gt;F3" type="string" value="terminator"/>
+      <property name="Scroll_Lock" type="string" value="zim"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

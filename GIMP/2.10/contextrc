@@ -4,11 +4,11 @@
 (paint-info "gimp-mybrush")
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(mybrush "coarse bulk 1")
+(mybrush "bubble")
 (pattern "Pine")
 (gradient "Standard")
 (palette "Blues")
 (font "Sans-serif")
-(tool-preset "Wacom Intuos PT M 2 Pen stylus")
+(tool-preset "Logitech USB Optical Mouse")
 
 # end of user context

@@ -11,8 +11,8 @@
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-file-size-binary" type="bool" value="true"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_ISO"/>
-  <property name="last-window-width" type="int" value="973"/>
-  <property name="last-window-height" type="int" value="544"/>
+  <property name="last-window-width" type="int" value="1276"/>
+  <property name="last-window-height" type="int" value="1054"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="hidden-bookmarks" type="array">
     <value type="string" value="network://"/>
@@ -30,5 +30,5 @@
   <property name="default-view" type="string" value="ThunarIconView"/>
   <property name="last-statusbar-visible" type="bool" value="true"/>
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
-  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_ALWAYS"/>
+  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_NEVER"/>
 </channel>

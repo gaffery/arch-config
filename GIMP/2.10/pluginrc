@@ -2496,6 +2496,140 @@
         (proc-arg 4 "raw-filename" "The name of the file to save the image in")
         (proc-arg 0 "compression" "Compression type: { NONE (0), LZW (1), PACKBITS (2)")
         (proc-arg 0 "fill-order" "Fill Order: { MSB to LSB (0), LSB to MSB (1)")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/file-ps" 1530871572
+    (proc-def "file-ps-load" 1
+         "load PostScript documents"
+         "load PostScript documents"
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         "PostScript document"
+         0
+        (icon icon-name -1 "")
+        (load-proc
+            (extensions "ps")
+            (magics "0,string,%!,0,long,0xc5d0d3c6")
+            (mime-types "application/postscript")
+            (thumb-loader "file-ps-load-thumb"))
+         ""
+         3 1
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 4 "filename" "The name of the file to load")
+        (proc-arg 4 "raw-filename" "The name of the file to load")
+        (proc-arg 13 "image" "Output image"))
+    (proc-def "file-eps-load" 1
+         "load Encapsulated PostScript images"
+         "load Encapsulated PostScript images"
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         "Encapsulated PostScript image"
+         0
+        (icon icon-name -1 "")
+        (load-proc
+            (extensions "eps")
+            (magics "0,string,%!,0,long,0xc5d0d3c6")
+            (mime-types "image/x-eps")
+            (thumb-loader "file-ps-load-thumb"))
+         ""
+         3 1
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 4 "filename" "The name of the file to load")
+        (proc-arg 4 "raw-filename" "The name of the file to load")
+        (proc-arg 13 "image" "Output image"))
+    (proc-def "file-ps-load-setargs" 1
+         "set additional parameters for procedure file-ps-load"
+         "set additional parameters for procedure file-ps-load"
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         ""
+         0
+        (icon icon-name -1 "")
+         ""
+         8 0
+        (proc-arg 0 "resolution" "Resolution to interpret image (dpi)")
+        (proc-arg 0 "width" "Desired width")
+        (proc-arg 0 "height" "Desired height")
+        (proc-arg 0 "check-bbox" "0: Use width/height, 1: Use BoundingBox")
+        (proc-arg 4 "pages" "Pages to load (e.g.: 1,3,5-7)")
+        (proc-arg 0 "coloring" "4: b/w, 5: grey, 6: color image, 7: automatic")
+        (proc-arg 0 "text-alpha-bits" "1, 2, or 4")
+        (proc-arg 0 "graphic-alpha-bits" "1, 2, or 4"))
+    (proc-def "file-ps-load-thumb" 1
+         "Loads a small preview from a PostScript or PDF document"
+         ""
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         ""
+         0
+        (icon icon-name -1 "")
+         ""
+         2 1
+        (proc-arg 4 "filename" "The name of the file to load")
+        (proc-arg 0 "thumb-size" "Preferred thumbnail size")
+        (proc-arg 13 "image" "Output image"))
+    (proc-def "file-ps-save" 1
+         "export image as PostScript document"
+         "PostScript exporting handles all image types except those with alpha channels."
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         "PostScript document"
+         0
+        (icon icon-name -1 "")
+        (save-proc
+            (extensions "ps")
+            (mime-types "application/postscript")
+            (handles-uri))
+         "RGB, GRAY, INDEXED"
+         15 0
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to export")
+        (proc-arg 4 "filename" "The name of the file to export the image in")
+        (proc-arg 4 "raw-filename" "The name of the file to export the image in")
+        (proc-arg 3 "width" "Width of the image in PostScript file (0: use input image size)")
+        (proc-arg 3 "height" "Height of image in PostScript file (0: use input image size)")
+        (proc-arg 3 "x-offset" "X-offset to image from lower left corner")
+        (proc-arg 3 "y-offset" "Y-offset to image from lower left corner")
+        (proc-arg 0 "unit" "Unit for width/height/offset. 0: inches, 1: millimeters")
+        (proc-arg 0 "keep-ratio" "0: use width/height, 1: keep aspect ratio")
+        (proc-arg 0 "rotation" "0, 90, 180, 270")
+        (proc-arg 0 "eps-flag" "0: PostScript, 1: Encapsulated PostScript")
+        (proc-arg 0 "preview" "0: no preview, >0: max. size of preview")
+        (proc-arg 0 "level" "1: PostScript Level 1, 2: PostScript Level 2"))
+    (proc-def "file-eps-save" 1
+         "export image as Encapsulated PostScript image"
+         "PostScript exporting handles all image types except those with alpha channels."
+         "Peter Kirchgessner <peter@kirchgessner.net>"
+         "Peter Kirchgessner"
+         "v1.17  19-Sep-2004"
+         "Encapsulated PostScript image"
+         0
+        (icon icon-name -1 "")
+        (save-proc
+            (extensions "eps")
+            (mime-types "application/x-eps")
+            (handles-uri))
+         "RGB, GRAY, INDEXED"
+         15 0
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 13 "image" "Input image")
+        (proc-arg 16 "drawable" "Drawable to export")
+        (proc-arg 4 "filename" "The name of the file to export the image in")
+        (proc-arg 4 "raw-filename" "The name of the file to export the image in")
+        (proc-arg 3 "width" "Width of the image in PostScript file (0: use input image size)")
+        (proc-arg 3 "height" "Height of image in PostScript file (0: use input image size)")
+        (proc-arg 3 "x-offset" "X-offset to image from lower left corner")
+        (proc-arg 3 "y-offset" "Y-offset to image from lower left corner")
+        (proc-arg 0 "unit" "Unit for width/height/offset. 0: inches, 1: millimeters")
+        (proc-arg 0 "keep-ratio" "0: use width/height, 1: keep aspect ratio")
+        (proc-arg 0 "rotation" "0, 90, 180, 270")
+        (proc-arg 0 "eps-flag" "0: PostScript, 1: Encapsulated PostScript")
+        (proc-arg 0 "preview" "0: no preview, >0: max. size of preview")
+        (proc-arg 0 "level" "1: PostScript Level 1, 2: PostScript Level 2")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/file-pnm" 1530871572
     (proc-def "file-pnm-load" 1
          "Loads files in the PNM file format"

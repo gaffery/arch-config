@@ -26,5 +26,23 @@
       "ui-type" : "essential",
       "show-indicator" : false
     }
+  },
+  "data-sink" : {
+    "global" : {
+      "disabled-plugins" : [
+        "SynapseChatActions",
+        "SynapseCommandPlugin",
+        "SynapseFileOpPlugin",
+        "SynapseLocatePlugin",
+        "SynapseCalculatorPlugin",
+        "SynapseGnomeBookmarksPlugin",
+        "SynapseHybridSearchPlugin",
+        "SynapseImgUrPlugin",
+        "SynapseLaunchpadPlugin",
+        "SynapseZeitgeistRelated",
+        "SynapseZeitgeistPlugin",
+        "SynapseSshPlugin"
+      ]
+    }
   }
 }

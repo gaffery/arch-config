@@ -49,7 +49,7 @@
                     (show-button-bar "false")
                     (tag-filter "classic, "))))
         (book
-            (position 399)
+            (position 387)
             (current-page 0)
             (dockable "gimp-mypaint-brush-grid"
                 (tab-style automatic)
