@@ -1,14 +1,15 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
+(tool "gimp-airbrush-tool")
+(paint-info "gimp-airbrush")
+(foreground (color-rgb 0.219608 0.219608 0.219608))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
-(mybrush "bubble")
+(mybrush "blending knife")
 (pattern "Pine")
 (gradient "Standard")
 (palette "Blues")
 (font "Sans-serif")
-(tool-preset "Logitech USB Optical Mouse")
+(tool-preset "Core Pointer")
 
 # end of user context

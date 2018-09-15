@@ -16,12 +16,12 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
-        (right-docks-width "206")
+        (right-docks-width "236")
         (maximized "no"))
     (gimp-dock
         (side left)
         (book
-            (current-page 1)
+            (current-page 0)
             (dockable "gimp-tool-options"
                 (tab-style automatic)
                 (aux-info
@@ -46,17 +46,14 @@
                 (tab-style preview-name)
                 (preview-size 32)
                 (aux-info
-                    (show-button-bar "false")
-                    (tag-filter "classic, "))))
+                    (show-button-bar "false"))))
         (book
             (position 387)
             (current-page 0)
-            (dockable "gimp-mypaint-brush-grid"
+            (dockable "gimp-tool-preset-list"
                 (tab-style automatic)
-                (preview-size 32)
                 (aux-info
-                    (show-button-bar "false")
-                    (tag-filter "tanda, "))))))
+                    (show-button-bar "true"))))))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
     (position 455 360)

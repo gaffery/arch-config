@@ -30,6 +30,7 @@ application/x-extension-xht=firefox.desktop
 text/vnd.graphviz=userapp-"xdot"-0T3RMZ.desktop
 text/x-python=leafpad.desktop
 application/msword-template=userapp-"xdot"-GLGANZ.desktop
+application/pdf=epdfview.desktop
 
 [Added Associations]
 text/plain=leafpad.desktop;mousepad.desktop;
@@ -42,7 +43,7 @@ text/x-matlab=mousepad.desktop;leafpad.desktop;
 text/x-python=leafpad.desktop;vim.desktop;userapp-"vim"-Z1FMMZ.desktop;mousepad.desktop;
 application/zip=xarchiver.desktop;
 application/x-7z-compressed=xarchiver.desktop;
-application/json=mousepad.desktop;leafpad.desktop;
+application/json=leafpad.desktop;mousepad.desktop;
 application/octet-stream=leafpad.desktop;
 application/x-pem-key=leafpad.desktop;
 application/vnd.ms-publisher=leafpad.desktop;
@@ -69,7 +70,7 @@ text/css=leafpad.desktop;
 image/x-xpixmap=gimp.desktop;
 application/x-zim-notebook=zim.desktop;
 image/tiff=gpicview.desktop;
-application/pdf=viewnior.desktop;chromium.desktop;gimp.desktop;
+application/pdf=epdfview.desktop;zim.desktop;viewnior.desktop;xournal.desktop;gv.desktop;chromium.desktop;gimp.desktop;
 application/vnd.rar=xarchiver.desktop;
 x-scheme-handler/http=exo-web-browser.desktop;
 x-scheme-handler/https=exo-web-browser.desktop;
@@ -103,5 +104,8 @@ text/x-chdr=leafpad.desktop;
 application/x-bittorrent=transmission-gtk.desktop;
 application/x-iwork-keynote-sffkey=xarchiver.desktop;
 text/x-emacs-lisp=leafpad.desktop;
+application/x-subrip=leafpad.desktop;
+text/x-ssa=leafpad.desktop;
+application/vnd.apple.mpegurl=mpv.desktop;
 
 [Removed Associations]

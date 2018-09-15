@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-notifyd" version="1.0">
-  <property name="notify-location" type="uint" value="2"/>
+  <property name="notify-location" type="uint" value="0"/>
   <property name="log-level" type="uint" value="0"/>
   <property name="log-level-apps" type="uint" value="0"/>
   <property name="applications" type="empty">
@@ -17,8 +17,10 @@
   </property>
   <property name="primary-monitor" type="uint" value="1"/>
   <property name="do-fadeout" type="bool" value="true"/>
-  <property name="do-slideout" type="bool" value="true"/>
+  <property name="do-slideout" type="bool" value="false"/>
   <property name="theme" type="string" value="Default"/>
-  <property name="initial-opacity" type="double" value="0.700000"/>
+  <property name="initial-opacity" type="double" value="1.000000"/>
   <property name="do-not-disturb" type="bool" value="false"/>
+  <property name="expire-timeout" type="int" value="3"/>
+  <property name="notification-log" type="bool" value="false"/>
 </channel>

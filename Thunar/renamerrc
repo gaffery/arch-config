@@ -15,14 +15,14 @@ OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 Text=TraningTwo\ 
 
 [ThunarSbrReplaceRenamer]
-Regexp=FALSE
-Replacement=
-CaseSensitive=FALSE
-Pattern=\ 
+Regexp=TRUE
+Replacement=.1080p.bluray.x264-rovers
+CaseSensitive=TRUE
+Pattern=.Blu-ray.REMUX.1080p.AVC.TrueHD.7.1.Atmos-HDArea.简英.ass
 
 [ThunarSbrRemoveRenamer]
-EndOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
-StartOffset=0
-EndOffset=27
+EndOffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
+StartOffset=3
+EndOffset=0
 StartOffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
 

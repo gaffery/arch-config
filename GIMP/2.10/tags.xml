@@ -1178,7 +1178,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="00104518fbe09b3399ae87f51aeda505">
+  <resource identifier="gimp-palette-color-history" checksum="253839e34e0e002581c0c30f4255e699">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -1427,10 +1427,10 @@
   <resource identifier="Cantarell Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
+  <resource identifier="Cantarell Thin" checksum="(null)">
   </resource>
 
-  <resource identifier="Cantarell weight=255" checksum="(null)">
+  <resource identifier="Cantarell Ultra-Bold" checksum="(null)">
   </resource>
 
   <resource identifier="D050000L" checksum="(null)">

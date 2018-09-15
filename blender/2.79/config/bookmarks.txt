@@ -1,7 +1,7 @@
 [Bookmarks]
 [Recent]
-/home/gaffey/Learn/test/
 /home/gaffey/
+/home/gaffey/Learn/test/
 /home/gaffey/Desktop/
 /home/gaffey/armory_templates/vehicle/
 /home/gaffey/armory_templates/archery/

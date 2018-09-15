@@ -1,4 +1,4 @@
-/home/gaffey/Learn/test/untitled.blend
+/home/gaffey/.config/blender/2.79/scripts/addons/AutoRenderLearn/test.blend
 /home/gaffey/untitled.blend
 /home/gaffey/armory_templates/vehicle/vehicle.blend
 /home/gaffey/armory_templates/archery/archery.blend
