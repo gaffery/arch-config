@@ -1,10 +1,4 @@
 # GIMP gimp-warp-tool options
 
-(effect-size 65.000000)
-(effect-strength 62.800000)
-(interpolation linear)
-(abyss-policy loop)
-(high-quality-preview yes)
-(stroke-periodically yes)
 
 # end of gimp-warp-tool options

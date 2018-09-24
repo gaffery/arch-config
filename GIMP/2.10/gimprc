@@ -7,6 +7,24 @@
 # Preferences dialog.
 
 (language "")
+(plug-in-path "${gimp_plug_in_dir}/plug-ins")
+(module-path "${gimp_plug_in_dir}/modules")
+(interpreter-path "${gimp_plug_in_dir}/interpreters")
+(environ-path "${gimp_plug_in_dir}/environ")
+(brush-path "${gimp_data_dir}/brushes")
+(brush-path-writable "${gimp_data_dir}/brushes")
+(dynamics-path "${gimp_data_dir}/dynamics")
+(dynamics-path-writable "${gimp_data_dir}/dynamics")
+(mypaint-brush-path "${gimp_installation_dir}/share/mypaint-data/1.0/brushes")
+(mypaint-brush-path-writable "${gimp_installation_dir}/share/mypaint-data/1.0/brushes")
+(pattern-path "${gimp_data_dir}/patterns")
+(pattern-path-writable "${gimp_data_dir}/patterns")
+(palette-path "${gimp_data_dir}/palettes")
+(palette-path-writable "${gimp_data_dir}/palettes")
+(gradient-path "${gimp_data_dir}/gradients")
+(gradient-path-writable "${gimp_data_dir}/gradients")
+(tool-preset-path-writable "${gimp_dir}/tool-presets:${gimp_data_dir}/tool-presets")
+(font-path "${gimp_data_dir}/fonts")
 (default-image
     (width 1200)
     (height 1600)
@@ -59,8 +77,9 @@
     (padding-color (color-rgb 1.000000 1.000000 1.000000)))
 (toolbox-color-area no)
 (toolbox-wilber no)
+(theme-path "${gimp_data_dir}/themes")
 (theme "System")
-(icon-theme "Symbolic-Inverted")
+(icon-theme-path "${gimp_data_dir}/icons")
 (fill-options
     (style solid)
     (antialias yes))
@@ -76,6 +95,7 @@
     (dash-offset 0.000000)
     (dash-info 0)
     (emulate-brush-dynamics no))
+(script-fu-path "${gimp_data_dir}/scripts")
 
 
 # end of gimprc

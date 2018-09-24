@@ -1,11 +1,10 @@
 # GIMP gimp-mypaint-brush-tool options
 
-(foreground (color-rgb 0.219608 0.219608 0.219608))
-(mybrush "blending knife")
+(foreground (color-rgb 0.866667 0.690196 0.690196))
+(mybrush "100% Opaque")
 (brush-size 51.000000)
 (brush-hardness 0.500000)
-(radius 3.150000)
-(opaque 0.900000)
-(hardness 0.800000)
+(radius 3.010000)
+(hardness 0.950000)
 
 # end of gimp-mypaint-brush-tool options

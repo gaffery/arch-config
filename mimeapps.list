@@ -33,7 +33,7 @@ application/msword-template=userapp-"xdot"-GLGANZ.desktop
 application/pdf=epdfview.desktop
 
 [Added Associations]
-text/plain=leafpad.desktop;mousepad.desktop;
+text/plain=leafpad.desktop;vim.desktop;mousepad.desktop;
 video/mp4=mpv.desktop;
 image/jpeg=viewnior.desktop;gimp.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
 application/x-blender=blender.desktop;
@@ -53,12 +53,12 @@ video/x-msvideo=mpv.desktop;
 video/x-ms-wmv=mpv.desktop;
 video/quicktime=mpv.desktop;
 text/html=chromium.desktop;firefox.desktop;
-text/markdown=mousepad.desktop;leafpad.desktop;
+text/markdown=leafpad.desktop;mousepad.desktop;
 text/x-c++src=leafpad.desktop;
 application/x-ipynb+json=leafpad.desktop;
 text/x-log=leafpad.desktop;mousepad.desktop;
 image/x-tga=gpicview.desktop;
-application/x-shellscript=leafpad.desktop;mousepad.desktop;
+application/x-shellscript=leafpad.desktop;vim.desktop;mousepad.desktop;
 audio/x-mpegurl=leafpad.desktop;mpv.desktop;
 text/x-microdvd=leafpad.desktop;
 application/x-compressed-tar=xarchiver.desktop;
@@ -107,5 +107,6 @@ text/x-emacs-lisp=leafpad.desktop;
 application/x-subrip=leafpad.desktop;
 text/x-ssa=leafpad.desktop;
 application/vnd.apple.mpegurl=mpv.desktop;
+application/x-yaml=vim.desktop;
 
 [Removed Associations]

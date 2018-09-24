@@ -1,15 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tags>
 
-  <resource identifier="${gimp_data_dir}/brushes/Round.vbr" checksum="a7f02530d3bc7484c8f9240cbe9c65b1">
-    <tag>round</tag>
-  </resource>
-
-  <resource identifier="${gimp_data_dir}/brushes/Round-Fuzzy.vbr" checksum="f8cb2466841104a55e42afce4568d103">
-    <tag>fuzzy</tag>
-    <tag>round</tag>
-  </resource>
-
   <resource identifier="gimp-brush-clipboard-image" checksum="157dcef48665ab465439cfaf10d6feeb">
   </resource>
 
@@ -257,7 +248,6 @@
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/tanda/acrylic-03-only-water.myb" checksum="8e76d58e5779a6d3938bace274dfe2b8">
-    <tag>classic</tag>
   </resource>
 
   <resource identifier="${mypaint_brushes_dir}/tanda/acrylic-03-paint.myb" checksum="ddeb904dbe98e0ada934917c4631764b">
@@ -950,7 +940,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Wood/wood1.pat" checksum="0c055f250ddbccc1b32d05f8c0ad7012">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="7f1cf3e3024abfa40ab92e41add07995">
+  <resource identifier="gimp-gradient-custom" checksum="4a878c6cfae0b0e03c0834723daadf92">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="12ad9439c57e897e50fb0399439e5b2b">
@@ -1178,7 +1168,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="253839e34e0e002581c0c30f4255e699">
+  <resource identifier="gimp-palette-color-history" checksum="500ec81ef728f41fb9530d711e2032cd">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -2790,12 +2780,6 @@
   </resource>
 
   <resource identifier="URW Gothic Semi-Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="WenQuanYi Micro Hei" checksum="(null)">
-  </resource>
-
-  <resource identifier="WenQuanYi Micro Hei Mono" checksum="(null)">
   </resource>
 
   <resource identifier="WenQuanYi Zen Hei Medium" checksum="(null)">

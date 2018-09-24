@@ -1,8 +1,0 @@
-# settings
-
-(GimpGegl-gegl-bilateral-filter-config "2018-05-15 21:11:00"
-    (time 1526389860)
-    (blur-radius 26.630000)
-    (edge-preservation 56.620000))
-
-# end of settings

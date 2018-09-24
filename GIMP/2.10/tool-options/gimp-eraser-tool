@@ -1,12 +1,11 @@
 # GIMP gimp-eraser-tool options
 
-(foreground (color-rgb 0.219608 0.219608 0.219608))
-(opacity 0.277000)
-(brush "2. Hardness 050")
-(dynamics "Dynamics Off")
-(palette "Blues")
-(brush-size 51.000000)
-(brush-hardness 0.500000)
+(foreground (color-rgb 0.866667 0.690196 0.690196))
+(brush "2. Block 01")
+(dynamics "Perspective")
+(palette "Default")
+(brush-size 42.500000)
+(brush-angle 90.000000)
 (fade-length 150.000000)
 (fade-unit percent)
 

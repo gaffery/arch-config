@@ -1,0 +1,104 @@
+"文件编码识别设置"
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+"进入Insert模式自动保存"
+au InsertLeave *.* write
+"去掉vi的一致性"
+set nocompatible
+"设置viminfo文件"
+set viminfo=%,<800,'10,/50,:100,h,f0,n~/.vim/viminfo
+"去掉自动换行"
+"set nowrap"
+"代码折叠"
+set foldmethod=indent
+set foldlevel=99
+"显示行号"
+set number
+" 隐藏滚动条"    
+set guioptions-=r 
+set guioptions-=L
+set guioptions-=b
+"隐藏顶部标签栏"
+set showtabline=0
+"设置字体"
+syntax on    "开启语法高亮"
+set background=dark        "设置背景色"
+set fileformat=unix    "设置以unix的格式保存文件"
+set expandtab    "tab转空格输入"
+set autoindent   "自动缩进"
+set tabstop=4    "设置table长度"
+set softtabstop=4 "设置软table长度"
+set shiftwidth=4  "每一级缩进长度"
+set showmatch    "显示匹配的括号"
+set scrolloff=5        "距离顶部和底部5行"
+set laststatus=2    "命令行为两行"
+set fenc=utf-8      "文件编码"
+set backspace=2
+set mouse=a        "启用鼠标"
+set selection=exclusive
+set selectmode=mouse,key
+set matchtime=5
+set ignorecase        "忽略大小写"
+set incsearch
+set hlsearch        "高亮搜索项"
+set noexpandtab        "不允许扩展table"
+set whichwrap+=<,>,h,l
+set backupdir=/tmp
+set directory=/tmp
+set nohls
+"F2开启和关闭树"
+map <F2> :NERDTreeToggle<CR>
+let NERDTreeChDirMode=1
+"显示书签"
+let NERDTreeShowBookmarks=0
+"设置忽略文件类型"
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+"窗口大小"
+let NERDTreeWinSize=20
+let g:NERDTreeWinPos = "right"
+"插件配置"
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Yggdroot/indentLine'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-commentary'
+Plugin 'haya14busa/incsearch.vim'
+call vundle#end()
+"自定义函数"
+function! Mpv()
+python << EOF
+import vim
+cur_line = vim.current.line
+delcomments = cur_line.split('#')[0]
+cururl = '!mpv '+delcomments.split(',')[-1]
+vim.command(cururl)
+EOF
+endfunction
+
+"文件类型检测"
+filetype plugin indent on
+"自定义快捷键"
+map <F12> :w !python<CR>
+map <leader>t ggO# -*- coding: utf-8 -*-<esc>
+map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+map <F8> :call Mpv()<CR><<CR><CR>
+"YCM 配置"
+let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf=0  
+let g:ycm_show_diagnostics_ui = 0
+let g:ycm_complete_in_comments=1
+let g:ycm_collect_identifiers_from_tags_files=1
+let g:ycm_cache_omnifunc=0
+let g:ycm_seed_identifiers_with_syntax=1
+set completeopt=menu,menuone
+let g:ycm_add_preview_to_completeopt = 0
+let g:ycm_key_invoke_completion='<C-Space>'
+noremap <leader>g mu:YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_semantic_triggers =  {
+			\ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+			\ 'cs,lua,javascript': ['re!\w{2}'],
+			\ }

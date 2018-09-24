@@ -1,11 +1,10 @@
 # GIMP gimp-vector-tool options
 
-(foreground (color-rgb 0.219608 0.219608 0.219608))
-(brush "2. Hardness 050")
-(dynamics "Dynamics Off")
+(foreground (color-rgb 0.866667 0.690196 0.690196))
+(brush "2. Block 01")
+(dynamics "Perspective")
 (pattern "Pine")
-(gradient "Standard")
-(palette "Blues")
-(vectors-edit-mode move)
+(gradient "Tropical Colors")
+(palette "Default")
 
 # end of gimp-vector-tool options

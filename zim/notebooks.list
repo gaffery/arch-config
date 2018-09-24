@@ -1,9 +1,9 @@
 [NotebookList]
-Default=~/Notes
-1=~/Notes
+Default=
+1=file:///repo/Note
 
 [Notebook 1]
-uri=~/Notes
-name=Notes
+uri=file:///repo/Note
+name=Note
 interwiki=None
 icon=None

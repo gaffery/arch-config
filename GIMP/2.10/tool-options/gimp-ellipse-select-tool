@@ -1,12 +1,4 @@
 # GIMP gimp-ellipse-select-tool options
 
-(aspect-denominator 200.000000)
-(aspect-numerator 200.000000)
-(desired-fixed-size-height 0.000000)
-(desired-fixed-size-width 0.000000)
-(fixed-rule size)
-(fixed-rule-active yes)
-(overridden-fixed-size yes)
-(operation add)
 
 # end of gimp-ellipse-select-tool options
