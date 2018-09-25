@@ -11,11 +11,12 @@ cp -p /etc/lxdm/lxdm.conf .config/privarcy/etc/.
 cp -p /etc/cron.d/* .config/privarcy/etc/.
 # 软件列表备份
 pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
-pip freeze > /home/gaffey/.config/privarcy/requirements.txt 
+pip freeze > /home/gaffey/.config/privarcy/requirements.txt
 
-sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish github!' '提交文件至Github服务器...'
-
-cd /home/gaffey/.config
+sleep 1
+ 
+# 提交文件至github
+sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Github!' '提交文件至Github服务器...'
 git rm --cached privarcy/user/.vim/bundle/Vundle.vim
 git rm --cached privarcy/user/.vim/bundle/YouCompleteMe
 git add -A
