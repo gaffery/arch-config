@@ -20,3 +20,4 @@ git rm --cached privarcy/user/.vim/bundle/Vundle.vim
 git rm --cached privarcy/user/.vim/bundle/YouCompleteMe
 git add -A
 git commit -m 'Daily update'
+git push
