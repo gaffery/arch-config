@@ -18,3 +18,5 @@ sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus 
 cd /home/gaffey/.config
 git rm --cached privarcy/user/.vim/bundle/Vundle.vim
 git rm --cached privarcy/user/.vim/bundle/YouCompleteMe
+git add -A
+git commit -m 'Daily update'
