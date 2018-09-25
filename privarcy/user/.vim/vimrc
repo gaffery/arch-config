@@ -81,12 +81,18 @@ endfunction
 "文件类型检测"
 filetype plugin indent on
 "自定义快捷键"
-map <F12> :w !python<CR>
-map <leader>t ggO# -*- coding: utf-8 -*-<esc>
-map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
-map <F8> :call Mpv()<CR><<CR><CR>
+noremap <leader>t ggO# -*- coding: utf-8 -*-<esc>
+noremap <leader>p ggO#!/usr/bin/env python<esc>
+noremap <leader>s ggO#!/bin/bash<esc>
+noremap <F8> :call Mpv()<CR><<CR><CR>
+noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+noremap <F12> :w !python<CR>
+vnoremap <F12> :w !python<CR>
+inoremap <F12> <ESC>:w !python<CR>
+cnoremap <F12> <ESC>:w !python<CR>
 "YCM 配置"
 let g:ycm_server_python_interpreter='/usr/bin/python'
+let g:ycm_python_binary_path='/usr/bin/python'
 let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf=0  
 let g:ycm_show_diagnostics_ui = 0

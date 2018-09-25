@@ -1,6 +1,6 @@
 # GIMP gimp-ink-tool options
 
-(foreground (color-rgb 0.866667 0.690196 0.690196))
+(foreground (color-rgb 0.682353 0.325490 0.325490))
 (brush-size 51.000000)
 (brush-hardness 0.500000)
 

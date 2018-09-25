@@ -14,22 +14,34 @@
 ~MSle0~/2015\c
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1537883493,,"w"
 :q
-|2,0,1537801463,,"q"
+|2,0,1537884030,,"q"
+:<F12><F12><F12>
+|2,0,1537883891,,"<F12><F12><F12>"
+:<F12><F12><F12><F12><F12>
+|2,0,1537883844,,"<F12><F12><F12><F12><F12>"
+:q!
+|2,0,1537883530,,"q!"
+:!python %
+|2,0,1537883053,,"!python %"
+:YcmDebugInfo
+|2,0,1537882932,,"YcmDebugInfo"
+:YcmCompleter
+|2,0,1537882920,,"YcmCompleter"
+:!q
+|2,0,1537879125,,"!q"
+:bd
+|2,0,1537878561,,"bd"
 :BundleClean
 |2,0,1537801459,,"BundleClean"
-:w
-|2,0,1537801454,,"w"
 :BundleInstall
 |2,0,1537788135,,"BundleInstall"
 :Bundle
 |2,0,1537788133,,"Bundle"
-:q!
-|2,0,1537772356,,"q!"
 :!
 |2,0,1537772343,,"!"
-:bd
-|2,0,1530286046,,"bd"
 :e!
 |2,0,1529938118,,"e!"
 :%retab
@@ -72,8 +84,6 @@
 |2,0,1529417115,,"!w sudo tee %"
 :'<,'>
 |2,0,1529414774,,"'<,'>"
-:!q
-|2,0,1529260323,,"!q"
 :AutoRead
 |2,0,1529240927,,"AutoRead"
 :help 'autoread'
@@ -104,12 +114,6 @@
 |2,0,1528892084,,"open /home/gaffey/Python/Learn/tool/client.py"
 :open ~/Python/Learn/tool/client.py
 |2,0,1528892065,,"open ~/Python/Learn/tool/client.py"
-:open ~/Python/Learn/tool/client
-|2,0,1528892057,,"open ~/Python/Learn/tool/client"
-:w !sudo tee%
-|2,0,1528889639,,"w !sudo tee%"
-:a
-|2,0,1528558669,,"a"
 
 # Search String History (newest to oldest):
 ? true
@@ -193,35 +197,35 @@
 
 # Registers:
 "0	LINE	0
-	i
-|3,0,0,1,1,0,1537801425,"i"
-""1	LINE	0
-	Plugin 'ctrlpvim/ctrlp.vim'
-|3,1,1,1,1,0,1537801452,"Plugin 'ctrlpvim/ctrlp.vim'"
+	vnoremap <F12> :w !python<CR>
+|3,0,0,1,1,0,1537883760,"vnoremap <F12> :w !python<CR>"
+"1	LINE	0
+	vnoremap <F12> :w !python<CR>
+|3,0,1,1,1,0,1537883787,"vnoremap <F12> :w !python<CR>"
 "2	LINE	0
-	i
-|3,0,2,1,1,0,1537791455,"i"
+	cnoremap <F12> :w !python<CR>
+|3,0,2,1,1,0,1537883784,"cnoremap <F12> :w !python<CR>"
 "3	LINE	0
-	let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
-|3,0,3,1,1,0,1537791098,"let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'"
+	vnoremap 
+|3,0,3,1,1,0,1537883624,"vnoremap "
 "4	LINE	0
-	iimport numpy
-|3,0,4,1,1,0,1537790676,"iimport numpy"
+	# -*- coding: utf-8 -*-
+|3,0,4,1,1,0,1537883528,"# -*- coding: utf-8 -*-"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1537790414,""
+	mxnet.
+|3,0,5,1,1,0,1537883181,"mxnet."
 "6	LINE	0
-	<F12>
-|3,0,6,1,1,0,1537790403,"<F12>"
+	map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+|3,0,6,1,1,0,1537883148,"map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
 "7	LINE	0
-	import numpy
-|3,0,7,1,1,0,1537790402,"import numpy"
+	map <F8> :call Mpv()<CR><<CR><CR>
+|3,0,7,1,1,0,1537883145,"map <F8> :call Mpv()<CR><<CR><CR>"
 "8	LINE	0
-	<F12>
-|3,0,8,1,1,0,1537790374,"<F12>"
+	map <F12> :w !python<CR>
+|3,0,8,1,1,0,1537883138,"map <F12> :w !python<CR>"
 "9	LINE	0
-	import numpy    
-|3,0,9,1,1,0,1537790367,"import numpy    "
+	mxne
+|3,0,9,1,1,0,1537883069,"mxne"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -277,54 +281,20 @@
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	y
-|3,0,36,0,1,0,1537791116,"y"
+""-	CHAR	0
+	:
+|3,1,36,0,1,0,1537884010,":"
 
 # Buffer list:
-%~/.vim/vimrc	1	0
+%~/test.py	5	10
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/vimrc
-	*	1537801463	0
-	"	1	0
-	^	90	105
-	.	69	0
-	+	48	0
-	+	63	0
-	+	69	0
-	+	62	0
-	+	1	0
-	+	93	0
-	+	88	5
-	+	93	0
-	+	57	0
-	+	58	0
-	+	94	0
-	+	85	0
-	+	88	0
-	+	47	0
-	+	48	0
-	+	88	0
-	+	97	5
-	+	89	32
-	+	91	39
-	+	98	5
-	+	98	12
-	+	98	7
-	+	98	12
-	+	98	0
-	+	91	0
-	+	90	79
-	+	90	104
-	+	69	0
-
 > ~/test.py
-	*	1537801424	0
-	"	2	0
-	^	2	1
-	.	2	0
+	*	1537884161	0
+	"	5	10
+	^	5	8
+	.	5	7
 	+	1	11
 	+	1	0
 	+	1	7
@@ -333,57 +303,118 @@
 	+	1	16
 	+	1	0
 	+	1	11
-	+	2	0
+	+	3	0
 	+	1	12
 	+	1	11
 	+	1	12
-	+	2	0
+	+	3	0
+	+	1	10
+	+	2	8
+	+	3	11
+	+	4	0
+	+	5	7
+	u	1	7
 
-> ~/.config/privarcy/PreLogin
-	*	1537793162	0
+> ~/.vim/vimrc
+	*	1537884084	0
+	"	89	11
+	^	86	4
+	.	86	3
+	+	48	0
+	+	63	0
+	+	69	0
+	+	62	0
+	+	1	0
+	+	96	0
+	+	90	5
+	+	96	0
+	+	57	0
+	+	58	0
+	+	97	0
+	+	84	0
+	+	90	0
+	+	47	0
+	+	48	0
+	+	90	0
+	+	100	5
+	+	92	32
+	+	94	39
+	+	101	5
+	+	101	12
+	+	101	7
+	+	101	12
+	+	101	0
+	+	94	0
+	+	93	79
+	+	93	104
+	+	69	0
+	+	84	12
+	+	85	12
+	+	84	12
+	+	86	12
+	+	85	37
+	+	86	28
+	+	85	38
+	+	84	12
+	+	103	0
+	+	91	0
+	+	90	0
+	+	89	0
+	+	90	0
+	+	87	0
+	+	90	0
+	+	88	0
+	+	87	3
+	+	88	3
+	+	89	3
+	+	84	3
+	+	85	3
+	+	86	3
+	u	102	42
+
+> /usr/lib/python3.7/site-packages/numpy/__init__.py
+	*	1537882781	0
 	"	1	0
-	^	7	1
-	.	7	0
-	+	6	47
-	+	7	0
-	+	6	0
-	+	7	0
+
+> /usr/lib/python3.7/os.py
+	*	1537882774	0
+	"	1	0
 
 > ~/test.c
-	*	1537790853	0
-	"	1	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> ~/ControlP
-	*	1537788741	0
+	*	1537880786	0
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/tell
-	*	1537788471	0
+> /usr/lib/python2.7/os.py
+	*	1537880377	0
 	"	1	0
 
-> ~/NERD_tree_1
-	*	1537788348	0
-	"	6	0
-	.	1	0
-	+	1	0
+> ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
+	*	1537879157	0
+	"	18	8
+	u	19	8
 
-> ~/.local/share/Trash/files/Vundle.vim/test.py
-	*	1537788290	0
-	"	1	0
+> /usr/lib/python2.7/pkgutil.py
+	*	1537878957	0
+	"	19	0
+	u	5	7
 
-> ~/[Vundle] Installer
-	*	1537788140	0
-	"	11	0
+> ~/.config/privarcy/cron/SysBackup
+	*	1537878956	0
+	"	3	0
 	.	1	0
+	+	3	2
+	+	3	22
+	+	3	0
+	+	1	10
+	+	2	0
+	+	3	0
+	+	1	20
 	+	1	0
+	u	1	7
 
-> ~/python.py
-	*	1537787786	0
-	"	1	0
-	.	1	0
-	+	1	0
+> ~/.config/blender/2.79/scripts/addons/HOps/developer_utils.py
+	*	1537878588	0
+	"	5	8
+	u	5	8

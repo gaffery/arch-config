@@ -1,0 +1,6 @@
+# Run the hourly jobs
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+# 0 * * * * root run-parts /home/gaffey/.config/privarcy/cron/
+*/1 * * * * root run-parts /home/gaffey/.config/privarcy/etc/cron

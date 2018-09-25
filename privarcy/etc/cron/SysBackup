@@ -1,0 +1,20 @@
+#!/bin/bash
+cd /home/gaffey
+sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'System Backup!' '开始拷贝文件进入git项目...'
+# 用户隐藏外部文件备份
+cp -Rp .moc /home/gaffey/.config/privarcy/user/.
+cp -Rp .vim /home/gaffey/.config/privarcy/user/.
+cp -Rp .w3m /home/gaffey/.config/privarcy/user/.
+cp -Rp .ipython /home/gaffey/.config/privarcy/user/.
+# 自定义配置备份
+cp -p /etc/lxdm/lxdm.conf .config/privarcy/etc/.
+cp -p /etc/cron.d/* .config/privarcy/etc/.
+# 软件列表备份
+pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
+pip freeze > /home/gaffey/.config/privarcy/requirements.txt 
+
+sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish github!' '提交文件至Github服务器...'
+
+cd /home/gaffey/.config
+git rm --cached privarcy/user/.vim/bundle/Vundle.vim
+git rm --cached privarcy/user/.vim/bundle/YouCompleteMe

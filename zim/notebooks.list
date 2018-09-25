@@ -1,9 +1,9 @@
 [NotebookList]
-Default=
-1=file:///repo/Note
+Default=~/.config/zim/Note
+1=~/.config/zim/Note
 
 [Notebook 1]
-uri=file:///repo/Note
+uri=~/.config/zim/Note
 name=Note
 interwiki=None
 icon=None
