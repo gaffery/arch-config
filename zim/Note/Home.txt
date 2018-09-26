@@ -9,3 +9,4 @@ pacman 安装与恢复
 pip 安装与恢复
 {{./pasted_image001.png}}
  
+

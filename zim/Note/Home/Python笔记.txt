@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-09-25T23:52:27+08:00
+
+====== Python笔记 ======
+Created Tuesday 25 September 2018
+
