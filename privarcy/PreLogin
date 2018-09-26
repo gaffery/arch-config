@@ -5,8 +5,10 @@ cd $HOME
 # 删除多余文件
 #rm .xsession-errors .Xauthority nemcache.sqlite ICEauthority
 #rm -Rf .pki .nv .gnupg
+# 校正数位板映射
+xsetwacom --set "Wacom Intuos PT M 2 Pen stylus" Area 0 0 21600 9112
 # 自定义键盘映射
-# sleep 3
-# xmodmap /etc/X11/Xmodmap
+sleep 3
+xmodmap ~/.config/privarcy/etc/Xmodmap
 # 连接蓝牙音箱
 # echo -e 'power on\nquit' | bluetoothctl&&sleep 0.5&&echo -e 'connect \t \nquit' | bluetoothctl

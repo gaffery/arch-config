@@ -15,7 +15,15 @@
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1537883493,,"w"
+|2,0,1537965633,,"w"
+:W
+|2,0,1537962591,,"W"
+::w
+|2,0,1537962485,,":w"
+:YcmCompleter
+|2,0,1537960898,,"YcmCompleter"
+:YcmCompleter GetDoc
+|2,0,1537960863,,"YcmCompleter GetDoc"
 :q
 |2,0,1537884030,,"q"
 :<F12><F12><F12>
@@ -28,8 +36,6 @@
 |2,0,1537883053,,"!python %"
 :YcmDebugInfo
 |2,0,1537882932,,"YcmDebugInfo"
-:YcmCompleter
-|2,0,1537882920,,"YcmCompleter"
 :!q
 |2,0,1537879125,,"!q"
 :bd
@@ -72,8 +78,6 @@
 |2,0,1529740539,,"b2"
 :w autostart.sh
 |2,0,1529585556,,"w autostart.sh"
-:W
-|2,0,1529505712,,"W"
 :delmarks a
 |2,0,1529497687,,"delmarks a"
 :w !sudo tee %
@@ -110,10 +114,6 @@
 |2,0,1528895591,,"print"
 :w! sudo tee%
 |2,0,1528895528,,"w! sudo tee%"
-:open /home/gaffey/Python/Learn/tool/client.py
-|2,0,1528892084,,"open /home/gaffey/Python/Learn/tool/client.py"
-:open ~/Python/Learn/tool/client.py
-|2,0,1528892065,,"open ~/Python/Learn/tool/client.py"
 
 # Search String History (newest to oldest):
 ? true
@@ -197,35 +197,35 @@
 
 # Registers:
 "0	LINE	0
-	vnoremap <F12> :w !python<CR>
-|3,0,0,1,1,0,1537883760,"vnoremap <F12> :w !python<CR>"
-"1	LINE	0
-	vnoremap <F12> :w !python<CR>
-|3,0,1,1,1,0,1537883787,"vnoremap <F12> :w !python<CR>"
+	 add Shift = Shift_R
+|3,0,0,1,1,0,1537964869," add Shift = Shift_R"
+""1	LINE	0
+	clear lock
+|3,1,1,1,1,0,1537965629,"clear lock"
 "2	LINE	0
-	cnoremap <F12> :w !python<CR>
-|3,0,2,1,1,0,1537883784,"cnoremap <F12> :w !python<CR>"
+	clear Shift_R
+|3,0,2,1,1,0,1537965629,"clear Shift_R"
 "3	LINE	0
-	vnoremap 
-|3,0,3,1,1,0,1537883624,"vnoremap "
+	
+|3,0,3,1,1,0,1537965629,""
 "4	LINE	0
-	# -*- coding: utf-8 -*-
-|3,0,4,1,1,0,1537883528,"# -*- coding: utf-8 -*-"
+	 keysym Shift_R = Caps_Lock
+|3,0,4,1,1,0,1537965629," keysym Shift_R = Caps_Lock"
 "5	LINE	0
-	mxnet.
-|3,0,5,1,1,0,1537883181,"mxnet."
+	 keysym Caps_Lock = Shift_R
+|3,0,5,1,1,0,1537965629," keysym Caps_Lock = Shift_R"
 "6	LINE	0
-	map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
-|3,0,6,1,1,0,1537883148,"map <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
+	 add Lock = Caps_Lock
+|3,0,6,1,1,0,1537965629," add Lock = Caps_Lock"
 "7	LINE	0
-	map <F8> :call Mpv()<CR><<CR><CR>
-|3,0,7,1,1,0,1537883145,"map <F8> :call Mpv()<CR><<CR><CR>"
+	 add Shift = Shift_R
+|3,0,7,1,1,0,1537965629," add Shift = Shift_R"
 "8	LINE	0
-	map <F12> :w !python<CR>
-|3,0,8,1,1,0,1537883138,"map <F12> :w !python<CR>"
+	 dd
+|3,0,8,1,1,0,1537965470," dd"
 "9	LINE	0
-	mxne
-|3,0,9,1,1,0,1537883069,"mxne"
+	 !
+|3,0,9,1,1,0,1537965465," !"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -281,20 +281,76 @@
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-""-	CHAR	0
-	:
-|3,1,36,0,1,0,1537884010,":"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1537965535," "
 
 # Buffer list:
-%~/test.py	5	10
+%/tmp/ipython_edit_xgom2_y2/ipython_edit_9uf0zqrx.py	1	0
 
 # History of marks within files (newest to oldest):
 
+> /tmp/ipython_edit_xgom2_y2/ipython_edit_9uf0zqrx.py
+	*	1537965881	0
+	"	1	0
+	^	1	0
+
+> ~/.config/privarcy/etc/Xmodmap
+	*	1537965653	0
+	"	4	25
+	^	4	50
+	.	4	49
+	+	1	26
+	+	1	0
+	+	1	24
+	+	1	0
+	+	1	26
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	12
+	+	1	10
+	+	4	49
+
+> ~/.config/privarcy/PreLogin
+	*	1537964361	0
+	"	11	6
+	^	8	29
+	.	8	20
+	+	11	6
+	+	1	35
+	+	1	110
+	+	1	119
+	+	1	140
+	+	1	202
+	+	1	226
+	+	1	0
+	+	11	6
+	+	1	35
+	+	1	110
+	+	1	0
+	+	11	6
+	+	9	67
+	+	8	20
+
+> ~/Xmodmap
+	*	1537962631	0
+	"	7	26
+	^	7	27
+	.	7	26
+	+	10	142
+	+	10	0
+	+	9	12
+	+	6	12
+	+	5	22
+	+	7	26
+
 > ~/test.py
-	*	1537884161	0
-	"	5	10
-	^	5	8
-	.	5	7
+	*	1537960955	0
+	"	3	0
+	.	4	0
 	+	1	11
 	+	1	0
 	+	1	7
@@ -311,9 +367,14 @@
 	+	1	10
 	+	2	8
 	+	3	11
+	+	3	0
+	+	3	19
+	+	2	3
+	+	3	12
 	+	4	0
-	+	5	7
+	i	3	12
 	u	1	7
+	x	3	12
 
 > ~/.vim/vimrc
 	*	1537884084	0
@@ -389,32 +450,3 @@
 > /usr/lib/python2.7/os.py
 	*	1537880377	0
 	"	1	0
-
-> ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py
-	*	1537879157	0
-	"	18	8
-	u	19	8
-
-> /usr/lib/python2.7/pkgutil.py
-	*	1537878957	0
-	"	19	0
-	u	5	7
-
-> ~/.config/privarcy/cron/SysBackup
-	*	1537878956	0
-	"	3	0
-	.	1	0
-	+	3	2
-	+	3	22
-	+	3	0
-	+	1	10
-	+	2	0
-	+	3	0
-	+	1	20
-	+	1	0
-	u	1	7
-
-> ~/.config/blender/2.79/scripts/addons/HOps/developer_utils.py
-	*	1537878588	0
-	"	5	8
-	u	5	8

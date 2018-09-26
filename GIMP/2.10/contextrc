@@ -1,8 +1,8 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
-(foreground (color-rgb 0.682353 0.325490 0.325490))
+(tool "gimp-paintbrush-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.266667 0.694118 0.341176))
 (brush "2. Block 01")
 (dynamics "Perspective")
 (mybrush "ballpen")
@@ -10,6 +10,6 @@
 (gradient "Tropical Colors")
 (palette "Default")
 (font "Sans-serif")
-(tool-preset "Wacom Intuos PT M 2 Pen Pen (0x778117d5)")
+(tool-preset "Wacom Intuos PT M 2 Pen stylus")
 
 # end of user context

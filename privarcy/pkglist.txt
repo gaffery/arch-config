@@ -129,6 +129,7 @@ wqy-zenhei
 xarchiver
 xf86-input-keyboard
 xf86-input-mouse
+xf86-input-wacom
 xf86-video-vesa
 xfce4-notifyd
 xfce4-panel

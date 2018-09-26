@@ -31,7 +31,7 @@
                 (aux-info
                     (current-page "ColorselWheel"))))
         (book
-            (position 377)
+            (position 385)
             (current-page 0)
             (dockable "gimp-layer-list"
                 (tab-style automatic)
@@ -81,7 +81,7 @@
     (size 1011 688))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 505 111))
+    (position 571 173))
 (session-info "toplevel"
     (factory-entry "gimp-rotate-tool-dialog")
     (position 458 149))
