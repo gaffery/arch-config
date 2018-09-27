@@ -50,7 +50,6 @@ grep
 groff
 gtk-engine-murrine
 gtk-xfce-engine
-gvfs
 gzip
 htop
 inetutils
@@ -65,6 +64,7 @@ libmpcdec
 libtool
 licenses
 linux
+linux-headers
 logrotate
 lsof
 lvm2

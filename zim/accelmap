@@ -97,6 +97,7 @@
 ; (gtk_accel_path "<Actions>/PageView/delete" "")
 ; (gtk_accel_path "<Actions>/PageView/copy" "<Primary>c")
 ; (gtk_accel_path "<Actions>/GtkInterface/open_page_back" "<Alt>Left")
+; (gtk_accel_path "<Actions>/PageView/toggle_format_mark" "")
 ; (gtk_accel_path "<Actions>/MainWindow/edit_menu" "")
 ; (gtk_accel_path "<Actions>/GtkInterface/reload_index" "")
 ; (gtk_accel_path "<Actions>/GtkInterface/move_page" "")

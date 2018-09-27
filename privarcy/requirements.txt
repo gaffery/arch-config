@@ -1,6 +1,5 @@
 appdirs==1.4.3
 backcall==0.1.0
-btrfsutil==1.0.0
 CacheControl==0.12.5
 certifi==2018.8.24
 chardet==3.0.4
