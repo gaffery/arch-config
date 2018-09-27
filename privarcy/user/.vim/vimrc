@@ -54,14 +54,11 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'scrooloose/nerdtree'
-Plugin 'Yggdroot/indentLine'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'tpope/vim-commentary'
 Plugin 'haya14busa/incsearch.vim'
 call vundle#end()
 
 "自定义函数"
-
 func! CompileRun()
 	exec "w"
 	silent !clear
