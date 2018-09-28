@@ -1,5 +1,7 @@
+adobe-source-code-pro-fonts
 alsa-oss
 alsa-utils
+archlinux-wallpaper
 aria2
 autoconf
 automake
@@ -14,8 +16,6 @@ cmake
 coreutils
 cronie
 cryptsetup
-cuda
-cudnn
 device-mapper
 dhcpcd
 diffutils
@@ -82,6 +82,7 @@ netctl
 network-manager-applet
 networkmanager
 nvidia
+opencl-nvidia
 openssh
 pacman
 patch

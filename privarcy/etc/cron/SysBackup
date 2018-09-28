@@ -12,13 +12,10 @@ cp -p /etc/cron.d/* .config/privarcy/etc/.
 # 软件列表备份
 pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
 pip freeze > /home/gaffey/.config/privarcy/requirements.txt
-
 sleep 1
- 
 # 提交文件至github
 sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Github!' '提交文件至Github服务器...'
 cd /home/gaffey/.config
-git add -A
 git add -A
 git commit -m 'Daily update'
 git push && sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Successful!' '成功备份至Github...'

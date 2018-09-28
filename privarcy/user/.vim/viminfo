@@ -14,10 +14,12 @@
 ~Msle0~/\<endfunction\>
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1538063610,,"w"
 :q
-|2,0,1538063565,,"q"
+|2,0,1538143813,,"q"
+:q!
+|2,0,1538139484,,"q!"
+:w
+|2,0,1538139480,,"w"
 :BundleClean
 |2,0,1538063562,,"BundleClean"
 :<F2>
@@ -26,8 +28,6 @@
 |2,0,1538057039,,"e"
 :wq
 |2,0,1538059522,,"wq"
-:q!
-|2,0,1538059511,,"q!"
 :!cc % -o %< && ./%<
 |2,0,1538059388,,"!cc % -o %< && ./%<"
 :source ~/.vim/viminfo
@@ -204,33 +204,32 @@
 	!time ./%<
 |3,0,0,0,1,0,1538058042,"!time ./%<"
 ""1	LINE	0
-	Plugin 'VundleVim/Vundle.vim'
-|3,1,1,1,1,0,1538063572,"Plugin 'VundleVim/Vundle.vim'"
+		return 0;
+|3,1,1,1,1,0,1538064836,"	return 0;"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1538063559,""
-"3	CHAR	0
-	
-	
-|3,0,3,0,2,0,1538063554,"",""
+		printf("Hello World!!!!!!!\n");
+|3,0,2,1,1,0,1538064835,"	printf(\"Hello World!!!!!!!\\n\");"
+"3	LINE	0
+	# -*- coding: utf-8 -*-
+|3,0,3,1,1,0,1538064622,"# -*- coding: utf-8 -*-"
 "4	LINE	0
-	Plugin 'Yggdroot/indentLine'
-|3,0,4,1,1,0,1538063550,"Plugin 'Yggdroot/indentLine'"
+	#!/usr/bin/env python
+|3,0,4,1,1,0,1538064618,"#!/usr/bin/env python"
 "5	LINE	0
-	Plugin 'tpope/vim-commentary'
-|3,0,5,1,1,0,1538063451,"Plugin 'tpope/vim-commentary'"
+	#!/usr/bin/env python
+|3,0,5,1,1,0,1538064614,"#!/usr/bin/env python"
 "6	LINE	0
-	:q
-|3,0,6,1,1,0,1538059516,":q"
+	bin/bash
+|3,0,6,1,1,0,1538064595,"bin/bash"
 "7	LINE	0
-	:q
-|3,0,7,1,1,0,1538059426,":q"
+	 
+|3,0,7,1,1,0,1538064574," "
 "8	LINE	0
 	
-|3,0,8,1,1,0,1538059426,""
+|3,0,8,1,1,0,1538064574,""
 "9	LINE	0
-	:q
-|3,0,9,1,1,0,1538058064,":q"
+	git add -A
+|3,0,9,1,1,0,1538064566,"git add -A"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -287,13 +286,57 @@
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1538059581," "
+	i
+|3,0,36,0,1,0,1538064824,"i"
 
 # Buffer list:
-%~/.vim/vimrc	62	17
+%/tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD	6	80
 
 # History of marks within files (newest to oldest):
+
+> /tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD
+	*	1538143813	0
+	"	6	80
+
+> /etc/pacman.d/mirrorlist
+	*	1538139482	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
+
+> ~/test.c
+	*	1538064842	0
+	"	4	1
+	.	4	0
+	+	2	9
+	+	6	25
+	+	6	9
+	+	3	0
+	+	6	1
+	+	6	0
+	+	3	0
+	+	6	1
+	+	6	2
+	+	6	3
+	+	6	0
+	+	4	0
+
+> ~/testc
+	*	1538064802	0
+	"	1	0
+
+> ~/.config/privarcy/etc/cron/SysBackup
+	*	1538064624	0
+	"	1	0
+	.	1	0
+	+	19	0
+	+	15	0
+	+	16	0
+	+	2	0
+	+	1	10
+	+	1	22
+	+	1	0
 
 > ~/.vim/vimrc
 	*	1538063639	0
@@ -446,56 +489,9 @@
 	.	1	0
 	+	1	0
 
-> ~/test.c
-	*	1538059598	0
-	"	6	0
-	^	6	4
-	.	6	0
-	+	2	9
-	+	4	25
-	+	5	9
-	+	3	0
-	+	5	1
-	+	6	0
-	+	5	0
-	+	6	0
-	+	3	0
-	+	6	1
-	+	6	2
-	+	6	3
-	+	6	0
-
 > ~/test.sh
 	*	1538057149	0
 	"	1	0
 	^	1	10
 	.	1	9
 	+	1	9
-
-> ~/bash.sh
-	*	1538055753	0
-	"	1	0
-	^	1	10
-	.	1	9
-	+	1	9
-
-> ~/.config/blender/2.79/scripts/addons/Paint_shotkey_set.py
-	*	1538055689	0
-	"	40	0
-	.	41	0
-	+	41	0
-	a	40	0
-
-> ~/.config/blender/2.79/scripts/addons/Cam_shotkey_set.py
-	*	1538053519	0
-	"	16	0
-	.	16	0
-	+	33	0
-	+	16	0
-	a	14	0
-
-> ~/.config/blender/2.79/scripts/NERD_tree_1
-	*	1538053419	0
-	"	9	0
-	.	1	0
-	+	1	0
