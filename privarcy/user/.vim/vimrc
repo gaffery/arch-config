@@ -52,6 +52,7 @@ Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --system-l
 Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
 "自定义函数"

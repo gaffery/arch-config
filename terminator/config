@@ -1,5 +1,4 @@
 [global_config]
-  always_on_top = True
   always_split_with_profile = True
   dbus = False
   enabled_plugins = ,

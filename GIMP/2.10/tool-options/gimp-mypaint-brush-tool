@@ -1,10 +1,10 @@
 # GIMP gimp-mypaint-brush-tool options
 
-(foreground (color-rgb 0.266667 0.694118 0.341176))
+(foreground (color-rgb 0.200000 0.411765 0.196078))
 (mybrush "ballpen")
 (brush-size 51.000000)
 (brush-hardness 0.500000)
-(radius 1.300000)
+(radius 2.800000)
 (opaque 0.200000)
 (hardness 0.200000)
 
