@@ -47,23 +47,18 @@ set whichwrap+=<,>,h,l
 set backupdir=/tmp
 set directory=/tmp
 
-"插件配置"
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'haya14busa/incsearch.vim'
-call vundle#end()
+call plug#begin('~/.vim/plugged')
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --clang-completer --system-libclang'}
+Plug 'scrooloose/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'itchyny/lightline.vim'
+call plug#end()
 
 "自定义函数"
 func! CompileRun()
 	exec "w"
 	silent !clear
 	if &filetype == 'c'
-		"silent '!cc % -o %<'
 		exec '!cc % -o %< && ./%<'
 	elseif &filetype == 'python'
 		exec '!python %'
@@ -85,6 +80,13 @@ vnoremap <F12> :call CompileRun()<CR>
 inoremap <F12> <ESC>:call CompileRun()<CR>
 cnoremap <F12> <ESC>:call CompileRun()<CR>
 
+"lightline 状态栏配置"
+let g:lightline = {
+	  \	'active': {
+	  \	 'right': [['lineinfo'],['percent'],['filetype']]
+      \ },
+      \ }
+
 "NERDTree配置"
 map <F2> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=1
@@ -92,6 +94,7 @@ let NERDTreeShowBookmarks=0
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 let NERDTreeWinSize=20
 let g:NERDTreeWinPos = "right"
+
 "YCM 配置"
 let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_python_binary_path='/usr/bin/python'

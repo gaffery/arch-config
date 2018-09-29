@@ -46,6 +46,7 @@
 ; (gtk_accel_path "<Actions>/MainWindow/show_all_panes" "<Primary>F9")
 ; (gtk_accel_path "<Actions>/PageView/remove_link" "")
 ; (gtk_accel_path "<Actions>/PageView/open_file_templates_folder" "")
+; (gtk_accel_path "<Actions>/PageView/toggle_format_emphasis" "")
 ; (gtk_accel_path "<Actions>/GtkInterface/open_page" "<Primary>j")
 ; (gtk_accel_path "<Actions>/GtkInterface/email_page" "")
 ; (gtk_accel_path "<Actions>/PageView/find_previous" "<Primary><Shift>g")

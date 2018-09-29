@@ -2,12 +2,16 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2018-09-24T22:49:02+08:00
 
-====== Home ======
+====== ArchLinux ======
 **Created Monday 24 September 2018**
-pacman 安装与恢复
+
+==== pacman 包管理 ====
+pacman 安装与恢复0
 {{./pasted_image.png}}
 pip 安装与恢复
 {{./pasted_image001.png}}
+
+
 
 
 pacman -Qk 检查文件包完整性

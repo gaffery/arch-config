@@ -1,4 +1,3 @@
-adobe-source-code-pro-fonts
 alsa-oss
 alsa-utils
 archlinux-wallpaper
