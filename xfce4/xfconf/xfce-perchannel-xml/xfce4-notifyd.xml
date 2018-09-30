@@ -8,6 +8,7 @@
     <property name="known_applications" type="array">
       <value type="string" value="chromium"/>
       <value type="string" value="Firefox"/>
+      <value type="string" value="kupfer"/>
       <value type="string" value="nm-applet"/>
       <value type="string" value="notify-send"/>
       <value type="string" value="Thunar"/>

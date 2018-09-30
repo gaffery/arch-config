@@ -23,7 +23,7 @@
       "exit" : "<Alt>F4"
     },
     "global" : {
-      "ui-type" : "essential",
+      "ui-type" : "virgilio",
       "show-indicator" : false
     }
   },
@@ -31,17 +31,13 @@
     "global" : {
       "disabled-plugins" : [
         "SynapseChatActions",
-        "SynapseCommandPlugin",
         "SynapseFileOpPlugin",
-        "SynapseLocatePlugin",
-        "SynapseCalculatorPlugin",
         "SynapseGnomeBookmarksPlugin",
-        "SynapseHybridSearchPlugin",
         "SynapseImgUrPlugin",
         "SynapseLaunchpadPlugin",
-        "SynapseZeitgeistRelated",
-        "SynapseZeitgeistPlugin",
-        "SynapseSshPlugin"
+        "SynapseSshPlugin",
+        "SynapseCalculatorPlugin",
+        "SynapseCommandPlugin"
       ]
     }
   }

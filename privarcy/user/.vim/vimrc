@@ -96,6 +96,13 @@ let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
 let NERDTreeWinSize=20
 let g:NERDTreeWinPos = "right"
 
+"nerdcommenter 注释插件配置"
+let g:NERDCompactSexyComs = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDToggleCheckAllLines = 1
+
 "YCM 配置"
 let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_python_binary_path='/usr/bin/python'

@@ -57,6 +57,7 @@ iproute2
 iputils
 ipython
 jfsutils
+kupfer
 leafpad
 less
 libmpcdec
@@ -102,7 +103,6 @@ sed
 shadow
 shadowsocks-libev
 sudo
-synapse
 sysfsutils
 syslinux
 systemd
@@ -138,7 +138,6 @@ xfce4-pulseaudio-plugin
 xfce4-screenshooter
 xfce4-session
 xfce4-settings
-xfce4-terminal
 xfconf
 xfdesktop
 xfsprogs

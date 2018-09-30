@@ -75,9 +75,9 @@
       <property name="Print" type="string" value="xfce4-screenshooter -r -c">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;F1" type="string" value="synapse"/>
       <property name="&lt;Alt&gt;F3" type="string" value="terminator"/>
       <property name="Scroll_Lock" type="string" value="zim"/>
+      <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
