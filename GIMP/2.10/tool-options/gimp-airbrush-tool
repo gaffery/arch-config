@@ -1,15 +1,13 @@
 # GIMP gimp-airbrush-tool options
 
-(foreground (color-rgb 0.231373 0.227451 0.203922))
+(foreground (color-rgb 0.600000 0.525490 0.427451))
 (background (color-rgb 0.329412 0.529412 0.321569))
 (brush "2. Block 01")
 (dynamics "Perspective")
-(gradient "Custom")
+(gradient "Tropical Colors")
 (palette "Default")
-(brush-size 42.500000)
-(brush-aspect-ratio 3.157895)
+(brush-size 72.500000)
 (brush-angle 90.000000)
-(brush-hardness 0.950000)
 (fade-length 150.000000)
 (fade-unit percent)
 

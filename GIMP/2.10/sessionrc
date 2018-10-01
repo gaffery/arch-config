@@ -66,8 +66,8 @@
     (position 1531 505))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 463 360)
-    (size 1017 720))
+    (position 463 155)
+    (size 1190 899))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
     (position 674 360)

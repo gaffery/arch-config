@@ -82,18 +82,17 @@ netctl
 network-manager-applet
 networkmanager
 nvidia
+nvidia-settings
 opencl-nvidia
 openssh
 pacman
 patch
-pavucontrol
 pciutils
 perl
 pkgconf
 procps-ng
 proxychains-ng
 psmisc
-pulseaudio-alsa
 python-pip
 python2-jedi
 reiserfsprogs
@@ -134,7 +133,6 @@ xf86-video-vesa
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
-xfce4-pulseaudio-plugin
 xfce4-screenshooter
 xfce4-session
 xfce4-settings
