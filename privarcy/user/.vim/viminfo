@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538237874,,"w"
+|2,0,1538319106,,"w"
 :q
 |2,0,1538237535,,"q"
 :source .vim/vimrc
@@ -210,35 +210,35 @@ $
 
 # Registers:
 "0	LINE	0
-	echo 'test >>>>>>>>> !!!!'
-|3,0,0,1,1,0,1538308166,"echo 'test >>>>>>>>> !!!!'"
+		printf("There are %d feet in %d fathoms!\n", feet,fathoms);
+|3,0,0,1,1,0,1538318850,"	printf(\"There are %d feet in %d fathoms!\\n\", feet,fathoms);"
 ""1	LINE	0
-	echo 'test >>>>>>>>> !!!!'
-|3,1,1,1,1,0,1538308177,"echo 'test >>>>>>>>> !!!!'"
+	
+|3,1,1,1,1,0,1538319104,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1538308144,""
+|3,0,2,1,1,0,1538318901,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1538308142,""
+|3,0,3,1,1,0,1538318895,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1538308140,""
+		printf("Yes, I said %d feet d fathoms!\n", feet,fathoms);
+|3,0,4,1,1,0,1538318872,"	printf(\"Yes, I said %d feet d fathoms!\\n\", feet,fathoms);"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1538308137,""
+		printf("Yes, I said %d feet d fathoms!\n", feet,fathoms);
+|3,0,5,1,1,0,1538318867,"	printf(\"Yes, I said %d feet d fathoms!\\n\", feet,fathoms);"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1538308127,""
+		printf("Hello World!!!!!!!\n");
+|3,0,6,1,1,0,1538318768,"	printf(\"Hello World!!!!!!!\\n\");"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1538308125,""
+|3,0,7,1,1,0,1538318753,""
 "8	LINE	0
-	
-|3,0,8,1,1,0,1538307921,""
+	echo 'test >>>>>>>>> !!!!'
+|3,0,8,1,1,0,1538308177,"echo 'test >>>>>>>>> !!!!'"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1538307913,""
+|3,0,9,1,1,0,1538308144,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -295,37 +295,54 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1538307986," "
+	,
+|3,0,36,0,1,0,1538318884,","
 
 # Buffer list:
-%~/test.c	6	0
+%~/test.c	9	0
 
 # History of marks within files (newest to oldest):
 
 > ~/test.c
-	*	1538315594	0
-	"	6	0
-	.	4	0
-	+	7	9
-	+	7	25
-	+	7	9
-	+	7	0
-	+	7	1
-	+	7	0
-	+	7	1
-	+	7	2
-	+	7	3
-	+	7	0
-	+	7	12
-	+	7	0
-	+	3	0
-	+	1	0
-	+	3	0
-	+	6	0
+	*	1538319106	0
+	"	9	0
+	.	12	0
+	+	12	9
+	+	12	25
+	+	12	9
+	+	12	0
+	+	12	1
+	+	12	0
+	+	12	1
+	+	12	2
+	+	12	3
+	+	12	0
+	+	12	12
+	+	12	0
 	+	4	0
+	+	1	0
+	+	4	0
+	+	11	0
+	+	10	0
+	+	4	0
+	+	2	0
+	+	4	0
+	+	5	18
+	+	10	0
+	+	7	18
+	+	8	60
+	+	10	0
+	+	9	36
+	+	10	0
+	+	12	0
 	a	1	0
-	m	2	0
+	m	3	0
+
+> ~/NERD_tree_1
+	*	1538318637	0
+	"	6	0
+	.	1	0
+	+	1	0
 
 > ~/test.sh
 	*	1538308217	0
@@ -511,12 +528,6 @@ $
 	+	102	0
 	a	53	26
 	u	115	42
-
-> ~/NERD_tree_1
-	*	1538223090	0
-	"	7	0
-	.	1	0
-	+	1	0
 
 > ~/[Vundle] Installer
 	*	1538219724	0
