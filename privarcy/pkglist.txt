@@ -1,5 +1,5 @@
-alsa-oss
 alsa-utils
+arch-install-scripts
 archlinux-wallpaper
 aria2
 autoconf

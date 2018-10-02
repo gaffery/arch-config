@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="Nvidia_GPU_83_HDMI_DP-IEC958" mtime="1538404790" type="string">
+		<stringvalue>IEC958</stringvalue>
+	</entry>
+</gconf>
