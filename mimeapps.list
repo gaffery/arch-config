@@ -31,11 +31,17 @@ text/vnd.graphviz=userapp-"xdot"-0T3RMZ.desktop
 text/x-python=leafpad.desktop
 application/msword-template=userapp-"xdot"-GLGANZ.desktop
 application/pdf=epdfview.desktop
+x-scheme-handler/news=userapp-Thunderbird-TMS8PZ.desktop
+x-scheme-handler/snews=userapp-Thunderbird-TMS8PZ.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-TMS8PZ.desktop
+x-scheme-handler/feed=userapp-Thunderbird-GIC9PZ.desktop
+application/rss+xml=userapp-Thunderbird-GIC9PZ.desktop
+application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop
 
 [Added Associations]
 text/plain=leafpad.desktop;vim.desktop;mousepad.desktop;
 video/mp4=mpv.desktop;
-image/jpeg=viewnior.desktop;gimp.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
+image/jpeg=gimp.desktop;viewnior.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
 application/x-blender=blender.desktop;
 image/png=viewnior.desktop;feh.desktop;gimp.desktop;ristretto.desktop;gpicview.desktop;
 application/x-desktop=leafpad.desktop;
@@ -108,5 +114,11 @@ application/x-subrip=leafpad.desktop;
 text/x-ssa=leafpad.desktop;
 application/vnd.apple.mpegurl=mpv.desktop;
 application/x-yaml=vim.desktop;
+x-scheme-handler/news=userapp-Thunderbird-TMS8PZ.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-TMS8PZ.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-TMS8PZ.desktop;
+x-scheme-handler/feed=userapp-Thunderbird-GIC9PZ.desktop;
+application/rss+xml=userapp-Thunderbird-GIC9PZ.desktop;
+application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop;
 
 [Removed Associations]

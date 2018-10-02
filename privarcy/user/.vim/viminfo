@@ -17,12 +17,12 @@
 $
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1538463378,,"w"
 :q
 |2,0,1538456325,,"q"
 :q!
 |2,0,1538455954,,"q!"
-:w
-|2,0,1538455950,,"w"
 :PlugUpdate
 |2,0,1538455934,,"PlugUpdate"
 :w! testlib.py 
@@ -214,41 +214,33 @@ $
 "0	LINE	0
 		printf("There are %d feet in %d fathoms!\n", feet,fathoms);
 |3,0,0,1,1,0,1538318850,"	printf(\"There are %d feet in %d fathoms!\\n\", feet,fathoms);"
-""1	LINE	0
-	in			ffd
-|3,1,1,1,1,0,1538456388,"in			ffd"
+"1	LINE	0
+	
+|3,0,1,1,1,0,1538463377,""
 "2	LINE	0
-	in			ffd
-|3,0,2,1,1,0,1538456333,"in			ffd"
+	
+|3,0,2,1,1,0,1538459122,""
 "3	LINE	0
-	in			ffd
-|3,0,3,1,1,0,1538455966,"in			ffd"
+	
+|3,0,3,1,1,0,1538459121,""
 "4	LINE	0
-		return 0;
-|3,0,4,1,1,0,1538378197,"	return 0;"
+	in			ffd
+|3,0,4,1,1,0,1538456388,"in			ffd"
 "5	LINE	0
-	print('hello world')
-|3,0,5,1,1,0,1538377752,"print('hello world')"
+	in			ffd
+|3,0,5,1,1,0,1538456333,"in			ffd"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1538374902,""
+	in			ffd
+|3,0,6,1,1,0,1538455966,"in			ffd"
 "7	LINE	0
-	}
-|3,0,7,1,1,0,1538374833,"}"
-"8	CHAR	0
-	int main(void)
-	{
-		int feet, fathoms;
-		fathoms = 2;
-		feet = 6 * fathoms;
-		printf("There are %d feet in %d fathoms!\n", feet,fathoms);
-		printf("Yes, I said %d feet!\n", 6 *fathoms);
 		return 0;
-	
-|3,0,8,0,9,0,1538374832,"int main(void)","{","	int feet, fathoms;","	fathoms = 2;","	feet = 6 * fathoms;","	printf(\"There are %d feet in %d fathoms!\\n\", feet,fathoms);","	printf(\"Yes, I said %d feet!\\n\", 6 *fathoms);","	return 0;",""
+|3,0,7,1,1,0,1538378197,"	return 0;"
+"8	LINE	0
+	print('hello world')
+|3,0,8,1,1,0,1538377752,"print('hello world')"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1538319104,""
+|3,0,9,1,1,0,1538374902,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -304,20 +296,23 @@ $
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	n
-|3,0,36,0,1,0,1538455837,"n"
+""-	CHAR	0
+	st
+|3,1,36,0,1,0,1538463544,"st"
 
 # Buffer list:
-%~/test.c	1	7
+%~/test.c	1	18
 
 # History of marks within files (newest to oldest):
 
 > ~/test.c
-	*	1538456388	0
-	"	1	7
-	.	1	7
+	*	1538463689	0
+	"	1	18
+	^	1	13
+	.	1	0
 	+	1	7
+	+	2	0
+	+	1	0
 
 > ~/test.py
 	*	1538456324	0

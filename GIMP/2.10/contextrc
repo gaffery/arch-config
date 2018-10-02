@@ -1,6 +1,6 @@
 # GIMP user context
 
-(tool "gimp-paintbrush-tool")
+(tool "gimp-operation-tool")
 (paint-info "gimp-paintbrush")
 (foreground (color-rgb 0.600000 0.525490 0.427451))
 (background (color-rgb 0.329412 0.529412 0.321569))

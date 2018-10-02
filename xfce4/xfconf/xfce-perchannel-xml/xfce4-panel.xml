@@ -64,6 +64,7 @@
         <value type="string" value="kupfer.py"/>
         <value type="string" value="synapse"/>
         <value type="string" value="thunar"/>
+        <value type="string" value="telegramdesktop"/>
       </property>
       <property name="names-hidden" type="array">
       </property>
@@ -74,6 +75,8 @@
         <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
     </property>
-    <property name="plugin-1" type="string" value="actions"/>
+    <property name="plugin-1" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
   </property>
 </channel>

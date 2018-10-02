@@ -6,7 +6,7 @@
 (dynamics "Perspective")
 (pattern "Pine")
 (palette "Default")
-(brush-size 72.500000)
+(brush-size 52.500000)
 (brush-angle 90.000000)
 (fade-length 150.000000)
 (fade-unit percent)

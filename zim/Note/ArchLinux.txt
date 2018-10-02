@@ -10,10 +10,6 @@ pacman 安装与恢复0
 {{./pasted_image.png}}
 pip 安装与恢复
 {{./pasted_image001.png}}
-
-
-
-
 pacman -Qk 检查文件包完整性
 
 

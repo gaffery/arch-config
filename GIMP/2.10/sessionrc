@@ -11,13 +11,13 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 1280 0)
-    (size 1276 1054)
+    (position 0 0)
+    (size 2556 1054)
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
         (right-docks-width "236")
-        (maximized "no"))
+        (maximized "yes"))
     (gimp-dock
         (side left)
         (book
@@ -136,8 +136,8 @@
     (size 291 714))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 741 431)
-    (size 535 576))
+    (position 1549 295)
+    (size 535 605))
 (session-info "toplevel"
     (factory-entry "gimp-color-picker-tool-dialog")
     (position 1302 238)
@@ -151,7 +151,7 @@
     (size 160 720))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 348 636))
+    (position 1750 259))
 
 (hide-docks no)
 (single-window-mode yes)
