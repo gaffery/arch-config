@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538463378,,"w"
+|2,0,1538483687,,"w"
 :q
 |2,0,1538456325,,"q"
 :q!
@@ -297,13 +297,21 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	st
-|3,1,36,0,1,0,1538463544,"st"
+	 
+|3,1,36,0,1,0,1538482380," "
 
 # Buffer list:
-%~/test.c	1	18
+%~/.config/privarcy/PreLogin	9	1
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/privarcy/PreLogin
+	*	1538483687	0
+	"	9	1
+	^	9	2
+	.	9	1
+	+	8	16
+	+	9	1
 
 > ~/test.c
 	*	1538463689	0
@@ -358,7 +366,3 @@ $
 > /tmp/alsa-info.txt.eyKX2n2XXM
 	*	1538391324	0
 	"	369	6
-
-> /etc/X11/xorg.conf.bak
-	*	1538390234	0
-	"	21	14

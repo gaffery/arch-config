@@ -41,7 +41,7 @@ application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop
 [Added Associations]
 text/plain=leafpad.desktop;vim.desktop;mousepad.desktop;
 video/mp4=mpv.desktop;
-image/jpeg=gimp.desktop;viewnior.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
+image/jpeg=viewnior.desktop;gimp.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
 application/x-blender=blender.desktop;
 image/png=viewnior.desktop;feh.desktop;gimp.desktop;ristretto.desktop;gpicview.desktop;
 application/x-desktop=leafpad.desktop;
