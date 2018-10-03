@@ -310,9 +310,13 @@ $
 |3,0,36,0,1,0,1538573859,")"
 
 # Buffer list:
-%~/test.c	6	0
+%/tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD	98	18
 
 # History of marks within files (newest to oldest):
+
+> /tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD
+	*	1538585044	0
+	"	98	18
 
 > ~/test.c
 	*	1538574566	0
@@ -445,9 +449,3 @@ $
 	.	9	1
 	+	8	16
 	+	9	1
-
-> ~/.vim/plugged/YouCompleteMe/run_tests.py
-	*	1538456306	0
-	"	2	3
-	.	2	2
-	+	2	2

@@ -117,6 +117,7 @@ thunar-archive-plugin
 thunar-volman
 transmission-gtk
 tumbler
+unrar
 unzip
 usbutils
 util-linux
