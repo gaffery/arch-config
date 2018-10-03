@@ -93,6 +93,7 @@ pkgconf
 procps-ng
 proxychains-ng
 psmisc
+pulseaudio
 pulseaudio-alsa
 python-pip
 python2-jedi
@@ -114,8 +115,6 @@ texinfo
 thunar
 thunar-archive-plugin
 thunar-volman
-thunderbird
-thunderbird-i18n-zh-cn
 transmission-gtk
 tumbler
 unzip
@@ -132,11 +131,9 @@ xarchiver
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-wacom
-xf86-video-vesa
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
-xfce4-pulseaudio-plugin
 xfce4-screenshooter
 xfce4-session
 xfce4-settings

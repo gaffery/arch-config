@@ -53,6 +53,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdcommenter'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 "自定义函数"
