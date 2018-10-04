@@ -205,3 +205,1178 @@
 2018-10-04 20:07:35,542 - ERROR - NEMbox.api:534: can't get song url, id: 64317
 2018-10-04 20:07:36,215 - DEBUG - NEMbox.player:285: 196841,别说我的眼泪你无所谓,http://music.163.com/song/media/outer/url?id=196841.mp3
 2018-10-04 20:12:15,294 - DEBUG - NEMbox.player:285: 277367,坚强的理由,http://music.163.com/song/media/outer/url?id=277367.mp3
+################################################################################
+2018-10-04 20:25:20,086 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-04 20:25:20,086 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-04 20:25:25,821 - ERROR - NEMbox.api:534: can't get song url, id: 159681
+2018-10-04 20:25:25,822 - ERROR - NEMbox.api:534: can't get song url, id: 28406491
+2018-10-04 20:25:25,822 - ERROR - NEMbox.api:534: can't get song url, id: 27552554
+2018-10-04 20:25:28,399 - DEBUG - NEMbox.player:285: 27552554,天竺少女,http://music.163.com/song/media/outer/url?id=27552554.mp3
+2018-10-04 20:28:42,873 - DEBUG - NEMbox.player:310: Callback
+2018-10-04 20:28:42,874 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-04 20:28:48,187 - ERROR - NEMbox.api:534: can't get song url, id: 463152741
+2018-10-04 20:28:48,187 - ERROR - NEMbox.api:534: can't get song url, id: 4010717
+2018-10-04 20:28:48,187 - ERROR - NEMbox.api:534: can't get song url, id: 167942
+2018-10-04 20:28:48,208 - DEBUG - NEMbox.player:285: 463152741,古乐风华录·妙音天成（伴奏）,http://music.163.com/song/media/outer/url?id=463152741.mp3
+2018-10-04 20:28:51,757 - DEBUG - NEMbox.player:285: 4010717,Aurora,http://music.163.com/song/media/outer/url?id=4010717.mp3
+2018-10-04 20:28:54,905 - DEBUG - NEMbox.player:310: Callback
+2018-10-04 20:28:54,905 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-04 20:28:55,310 - ERROR - NEMbox.api:534: can't get song url, id: 5049423
+2018-10-04 20:28:55,310 - ERROR - NEMbox.api:534: can't get song url, id: 25642114
+2018-10-04 20:28:55,310 - ERROR - NEMbox.api:534: can't get song url, id: 229636
+################################################################################
+2018-10-04 20:29:04,785 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-04 20:29:04,785 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-04 20:29:13,600 - ERROR - NEMbox.api:534: can't get song url, id: 29999528
+2018-10-04 20:29:13,600 - ERROR - NEMbox.api:534: can't get song url, id: 223994
+2018-10-04 20:29:13,600 - ERROR - NEMbox.api:534: can't get song url, id: 424477863
+2018-10-04 20:29:14,819 - DEBUG - NEMbox.player:285: 29999528,桃花岛,http://music.163.com/song/media/outer/url?id=29999528.mp3
+2018-10-04 20:29:16,900 - DEBUG - NEMbox.player:285: 223994,你要的爱,http://music.163.com/song/media/outer/url?id=223994.mp3
+2018-10-04 20:29:17,140 - DEBUG - NEMbox.player:285: 424477863,结婚 (2016 unplugged),http://music.163.com/song/media/outer/url?id=424477863.mp3
+2018-10-04 20:29:17,145 - DEBUG - NEMbox.player:310: Callback
+2018-10-04 20:29:17,146 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-04 20:29:17,322 - ERROR - NEMbox.api:534: can't get song url, id: 27927021
+2018-10-04 20:29:17,322 - ERROR - NEMbox.api:534: can't get song url, id: 475073280
+2018-10-04 20:29:17,322 - ERROR - NEMbox.api:534: can't get song url, id: 239170
+2018-10-04 20:29:19,693 - DEBUG - NEMbox.player:285: 475073280,The fear in my heart,http://music.163.com/song/media/outer/url?id=475073280.mp3
+2018-10-04 20:29:24,901 - DEBUG - NEMbox.player:285: 239170,秋天别来,http://music.163.com/song/media/outer/url?id=239170.mp3
+2018-10-04 20:29:26,640 - DEBUG - NEMbox.player:310: Callback
+2018-10-04 20:29:26,641 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-04 20:29:26,808 - ERROR - NEMbox.api:534: can't get song url, id: 416388015
+2018-10-04 20:29:26,808 - ERROR - NEMbox.api:534: can't get song url, id: 101178
+2018-10-04 20:29:26,808 - ERROR - NEMbox.api:534: can't get song url, id: 125835
+2018-10-04 20:29:26,827 - DEBUG - NEMbox.player:285: 416388015,孤龙山-主场景,http://music.163.com/song/media/outer/url?id=416388015.mp3
+2018-10-04 20:29:29,299 - DEBUG - NEMbox.player:285: 101178,雨碎江南,http://music.163.com/song/media/outer/url?id=101178.mp3
+2018-10-04 20:29:33,758 - DEBUG - NEMbox.player:285: 125835,寂寞才说爱,http://music.163.com/song/media/outer/url?id=125835.mp3
+2018-10-04 20:29:37,193 - DEBUG - NEMbox.player:310: Callback
+2018-10-04 20:29:37,194 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-04 20:29:37,378 - ERROR - NEMbox.api:534: can't get song url, id: 210884
+2018-10-04 20:29:37,379 - ERROR - NEMbox.api:534: can't get song url, id: 334013
+2018-10-04 20:29:37,379 - ERROR - NEMbox.api:534: can't get song url, id: 203890
+2018-10-04 20:29:37,398 - DEBUG - NEMbox.player:285: 210884,张三的歌,http://music.163.com/song/media/outer/url?id=210884.mp3
+2018-10-04 20:29:38,339 - DEBUG - NEMbox.player:285: 334013,为了谁,http://music.163.com/song/media/outer/url?id=334013.mp3
+2018-10-04 20:29:42,367 - ERROR - NEMbox.api:534: can't get song url, id: 340856
+2018-10-04 20:29:42,367 - ERROR - NEMbox.api:534: can't get song url, id: 196841
+2018-10-04 20:29:42,367 - ERROR - NEMbox.api:534: can't get song url, id: 277367
+2018-10-04 20:29:42,367 - ERROR - NEMbox.api:534: can't get song url, id: 32743522
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 237463
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 317252
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 29713754
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 28996926
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 224328
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 166070
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 276362
+2018-10-04 20:29:42,368 - ERROR - NEMbox.api:534: can't get song url, id: 25707139
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 29023455
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 27890961
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 5270989
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 33894165
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 393695
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 28987543
+2018-10-04 20:29:42,369 - ERROR - NEMbox.api:534: can't get song url, id: 105886
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 394556
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 32743520
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 276830
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 249320
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 99181
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 77098
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 342334
+2018-10-04 20:29:42,370 - ERROR - NEMbox.api:534: can't get song url, id: 20744788
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 163123
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 317691
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 29807634
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 29567191
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 106211
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 5258558
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 29777652
+2018-10-04 20:29:42,371 - ERROR - NEMbox.api:534: can't get song url, id: 5230923
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 334940
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 189986
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 190072
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 33785729
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 298838
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 65334
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 156772
+2018-10-04 20:29:42,372 - ERROR - NEMbox.api:534: can't get song url, id: 5230900
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 72612
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 36198126
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 421110610
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 5266237
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 5272525
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 86444
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 33419478
+2018-10-04 20:29:42,373 - ERROR - NEMbox.api:534: can't get song url, id: 436514312
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 26090100
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 251464
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 27580541
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 72589
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 5272524
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 340870
+2018-10-04 20:29:42,374 - ERROR - NEMbox.api:534: can't get song url, id: 5257205
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 359403
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 28302878
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 201898
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 214577
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 142541
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 68087
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 5263584
+2018-10-04 20:29:42,375 - ERROR - NEMbox.api:534: can't get song url, id: 29999285
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 28138269
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 61372
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 29130999
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 105765
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 213149
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 324633
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 33891876
+2018-10-04 20:29:42,376 - ERROR - NEMbox.api:534: can't get song url, id: 28838168
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 96520
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 122211
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 22483104
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 91631
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 165614
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 106205
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 5265387
+2018-10-04 20:29:42,377 - ERROR - NEMbox.api:534: can't get song url, id: 5265399
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 439915614
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 324629
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 5265396
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 87166
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 139377
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 242723
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 316756
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 293885
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 421160840
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 159525
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 274470
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 158184
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 86360
+2018-10-04 20:29:42,378 - ERROR - NEMbox.api:534: can't get song url, id: 69827
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 434052277
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 27591749
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 5276250
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 182999
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 5260445
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 28940204
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 324635
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 91639
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 28287707
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 324636
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 196127
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 324631
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 144026
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 5264840
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 5238169
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 62531
+2018-10-04 20:29:42,379 - ERROR - NEMbox.api:534: can't get song url, id: 231412
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 297612
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 756112
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 26508240
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 26508242
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 183301
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 139268
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 29047169
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 406730501
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 104241
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 29393623
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 62546
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 356587
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 29999506
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 5256542
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 29463694
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 167219
+2018-10-04 20:29:42,380 - ERROR - NEMbox.api:534: can't get song url, id: 28234970
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 289530
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 379785
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 186560
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 29719520
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 143833
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 369392
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 33789522
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 151985
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 440207431
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 202367
+2018-10-04 20:29:42,381 - ERROR - NEMbox.api:534: can't get song url, id: 64317
+2018-10-04 20:29:44,413 - DEBUG - NEMbox.player:285: 340856,随缘,http://music.163.com/song/media/outer/url?id=340856.mp3
+2018-10-04 20:34:57,541 - DEBUG - NEMbox.player:285: 196841,别说我的眼泪你无所谓,http://music.163.com/song/media/outer/url?id=196841.mp3
+2018-10-04 20:39:35,527 - DEBUG - NEMbox.player:285: 277367,坚强的理由,http://music.163.com/song/media/outer/url?id=277367.mp3
+2018-10-04 20:40:08,591 - DEBUG - NEMbox.player:285: 32743522,梦断锦屏,http://music.163.com/song/media/outer/url?id=32743522.mp3
+2018-10-04 20:44:01,037 - DEBUG - NEMbox.player:285: 237463,美酒加咖啡,http://music.163.com/song/media/outer/url?id=237463.mp3
+2018-10-04 20:46:50,209 - DEBUG - NEMbox.player:285: 317252,萍聚,http://music.163.com/song/media/outer/url?id=317252.mp3
+2018-10-04 20:50:10,569 - DEBUG - NEMbox.player:285: 29713754,匆匆那年,http://music.163.com/song/media/outer/url?id=29713754.mp3
+2018-10-04 20:54:12,808 - DEBUG - NEMbox.player:285: 28996926,白桦林,http://music.163.com/song/media/outer/url?id=28996926.mp3
+2018-10-04 20:58:03,195 - DEBUG - NEMbox.player:285: 224328,故事就是故事,http://music.163.com/song/media/outer/url?id=224328.mp3
+2018-10-04 21:01:24,511 - DEBUG - NEMbox.player:285: 166070,逍遥游,http://music.163.com/song/media/outer/url?id=166070.mp3
+2018-10-04 21:03:58,835 - DEBUG - NEMbox.player:285: 276362,渴望,http://music.163.com/song/media/outer/url?id=276362.mp3
+2018-10-04 21:08:07,199 - DEBUG - NEMbox.player:285: 25707139,一生所爱,http://music.163.com/song/media/outer/url?id=25707139.mp3
+2018-10-04 21:12:41,792 - DEBUG - NEMbox.player:285: 29023455,凡眼,http://music.163.com/song/media/outer/url?id=29023455.mp3
+2018-10-04 21:16:30,480 - DEBUG - NEMbox.player:285: 27890961,水月洞天之灵镜传奇主题曲,http://music.163.com/song/media/outer/url?id=27890961.mp3
+2018-10-04 21:20:21,481 - DEBUG - NEMbox.player:285: 5270989,免失志,http://music.163.com/song/media/outer/url?id=5270989.mp3
+2018-10-04 21:23:56,811 - DEBUG - NEMbox.player:285: 33894165,雪里红,http://music.163.com/song/media/outer/url?id=33894165.mp3
+2018-10-04 21:28:29,349 - DEBUG - NEMbox.player:285: 393695,市集,http://music.163.com/song/media/outer/url?id=393695.mp3
+2018-10-04 21:30:03,801 - DEBUG - NEMbox.player:285: 28987543,在路上,http://music.163.com/song/media/outer/url?id=28987543.mp3
+2018-10-04 21:34:28,546 - DEBUG - NEMbox.player:285: 105886,老路小路,http://music.163.com/song/media/outer/url?id=105886.mp3
+2018-10-04 21:39:16,651 - DEBUG - NEMbox.player:285: 394556,凡人歌(Live) - live,http://music.163.com/song/media/outer/url?id=394556.mp3
+2018-10-04 21:43:45,154 - DEBUG - NEMbox.player:285: 32743520,淮古遗殇,http://music.163.com/song/media/outer/url?id=32743520.mp3
+2018-10-04 21:47:27,144 - DEBUG - NEMbox.player:285: 276830,盛夏的果实(Live) - live,http://music.163.com/song/media/outer/url?id=276830.mp3
+2018-10-04 21:52:14,390 - DEBUG - NEMbox.player:285: 249320,梦里水乡,http://music.163.com/song/media/outer/url?id=249320.mp3
+2018-10-04 21:54:53,320 - DEBUG - NEMbox.player:285: 342334,我们的歌谣,http://music.163.com/song/media/outer/url?id=342334.mp3
+2018-10-04 21:54:53,326 - DEBUG - NEMbox.player:285: 342334,我们的歌谣,http://music.163.com/song/media/outer/url?id=342334.mp3
+2018-10-04 21:55:01,162 - DEBUG - NEMbox.player:285: 77098,西海情歌,http://music.163.com/song/media/outer/url?id=77098.mp3
+################################################################################
+2018-10-04 21:55:14,551 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-04 21:55:14,552 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 340856
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 196841
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 277367
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 32743522
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 237463
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 317252
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 29713754
+2018-10-04 21:55:19,780 - ERROR - NEMbox.api:534: can't get song url, id: 28996926
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 224328
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 166070
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 276362
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 25707139
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 29023455
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 27890961
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 5270989
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 33894165
+2018-10-04 21:55:19,781 - ERROR - NEMbox.api:534: can't get song url, id: 393695
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 28987543
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 105886
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 394556
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 32743520
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 276830
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 249320
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 99181
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 77098
+2018-10-04 21:55:19,782 - ERROR - NEMbox.api:534: can't get song url, id: 342334
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 20744788
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 163123
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 317691
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 29807634
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 29567191
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 106211
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 5258558
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 29777652
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 5230923
+2018-10-04 21:55:19,783 - ERROR - NEMbox.api:534: can't get song url, id: 334940
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 189986
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 190072
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 33785729
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 298838
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 65334
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 156772
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 5230900
+2018-10-04 21:55:19,784 - ERROR - NEMbox.api:534: can't get song url, id: 72612
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 36198126
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 421110610
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 5266237
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 5272525
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 86444
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 33419478
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 436514312
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 26090100
+2018-10-04 21:55:19,785 - ERROR - NEMbox.api:534: can't get song url, id: 251464
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 27580541
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 72589
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 5272524
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 340870
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 5257205
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 359403
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 28302878
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 201898
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 214577
+2018-10-04 21:55:19,786 - ERROR - NEMbox.api:534: can't get song url, id: 142541
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 68087
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 5263584
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 29999285
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 28138269
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 61372
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 29130999
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 105765
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 213149
+2018-10-04 21:55:19,787 - ERROR - NEMbox.api:534: can't get song url, id: 324633
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 33891876
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 28838168
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 96520
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 122211
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 22483104
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 91631
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 165614
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 106205
+2018-10-04 21:55:19,788 - ERROR - NEMbox.api:534: can't get song url, id: 5265387
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 5265399
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 439915614
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 324629
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 5265396
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 87166
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 139377
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 242723
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 316756
+2018-10-04 21:55:19,789 - ERROR - NEMbox.api:534: can't get song url, id: 293885
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 421160840
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 159525
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 274470
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 158184
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 86360
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 69827
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 434052277
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 27591749
+2018-10-04 21:55:19,790 - ERROR - NEMbox.api:534: can't get song url, id: 5276250
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 182999
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 5260445
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 28940204
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 324635
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 91639
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 28287707
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 324636
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 196127
+2018-10-04 21:55:19,791 - ERROR - NEMbox.api:534: can't get song url, id: 324631
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 144026
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 5264840
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 5238169
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 62531
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 231412
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 297612
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 756112
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 26508240
+2018-10-04 21:55:19,792 - ERROR - NEMbox.api:534: can't get song url, id: 26508242
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 183301
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 139268
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 29047169
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 406730501
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 104241
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 29393623
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 62546
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 356587
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 29999506
+2018-10-04 21:55:19,793 - ERROR - NEMbox.api:534: can't get song url, id: 5256542
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 29463694
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 167219
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 28234970
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 289530
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 379785
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 186560
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 29719520
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 143833
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 369392
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 33789522
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 151985
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 440207431
+2018-10-04 21:55:19,794 - ERROR - NEMbox.api:534: can't get song url, id: 202367
+2018-10-04 21:55:19,795 - ERROR - NEMbox.api:534: can't get song url, id: 64317
+################################################################################
+2018-10-04 21:55:28,663 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-04 21:55:28,664 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-04 21:55:32,027 - ERROR - NEMbox.api:534: can't get song url, id: 340856
+2018-10-04 21:55:32,027 - ERROR - NEMbox.api:534: can't get song url, id: 196841
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 277367
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 32743522
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 237463
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 317252
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 29713754
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 28996926
+2018-10-04 21:55:32,028 - ERROR - NEMbox.api:534: can't get song url, id: 224328
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 166070
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 276362
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 25707139
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 29023455
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 27890961
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 5270989
+2018-10-04 21:55:32,029 - ERROR - NEMbox.api:534: can't get song url, id: 33894165
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 393695
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 28987543
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 105886
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 394556
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 32743520
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 276830
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 249320
+2018-10-04 21:55:32,030 - ERROR - NEMbox.api:534: can't get song url, id: 99181
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 77098
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 342334
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 20744788
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 163123
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 317691
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 29807634
+2018-10-04 21:55:32,031 - ERROR - NEMbox.api:534: can't get song url, id: 29567191
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 106211
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 5258558
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 29777652
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 5230923
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 334940
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 189986
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 190072
+2018-10-04 21:55:32,032 - ERROR - NEMbox.api:534: can't get song url, id: 33785729
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 298838
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 65334
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 156772
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 5230900
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 72612
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 36198126
+2018-10-04 21:55:32,033 - ERROR - NEMbox.api:534: can't get song url, id: 421110610
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 5266237
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 5272525
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 86444
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 33419478
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 436514312
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 26090100
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 251464
+2018-10-04 21:55:32,034 - ERROR - NEMbox.api:534: can't get song url, id: 27580541
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 72589
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 5272524
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 340870
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 5257205
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 359403
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 28302878
+2018-10-04 21:55:32,035 - ERROR - NEMbox.api:534: can't get song url, id: 201898
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 214577
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 142541
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 68087
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 5263584
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 29999285
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 28138269
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 61372
+2018-10-04 21:55:32,036 - ERROR - NEMbox.api:534: can't get song url, id: 29130999
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 105765
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 213149
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 324633
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 33891876
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 28838168
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 96520
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 122211
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 22483104
+2018-10-04 21:55:32,037 - ERROR - NEMbox.api:534: can't get song url, id: 91631
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 165614
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 106205
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 5265387
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 5265399
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 439915614
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 324629
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 5265396
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 87166
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 139377
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 242723
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 316756
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 293885
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 421160840
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 159525
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 274470
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 158184
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 86360
+2018-10-04 21:55:32,038 - ERROR - NEMbox.api:534: can't get song url, id: 69827
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 434052277
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 27591749
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 5276250
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 182999
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 5260445
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 28940204
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 324635
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 91639
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 28287707
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 324636
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 196127
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 324631
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 144026
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 5264840
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 5238169
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 62531
+2018-10-04 21:55:32,039 - ERROR - NEMbox.api:534: can't get song url, id: 231412
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 297612
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 756112
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 26508240
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 26508242
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 183301
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 139268
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 29047169
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 406730501
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 104241
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 29393623
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 62546
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 356587
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 29999506
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 5256542
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 29463694
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 167219
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 28234970
+2018-10-04 21:55:32,040 - ERROR - NEMbox.api:534: can't get song url, id: 289530
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 379785
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 186560
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 29719520
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 143833
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 369392
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 33789522
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 151985
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 440207431
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 202367
+2018-10-04 21:55:32,041 - ERROR - NEMbox.api:534: can't get song url, id: 64317
+2018-10-04 21:55:36,528 - DEBUG - NEMbox.player:285: 77098,西海情歌,http://music.163.com/song/media/outer/url?id=77098.mp3
+2018-10-04 22:01:20,164 - DEBUG - NEMbox.player:285: 342334,我们的歌谣,http://music.163.com/song/media/outer/url?id=342334.mp3
+2018-10-04 22:06:29,071 - DEBUG - NEMbox.player:285: 20744788,With An Orchid,http://music.163.com/song/media/outer/url?id=20744788.mp3
+2018-10-04 22:11:35,584 - DEBUG - NEMbox.player:285: 163123,秋天不回来,http://music.163.com/song/media/outer/url?id=163123.mp3
+2018-10-04 22:15:51,817 - DEBUG - NEMbox.player:285: 317691,真心真意过一生,http://music.163.com/song/media/outer/url?id=317691.mp3
+2018-10-04 22:20:24,872 - DEBUG - NEMbox.player:285: 29807634,喜洋洋,http://music.163.com/song/media/outer/url?id=29807634.mp3
+2018-10-04 22:25:32,848 - DEBUG - NEMbox.player:285: 29567191,三十岁的女人,http://music.163.com/song/media/outer/url?id=29567191.mp3
+2018-10-04 22:54:11,139 - DEBUG - NEMbox.player:285: 65334,你的背包,http://music.163.com/song/media/outer/url?id=65334.mp3
+2018-10-04 22:54:11,152 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366cf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,156 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0cf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,183 - WARNING - NEMbox.player:145: Song 65334 is unavailable due to copyright issue.
+2018-10-04 22:54:11,226 - DEBUG - NEMbox.player:285: 156772,再度重相逢,http://music.163.com/song/media/outer/url?id=156772.mp3
+2018-10-04 22:54:11,234 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,239 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e07b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,250 - WARNING - NEMbox.player:145: Song 156772 is unavailable due to copyright issue.
+2018-10-04 22:54:11,292 - DEBUG - NEMbox.player:285: 5230900,思念谁,http://music.163.com/song/media/outer/url?id=5230900.mp3
+2018-10-04 22:54:11,300 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0ef0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,304 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,314 - WARNING - NEMbox.player:145: Song 5230900 is unavailable due to copyright issue.
+2018-10-04 22:54:11,353 - DEBUG - NEMbox.player:285: 72612,九月九的酒,http://music.163.com/song/media/outer/url?id=72612.mp3
+2018-10-04 22:54:11,366 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e2128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,367 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,372 - WARNING - NEMbox.player:145: Song 72612 is unavailable due to copyright issue.
+2018-10-04 22:54:11,409 - DEBUG - NEMbox.player:285: 36198126,情若海(蒙语版),http://music.163.com/song/media/outer/url?id=36198126.mp3
+2018-10-04 22:54:11,421 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133666d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,422 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366748>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,438 - WARNING - NEMbox.player:145: Song 36198126 is unavailable due to copyright issue.
+2018-10-04 22:54:11,476 - DEBUG - NEMbox.player:285: 421110610,故梦「钢琴版」,http://music.163.com/song/media/outer/url?id=421110610.mp3
+2018-10-04 22:54:11,483 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,487 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,497 - WARNING - NEMbox.player:145: Song 421110610 is unavailable due to copyright issue.
+2018-10-04 22:54:11,536 - DEBUG - NEMbox.player:285: 5266237,梅花欢喜满天雪,http://music.163.com/song/media/outer/url?id=5266237.mp3
+2018-10-04 22:54:11,544 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,547 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,556 - WARNING - NEMbox.player:145: Song 5266237 is unavailable due to copyright issue.
+2018-10-04 22:54:11,592 - DEBUG - NEMbox.player:285: 5272525,花好月圆夜,http://music.163.com/song/media/outer/url?id=5272525.mp3
+2018-10-04 22:54:11,599 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,602 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,611 - WARNING - NEMbox.player:145: Song 5272525 is unavailable due to copyright issue.
+2018-10-04 22:54:11,646 - DEBUG - NEMbox.player:285: 86444,小李飞刀,http://music.163.com/song/media/outer/url?id=86444.mp3
+2018-10-04 22:54:11,654 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366ba8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,659 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dcf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,667 - WARNING - NEMbox.player:145: Song 86444 is unavailable due to copyright issue.
+2018-10-04 22:54:11,706 - DEBUG - NEMbox.player:285: 33419478,在木星,http://music.163.com/song/media/outer/url?id=33419478.mp3
+2018-10-04 22:54:11,715 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366908>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,716 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335deb8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,729 - WARNING - NEMbox.player:145: Song 33419478 is unavailable due to copyright issue.
+2018-10-04 22:54:11,767 - DEBUG - NEMbox.player:285: 436514312,成都,http://music.163.com/song/media/outer/url?id=436514312.mp3
+2018-10-04 22:54:11,777 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335df98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,778 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e09b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,785 - WARNING - NEMbox.player:145: Song 436514312 is unavailable due to copyright issue.
+2018-10-04 22:54:11,822 - DEBUG - NEMbox.player:285: 26090100,当你老了,http://music.163.com/song/media/outer/url?id=26090100.mp3
+2018-10-04 22:54:11,831 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dfd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,831 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc828>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,844 - WARNING - NEMbox.player:145: Song 26090100 is unavailable due to copyright issue.
+2018-10-04 22:54:11,881 - DEBUG - NEMbox.player:285: 251464,长相依,http://music.163.com/song/media/outer/url?id=251464.mp3
+2018-10-04 22:54:11,891 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335de10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,892 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcc50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,902 - WARNING - NEMbox.player:145: Song 251464 is unavailable due to copyright issue.
+2018-10-04 22:54:11,938 - DEBUG - NEMbox.player:285: 27580541,流浪歌,http://music.163.com/song/media/outer/url?id=27580541.mp3
+2018-10-04 22:54:11,945 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dc18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,946 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:11,952 - WARNING - NEMbox.player:145: Song 27580541 is unavailable due to copyright issue.
+2018-10-04 22:54:11,988 - DEBUG - NEMbox.player:285: 72589,九九女儿红,http://music.163.com/song/media/outer/url?id=72589.mp3
+2018-10-04 22:54:11,996 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,000 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335df28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,009 - WARNING - NEMbox.player:145: Song 72589 is unavailable due to copyright issue.
+2018-10-04 22:54:12,048 - DEBUG - NEMbox.player:285: 5272524,一首简单的歌,http://music.163.com/song/media/outer/url?id=5272524.mp3
+2018-10-04 22:54:12,055 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366080>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,061 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4668>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,075 - WARNING - NEMbox.player:145: Song 5272524 is unavailable due to copyright issue.
+2018-10-04 22:54:12,118 - DEBUG - NEMbox.player:285: 340870,但愿人长久,http://music.163.com/song/media/outer/url?id=340870.mp3
+2018-10-04 22:54:12,130 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4470>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,130 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4278>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,144 - WARNING - NEMbox.player:145: Song 340870 is unavailable due to copyright issue.
+2018-10-04 22:54:12,183 - DEBUG - NEMbox.player:285: 5257205,花田错,http://music.163.com/song/media/outer/url?id=5257205.mp3
+2018-10-04 22:54:12,193 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e46a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,198 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4438>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,209 - WARNING - NEMbox.player:145: Song 5257205 is unavailable due to copyright issue.
+2018-10-04 22:54:12,250 - DEBUG - NEMbox.player:285: 359403,听说,http://music.163.com/song/media/outer/url?id=359403.mp3
+2018-10-04 22:54:12,259 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e46a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,264 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4cf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,272 - WARNING - NEMbox.player:145: Song 359403 is unavailable due to copyright issue.
+2018-10-04 22:54:12,310 - DEBUG - NEMbox.player:285: 28302878,千年瑶寨(纯音乐),http://music.163.com/song/media/outer/url?id=28302878.mp3
+2018-10-04 22:54:12,320 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4cf8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,321 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,330 - WARNING - NEMbox.player:145: Song 28302878 is unavailable due to copyright issue.
+2018-10-04 22:54:12,370 - DEBUG - NEMbox.player:285: 201898,风云(二胡版)(慢版),http://music.163.com/song/media/outer/url?id=201898.mp3
+2018-10-04 22:54:12,384 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e49b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,384 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e90f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,393 - WARNING - NEMbox.player:145: Song 201898 is unavailable due to copyright issue.
+2018-10-04 22:54:12,431 - DEBUG - NEMbox.player:285: 214577,传奇,http://music.163.com/song/media/outer/url?id=214577.mp3
+2018-10-04 22:54:12,440 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,443 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,453 - WARNING - NEMbox.player:145: Song 214577 is unavailable due to copyright issue.
+2018-10-04 22:54:12,491 - DEBUG - NEMbox.player:285: 142541,蓝色摇篮曲,http://music.163.com/song/media/outer/url?id=142541.mp3
+2018-10-04 22:54:12,499 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,504 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e96a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,513 - WARNING - NEMbox.player:145: Song 142541 is unavailable due to copyright issue.
+2018-10-04 22:54:12,554 - DEBUG - NEMbox.player:285: 68087,序曲,http://music.163.com/song/media/outer/url?id=68087.mp3
+2018-10-04 22:54:12,567 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4fd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,567 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc4e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,577 - WARNING - NEMbox.player:145: Song 68087 is unavailable due to copyright issue.
+2018-10-04 22:54:12,617 - DEBUG - NEMbox.player:285: 5263584,高山流水 (浙江筝曲),http://music.163.com/song/media/outer/url?id=5263584.mp3
+2018-10-04 22:54:12,625 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,629 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4f28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,640 - WARNING - NEMbox.player:145: Song 5263584 is unavailable due to copyright issue.
+2018-10-04 22:54:12,681 - DEBUG - NEMbox.player:285: 29999285,殇,http://music.163.com/song/media/outer/url?id=29999285.mp3
+2018-10-04 22:54:12,689 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,693 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,704 - WARNING - NEMbox.player:145: Song 29999285 is unavailable due to copyright issue.
+2018-10-04 22:54:12,744 - DEBUG - NEMbox.player:285: 28138269,我想，我想,http://music.163.com/song/media/outer/url?id=28138269.mp3
+2018-10-04 22:54:12,753 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,753 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,759 - WARNING - NEMbox.player:145: Song 28138269 is unavailable due to copyright issue.
+2018-10-04 22:54:12,796 - DEBUG - NEMbox.player:285: 61372,回望故乡(马头琴与气声音乐),http://music.163.com/song/media/outer/url?id=61372.mp3
+2018-10-04 22:54:12,804 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,807 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,818 - WARNING - NEMbox.player:145: Song 61372 is unavailable due to copyright issue.
+2018-10-04 22:54:12,860 - DEBUG - NEMbox.player:285: 29130999,神的传说,http://music.163.com/song/media/outer/url?id=29130999.mp3
+2018-10-04 22:54:12,868 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,872 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,881 - WARNING - NEMbox.player:145: Song 29130999 is unavailable due to copyright issue.
+2018-10-04 22:54:12,920 - DEBUG - NEMbox.player:285: 105765,莫斯科郊外的晚上,http://music.163.com/song/media/outer/url?id=105765.mp3
+2018-10-04 22:54:12,928 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,930 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0ba8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,942 - WARNING - NEMbox.player:145: Song 105765 is unavailable due to copyright issue.
+2018-10-04 22:54:12,978 - DEBUG - NEMbox.player:285: 213149,快乐老家,http://music.163.com/song/media/outer/url?id=213149.mp3
+2018-10-04 22:54:12,986 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:12,991 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,000 - WARNING - NEMbox.player:145: Song 213149 is unavailable due to copyright issue.
+2018-10-04 22:54:13,041 - DEBUG - NEMbox.player:285: 324633,女人花,http://music.163.com/song/media/outer/url?id=324633.mp3
+2018-10-04 22:54:13,049 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c88>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,054 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e07b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,064 - WARNING - NEMbox.player:145: Song 324633 is unavailable due to copyright issue.
+2018-10-04 22:54:13,102 - DEBUG - NEMbox.player:285: 33891876,往事只能回味,http://music.163.com/song/media/outer/url?id=33891876.mp3
+2018-10-04 22:54:13,111 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dcc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,113 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133662b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,125 - WARNING - NEMbox.player:145: Song 33891876 is unavailable due to copyright issue.
+2018-10-04 22:54:13,164 - DEBUG - NEMbox.player:285: 28838168,两座山(蒙语),http://music.163.com/song/media/outer/url?id=28838168.mp3
+2018-10-04 22:54:13,173 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,173 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366518>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,179 - WARNING - NEMbox.player:145: Song 28838168 is unavailable due to copyright issue.
+2018-10-04 22:54:13,217 - DEBUG - NEMbox.player:285: 96520,斯卡布罗市集 (口哨/宁林 人声/宁林),http://music.163.com/song/media/outer/url?id=96520.mp3
+2018-10-04 22:54:13,225 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133669b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,226 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,238 - WARNING - NEMbox.player:145: Song 96520 is unavailable due to copyright issue.
+2018-10-04 22:54:13,275 - DEBUG - NEMbox.player:285: 122211,下辈子我还记得你,http://music.163.com/song/media/outer/url?id=122211.mp3
+2018-10-04 22:54:13,284 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133664e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,287 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,297 - WARNING - NEMbox.player:145: Song 122211 is unavailable due to copyright issue.
+2018-10-04 22:54:13,338 - DEBUG - NEMbox.player:285: 22483104,Whistling Gypsy,http://music.163.com/song/media/outer/url?id=22483104.mp3
+2018-10-04 22:54:13,351 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133663c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,351 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133665c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,361 - WARNING - NEMbox.player:145: Song 22483104 is unavailable due to copyright issue.
+2018-10-04 22:54:13,399 - DEBUG - NEMbox.player:285: 91631,阿格祥巴,http://music.163.com/song/media/outer/url?id=91631.mp3
+2018-10-04 22:54:13,407 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133665c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,408 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,417 - WARNING - NEMbox.player:145: Song 91631 is unavailable due to copyright issue.
+2018-10-04 22:54:13,456 - DEBUG - NEMbox.player:285: 165614,三个人的时光,http://music.163.com/song/media/outer/url?id=165614.mp3
+2018-10-04 22:54:13,466 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,468 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,484 - WARNING - NEMbox.player:145: Song 165614 is unavailable due to copyright issue.
+2018-10-04 22:54:13,526 - DEBUG - NEMbox.player:285: 106205,春光美,http://music.163.com/song/media/outer/url?id=106205.mp3
+2018-10-04 22:54:13,531 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133665c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,536 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,546 - WARNING - NEMbox.player:145: Song 106205 is unavailable due to copyright issue.
+2018-10-04 22:54:13,586 - DEBUG - NEMbox.player:285: 5265387,静思语,http://music.163.com/song/media/outer/url?id=5265387.mp3
+2018-10-04 22:54:13,593 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,594 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e97f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,609 - WARNING - NEMbox.player:145: Song 5265387 is unavailable due to copyright issue.
+2018-10-04 22:54:13,649 - DEBUG - NEMbox.player:285: 5265399,心动话沉,http://music.163.com/song/media/outer/url?id=5265399.mp3
+2018-10-04 22:54:13,660 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366080>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,661 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,669 - WARNING - NEMbox.player:145: Song 5265399 is unavailable due to copyright issue.
+2018-10-04 22:54:13,704 - DEBUG - NEMbox.player:285: 439915614,刚好遇见你,http://music.163.com/song/media/outer/url?id=439915614.mp3
+2018-10-04 22:54:13,711 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bca58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,711 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,722 - WARNING - NEMbox.player:145: Song 439915614 is unavailable due to copyright issue.
+2018-10-04 22:54:13,760 - DEBUG - NEMbox.player:285: 324629,葬花吟,http://music.163.com/song/media/outer/url?id=324629.mp3
+2018-10-04 22:54:13,767 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,772 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,779 - WARNING - NEMbox.player:145: Song 324629 is unavailable due to copyright issue.
+2018-10-04 22:54:13,817 - DEBUG - NEMbox.player:285: 5265396,禅与沉,http://music.163.com/song/media/outer/url?id=5265396.mp3
+2018-10-04 22:54:13,824 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366ac8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,827 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133667f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,835 - WARNING - NEMbox.player:145: Song 5265396 is unavailable due to copyright issue.
+2018-10-04 22:54:13,874 - DEBUG - NEMbox.player:285: 87166,大中国,http://music.163.com/song/media/outer/url?id=87166.mp3
+2018-10-04 22:54:13,882 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366828>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,886 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,895 - WARNING - NEMbox.player:145: Song 87166 is unavailable due to copyright issue.
+2018-10-04 22:54:13,933 - DEBUG - NEMbox.player:285: 139377,那些花儿,http://music.163.com/song/media/outer/url?id=139377.mp3
+2018-10-04 22:54:13,938 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,942 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,952 - WARNING - NEMbox.player:145: Song 139377 is unavailable due to copyright issue.
+2018-10-04 22:54:13,988 - DEBUG - NEMbox.player:285: 242723,青花瓷,http://music.163.com/song/media/outer/url?id=242723.mp3
+2018-10-04 22:54:13,996 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:13,999 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,009 - WARNING - NEMbox.player:145: Song 242723 is unavailable due to copyright issue.
+2018-10-04 22:54:14,046 - DEBUG - NEMbox.player:285: 316756,小城大事,http://music.163.com/song/media/outer/url?id=316756.mp3
+2018-10-04 22:54:14,053 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e47f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,055 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4be0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,067 - WARNING - NEMbox.player:145: Song 316756 is unavailable due to copyright issue.
+2018-10-04 22:54:14,109 - DEBUG - NEMbox.player:285: 293885,好大一棵树,http://music.163.com/song/media/outer/url?id=293885.mp3
+2018-10-04 22:54:14,117 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4240>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,118 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4080>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,125 - WARNING - NEMbox.player:145: Song 293885 is unavailable due to copyright issue.
+2018-10-04 22:54:14,162 - DEBUG - NEMbox.player:285: 421160840,风情多少愁多少,http://music.163.com/song/media/outer/url?id=421160840.mp3
+2018-10-04 22:54:14,171 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,172 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,184 - WARNING - NEMbox.player:145: Song 421160840 is unavailable due to copyright issue.
+2018-10-04 22:54:14,219 - DEBUG - NEMbox.player:285: 159525,临风听暮蝉,http://music.163.com/song/media/outer/url?id=159525.mp3
+2018-10-04 22:54:14,228 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,228 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e45c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,239 - WARNING - NEMbox.player:145: Song 159525 is unavailable due to copyright issue.
+2018-10-04 22:54:14,272 - DEBUG - NEMbox.player:285: 274470,牧羊曲,http://music.163.com/song/media/outer/url?id=274470.mp3
+2018-10-04 22:54:14,282 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,282 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,295 - WARNING - NEMbox.player:145: Song 274470 is unavailable due to copyright issue.
+2018-10-04 22:54:14,329 - DEBUG - NEMbox.player:285: 158184,水风吹落眼前花,http://music.163.com/song/media/outer/url?id=158184.mp3
+2018-10-04 22:54:14,336 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,338 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335deb8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,349 - WARNING - NEMbox.player:145: Song 158184 is unavailable due to copyright issue.
+2018-10-04 22:54:14,389 - DEBUG - NEMbox.player:285: 86360,忘记时间,http://music.163.com/song/media/outer/url?id=86360.mp3
+2018-10-04 22:54:14,400 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,400 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dbe0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,406 - WARNING - NEMbox.player:145: Song 86360 is unavailable due to copyright issue.
+2018-10-04 22:54:14,442 - DEBUG - NEMbox.player:285: 69827,太多,http://music.163.com/song/media/outer/url?id=69827.mp3
+2018-10-04 22:54:14,448 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e47f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,452 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,461 - WARNING - NEMbox.player:145: Song 69827 is unavailable due to copyright issue.
+2018-10-04 22:54:14,497 - DEBUG - NEMbox.player:285: 434052277,王孙摇,http://music.163.com/song/media/outer/url?id=434052277.mp3
+2018-10-04 22:54:14,505 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e44a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,506 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,511 - WARNING - NEMbox.player:145: Song 434052277 is unavailable due to copyright issue.
+2018-10-04 22:54:14,544 - DEBUG - NEMbox.player:285: 27591749,历史的天空,http://music.163.com/song/media/outer/url?id=27591749.mp3
+2018-10-04 22:54:14,549 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,552 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,559 - WARNING - NEMbox.player:145: Song 27591749 is unavailable due to copyright issue.
+2018-10-04 22:54:14,593 - DEBUG - NEMbox.player:285: 5276250,归去来,http://music.163.com/song/media/outer/url?id=5276250.mp3
+2018-10-04 22:54:14,598 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,601 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e97b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,613 - WARNING - NEMbox.player:145: Song 5276250 is unavailable due to copyright issue.
+2018-10-04 22:54:14,646 - DEBUG - NEMbox.player:285: 182999,飘雪,http://music.163.com/song/media/outer/url?id=182999.mp3
+2018-10-04 22:54:14,655 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,655 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,663 - WARNING - NEMbox.player:145: Song 182999 is unavailable due to copyright issue.
+2018-10-04 22:54:14,697 - DEBUG - NEMbox.player:285: 5260445,约定,http://music.163.com/song/media/outer/url?id=5260445.mp3
+2018-10-04 22:54:14,703 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,707 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,714 - WARNING - NEMbox.player:145: Song 5260445 is unavailable due to copyright issue.
+2018-10-04 22:54:14,747 - DEBUG - NEMbox.player:285: 28940204,扬州,http://music.163.com/song/media/outer/url?id=28940204.mp3
+2018-10-04 22:54:14,754 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e91d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,757 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,766 - WARNING - NEMbox.player:145: Song 28940204 is unavailable due to copyright issue.
+2018-10-04 22:54:14,797 - DEBUG - NEMbox.player:285: 324635,一生何求,http://music.163.com/song/media/outer/url?id=324635.mp3
+2018-10-04 22:54:14,802 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,807 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,815 - WARNING - NEMbox.player:145: Song 324635 is unavailable due to copyright issue.
+2018-10-04 22:54:14,847 - DEBUG - NEMbox.player:285: 91639,宗巴雅姆,http://music.163.com/song/media/outer/url?id=91639.mp3
+2018-10-04 22:54:14,856 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,857 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0ef0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,866 - WARNING - NEMbox.player:145: Song 91639 is unavailable due to copyright issue.
+2018-10-04 22:54:14,899 - DEBUG - NEMbox.player:285: 28287707,六世仓央嘉措情歌,http://music.163.com/song/media/outer/url?id=28287707.mp3
+2018-10-04 22:54:14,905 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,907 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0be0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,919 - WARNING - NEMbox.player:145: Song 28287707 is unavailable due to copyright issue.
+2018-10-04 22:54:14,951 - DEBUG - NEMbox.player:285: 324636,映山红,http://music.163.com/song/media/outer/url?id=324636.mp3
+2018-10-04 22:54:14,961 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,961 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:14,970 - WARNING - NEMbox.player:145: Song 324636 is unavailable due to copyright issue.
+2018-10-04 22:54:15,001 - DEBUG - NEMbox.player:285: 196127,好汉歌,http://music.163.com/song/media/outer/url?id=196127.mp3
+2018-10-04 22:54:15,007 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,011 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133663c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,019 - WARNING - NEMbox.player:145: Song 196127 is unavailable due to copyright issue.
+2018-10-04 22:54:15,052 - DEBUG - NEMbox.player:285: 324631,雁南飞,http://music.163.com/song/media/outer/url?id=324631.mp3
+2018-10-04 22:54:15,058 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e07b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,062 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,069 - WARNING - NEMbox.player:145: Song 324631 is unavailable due to copyright issue.
+2018-10-04 22:54:15,109 - DEBUG - NEMbox.player:285: 144026,仓央嘉措情歌,http://music.163.com/song/media/outer/url?id=144026.mp3
+2018-10-04 22:54:15,116 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0b00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,117 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e47b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,123 - WARNING - NEMbox.player:145: Song 144026 is unavailable due to copyright issue.
+2018-10-04 22:54:15,168 - DEBUG - NEMbox.player:285: 5264840,Going home,http://music.163.com/song/media/outer/url?id=5264840.mp3
+2018-10-04 22:54:15,175 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,176 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,189 - WARNING - NEMbox.player:145: Song 5264840 is unavailable due to copyright issue.
+2018-10-04 22:54:15,236 - DEBUG - NEMbox.player:285: 5238169,鸿雁,http://music.163.com/song/media/outer/url?id=5238169.mp3
+2018-10-04 22:54:15,243 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,247 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4278>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,255 - WARNING - NEMbox.player:145: Song 5238169 is unavailable due to copyright issue.
+2018-10-04 22:54:15,295 - DEBUG - NEMbox.player:285: 62531,乌兰巴托之夜,http://music.163.com/song/media/outer/url?id=62531.mp3
+2018-10-04 22:54:15,300 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,305 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4ef0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,315 - WARNING - NEMbox.player:145: Song 62531 is unavailable due to copyright issue.
+2018-10-04 22:54:15,359 - DEBUG - NEMbox.player:285: 231412,追梦人,http://music.163.com/song/media/outer/url?id=231412.mp3
+2018-10-04 22:54:15,367 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,368 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,374 - WARNING - NEMbox.player:145: Song 231412 is unavailable due to copyright issue.
+2018-10-04 22:54:15,412 - DEBUG - NEMbox.player:285: 297612,想把我唱给你听,http://music.163.com/song/media/outer/url?id=297612.mp3
+2018-10-04 22:54:15,420 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e41d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,421 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e96d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,427 - WARNING - NEMbox.player:145: Song 297612 is unavailable due to copyright issue.
+2018-10-04 22:54:15,475 - DEBUG - NEMbox.player:285: 756112,桜道,http://music.163.com/song/media/outer/url?id=756112.mp3
+2018-10-04 22:54:15,481 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,484 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4240>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,491 - WARNING - NEMbox.player:145: Song 756112 is unavailable due to copyright issue.
+2018-10-04 22:54:15,542 - DEBUG - NEMbox.player:285: 26508240,梵高先生,http://music.163.com/song/media/outer/url?id=26508240.mp3
+2018-10-04 22:54:15,548 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,551 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,559 - WARNING - NEMbox.player:145: Song 26508240 is unavailable due to copyright issue.
+2018-10-04 22:54:15,602 - DEBUG - NEMbox.player:285: 26508242,你离开了南京，从此没有人和我说话,http://music.163.com/song/media/outer/url?id=26508242.mp3
+2018-10-04 22:54:15,608 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,611 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,621 - WARNING - NEMbox.player:145: Song 26508242 is unavailable due to copyright issue.
+2018-10-04 22:54:15,670 - DEBUG - NEMbox.player:285: 183301,青藏高原,http://music.163.com/song/media/outer/url?id=183301.mp3
+2018-10-04 22:54:15,678 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e92b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,679 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9c18>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,692 - WARNING - NEMbox.player:145: Song 183301 is unavailable due to copyright issue.
+2018-10-04 22:54:15,752 - DEBUG - NEMbox.player:285: 139268,桜,http://music.163.com/song/media/outer/url?id=139268.mp3
+2018-10-04 22:54:15,759 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,761 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e98d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,767 - WARNING - NEMbox.player:145: Song 139268 is unavailable due to copyright issue.
+2018-10-04 22:54:15,805 - DEBUG - NEMbox.player:285: 29047169,夜明,http://music.163.com/song/media/outer/url?id=29047169.mp3
+2018-10-04 22:54:15,812 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,814 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131f3080>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,820 - WARNING - NEMbox.player:145: Song 29047169 is unavailable due to copyright issue.
+2018-10-04 22:54:15,857 - DEBUG - NEMbox.player:285: 406730501,偷偷的哭,http://music.163.com/song/media/outer/url?id=406730501.mp3
+2018-10-04 22:54:15,868 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9240>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,868 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,874 - WARNING - NEMbox.player:145: Song 406730501 is unavailable due to copyright issue.
+2018-10-04 22:54:15,910 - DEBUG - NEMbox.player:285: 104241,生日礼物,http://music.163.com/song/media/outer/url?id=104241.mp3
+2018-10-04 22:54:15,918 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9320>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,921 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,931 - WARNING - NEMbox.player:145: Song 104241 is unavailable due to copyright issue.
+2018-10-04 22:54:15,978 - DEBUG - NEMbox.player:285: 29393623,遇上你是我的缘 ,http://music.163.com/song/media/outer/url?id=29393623.mp3
+2018-10-04 22:54:15,983 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,986 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9ef0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:15,993 - WARNING - NEMbox.player:145: Song 29393623 is unavailable due to copyright issue.
+2018-10-04 22:54:16,032 - DEBUG - NEMbox.player:285: 62546,斯卡布罗市集,http://music.163.com/song/media/outer/url?id=62546.mp3
+2018-10-04 22:54:16,039 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e45f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,043 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,051 - WARNING - NEMbox.player:145: Song 62546 is unavailable due to copyright issue.
+2018-10-04 22:54:16,098 - DEBUG - NEMbox.player:285: 356587,殉,http://music.163.com/song/media/outer/url?id=356587.mp3
+2018-10-04 22:54:16,105 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4b00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,109 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,116 - WARNING - NEMbox.player:145: Song 356587 is unavailable due to copyright issue.
+2018-10-04 22:54:16,155 - DEBUG - NEMbox.player:285: 29999506,莫失莫忘,http://music.163.com/song/media/outer/url?id=29999506.mp3
+2018-10-04 22:54:16,164 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,165 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e45c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,171 - WARNING - NEMbox.player:145: Song 29999506 is unavailable due to copyright issue.
+2018-10-04 22:54:16,212 - DEBUG - NEMbox.player:285: 5256542,摇篮曲,http://music.163.com/song/media/outer/url?id=5256542.mp3
+2018-10-04 22:54:16,219 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,221 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,228 - WARNING - NEMbox.player:145: Song 5256542 is unavailable due to copyright issue.
+2018-10-04 22:54:16,269 - DEBUG - NEMbox.player:285: 29463694,马头琴恋曲,http://music.163.com/song/media/outer/url?id=29463694.mp3
+2018-10-04 22:54:16,278 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e46a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,278 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e07b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,288 - WARNING - NEMbox.player:145: Song 29463694 is unavailable due to copyright issue.
+2018-10-04 22:54:16,328 - DEBUG - NEMbox.player:285: 167219,梦中的额吉(蒙),http://music.163.com/song/media/outer/url?id=167219.mp3
+2018-10-04 22:54:16,334 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,337 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133a8f28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,347 - WARNING - NEMbox.player:145: Song 167219 is unavailable due to copyright issue.
+2018-10-04 22:54:16,389 - DEBUG - NEMbox.player:285: 28234970,想把我唱给你听,http://music.163.com/song/media/outer/url?id=28234970.mp3
+2018-10-04 22:54:16,395 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,399 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4860>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,408 - WARNING - NEMbox.player:145: Song 28234970 is unavailable due to copyright issue.
+2018-10-04 22:54:16,447 - DEBUG - NEMbox.player:285: 289530,山歌好比春江水,http://music.163.com/song/media/outer/url?id=289530.mp3
+2018-10-04 22:54:16,456 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e09b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,456 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcb70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,462 - WARNING - NEMbox.player:145: Song 289530 is unavailable due to copyright issue.
+2018-10-04 22:54:16,500 - DEBUG - NEMbox.player:285: 379785,心愿,http://music.163.com/song/media/outer/url?id=379785.mp3
+2018-10-04 22:54:16,507 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0eb8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,510 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,516 - WARNING - NEMbox.player:145: Song 379785 is unavailable due to copyright issue.
+2018-10-04 22:54:16,556 - DEBUG - NEMbox.player:285: 186560,过火,http://music.163.com/song/media/outer/url?id=186560.mp3
+2018-10-04 22:54:16,571 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,572 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,584 - WARNING - NEMbox.player:145: Song 186560 is unavailable due to copyright issue.
+2018-10-04 22:54:16,634 - DEBUG - NEMbox.player:285: 29719520,反唱西游,http://music.163.com/song/media/outer/url?id=29719520.mp3
+2018-10-04 22:54:16,642 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,642 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,648 - WARNING - NEMbox.player:145: Song 29719520 is unavailable due to copyright issue.
+2018-10-04 22:54:16,689 - DEBUG - NEMbox.player:285: 143833,高原红,http://music.163.com/song/media/outer/url?id=143833.mp3
+2018-10-04 22:54:16,695 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,698 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335df28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,705 - WARNING - NEMbox.player:145: Song 143833 is unavailable due to copyright issue.
+2018-10-04 22:54:16,751 - DEBUG - NEMbox.player:285: 369392,让泪化作相思雨,http://music.163.com/song/media/outer/url?id=369392.mp3
+2018-10-04 22:54:16,756 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366ba8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,759 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,767 - WARNING - NEMbox.player:145: Song 369392 is unavailable due to copyright issue.
+2018-10-04 22:54:16,819 - DEBUG - NEMbox.player:285: 33789522,骏马谣,http://music.163.com/song/media/outer/url?id=33789522.mp3
+2018-10-04 22:54:16,825 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133669e8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,828 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133666a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,835 - WARNING - NEMbox.player:145: Song 33789522 is unavailable due to copyright issue.
+2018-10-04 22:54:16,871 - DEBUG - NEMbox.player:285: 151985,丁香花,http://music.163.com/song/media/outer/url?id=151985.mp3
+2018-10-04 22:54:16,877 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366fd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,881 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,888 - WARNING - NEMbox.player:145: Song 151985 is unavailable due to copyright issue.
+2018-10-04 22:54:16,947 - DEBUG - NEMbox.player:285: 440207431,牡丹亭外,http://music.163.com/song/media/outer/url?id=440207431.mp3
+2018-10-04 22:54:16,952 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366668>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,956 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:16,963 - WARNING - NEMbox.player:145: Song 440207431 is unavailable due to copyright issue.
+2018-10-04 22:54:16,999 - DEBUG - NEMbox.player:285: 202367,人家,http://music.163.com/song/media/outer/url?id=202367.mp3
+2018-10-04 22:54:17,010 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:17,010 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0ef0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:17,018 - WARNING - NEMbox.player:145: Song 202367 is unavailable due to copyright issue.
+2018-10-04 22:54:17,061 - DEBUG - NEMbox.player:285: 64317,因为爱情,http://music.163.com/song/media/outer/url?id=64317.mp3
+2018-10-04 22:54:17,069 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:17,069 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:17,077 - WARNING - NEMbox.player:145: Song 64317 is unavailable due to copyright issue.
+2018-10-04 22:54:21,481 - DEBUG - NEMbox.player:285: 64317,因为爱情,http://music.163.com/song/media/outer/url?id=64317.mp3
+2018-10-04 22:54:21,490 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:21,496 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9e80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:21,530 - WARNING - NEMbox.player:145: Song 64317 is unavailable due to copyright issue.
+2018-10-04 22:54:26,217 - DEBUG - NEMbox.player:285: 202367,人家,http://music.163.com/song/media/outer/url?id=202367.mp3
+2018-10-04 22:54:26,232 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e99b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:26,232 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0128>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:26,259 - WARNING - NEMbox.player:145: Song 202367 is unavailable due to copyright issue.
+2018-10-04 22:54:26,306 - DEBUG - NEMbox.player:285: 64317,因为爱情,http://music.163.com/song/media/outer/url?id=64317.mp3
+2018-10-04 22:54:26,317 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e94e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:26,320 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0470>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:26,335 - WARNING - NEMbox.player:145: Song 64317 is unavailable due to copyright issue.
+2018-10-04 22:54:30,970 - DEBUG - NEMbox.player:285: 356587,殉,http://music.163.com/song/media/outer/url?id=356587.mp3
+2018-10-04 22:54:30,984 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9f60>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:30,985 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,010 - WARNING - NEMbox.player:145: Song 356587 is unavailable due to copyright issue.
+2018-10-04 22:54:31,057 - DEBUG - NEMbox.player:285: 29999506,莫失莫忘,http://music.163.com/song/media/outer/url?id=29999506.mp3
+2018-10-04 22:54:31,067 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e94e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,070 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e9eb8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,075 - WARNING - NEMbox.player:145: Song 29999506 is unavailable due to copyright issue.
+2018-10-04 22:54:31,122 - DEBUG - NEMbox.player:285: 5256542,摇篮曲,http://music.163.com/song/media/outer/url?id=5256542.mp3
+2018-10-04 22:54:31,131 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,135 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e01d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,144 - WARNING - NEMbox.player:145: Song 5256542 is unavailable due to copyright issue.
+2018-10-04 22:54:31,190 - DEBUG - NEMbox.player:285: 29463694,马头琴恋曲,http://music.163.com/song/media/outer/url?id=29463694.mp3
+2018-10-04 22:54:31,199 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e00f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,204 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e03c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,212 - WARNING - NEMbox.player:145: Song 29463694 is unavailable due to copyright issue.
+2018-10-04 22:54:31,259 - DEBUG - NEMbox.player:285: 167219,梦中的额吉(蒙),http://music.163.com/song/media/outer/url?id=167219.mp3
+2018-10-04 22:54:31,271 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e04a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,272 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366f28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,281 - WARNING - NEMbox.player:145: Song 167219 is unavailable due to copyright issue.
+2018-10-04 22:54:31,325 - DEBUG - NEMbox.player:285: 28234970,想把我唱给你听,http://music.163.com/song/media/outer/url?id=28234970.mp3
+2018-10-04 22:54:31,335 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e06a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,336 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133664e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,347 - WARNING - NEMbox.player:145: Song 28234970 is unavailable due to copyright issue.
+2018-10-04 22:54:31,392 - DEBUG - NEMbox.player:285: 289530,山歌好比春江水,http://music.163.com/song/media/outer/url?id=289530.mp3
+2018-10-04 22:54:31,401 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e00f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,402 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366da0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,419 - WARNING - NEMbox.player:145: Song 289530 is unavailable due to copyright issue.
+2018-10-04 22:54:31,459 - DEBUG - NEMbox.player:285: 379785,心愿,http://music.163.com/song/media/outer/url?id=379785.mp3
+2018-10-04 22:54:31,465 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e4550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,470 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0f28>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,480 - WARNING - NEMbox.player:145: Song 379785 is unavailable due to copyright issue.
+2018-10-04 22:54:31,524 - DEBUG - NEMbox.player:285: 186560,过火,http://music.163.com/song/media/outer/url?id=186560.mp3
+2018-10-04 22:54:31,534 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,535 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366c88>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,543 - WARNING - NEMbox.player:145: Song 186560 is unavailable due to copyright issue.
+2018-10-04 22:54:31,586 - DEBUG - NEMbox.player:285: 29719520,反唱西游,http://music.163.com/song/media/outer/url?id=29719520.mp3
+2018-10-04 22:54:31,597 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,598 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,605 - WARNING - NEMbox.player:145: Song 29719520 is unavailable due to copyright issue.
+2018-10-04 22:54:31,648 - DEBUG - NEMbox.player:285: 143833,高原红,http://music.163.com/song/media/outer/url?id=143833.mp3
+2018-10-04 22:54:31,658 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0e80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,662 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366780>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,668 - WARNING - NEMbox.player:145: Song 143833 is unavailable due to copyright issue.
+2018-10-04 22:54:31,709 - DEBUG - NEMbox.player:285: 369392,让泪化作相思雨,http://music.163.com/song/media/outer/url?id=369392.mp3
+2018-10-04 22:54:31,719 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0e80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,719 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e64e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,727 - WARNING - NEMbox.player:145: Song 369392 is unavailable due to copyright issue.
+2018-10-04 22:54:31,770 - DEBUG - NEMbox.player:285: 33789522,骏马谣,http://music.163.com/song/media/outer/url?id=33789522.mp3
+2018-10-04 22:54:31,779 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,779 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,788 - WARNING - NEMbox.player:145: Song 33789522 is unavailable due to copyright issue.
+2018-10-04 22:54:31,831 - DEBUG - NEMbox.player:285: 151985,丁香花,http://music.163.com/song/media/outer/url?id=151985.mp3
+2018-10-04 22:54:31,839 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e64e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,844 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e01d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,852 - WARNING - NEMbox.player:145: Song 151985 is unavailable due to copyright issue.
+2018-10-04 22:54:31,890 - DEBUG - NEMbox.player:285: 440207431,牡丹亭外,http://music.163.com/song/media/outer/url?id=440207431.mp3
+2018-10-04 22:54:31,895 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e64a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,898 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6668>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,905 - WARNING - NEMbox.player:145: Song 440207431 is unavailable due to copyright issue.
+2018-10-04 22:54:31,946 - DEBUG - NEMbox.player:285: 202367,人家,http://music.163.com/song/media/outer/url?id=202367.mp3
+2018-10-04 22:54:31,959 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6cc0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,959 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e62b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:31,969 - WARNING - NEMbox.player:145: Song 202367 is unavailable due to copyright issue.
+2018-10-04 22:54:32,010 - DEBUG - NEMbox.player:285: 64317,因为爱情,http://music.163.com/song/media/outer/url?id=64317.mp3
+2018-10-04 22:54:32,018 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e94a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:32,020 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f021335dbe0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 22:54:32,036 - WARNING - NEMbox.player:145: Song 64317 is unavailable due to copyright issue.
+2018-10-04 22:55:08,026 - DEBUG - NEMbox.player:285: 28838168,两座山(蒙语),http://music.163.com/song/media/outer/url?id=28838168.mp3
+2018-10-04 22:56:34,739 - DEBUG - NEMbox.player:285: 106205,春光美,http://music.163.com/song/media/outer/url?id=106205.mp3
+2018-10-04 22:56:35,545 - DEBUG - NEMbox.player:285: 5265387,静思语,http://music.163.com/song/media/outer/url?id=5265387.mp3
+2018-10-04 23:06:16,214 - DEBUG - NEMbox.player:285: 5265399,心动话沉,http://music.163.com/song/media/outer/url?id=5265399.mp3
+2018-10-04 23:14:48,117 - DEBUG - NEMbox.player:285: 439915614,刚好遇见你,http://music.163.com/song/media/outer/url?id=439915614.mp3
+2018-10-04 23:18:08,786 - DEBUG - NEMbox.player:285: 324629,葬花吟,http://music.163.com/song/media/outer/url?id=324629.mp3
+2018-10-04 23:24:42,347 - DEBUG - NEMbox.player:285: 5265396,禅与沉,http://music.163.com/song/media/outer/url?id=5265396.mp3
+2018-10-04 23:33:50,973 - DEBUG - NEMbox.player:285: 87166,大中国,http://music.163.com/song/media/outer/url?id=87166.mp3
+2018-10-04 23:34:28,447 - DEBUG - NEMbox.player:285: 69827,太多,http://music.163.com/song/media/outer/url?id=69827.mp3
+2018-10-04 23:34:30,972 - DEBUG - NEMbox.player:285: 434052277,王孙摇,http://music.163.com/song/media/outer/url?id=434052277.mp3
+2018-10-04 23:37:28,174 - DEBUG - NEMbox.player:285: 27591749,历史的天空,http://music.163.com/song/media/outer/url?id=27591749.mp3
+2018-10-04 23:39:48,798 - DEBUG - NEMbox.player:285: 5276250,归去来,http://music.163.com/song/media/outer/url?id=5276250.mp3
+2018-10-04 23:42:53,522 - DEBUG - NEMbox.player:285: 182999,飘雪,http://music.163.com/song/media/outer/url?id=182999.mp3
+2018-10-04 23:46:47,856 - DEBUG - NEMbox.player:285: 5260445,约定,http://music.163.com/song/media/outer/url?id=5260445.mp3
+2018-10-04 23:51:44,877 - DEBUG - NEMbox.player:285: 28940204,扬州,http://music.163.com/song/media/outer/url?id=28940204.mp3
+2018-10-04 23:51:44,891 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcac8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:44,892 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e05f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:44,921 - WARNING - NEMbox.player:145: Song 28940204 is unavailable due to copyright issue.
+2018-10-04 23:51:44,967 - DEBUG - NEMbox.player:285: 324635,一生何求,http://music.163.com/song/media/outer/url?id=324635.mp3
+2018-10-04 23:51:44,979 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e63c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:44,982 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:44,999 - WARNING - NEMbox.player:145: Song 324635 is unavailable due to copyright issue.
+2018-10-04 23:51:45,043 - DEBUG - NEMbox.player:285: 91639,宗巴雅姆,http://music.163.com/song/media/outer/url?id=91639.mp3
+2018-10-04 23:51:45,056 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,059 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e05f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,069 - WARNING - NEMbox.player:145: Song 91639 is unavailable due to copyright issue.
+2018-10-04 23:51:45,113 - DEBUG - NEMbox.player:285: 28287707,六世仓央嘉措情歌,http://music.163.com/song/media/outer/url?id=28287707.mp3
+2018-10-04 23:51:45,126 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6400>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,130 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,138 - WARNING - NEMbox.player:145: Song 28287707 is unavailable due to copyright issue.
+2018-10-04 23:51:45,180 - DEBUG - NEMbox.player:285: 324636,映山红,http://music.163.com/song/media/outer/url?id=324636.mp3
+2018-10-04 23:51:45,194 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6d68>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,198 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207240>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,212 - WARNING - NEMbox.player:145: Song 324636 is unavailable due to copyright issue.
+2018-10-04 23:51:45,260 - DEBUG - NEMbox.player:285: 196127,好汉歌,http://music.163.com/song/media/outer/url?id=196127.mp3
+2018-10-04 23:51:45,274 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e64a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,279 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366e10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,292 - WARNING - NEMbox.player:145: Song 196127 is unavailable due to copyright issue.
+2018-10-04 23:51:45,336 - DEBUG - NEMbox.player:285: 324631,雁南飞,http://music.163.com/song/media/outer/url?id=324631.mp3
+2018-10-04 23:51:45,350 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6358>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,356 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366518>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,366 - WARNING - NEMbox.player:145: Song 324631 is unavailable due to copyright issue.
+2018-10-04 23:51:45,414 - DEBUG - NEMbox.player:285: 144026,仓央嘉措情歌,http://music.163.com/song/media/outer/url?id=144026.mp3
+2018-10-04 23:51:45,427 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366748>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,429 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133669b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,439 - WARNING - NEMbox.player:145: Song 144026 is unavailable due to copyright issue.
+2018-10-04 23:51:45,485 - DEBUG - NEMbox.player:285: 5264840,Going home,http://music.163.com/song/media/outer/url?id=5264840.mp3
+2018-10-04 23:51:45,501 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366ba8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,502 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,512 - WARNING - NEMbox.player:145: Song 5264840 is unavailable due to copyright issue.
+2018-10-04 23:51:45,559 - DEBUG - NEMbox.player:285: 5238169,鸿雁,http://music.163.com/song/media/outer/url?id=5238169.mp3
+2018-10-04 23:51:45,573 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133666d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,574 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e07f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,585 - WARNING - NEMbox.player:145: Song 5238169 is unavailable due to copyright issue.
+2018-10-04 23:51:45,631 - DEBUG - NEMbox.player:285: 62531,乌兰巴托之夜,http://music.163.com/song/media/outer/url?id=62531.mp3
+2018-10-04 23:51:45,650 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366e48>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,655 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0898>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,657 - WARNING - NEMbox.player:145: Song 62531 is unavailable due to copyright issue.
+2018-10-04 23:51:45,703 - DEBUG - NEMbox.player:285: 231412,追梦人,http://music.163.com/song/media/outer/url?id=231412.mp3
+2018-10-04 23:51:45,717 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0978>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,721 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,730 - WARNING - NEMbox.player:145: Song 231412 is unavailable due to copyright issue.
+2018-10-04 23:51:45,775 - DEBUG - NEMbox.player:285: 297612,想把我唱给你听,http://music.163.com/song/media/outer/url?id=297612.mp3
+2018-10-04 23:51:45,785 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0438>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,789 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0c88>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,798 - WARNING - NEMbox.player:145: Song 297612 is unavailable due to copyright issue.
+2018-10-04 23:51:45,841 - DEBUG - NEMbox.player:285: 756112,桜道,http://music.163.com/song/media/outer/url?id=756112.mp3
+2018-10-04 23:51:45,857 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6c88>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,859 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,869 - WARNING - NEMbox.player:145: Song 756112 is unavailable due to copyright issue.
+2018-10-04 23:51:45,914 - DEBUG - NEMbox.player:285: 26508240,梵高先生,http://music.163.com/song/media/outer/url?id=26508240.mp3
+2018-10-04 23:51:45,929 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,931 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:45,944 - WARNING - NEMbox.player:145: Song 26508240 is unavailable due to copyright issue.
+2018-10-04 23:51:45,991 - DEBUG - NEMbox.player:285: 26508242,你离开了南京，从此没有人和我说话,http://music.163.com/song/media/outer/url?id=26508242.mp3
+2018-10-04 23:51:46,001 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e00f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,005 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc4a8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,018 - WARNING - NEMbox.player:145: Song 26508242 is unavailable due to copyright issue.
+2018-10-04 23:51:46,063 - DEBUG - NEMbox.player:285: 183301,青藏高原,http://music.163.com/song/media/outer/url?id=183301.mp3
+2018-10-04 23:51:46,078 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,078 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcb70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,084 - WARNING - NEMbox.player:145: Song 183301 is unavailable due to copyright issue.
+2018-10-04 23:51:46,127 - DEBUG - NEMbox.player:285: 139268,桜,http://music.163.com/song/media/outer/url?id=139268.mp3
+2018-10-04 23:51:46,139 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,144 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc8d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,154 - WARNING - NEMbox.player:145: Song 139268 is unavailable due to copyright issue.
+2018-10-04 23:51:46,197 - DEBUG - NEMbox.player:285: 29047169,夜明,http://music.163.com/song/media/outer/url?id=29047169.mp3
+2018-10-04 23:51:46,211 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc6a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,215 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcda0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,226 - WARNING - NEMbox.player:145: Song 29047169 is unavailable due to copyright issue.
+2018-10-04 23:51:46,269 - DEBUG - NEMbox.player:285: 406730501,偷偷的哭,http://music.163.com/song/media/outer/url?id=406730501.mp3
+2018-10-04 23:51:46,281 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bceb8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,283 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e41d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,293 - WARNING - NEMbox.player:145: Song 406730501 is unavailable due to copyright issue.
+2018-10-04 23:51:46,338 - DEBUG - NEMbox.player:285: 104241,生日礼物,http://music.163.com/song/media/outer/url?id=104241.mp3
+2018-10-04 23:51:46,353 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc240>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,357 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e97b8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,367 - WARNING - NEMbox.player:145: Song 104241 is unavailable due to copyright issue.
+2018-10-04 23:51:46,412 - DEBUG - NEMbox.player:285: 29393623,遇上你是我的缘 ,http://music.163.com/song/media/outer/url?id=29393623.mp3
+2018-10-04 23:51:46,424 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc358>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,429 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207278>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,439 - WARNING - NEMbox.player:145: Song 29393623 is unavailable due to copyright issue.
+2018-10-04 23:51:46,482 - DEBUG - NEMbox.player:285: 62546,斯卡布罗市集,http://music.163.com/song/media/outer/url?id=62546.mp3
+2018-10-04 23:51:46,499 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc5f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,501 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207438>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,510 - WARNING - NEMbox.player:145: Song 62546 is unavailable due to copyright issue.
+2018-10-04 23:51:46,554 - DEBUG - NEMbox.player:285: 356587,殉,http://music.163.com/song/media/outer/url?id=356587.mp3
+2018-10-04 23:51:46,567 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc6d8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,569 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02132075f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,579 - WARNING - NEMbox.player:145: Song 356587 is unavailable due to copyright issue.
+2018-10-04 23:51:46,622 - DEBUG - NEMbox.player:285: 29999506,莫失莫忘,http://music.163.com/song/media/outer/url?id=29999506.mp3
+2018-10-04 23:51:46,636 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207438>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,638 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213207278>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,649 - WARNING - NEMbox.player:145: Song 29999506 is unavailable due to copyright issue.
+2018-10-04 23:51:46,695 - DEBUG - NEMbox.player:285: 5256542,摇篮曲,http://music.163.com/song/media/outer/url?id=5256542.mp3
+2018-10-04 23:51:46,708 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc8d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,711 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e00f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,722 - WARNING - NEMbox.player:145: Song 5256542 is unavailable due to copyright issue.
+2018-10-04 23:51:46,765 - DEBUG - NEMbox.player:285: 29463694,马头琴恋曲,http://music.163.com/song/media/outer/url?id=29463694.mp3
+2018-10-04 23:51:46,777 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc470>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,778 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0400>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,783 - WARNING - NEMbox.player:145: Song 29463694 is unavailable due to copyright issue.
+2018-10-04 23:51:46,828 - DEBUG - NEMbox.player:285: 167219,梦中的额吉(蒙),http://music.163.com/song/media/outer/url?id=167219.mp3
+2018-10-04 23:51:46,841 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0518>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,846 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0208>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,853 - WARNING - NEMbox.player:145: Song 167219 is unavailable due to copyright issue.
+2018-10-04 23:51:46,898 - DEBUG - NEMbox.player:285: 28234970,想把我唱给你听,http://music.163.com/song/media/outer/url?id=28234970.mp3
+2018-10-04 23:51:46,912 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e03c8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,914 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0be0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,919 - WARNING - NEMbox.player:145: Song 28234970 is unavailable due to copyright issue.
+2018-10-04 23:51:46,964 - DEBUG - NEMbox.player:285: 289530,山歌好比春江水,http://music.163.com/song/media/outer/url?id=289530.mp3
+2018-10-04 23:51:46,980 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e0e80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,981 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366f98>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:46,990 - WARNING - NEMbox.player:145: Song 289530 is unavailable due to copyright issue.
+2018-10-04 23:51:47,034 - DEBUG - NEMbox.player:285: 379785,心愿,http://music.163.com/song/media/outer/url?id=379785.mp3
+2018-10-04 23:51:47,049 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bc400>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,051 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366fd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,061 - WARNING - NEMbox.player:145: Song 379785 is unavailable due to copyright issue.
+2018-10-04 23:51:47,105 - DEBUG - NEMbox.player:285: 186560,过火,http://music.163.com/song/media/outer/url?id=186560.mp3
+2018-10-04 23:51:47,124 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131bcdd8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,130 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366630>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,139 - WARNING - NEMbox.player:145: Song 186560 is unavailable due to copyright issue.
+2018-10-04 23:51:47,187 - DEBUG - NEMbox.player:285: 29719520,反唱西游,http://music.163.com/song/media/outer/url?id=29719520.mp3
+2018-10-04 23:51:47,198 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366e10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,202 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,225 - WARNING - NEMbox.player:145: Song 29719520 is unavailable due to copyright issue.
+2018-10-04 23:51:47,271 - DEBUG - NEMbox.player:285: 143833,高原红,http://music.163.com/song/media/outer/url?id=143833.mp3
+2018-10-04 23:51:47,284 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366ac8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,287 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6588>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,299 - WARNING - NEMbox.player:145: Song 143833 is unavailable due to copyright issue.
+2018-10-04 23:51:47,345 - DEBUG - NEMbox.player:285: 369392,让泪化作相思雨,http://music.163.com/song/media/outer/url?id=369392.mp3
+2018-10-04 23:51:47,357 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366198>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,359 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6a20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,366 - WARNING - NEMbox.player:145: Song 369392 is unavailable due to copyright issue.
+2018-10-04 23:51:47,410 - DEBUG - NEMbox.player:285: 33789522,骏马谣,http://music.163.com/song/media/outer/url?id=33789522.mp3
+2018-10-04 23:51:47,421 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0213366a58>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,424 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,434 - WARNING - NEMbox.player:145: Song 33789522 is unavailable due to copyright issue.
+2018-10-04 23:51:47,479 - DEBUG - NEMbox.player:285: 151985,丁香花,http://music.163.com/song/media/outer/url?id=151985.mp3
+2018-10-04 23:51:47,489 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e65f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,493 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6be0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,505 - WARNING - NEMbox.player:145: Song 151985 is unavailable due to copyright issue.
+2018-10-04 23:51:47,549 - DEBUG - NEMbox.player:285: 440207431,牡丹亭外,http://music.163.com/song/media/outer/url?id=440207431.mp3
+2018-10-04 23:51:47,560 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6b38>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,563 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e60f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,574 - WARNING - NEMbox.player:145: Song 440207431 is unavailable due to copyright issue.
+2018-10-04 23:51:47,617 - DEBUG - NEMbox.player:285: 202367,人家,http://music.163.com/song/media/outer/url?id=202367.mp3
+2018-10-04 23:51:47,627 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02131e6d30>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,629 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02132070f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,640 - WARNING - NEMbox.player:145: Song 202367 is unavailable due to copyright issue.
+2018-10-04 23:51:47,682 - DEBUG - NEMbox.player:285: 64317,因为爱情,http://music.163.com/song/media/outer/url?id=64317.mp3
+2018-10-04 23:51:47,693 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02133665f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,695 - ERROR - NEMbox.api:262: HTTPConnectionPool(host='music.163.com', port=80): Max retries exceeded with url: /weapi/song/lyric (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02132076a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2018-10-04 23:51:47,711 - WARNING - NEMbox.player:145: Song 64317 is unavailable due to copyright issue.
+2018-10-04 23:52:50,979 - ERROR - NEMbox.api:534: can't get song url, id: 30413271
+2018-10-04 23:52:50,979 - ERROR - NEMbox.api:534: can't get song url, id: 27902180
+2018-10-04 23:52:50,979 - ERROR - NEMbox.api:534: can't get song url, id: 141261
+2018-10-04 23:52:52,020 - DEBUG - NEMbox.player:285: 30413271,水墨丹青凤凰城 (2012版),http://music.163.com/song/media/outer/url?id=30413271.mp3
+2018-10-04 23:57:39,887 - DEBUG - NEMbox.player:285: 27902180,钟无艳,http://music.163.com/song/media/outer/url?id=27902180.mp3

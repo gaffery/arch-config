@@ -12,4 +12,5 @@ pip 安装与恢复
 {{./pasted_image001.png}}
 pacman -Qk 检查文件包完整性
 
-
+uuid 显示
+blkid /dev/sdb1 

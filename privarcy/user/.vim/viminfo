@@ -11,21 +11,21 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/im
+~MSle0~/cv2
 
 # Last Substitute Search Pattern:
-~MSle0~&scalar_summary
+~MSle0&scalar_summary
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538655460,,"w"
+|2,0,1538664970,,"w"
+:q
+|2,0,1538656670,,"q"
 :q!
 |2,0,1538655189,,"q!"
-:q
-|2,0,1538655188,,"q"
 :%s/scalar_summary/summary.scalar
 |2,0,1538573510,,"%s/scalar_summary/summary.scalar"
 :%s/
@@ -122,14 +122,16 @@ $
 |2,0,1537962591,,"W"
 
 # Search String History (newest to oldest):
+?? 
+|2,1,1538659416,63," "
+?/cv2
+|2,1,1538657016,47,"cv2"
 ? scalar_summary
 |2,1,1538573510,,"scalar_summary"
 ? histogram_summary
 |2,1,1538573432,,"histogram_summary"
 ?/hisg
 |2,1,1538573298,47,"hisg"
-?? 
-|2,1,1538224356,63," "
 ? @$
 |2,1,1538221788,,"@$"
 ?/im
@@ -220,36 +222,43 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	cp -Rp .ipython /home/gaffey/.config/privarcy/user/.
-|3,0,0,1,1,0,1538655386,"cp -Rp .ipython /home/gaffey/.config/privarcy/user/."
-"1	LINE	0
-	mxnet.misc
-|3,0,1,1,1,0,1538592850,"mxnet.misc"
+"0	CHAR	0
+	plt.ion()
+	fig = plt.figure()
+	ax1 = fig.add_subplot(111)
+	ax1.set_title('Scatter Plot')
+	plt.xlabel('X')
+	plt.ylabel('Y')
+	plt.plot()
+	
+|3,0,0,0,8,0,1538659407,"plt.ion()","fig = plt.figure()","ax1 = fig.add_subplot(111)","ax1.set_title('Scatter Plot')","plt.xlabel('X')","plt.ylabel('Y')","plt.plot()",""
+""1	LINE	0
+	
+|3,1,1,1,1,0,1538665694,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1538574440,""
+	    dataSet = ['man',man,]
+|3,0,2,1,1,0,1538665692,"    dataSet = ['man',man,]"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1538573816,""
+	    RuntimeError
+|3,0,3,1,1,0,1538665562,"    RuntimeError"
 "4	LINE	0
-	with tf.name_scope('graph') as scope:
-|3,0,4,1,1,0,1538573816,"with tf.name_scope('graph') as scope:"
+	
+|3,0,4,1,1,0,1538665537,""
 "5	LINE	0
-	     matrix1 = tf.constant([[3., 3.]],name ='matrix1')  #1 row by 2 column
-|3,0,5,1,1,0,1538573816,"     matrix1 = tf.constant([[3., 3.]],name ='matrix1')  #1 row by 2 column"
+	
+|3,0,5,1,1,0,1538665536,""
 "6	LINE	0
-	     matrix2 = tf.constant([[2.],[2.]],name ='matrix2') # 2 row by 1 column
-|3,0,6,1,1,0,1538573816,"     matrix2 = tf.constant([[2.],[2.]],name ='matrix2') # 2 row by 1 column"
+	
+|3,0,6,1,1,0,1538665512,""
 "7	LINE	0
-	     product = tf.matmul(matrix1, matrix2,name='product')
-|3,0,7,1,1,0,1538573816,"     product = tf.matmul(matrix1, matrix2,name='product')"
+	
+|3,0,7,1,1,0,1538663753,""
 "8	LINE	0
-	  
-|3,0,8,1,1,0,1538573816,"  "
+	
+|3,0,8,1,1,0,1538662985,""
 "9	LINE	0
-	sess = tf.Session()
-|3,0,9,1,1,0,1538573816,"sess = tf.Session()"
+	girl = np.arr
+|3,0,9,1,1,0,1538662559,"girl = np.arr"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -305,14 +314,111 @@ $
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-""-	CHAR	0
-	/
-|3,1,36,0,1,0,1538655456,"/"
+"-	CHAR	0
+	]
+|3,0,36,0,1,0,1538664962,"]"
 
 # Buffer list:
-%~/.config/privarcy/etc/cron/SysBackup	12	18
+%~/bayes.py	19	4
 
 # History of marks within files (newest to oldest):
+
+> ~/bayes.py
+	*	1538665694	0
+	"	19	4
+	.	18	4
+	+	23	0
+	+	36	0
+	+	23	8
+	+	23	0
+	+	35	0
+	+	23	0
+	+	35	0
+	+	41	0
+	+	23	0
+	+	36	0
+	+	37	0
+	+	23	0
+	+	41	0
+	+	35	0
+	+	35	27
+	+	23	0
+	+	10	0
+	+	9	0
+	+	2	0
+	+	9	0
+	+	6	0
+	+	1	0
+	+	35	0
+	+	1	0
+	+	23	0
+	+	40	18
+	+	41	0
+	+	23	0
+	+	35	20
+	+	35	0
+	+	24	0
+	+	33	0
+	+	35	0
+	+	23	0
+	+	1	0
+	+	35	0
+	+	40	0
+	+	41	0
+	+	40	0
+	+	37	0
+	+	34	0
+	+	31	0
+	+	35	18
+	+	27	0
+	+	25	14
+	+	32	16
+	+	33	21
+	+	32	17
+	+	34	0
+	+	40	0
+	+	38	33
+	+	1	0
+	+	40	0
+	+	39	0
+	+	23	0
+	+	15	29
+	+	10	27
+	+	14	0
+	+	15	0
+	+	28	0
+	+	35	4
+	+	38	4
+	+	35	4
+	+	36	4
+	+	38	35
+	+	14	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	23	0
+	+	2	0
+	+	11	0
+	+	12	20
+	+	13	27
+	+	14	0
+	+	16	20
+	+	17	22
+	+	1	0
+	+	22	13
+	+	10	29
+	+	7	14
+	+	8	17
+	+	9	0
+	+	10	0
+	+	14	0
+	+	16	0
+	+	21	0
+	+	20	10
+	+	20	0
+	+	17	0
+	+	18	4
+	a	16	22
 
 > ~/.config/privarcy/etc/cron/SysBackup
 	*	1538655464	0
@@ -448,11 +554,3 @@ $
 	.	169	0
 	+	151	0
 	+	169	0
-
-> ~/.vim/vimrc
-	*	1538572142	0
-	"	56	25
-	^	56	26
-	.	56	25
-	+	55	0
-	+	56	25
