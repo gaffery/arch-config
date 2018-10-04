@@ -93,8 +93,6 @@ pkgconf
 procps-ng
 proxychains-ng
 psmisc
-pulseaudio
-pulseaudio-alsa
 python-pip
 python2-jedi
 reiserfsprogs
