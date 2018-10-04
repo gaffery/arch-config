@@ -76,6 +76,7 @@ man-pages
 mdadm
 mlocate
 moc
+mpg123
 mpv
 nano
 netctl
@@ -86,7 +87,6 @@ opencl-nvidia
 openssh
 pacman
 patch
-pavucontrol
 pciutils
 perl
 pkgconf

@@ -21,7 +21,11 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538635118,,"w"
+|2,0,1538655460,,"w"
+:q!
+|2,0,1538655189,,"q!"
+:q
+|2,0,1538655188,,"q"
 :%s/scalar_summary/summary.scalar
 |2,0,1538573510,,"%s/scalar_summary/summary.scalar"
 :%s/
@@ -30,10 +34,6 @@ $
 |2,0,1538573432,,"%s/histogram_summary/summary.histogram/g"
 :%shistogram_summary
 |2,0,1538573408,,"%shistogram_summary"
-:q
-|2,0,1538572972,,"q"
-:q!
-|2,0,1538572967,,"q!"
 :%retab!
 |2,0,1538572651,,"%retab!"
 :set expandtab
@@ -220,12 +220,12 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	scalar_summary
-|3,0,0,0,1,0,1538573487,"scalar_summary"
-""1	LINE	0
+"0	LINE	0
+	cp -Rp .ipython /home/gaffey/.config/privarcy/user/.
+|3,0,0,1,1,0,1538655386,"cp -Rp .ipython /home/gaffey/.config/privarcy/user/."
+"1	LINE	0
 	mxnet.misc
-|3,1,1,1,1,0,1538592850,"mxnet.misc"
+|3,0,1,1,1,0,1538592850,"mxnet.misc"
 "2	LINE	0
 	
 |3,0,2,1,1,0,1538574440,""
@@ -305,14 +305,41 @@ $
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	)
-|3,0,36,0,1,0,1538573859,")"
+""-	CHAR	0
+	/
+|3,1,36,0,1,0,1538655456,"/"
 
 # Buffer list:
-%~/.asoundrc	2	0
+%~/.config/privarcy/etc/cron/SysBackup	12	18
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/privarcy/etc/cron/SysBackup
+	*	1538655464	0
+	"	12	18
+	^	9	27
+	.	9	7
+	+	9	7
+
+> /usr/lib/python3.7/site-packages/NEMbox/api.py
+	*	1538655188	0
+	"	24	30
+	^	24	31
+	.	24	30
+	+	24	30
+
+> ~/.config/privarcy/PreLogin
+	*	1538653969	0
+	"	18	95
+	^	2	19
+	.	2	16
+	+	2	16
+	+	3	19
+	+	2	16
+
+> /usr/lib/systemd/system/alsa-restore.service
+	*	1538653393	0
+	"	1	0
 
 > ~/.asoundrc
 	*	1538635118	0
@@ -429,23 +456,3 @@ $
 	.	56	25
 	+	55	0
 	+	56	25
-
-> /etc/fstab
-	*	1538558174	0
-	"	15	0
-	.	15	0
-	+	15	0
-
-> ~/NERD_tree_1
-	*	1538553347	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /etc/pulse/default.pa
-	*	1538553289	0
-	"	47	21
-
-> ~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml
-	*	1538547091	0
-	"	22	0

@@ -1,4 +1,6 @@
 #!/bin/bash
+# alsa 声音恢复
+sudo alsactl restore
 # 影梭服务器链接
 ss-local -c ~/.config/privarcy/shadowsocks/config1.json > /dev/null 2>&1 &
 cd $HOME

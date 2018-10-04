@@ -6,6 +6,7 @@ cp -Rp .moc /home/gaffey/.config/privarcy/user/.
 cp -Rp .vim /home/gaffey/.config/privarcy/user/.
 cp -Rp .w3m /home/gaffey/.config/privarcy/user/.
 cp -Rp .ipython /home/gaffey/.config/privarcy/user/.
+cp -Rp .netease-musicbox /home/gaffey/.config/privarcy/user/.
 # 自定义配置备份
 cp -p /etc/lxdm/lxdm.conf .config/privarcy/etc/.
 cp -p /etc/cron.d/* .config/privarcy/etc/.
