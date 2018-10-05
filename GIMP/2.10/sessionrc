@@ -16,7 +16,7 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
-        (right-docks-width "442")
+        (right-docks-width "431")
         (maximized "no"))
     (gimp-dock
         (side left)
@@ -46,7 +46,11 @@
                 (tab-style preview-name)
                 (preview-size 32)
                 (aux-info
-                    (show-button-bar "false"))))
+                    (show-button-bar "false")))
+            (dockable "gimp-gradient-list"
+                (tab-style automatic)
+                (aux-info
+                    (show-button-bar "true"))))
         (book
             (position 387)
             (current-page 0)
@@ -122,8 +126,8 @@
     (position 659 372))
 (session-info "toplevel"
     (factory-entry "gimp-curves-tool-dialog")
-    (position 1969 555)
-    (size 472 543))
+    (position 1969 537)
+    (size 500 561))
 (session-info "toplevel"
     (factory-entry "gimp-threshold-tool-dialog")
     (position 630 67))

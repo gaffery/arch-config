@@ -2,7 +2,7 @@
 
 (tool "gimp-mypaint-brush-tool")
 (paint-info "gimp-mybrush")
-(foreground (color-rgb 1.000000 0.082353 0.000000))
+(foreground (color-rgb 0.192157 0.007843 0.007843))
 (brush "2. Block 01")
 (dynamics "Perspective")
 (mybrush "brush #1")
@@ -10,6 +10,6 @@
 (gradient "Tropical Colors")
 (palette "Default")
 (font "Sans-serif")
-(tool-preset "Wacom Intuos PT M 2 Pen stylus")
+(tool-preset "mypaint knife")
 
 # end of user context

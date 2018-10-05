@@ -1889,3 +1889,201 @@
 2018-10-05 17:06:48,902 - ERROR - NEMbox.api:534: can't get song url, id: 411349435
 2018-10-05 17:06:48,922 - DEBUG - NEMbox.player:285: 459442631,成都（女声版）（Cover 赵雷）,http://music.163.com/song/media/outer/url?id=459442631.mp3
 2018-10-05 17:11:39,920 - DEBUG - NEMbox.player:285: 411349435,有个爱你的人不容易,http://music.163.com/song/media/outer/url?id=411349435.mp3
+################################################################################
+2018-10-05 22:08:24,222 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-05 22:08:24,222 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-05 22:08:29,305 - ERROR - NEMbox.api:534: can't get song url, id: 411349443
+2018-10-05 22:08:29,305 - ERROR - NEMbox.api:534: can't get song url, id: 431554136
+2018-10-05 22:08:29,306 - ERROR - NEMbox.api:534: can't get song url, id: 301131
+2018-10-05 22:08:29,957 - DEBUG - NEMbox.player:285: 411349443,我最亲爱的,http://music.163.com/song/media/outer/url?id=411349443.mp3
+2018-10-05 22:10:09,997 - DEBUG - NEMbox.player:285: 301131,唱首情歌给草原,http://music.163.com/song/media/outer/url?id=301131.mp3
+2018-10-05 22:10:10,006 - DEBUG - NEMbox.player:285: 301131,唱首情歌给草原,http://music.163.com/song/media/outer/url?id=301131.mp3
+2018-10-05 22:10:12,065 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:10:12,065 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:10:12,329 - ERROR - NEMbox.api:534: can't get song url, id: 281262
+2018-10-05 22:10:12,330 - ERROR - NEMbox.api:534: can't get song url, id: 342163
+2018-10-05 22:10:12,330 - ERROR - NEMbox.api:534: can't get song url, id: 516872617
+2018-10-05 22:10:12,349 - DEBUG - NEMbox.player:285: 281262,思念是一种病,http://music.163.com/song/media/outer/url?id=281262.mp3
+2018-10-05 22:10:16,220 - DEBUG - NEMbox.player:285: 342163,花好月圆夜,http://music.163.com/song/media/outer/url?id=342163.mp3
+2018-10-05 22:14:18,162 - DEBUG - NEMbox.player:285: 516872617,凉凉（古筝独奏）,http://music.163.com/song/media/outer/url?id=516872617.mp3
+2018-10-05 22:19:51,802 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:19:51,803 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:19:52,123 - ERROR - NEMbox.api:534: can't get song url, id: 431554132
+2018-10-05 22:19:52,123 - ERROR - NEMbox.api:534: can't get song url, id: 309777
+2018-10-05 22:19:52,146 - DEBUG - NEMbox.player:285: 431554132,你还要我怎样－徐薇（Cover 薛之谦）,http://music.163.com/song/media/outer/url?id=431554132.mp3
+2018-10-05 22:25:02,208 - DEBUG - NEMbox.player:285: 309777,趁早,http://music.163.com/song/media/outer/url?id=309777.mp3
+2018-10-05 22:30:20,098 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:30:20,098 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:30:20,400 - ERROR - NEMbox.api:534: can't get song url, id: 28568244
+2018-10-05 22:30:20,400 - ERROR - NEMbox.api:534: can't get song url, id: 276042
+2018-10-05 22:30:20,421 - DEBUG - NEMbox.player:285: 28568244,夜空中最亮的星,http://music.163.com/song/media/outer/url?id=28568244.mp3
+2018-10-05 22:30:22,500 - DEBUG - NEMbox.player:285: 276042,过火,http://music.163.com/song/media/outer/url?id=276042.mp3
+2018-10-05 22:30:24,034 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:30:24,034 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:30:24,261 - ERROR - NEMbox.api:534: can't get song url, id: 27955653
+2018-10-05 22:30:24,281 - DEBUG - NEMbox.player:285: 27955653,你还要我怎样,http://music.163.com/song/media/outer/url?id=27955653.mp3
+2018-10-05 22:30:25,810 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:30:25,810 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:30:25,995 - ERROR - NEMbox.api:534: can't get song url, id: 251177
+2018-10-05 22:30:25,995 - ERROR - NEMbox.api:534: can't get song url, id: 209121
+2018-10-05 22:30:26,017 - DEBUG - NEMbox.player:285: 251177,红豆,http://music.163.com/song/media/outer/url?id=251177.mp3
+2018-10-05 22:30:27,046 - DEBUG - NEMbox.player:285: 209121,陌生人,http://music.163.com/song/media/outer/url?id=209121.mp3
+2018-10-05 22:30:27,825 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:30:27,825 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:30:27,996 - ERROR - NEMbox.api:534: can't get song url, id: 28314060
+2018-10-05 22:30:27,997 - ERROR - NEMbox.api:534: can't get song url, id: 253441
+2018-10-05 22:30:27,997 - ERROR - NEMbox.api:534: can't get song url, id: 5274412
+2018-10-05 22:30:28,018 - DEBUG - NEMbox.player:285: 28314060,听海,http://music.163.com/song/media/outer/url?id=28314060.mp3
+2018-10-05 22:30:29,774 - DEBUG - NEMbox.player:285: 253441,雪花,http://music.163.com/song/media/outer/url?id=253441.mp3
+2018-10-05 22:30:30,541 - DEBUG - NEMbox.player:285: 5274412,大花轿,http://music.163.com/song/media/outer/url?id=5274412.mp3
+2018-10-05 22:30:31,274 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:30:31,274 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:30:31,460 - ERROR - NEMbox.api:534: can't get song url, id: 5258794
+2018-10-05 22:30:31,460 - ERROR - NEMbox.api:534: can't get song url, id: 322472
+2018-10-05 22:30:31,461 - ERROR - NEMbox.api:534: can't get song url, id: 5263585
+2018-10-05 22:30:31,481 - DEBUG - NEMbox.player:285: 5258794,羞答答的玫瑰静悄悄的开,http://music.163.com/song/media/outer/url?id=5258794.mp3
+2018-10-05 22:30:37,476 - DEBUG - NEMbox.player:285: 5274412,大花轿,http://music.163.com/song/media/outer/url?id=5274412.mp3
+2018-10-05 22:34:44,890 - DEBUG - NEMbox.player:285: 5258794,羞答答的玫瑰静悄悄的开,http://music.163.com/song/media/outer/url?id=5258794.mp3
+2018-10-05 22:39:17,007 - DEBUG - NEMbox.player:285: 5263585,渔舟唱晚 (河南筝曲),http://music.163.com/song/media/outer/url?id=5263585.mp3
+2018-10-05 22:39:18,330 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:39:18,330 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:39:18,698 - ERROR - NEMbox.api:534: can't get song url, id: 169092
+2018-10-05 22:39:18,699 - ERROR - NEMbox.api:534: can't get song url, id: 472256897
+2018-10-05 22:39:18,699 - ERROR - NEMbox.api:534: can't get song url, id: 29491773
+2018-10-05 22:39:18,717 - DEBUG - NEMbox.player:285: 169092,无伤曲,http://music.163.com/song/media/outer/url?id=169092.mp3
+2018-10-05 22:39:19,672 - DEBUG - NEMbox.player:285: 472256897,四月，初雨微凉,http://music.163.com/song/media/outer/url?id=472256897.mp3
+2018-10-05 22:39:21,414 - DEBUG - NEMbox.player:285: 29491773,独坐幽篁,http://music.163.com/song/media/outer/url?id=29491773.mp3
+2018-10-05 22:39:33,514 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:39:33,514 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:39:33,769 - ERROR - NEMbox.api:534: can't get song url, id: 62484
+2018-10-05 22:39:33,770 - ERROR - NEMbox.api:534: can't get song url, id: 125002
+2018-10-05 22:39:33,770 - ERROR - NEMbox.api:534: can't get song url, id: 5260842
+2018-10-05 22:39:33,790 - DEBUG - NEMbox.player:285: 62484,牧羊姑娘,http://music.163.com/song/media/outer/url?id=62484.mp3
+2018-10-05 22:39:36,054 - DEBUG - NEMbox.player:285: 125002,风中的承诺,http://music.163.com/song/media/outer/url?id=125002.mp3
+2018-10-05 22:39:38,398 - DEBUG - NEMbox.player:285: 5260842,寂寞沙洲冷,http://music.163.com/song/media/outer/url?id=5260842.mp3
+2018-10-05 22:39:41,978 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:39:41,979 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:39:42,182 - ERROR - NEMbox.api:534: can't get song url, id: 317645
+2018-10-05 22:39:42,182 - ERROR - NEMbox.api:534: can't get song url, id: 66253
+2018-10-05 22:39:42,182 - ERROR - NEMbox.api:534: can't get song url, id: 172886
+2018-10-05 22:39:42,203 - DEBUG - NEMbox.player:285: 317645,不要对他说,http://music.163.com/song/media/outer/url?id=317645.mp3
+2018-10-05 22:39:43,638 - DEBUG - NEMbox.player:285: 66253,风起时，想你,http://music.163.com/song/media/outer/url?id=66253.mp3
+2018-10-05 22:39:44,979 - DEBUG - NEMbox.player:285: 172886,分手那天,http://music.163.com/song/media/outer/url?id=172886.mp3
+2018-10-05 22:39:47,954 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:39:47,955 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:39:48,123 - ERROR - NEMbox.api:534: can't get song url, id: 27501872
+2018-10-05 22:39:48,123 - ERROR - NEMbox.api:534: can't get song url, id: 30431376
+2018-10-05 22:39:48,123 - ERROR - NEMbox.api:534: can't get song url, id: 27937575
+2018-10-05 22:39:48,143 - DEBUG - NEMbox.player:285: 27501872,阿里山的姑娘,http://music.163.com/song/media/outer/url?id=27501872.mp3
+2018-10-05 22:43:46,082 - DEBUG - NEMbox.player:285: 30431376,易燃易爆炸,http://music.163.com/song/media/outer/url?id=30431376.mp3
+2018-10-05 22:47:06,726 - DEBUG - NEMbox.player:285: 27937575,爱上别人的人,http://music.163.com/song/media/outer/url?id=27937575.mp3
+2018-10-05 22:50:51,631 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:50:51,632 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:50:51,995 - ERROR - NEMbox.api:534: can't get song url, id: 5231448
+2018-10-05 22:50:51,995 - ERROR - NEMbox.api:534: can't get song url, id: 5255637
+2018-10-05 22:50:51,995 - ERROR - NEMbox.api:534: can't get song url, id: 503657647
+2018-10-05 22:50:52,014 - DEBUG - NEMbox.player:285: 5231448,忘记你太难,http://music.163.com/song/media/outer/url?id=5231448.mp3
+2018-10-05 22:53:30,598 - DEBUG - NEMbox.player:285: 5255637,你怎么舍得我难过,http://music.163.com/song/media/outer/url?id=5255637.mp3
+2018-10-05 22:53:31,934 - DEBUG - NEMbox.player:285: 503657647,Look What You Made Me Do(Piano Version),http://music.163.com/song/media/outer/url?id=503657647.mp3
+2018-10-05 22:53:33,114 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:33,115 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:33,311 - ERROR - NEMbox.api:534: can't get song url, id: 1496271
+2018-10-05 22:53:33,311 - ERROR - NEMbox.api:534: can't get song url, id: 28953984
+2018-10-05 22:53:33,311 - ERROR - NEMbox.api:534: can't get song url, id: 106472
+2018-10-05 22:53:33,330 - DEBUG - NEMbox.player:285: 1496271,Bluebird,http://music.163.com/song/media/outer/url?id=1496271.mp3
+2018-10-05 22:53:34,326 - DEBUG - NEMbox.player:285: 28953984,Falling Slowly,http://music.163.com/song/media/outer/url?id=28953984.mp3
+2018-10-05 22:53:34,982 - DEBUG - NEMbox.player:285: 106472,将进酒 李白词 金蔚谱曲并弦歌,http://music.163.com/song/media/outer/url?id=106472.mp3
+2018-10-05 22:53:39,691 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:39,691 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:39,851 - ERROR - NEMbox.api:534: can't get song url, id: 275883
+2018-10-05 22:53:39,852 - ERROR - NEMbox.api:534: can't get song url, id: 134868
+2018-10-05 22:53:39,852 - ERROR - NEMbox.api:534: can't get song url, id: 5256598
+2018-10-05 22:53:39,872 - DEBUG - NEMbox.player:285: 275883,星语心愿,http://music.163.com/song/media/outer/url?id=275883.mp3
+2018-10-05 22:53:41,302 - DEBUG - NEMbox.player:285: 134868,甜蜜蜜,http://music.163.com/song/media/outer/url?id=134868.mp3
+2018-10-05 22:53:42,054 - DEBUG - NEMbox.player:285: 5256598,Oh Pretty Woman,http://music.163.com/song/media/outer/url?id=5256598.mp3
+2018-10-05 22:53:42,242 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:42,243 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:42,435 - ERROR - NEMbox.api:534: can't get song url, id: 202342
+2018-10-05 22:53:42,435 - ERROR - NEMbox.api:534: can't get song url, id: 357312
+2018-10-05 22:53:42,435 - ERROR - NEMbox.api:534: can't get song url, id: 191437
+2018-10-05 22:53:42,453 - DEBUG - NEMbox.player:285: 202342,你就是我最想要的丫头,http://music.163.com/song/media/outer/url?id=202342.mp3
+2018-10-05 22:53:42,974 - DEBUG - NEMbox.player:285: 357312,流川枫与苍井空,http://music.163.com/song/media/outer/url?id=357312.mp3
+2018-10-05 22:53:43,195 - DEBUG - NEMbox.player:285: 191437,我是不是你最疼爱的人,http://music.163.com/song/media/outer/url?id=191437.mp3
+2018-10-05 22:53:43,482 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:43,483 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:44,692 - ERROR - NEMbox.api:534: can't get song url, id: 188429
+2018-10-05 22:53:44,692 - ERROR - NEMbox.api:534: can't get song url, id: 505684230
+2018-10-05 22:53:44,693 - ERROR - NEMbox.api:534: can't get song url, id: 574491384
+2018-10-05 22:53:44,710 - DEBUG - NEMbox.player:285: 188429,我真的受伤了,http://music.163.com/song/media/outer/url?id=188429.mp3
+2018-10-05 22:53:44,833 - DEBUG - NEMbox.player:285: 505684230,孙俪 - 忘不掉-文武贝钢琴版（电视剧《那年花开月正圆》片头曲）,http://music.163.com/song/media/outer/url?id=505684230.mp3
+2018-10-05 22:53:45,436 - DEBUG - NEMbox.player:285: 574491384,从开始到现在（Cover：张信哲）,http://music.163.com/song/media/outer/url?id=574491384.mp3
+2018-10-05 22:53:45,635 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:45,635 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:45,810 - ERROR - NEMbox.api:534: can't get song url, id: 247512
+2018-10-05 22:53:45,811 - ERROR - NEMbox.api:534: can't get song url, id: 283846
+2018-10-05 22:53:45,830 - DEBUG - NEMbox.player:285: 247512,星月神话,http://music.163.com/song/media/outer/url?id=247512.mp3
+2018-10-05 22:53:45,953 - DEBUG - NEMbox.player:285: 283846,加速度,http://music.163.com/song/media/outer/url?id=283846.mp3
+2018-10-05 22:53:47,658 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:53:47,659 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:53:47,821 - ERROR - NEMbox.api:534: can't get song url, id: 447925059
+2018-10-05 22:53:47,821 - ERROR - NEMbox.api:534: can't get song url, id: 31445772
+2018-10-05 22:53:47,840 - DEBUG - NEMbox.player:285: 447925059,阿刁,http://music.163.com/song/media/outer/url?id=447925059.mp3
+2018-10-05 22:53:48,902 - DEBUG - NEMbox.player:285: 31445772,理想三旬,http://music.163.com/song/media/outer/url?id=31445772.mp3
+2018-10-05 22:57:19,923 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:57:19,923 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:57:20,337 - ERROR - NEMbox.api:534: can't get song url, id: 29732733
+2018-10-05 22:57:20,337 - ERROR - NEMbox.api:534: can't get song url, id: 108557
+2018-10-05 22:57:20,358 - DEBUG - NEMbox.player:285: 29732733,永隔一江水,http://music.163.com/song/media/outer/url?id=29732733.mp3
+2018-10-05 22:58:07,943 - DEBUG - NEMbox.player:285: 108557,残酷月光,http://music.163.com/song/media/outer/url?id=108557.mp3
+2018-10-05 22:58:09,139 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:58:09,139 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:58:09,312 - ERROR - NEMbox.api:534: can't get song url, id: 28403111
+2018-10-05 22:58:09,332 - DEBUG - NEMbox.player:285: 28403111,特别的人,http://music.163.com/song/media/outer/url?id=28403111.mp3
+2018-10-05 22:58:11,059 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:58:11,059 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:58:11,282 - ERROR - NEMbox.api:534: can't get song url, id: 29999444
+2018-10-05 22:58:11,303 - DEBUG - NEMbox.player:285: 29999444,华山论剑--欢快版,http://music.163.com/song/media/outer/url?id=29999444.mp3
+2018-10-05 22:58:12,491 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 22:58:12,491 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 22:58:12,680 - ERROR - NEMbox.api:534: can't get song url, id: 5254440
+2018-10-05 22:58:12,700 - DEBUG - NEMbox.player:285: 5254440,小芳,http://music.163.com/song/media/outer/url?id=5254440.mp3
+2018-10-05 23:02:50,075 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:02:50,075 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:02:50,423 - ERROR - NEMbox.api:534: can't get song url, id: 65515
+2018-10-05 23:02:50,444 - DEBUG - NEMbox.player:285: 65515,三百六十五个祝福,http://music.163.com/song/media/outer/url?id=65515.mp3
+2018-10-05 23:03:14,691 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:14,692 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:15,220 - ERROR - NEMbox.api:534: can't get song url, id: 5260491
+2018-10-05 23:03:15,240 - DEBUG - NEMbox.player:285: 5260491,叶子,http://music.163.com/song/media/outer/url?id=5260491.mp3
+2018-10-05 23:03:16,051 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:16,051 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:16,230 - ERROR - NEMbox.api:534: can't get song url, id: 482595355
+2018-10-05 23:03:16,250 - DEBUG - NEMbox.player:285: 482595355,繁花之年 （2017天刀两周年 陌上节音乐）,http://music.163.com/song/media/outer/url?id=482595355.mp3
+2018-10-05 23:03:17,683 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:17,683 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:17,895 - ERROR - NEMbox.api:534: can't get song url, id: 251168
+2018-10-05 23:03:17,915 - DEBUG - NEMbox.player:285: 251168,情深深雨蒙蒙,http://music.163.com/song/media/outer/url?id=251168.mp3
+2018-10-05 23:03:19,019 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:19,019 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:19,193 - ERROR - NEMbox.api:534: can't get song url, id: 134861
+2018-10-05 23:03:19,212 - DEBUG - NEMbox.player:285: 134861,漫步人生路,http://music.163.com/song/media/outer/url?id=134861.mp3
+2018-10-05 23:03:20,611 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:20,612 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:20,772 - ERROR - NEMbox.api:534: can't get song url, id: 41602474
+2018-10-05 23:03:20,791 - DEBUG - NEMbox.player:285: 41602474,守望相助,http://music.163.com/song/media/outer/url?id=41602474.mp3
+2018-10-05 23:03:22,851 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:22,851 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:23,230 - ERROR - NEMbox.api:534: can't get song url, id: 5308028
+2018-10-05 23:03:23,230 - ERROR - NEMbox.api:534: can't get song url, id: 480353
+2018-10-05 23:03:23,230 - ERROR - NEMbox.api:534: can't get song url, id: 406238
+2018-10-05 23:03:23,249 - DEBUG - NEMbox.player:285: 5308028,My Soul,http://music.163.com/song/media/outer/url?id=5308028.mp3
+2018-10-05 23:03:23,942 - DEBUG - NEMbox.player:285: 480353,いつも何度でも,http://music.163.com/song/media/outer/url?id=480353.mp3
+2018-10-05 23:03:24,606 - DEBUG - NEMbox.player:285: 406238,Flower Dance,http://music.163.com/song/media/outer/url?id=406238.mp3
+2018-10-05 23:03:25,171 - DEBUG - NEMbox.player:310: Callback
+2018-10-05 23:03:25,171 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-05 23:03:25,376 - ERROR - NEMbox.api:534: can't get song url, id: 5230390
+2018-10-05 23:03:25,376 - ERROR - NEMbox.api:534: can't get song url, id: 255294
+2018-10-05 23:03:25,376 - ERROR - NEMbox.api:534: can't get song url, id: 167975
+2018-10-05 23:03:25,396 - DEBUG - NEMbox.player:285: 5230390,我们的歌谣,http://music.163.com/song/media/outer/url?id=5230390.mp3
+2018-10-05 23:08:34,349 - DEBUG - NEMbox.player:285: 255294,我很快乐,http://music.163.com/song/media/outer/url?id=255294.mp3
+2018-10-05 23:12:08,226 - DEBUG - NEMbox.player:285: 167975,曾经的你,http://music.163.com/song/media/outer/url?id=167975.mp3
