@@ -2,11 +2,10 @@
 
 (tool "gimp-mypaint-brush-tool")
 (paint-info "gimp-mybrush")
-(foreground (color-rgb 0.400000 0.094118 0.066667))
-(background (color-rgb 0.329412 0.529412 0.321569))
+(foreground (color-rgb 1.000000 0.082353 0.000000))
 (brush "2. Block 01")
 (dynamics "Perspective")
-(mybrush "soft")
+(mybrush "brush #1")
 (pattern "Pine")
 (gradient "Tropical Colors")
 (palette "Default")

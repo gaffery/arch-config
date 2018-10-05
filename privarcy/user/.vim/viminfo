@@ -21,9 +21,19 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538664970,,"w"
+|2,0,1538730250,,"w"
+:qw
+|2,0,1538672454,,"qw"
+:ws
+|2,0,1538672219,,"ws"
+:r
+|2,0,1538666206,,"r"
 :q
-|2,0,1538656670,,"q"
+|2,0,1538670333,,"q"
+:PlugClean
+|2,0,1538670329,,"PlugClean"
+:PlugInstall
+|2,0,1538670076,,"PlugInstall"
 :q!
 |2,0,1538655189,,"q!"
 :%s/scalar_summary/summary.scalar
@@ -44,8 +54,6 @@ $
 |2,0,1538572426,,"set noexpandtab"
 :set ts=4
 |2,0,1538572390,,"set ts=4"
-:PlugInstall
-|2,0,1538572149,,"PlugInstall"
 :source .vim/vimrc
 |2,0,1538571921,,"source .vim/vimrc"
 :retab
@@ -78,8 +86,6 @@ $
 |2,0,1538374958,,"w libpycall.c"
 :wq
 |2,0,1538236428,,"wq"
-:PlugClean
-|2,0,1538224712,,"PlugClean"
 :bNext
 |2,0,1538224690,,"bNext"
 :git 
@@ -114,16 +120,12 @@ $
 |2,0,1538053894,,"!yapf"
 :ma
 |2,0,1538053731,,"ma"
-:'<,'>!yapf
-|2,0,1538053701,,"'<,'>!yapf"
-:'<,'>!q
-|2,0,1538053565,,"'<,'>!q"
-:W
-|2,0,1537962591,,"W"
 
 # Search String History (newest to oldest):
 ?? 
-|2,1,1538659416,63," "
+|2,1,1538669345,63," "
+? \V:
+|2,1,1538670084,,"\\V:"
 ?/cv2
 |2,1,1538657016,47,"cv2"
 ? scalar_summary
@@ -210,10 +212,10 @@ $
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@y
+|2,3,1538670320,,"y"
 @/lost+found/
 |2,3,1538371530,,"/lost+found/"
-@y
-|2,3,1538224714,,"y"
 @/home/gaffey/Learn/Util/ThreadUtil.py
 |2,3,1529935916,,"/home/gaffey/Learn/Util/ThreadUtil.py"
 @/home/gaffey/Learn/Util/BpyUtil.py
@@ -222,43 +224,38 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	plt.ion()
-	fig = plt.figure()
-	ax1 = fig.add_subplot(111)
-	ax1.set_title('Scatter Plot')
-	plt.xlabel('X')
-	plt.ylabel('Y')
-	plt.plot()
-	
-|3,0,0,0,8,0,1538659407,"plt.ion()","fig = plt.figure()","ax1 = fig.add_subplot(111)","ax1.set_title('Scatter Plot')","plt.xlabel('X')","plt.ylabel('Y')","plt.plot()",""
+"0	LINE	0
+	        print('Computers predict this is the girl')
+|3,0,0,1,1,0,1538729694,"        print('Computers predict this is the girl')"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1538665694,""
+	    print(testSet1)
+|3,1,1,1,1,0,1538730061,"    print(testSet1)"
 "2	LINE	0
-	    dataSet = ['man',man,]
-|3,0,2,1,1,0,1538665692,"    dataSet = ['man',man,]"
+	    print (data)
+|3,0,2,1,1,0,1538730003,"    print (data)"
 "3	LINE	0
-	    RuntimeError
-|3,0,3,1,1,0,1538665562,"    RuntimeError"
+	    
+|3,0,3,1,1,0,1538730002,"    "
 "4	LINE	0
-	
-|3,0,4,1,1,0,1538665537,""
+	        print('man')
+|3,0,4,1,1,0,1538729696,"        print('man')"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1538665536,""
+	    else:
+|3,0,5,1,1,0,1538729621,"    else:"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1538665512,""
+	    print(predictions1)
+|3,0,6,1,1,0,1538729616,"    print(predictions1)"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1538663753,""
+	    print(predictions1)
+|3,0,7,1,1,0,1538729470,"    print(predictions1)"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1538662985,""
-"9	LINE	0
-	girl = np.arr
-|3,0,9,1,1,0,1538662559,"girl = np.arr"
+	    print(predictions1)
+|3,0,8,1,1,0,1538729333,"    print(predictions1)"
+"9	CHAR	0
+	   # 预测数据
+	    testSet1= [[170.0,49.0]]
+	    predictions1 = getPredictions(summaries, testSet1)
+|3,0,9,0,3,0,1538729328,"   # 预测数据","    testSet1= [[170.0,49.0]]","    predictions1 = getPredictions(summaries, testSet1)"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -315,110 +312,131 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	]
-|3,0,36,0,1,0,1538664962,"]"
+	 
+|3,0,36,0,1,0,1538730013," "
 
 # Buffer list:
-%~/bayes.py	19	4
+%~/bayes.py	68	0
 
 # History of marks within files (newest to oldest):
 
 > ~/bayes.py
-	*	1538665694	0
-	"	19	4
-	.	18	4
-	+	23	0
-	+	36	0
-	+	23	8
-	+	23	0
-	+	35	0
-	+	23	0
-	+	35	0
-	+	41	0
-	+	23	0
-	+	36	0
-	+	37	0
-	+	23	0
-	+	41	0
-	+	35	0
-	+	35	27
-	+	23	0
-	+	10	0
-	+	9	0
-	+	2	0
-	+	9	0
-	+	6	0
+	*	1538730280	0
+	"	68	0
+	.	1	0
+	+	78	23
 	+	1	0
-	+	35	0
+	+	77	0
+	+	80	0
+	+	81	36
+	+	82	68
+	+	83	33
 	+	1	0
-	+	23	0
-	+	40	18
-	+	41	0
-	+	23	0
-	+	35	20
-	+	35	0
-	+	24	0
-	+	33	0
-	+	35	0
-	+	23	0
+	+	84	57
+	+	85	55
+	+	86	33
+	+	87	33
+	+	88	23
 	+	1	0
-	+	35	0
-	+	40	0
-	+	41	0
-	+	40	0
-	+	37	0
-	+	34	0
-	+	31	0
-	+	35	18
-	+	27	0
-	+	25	14
-	+	32	16
-	+	33	21
-	+	32	17
-	+	34	0
-	+	40	0
-	+	38	33
+	+	90	16
+	+	80	11
+	+	90	38
+	+	91	19
 	+	1	0
-	+	40	0
-	+	39	0
-	+	23	0
-	+	15	29
-	+	10	27
-	+	14	0
-	+	15	0
-	+	28	0
-	+	35	4
-	+	38	4
-	+	35	4
-	+	36	4
-	+	38	35
-	+	14	0
-	+	15	0
-	+	14	0
-	+	15	0
-	+	23	0
-	+	2	0
-	+	11	0
-	+	12	20
-	+	13	27
-	+	14	0
-	+	16	20
-	+	17	22
+	+	94	33
+	+	95	43
+	+	96	32
+	+	97	21
 	+	1	0
-	+	22	13
-	+	10	29
-	+	7	14
-	+	8	17
-	+	9	0
-	+	10	0
-	+	14	0
-	+	16	0
-	+	21	0
-	+	20	10
-	+	20	0
-	+	17	0
-	+	18	4
-	a	16	22
+	+	94	0
+	+	114	0
+	+	90	0
+	+	89	4
+	+	100	0
+	+	101	37
+	+	103	33
+	+	104	41
+	+	106	47
+	+	109	11
+	+	110	23
+	+	111	14
+	+	112	30
+	+	113	50
+	+	1	0
+	+	114	109
+	+	114	92
+	+	1	0
+	+	116	42
+	+	1	0
+	+	115	15
+	+	117	15
+	+	118	49
+	+	1	0
+	+	120	45
+	+	121	41
+	+	120	0
+	+	122	5
+	+	1	0
+	+	5	0
+	+	1	0
+	+	117	0
+	+	118	17
+	+	118	0
+	+	119	22
+	+	118	0
+	+	119	5
+	+	120	3
+	+	119	5
+	+	120	0
+	+	119	16
+	+	119	1
+	+	119	53
+	+	120	21
+	+	119	1
+	+	120	0
+	+	122	0
+	+	120	0
+	+	130	0
+	+	122	3
+	+	119	14
+	+	1	0
+	+	130	0
+	+	127	13
+	+	129	17
+	+	124	19
+	+	126	21
+	+	126	0
+	+	128	26
+	+	124	18
+	+	123	0
+	+	127	44
+	+	129	47
+	+	127	49
+	+	129	48
+	+	123	48
+	+	120	0
+	+	124	15
+	+	124	4
+	+	124	0
+	+	125	0
+	+	1	0
+	a	131	0
+
+> ~/data.csv
+	*	1538670423	0
+	"	18	0
+
+> ~/NERD_tree_1
+	*	1538670326	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/vimrc
+	*	1538670307	0
+	"	57	0
+	.	57	0
+	+	57	0
 
 > ~/.config/privarcy/etc/cron/SysBackup
 	*	1538655464	0
@@ -520,37 +538,3 @@ $
 	+	1	23
 	+	33	70
 	+	2	10
-
-> /tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD
-	*	1538585044	0
-	"	98	18
-
-> ~/test.c
-	*	1538574566	0
-	"	6	0
-	.	6	0
-	+	1	7
-	+	1	0
-	+	1	17
-	+	3	0
-	+	3	10
-	+	7	23
-	+	8	9
-	+	7	21
-	+	8	2
-	+	8	1
-	+	8	0
-	+	10	0
-	+	7	22
-	+	8	0
-	+	2	12
-	+	4	24
-	+	5	9
-	+	6	0
-
-> ~/titanic.py
-	*	1538572971	0
-	"	1	0
-	.	169	0
-	+	151	0
-	+	169	0

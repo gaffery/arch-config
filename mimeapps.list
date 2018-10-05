@@ -37,6 +37,7 @@ x-scheme-handler/nntp=userapp-Thunderbird-TMS8PZ.desktop
 x-scheme-handler/feed=userapp-Thunderbird-GIC9PZ.desktop
 application/rss+xml=userapp-Thunderbird-GIC9PZ.desktop
 application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop
+text/csv=leafpad.desktop
 
 [Added Associations]
 text/plain=leafpad.desktop;vim.desktop;mousepad.desktop;
@@ -121,5 +122,6 @@ x-scheme-handler/feed=userapp-Thunderbird-GIC9PZ.desktop;
 application/rss+xml=userapp-Thunderbird-GIC9PZ.desktop;
 application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop;
 audio/x-wav=mpv.desktop;
+text/csv=leafpad.desktop;
 
 [Removed Associations]
