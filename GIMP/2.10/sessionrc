@@ -12,12 +12,12 @@
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
     (position 0 0)
-    (size 1276 1054)
+    (size 2556 1054)
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
-        (right-docks-width "431")
-        (maximized "no"))
+        (right-docks-width "424")
+        (maximized "yes"))
     (gimp-dock
         (side left)
         (book
@@ -41,7 +41,7 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 0)
+            (current-page 1)
             (dockable "gimp-mypaint-brush-grid"
                 (tab-style preview-name)
                 (preview-size 32)
@@ -157,7 +157,7 @@
     (factory-entry "gimp-operation-tool-dialog")
     (position 1750 259))
 
-(hide-docks yes)
+(hide-docks no)
 (single-window-mode yes)
 (tabs-position 0)
 (last-tip-shown 0)

@@ -131,6 +131,7 @@ xarchiver
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-wacom
+xfce4-notes-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
@@ -190,4 +191,3 @@ xorg-xwud
 yapf
 ydcv
 youtube-dl
-zim

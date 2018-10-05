@@ -2,14 +2,14 @@
 
 (tool "gimp-mypaint-brush-tool")
 (paint-info "gimp-mybrush")
-(foreground (color-rgb 0.192157 0.007843 0.007843))
+(foreground (color-rgb 0.101961 0.356863 0.670588))
 (brush "2. Block 01")
 (dynamics "Perspective")
-(mybrush "brush #1")
+(mybrush "classicroundblock static c")
 (pattern "Pine")
-(gradient "Tropical Colors")
+(gradient "FG to BG (RGB)")
 (palette "Default")
 (font "Sans-serif")
-(tool-preset "mypaint knife")
+(tool-preset "16×10")
 
 # end of user context
