@@ -16,7 +16,7 @@
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
-        (right-docks-width "424")
+        (right-docks-width "206")
         (maximized "yes"))
     (gimp-dock
         (side left)
@@ -41,9 +41,9 @@
     (gimp-dock
         (side right)
         (book
-            (current-page 1)
+            (current-page 0)
             (dockable "gimp-mypaint-brush-grid"
-                (tab-style preview-name)
+                (tab-style automatic)
                 (preview-size 32)
                 (aux-info
                     (show-button-bar "false")))

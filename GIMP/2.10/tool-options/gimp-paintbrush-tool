@@ -1,11 +1,11 @@
 # GIMP gimp-paintbrush-tool options
 
-(foreground (color-rgb 0.101961 0.356863 0.670588))
+(foreground (color-rgb 0.713725 0.058824 0.058824))
 (brush "2. Block 01")
 (dynamics "Perspective")
-(gradient "FG to BG (RGB)")
+(gradient "Tropical Colors")
 (palette "Default")
-(brush-size 22.500000)
+(brush-size 52.500000)
 (brush-angle 90.000000)
 (application-mode incremental)
 (jitter-amount 0.350000)

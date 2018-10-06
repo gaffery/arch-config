@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sun ra
+~MSle0~/\V\<digraph\>
 
 # Last Substitute Search Pattern:
 ~MSle0& "香港电视"
@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538839962,,"w"
+|2,0,1538859444,,"w"
 :q
 |2,0,1538839872,,"q"
 :%s/ "香港电视"//g
@@ -244,31 +244,31 @@ $
 |3,0,0,1,2,0,1538839948,"",""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1538839680,""
+|3,0,1,1,1,0,1538859443,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1538839675,""
+|3,0,2,1,1,0,1538859441,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1538839673,""
+|3,0,3,1,1,0,1538859406,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1538839671,""
+|3,0,4,1,1,0,1538859385,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1538839669,""
+	# Needs Graphviz, which can be installed by `brew install graphviz` on OS X.
+|3,0,5,1,1,0,1538859384,"# Needs Graphviz, which can be installed by `brew install graphviz` on OS X."
 "6	LINE	0
-	
-|3,0,6,1,1,0,1538839664,""
+	"""
+|3,0,6,1,1,0,1538859383,"\"\"\""
 "7	LINE	0
-	    print(testSet1)
-|3,0,7,1,1,0,1538730061,"    print(testSet1)"
+	python
+|3,0,7,1,1,0,1538859383,"python"
 "8	LINE	0
-	    print (data)
-|3,0,8,1,1,0,1538730003,"    print (data)"
+	pip install networkx
+|3,0,8,1,1,0,1538859383,"pip install networkx"
 "9	LINE	0
-	    
-|3,0,9,1,1,0,1538730002,"    "
+	pip install pygraphviz
+|3,0,9,1,1,0,1538859383,"pip install pygraphviz"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -325,13 +325,51 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	,
-|3,1,36,0,1,0,1538847011,","
+	'
+|3,1,36,0,1,0,1538859599,"'"
 
 # Buffer list:
-%~/mykey.py	920	20
+%~/test.py	15	28
 
 # History of marks within files (newest to oldest):
+
+> ~/test.py
+	*	1538859647	0
+	"	15	28
+	^	14	0
+	.	14	0
+	+	1	50
+	+	1	58
+	+	16	0
+	+	1	0
+	+	6	21
+	+	16	0
+	+	15	0
+	+	5	0
+	+	12	0
+	+	6	21
+	+	4	0
+	+	6	31
+	+	13	25
+	+	14	0
+
+> ~/test.dot
+	*	1538856811	0
+	"	28	4
+	.	29	0
+	+	1	99
+	+	1	0
+	+	1	13
+	+	1	99
+	+	1	15
+	+	1	99
+	+	1	0
+	+	1	9
+	+	1	99
+	+	1	9
+	+	1	0
+	+	1	9
+	+	29	0
 
 > ~/mykey.py
 	*	1538847012	0
@@ -491,19 +529,3 @@ $
 	^	9	27
 	.	9	7
 	+	9	7
-
-> /usr/lib/python3.7/site-packages/NEMbox/api.py
-	*	1538655188	0
-	"	24	30
-	^	24	31
-	.	24	30
-	+	24	30
-
-> ~/.config/privarcy/PreLogin
-	*	1538653969	0
-	"	18	95
-	^	2	19
-	.	2	16
-	+	2	16
-	+	3	19
-	+	2	16

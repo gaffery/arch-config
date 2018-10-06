@@ -163,7 +163,7 @@
     (name "Wacom Intuos PT M 2 Pen stylus")
     (tool-options "GimpMybrushOptions"
         (tool "gimp-mypaint-brush-tool")
-        (foreground (color-rgb 0.101961 0.356863 0.670588))
+        (foreground (color-rgb 0.600000 0.709804 0.858824))
         (mybrush "classicroundblock static c")
         (brush-size 51.000000)
         (brush-hardness 0.500000)

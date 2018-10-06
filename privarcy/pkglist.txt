@@ -92,6 +92,8 @@ pkgconf
 procps-ng
 proxychains-ng
 psmisc
+python-networkx
+python-numpy
 python-pip
 python2-jedi
 reiserfsprogs
@@ -127,6 +129,7 @@ wavpack
 which
 wqy-zenhei
 xarchiver
+xdot
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-wacom

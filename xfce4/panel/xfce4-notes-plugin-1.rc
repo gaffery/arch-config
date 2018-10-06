@@ -1,9 +1,9 @@
 [笔记]
-PosX=2034
-PosY=430
+PosX=1876
+PosY=443
 Width=306
 Height=409
-TabsOrder=机器学习;Notes;vim;
+TabsOrder=机器学习;Notes;流程图;vim;
 LastTab=2
 Above=true
 Sticky=true
