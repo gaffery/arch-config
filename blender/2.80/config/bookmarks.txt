@@ -1,4 +1,0 @@
-[Bookmarks]
-[Recent]
-/home/gaffey/.config/blender/2.80/scripts/presets/keyconfig/
-/home/gaffey/
