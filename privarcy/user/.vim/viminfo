@@ -238,10 +238,10 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	
 	
-|3,1,0,1,2,0,1538839948,"",""
+|3,0,0,1,2,0,1538839948,"",""
 "1	LINE	0
 	
 |3,0,1,1,1,0,1538839680,""
@@ -324,14 +324,21 @@ $
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	"
-|3,0,36,0,1,0,1538839870,"\""
+""-	CHAR	0
+	,
+|3,1,36,0,1,0,1538847011,","
 
 # Buffer list:
-%~/.moc/playlist.m3u	24	42
+%~/mykey.py	920	20
 
 # History of marks within files (newest to oldest):
+
+> ~/mykey.py
+	*	1538847012	0
+	"	920	20
+	^	368	23
+	.	368	0
+	+	368	0
 
 > ~/.moc/playlist.m3u
 	*	1538840009	0
@@ -500,7 +507,3 @@ $
 	+	2	16
 	+	3	19
 	+	2	16
-
-> /usr/lib/systemd/system/alsa-restore.service
-	*	1538653393	0
-	"	1	0
