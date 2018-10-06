@@ -49,7 +49,7 @@
         <property name="background-color" type="string" value="#88B7E3"/>
         <property name="tabs-position" type="int" value="3"/>
         <property name="skip-taskbar-hint" type="bool" value="true"/>
-        <property name="font-description" type="string" value="Sans 14"/>
+        <property name="font-description" type="string" value="Sans 13"/>
       </property>
       <property name="new-window" type="empty">
         <property name="sticky" type="bool" value="true"/>

@@ -11,25 +11,53 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/cv2
+~MSle0~/sun ra
 
 # Last Substitute Search Pattern:
-~MSle0&scalar_summary
+~MSle0& "香港电视"
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1538730250,,"w"
+|2,0,1538839962,,"w"
+:q
+|2,0,1538839872,,"q"
+:%s/ "香港电视"//g
+|2,0,1538839861,,"%s/ \"香港电视\"//g"
+:%s/ "音乐电台" //g
+|2,0,1538839839,,"%s/ \"音乐电台\" //g"
+:%s/ "国外电台" //g
+|2,0,1538839806,,"%s/ \"国外电台\" //g"
+:%s/ "中国电台" //g
+|2,0,1538839787,,"%s/ \"中国电台\" //g"
+:%s/ "台湾电台" //g
+|2,0,1538839726,,"%s/ \"台湾电台\" //g"
+:%s/ "" //g
+|2,0,1538839691,,"%s/ \"\" //g"
+:w!
+|2,0,1538839616,,"w!"
 :qw
-|2,0,1538672454,,"qw"
+|2,0,1538839614,,"qw"
+:%s/ "香港电台" //g
+|2,0,1538839609,,"%s/ \"香港电台\" //g"
+:%s/ "香港电台 "//g
+|2,0,1538839598,,"%s/ \"香港电台 \"//g"
+:%s/ "香港电台"//g
+|2,0,1538839565,,"%s/ \"香港电台\"//g"
+:%s/group-title=//g
+|2,0,1538839466,,"%s/group-title=//g"
+:%s/radio=true//g
+|2,0,1538839358,,"%s/radio=true//g"
+:%s/radio=true/g
+|2,0,1538839334,,"%s/radio=true/g"
+:radio=true
+|2,0,1538839320,,"radio=true"
 :ws
 |2,0,1538672219,,"ws"
 :r
 |2,0,1538666206,,"r"
-:q
-|2,0,1538670333,,"q"
 :PlugClean
 |2,0,1538670329,,"PlugClean"
 :PlugInstall
@@ -92,36 +120,34 @@ $
 |2,0,1538224592,,"git "
 :git
 |2,0,1538224571,,"git"
-:PlugStatus
-|2,0,1538221836,,"PlugStatus"
-:PlugSnapshot
-|2,0,1538221822,,"PlugSnapshot"
-:L
-|2,0,1538221814,,"L"
-:U
-|2,0,1538221806,,"U"
-:D
-|2,0,1538221802,,"D"
-:S
-|2,0,1538221788,,"S"
-:BundleInstall
-|2,0,1538219592,,"BundleInstall"
-:BundleClean
-|2,0,1538063562,,"BundleClean"
-:<F2>
-|2,0,1538063314,,"<F2>"
-:e
-|2,0,1538057039,,"e"
-:source ~/.vim/viminfo
-|2,0,1538056636,,"source ~/.vim/viminfo"
-:terminal
-|2,0,1538055800,,"terminal"
-:!yapf
-|2,0,1538053894,,"!yapf"
-:ma
-|2,0,1538053731,,"ma"
 
 # Search String History (newest to oldest):
+?/sun ra
+|2,1,1538839958,47,"sun ra"
+?  "香港电视"
+|2,1,1538839861,," \"香港电视\""
+?  "音乐电台" 
+|2,1,1538839830,," \"音乐电台\" "
+?  "国外电台" 
+|2,1,1538839806,," \"国外电台\" "
+?  "中国电台" 
+|2,1,1538839787,," \"中国电台\" "
+?  "台湾电台" 
+|2,1,1538839726,," \"台湾电台\" "
+?  "香港电台" 
+|2,1,1538839609,," \"香港电台\" "
+?  "香港电台 "
+|2,1,1538839598,," \"香港电台 \""
+?  "香港电台"
+|2,1,1538839565,," \"香港电台\""
+? group-title=
+|2,1,1538839466,,"group-title="
+? radio=true
+|2,1,1538839358,,"radio=true"
+??scalar_summary
+|2,1,1538839353,63,"scalar_summary"
+?/%s
+|2,1,1538839296,47,"%s"
 ?? 
 |2,1,1538669345,63," "
 ? \V:
@@ -196,18 +222,6 @@ $
 |2,1,1529236970,47,"VIE3D"
 ?/http://images.adsttc.com.qtlcn.com/media/images/5942/4c15/b22e/3848/9c00/00e1/slideshow/Nueva_Sede_EDU_-_Foto._Alejandro_Arango_(33).jpg?1497517064
 |2,1,1529063880,47,"http://images.adsttc.com.qtlcn.com/media/images/5942/4c15/b22e/3848/9c00/00e1/slideshow/Nueva_Sede_EDU_-_Foto._Alejandro_Arango_(33).jpg?1497517064"
-?/59424c15b22e38489c0000e1
-|2,1,1529063690,47,"59424c15b22e38489c0000e1"
-?/59424b52b22e38489c0000cd
-|2,1,1529063524,47,"59424b52b22e38489c0000cd"
-?/在线
-|2,1,1528978957,47,"在线"
-?/Baahubali
-|2,1,1528895367,47,"Baahubali"
-?/sql
-|2,1,1528558640,47,"sql"
-?/start*
-|2,1,1528558201,47,"start*"
 
 # Expression History (newest to oldest):
 
@@ -224,38 +238,37 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        print('Computers predict this is the girl')
-|3,0,0,1,1,0,1538729694,"        print('Computers predict this is the girl')"
-""1	LINE	0
-	    print(testSet1)
-|3,1,1,1,1,0,1538730061,"    print(testSet1)"
+""0	LINE	0
+	
+	
+|3,1,0,1,2,0,1538839948,"",""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1538839680,""
 "2	LINE	0
-	    print (data)
-|3,0,2,1,1,0,1538730003,"    print (data)"
+	
+|3,0,2,1,1,0,1538839675,""
 "3	LINE	0
-	    
-|3,0,3,1,1,0,1538730002,"    "
+	
+|3,0,3,1,1,0,1538839673,""
 "4	LINE	0
-	        print('man')
-|3,0,4,1,1,0,1538729696,"        print('man')"
+	
+|3,0,4,1,1,0,1538839671,""
 "5	LINE	0
-	    else:
-|3,0,5,1,1,0,1538729621,"    else:"
+	
+|3,0,5,1,1,0,1538839669,""
 "6	LINE	0
-	    print(predictions1)
-|3,0,6,1,1,0,1538729616,"    print(predictions1)"
+	
+|3,0,6,1,1,0,1538839664,""
 "7	LINE	0
-	    print(predictions1)
-|3,0,7,1,1,0,1538729470,"    print(predictions1)"
+	    print(testSet1)
+|3,0,7,1,1,0,1538730061,"    print(testSet1)"
 "8	LINE	0
-	    print(predictions1)
-|3,0,8,1,1,0,1538729333,"    print(predictions1)"
-"9	CHAR	0
-	   # 预测数据
-	    testSet1= [[170.0,49.0]]
-	    predictions1 = getPredictions(summaries, testSet1)
-|3,0,9,0,3,0,1538729328,"   # 预测数据","    testSet1= [[170.0,49.0]]","    predictions1 = getPredictions(summaries, testSet1)"
+	    print (data)
+|3,0,8,1,1,0,1538730003,"    print (data)"
+"9	LINE	0
+	    
+|3,0,9,1,1,0,1538730002,"    "
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -312,13 +325,52 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1538730013," "
+	"
+|3,0,36,0,1,0,1538839870,"\""
 
 # Buffer list:
-%~/bayes.py	68	0
+%~/.moc/playlist.m3u	24	42
 
 # History of marks within files (newest to oldest):
+
+> ~/.moc/playlist.m3u
+	*	1538840009	0
+	"	24	42
+	.	502	10
+	+	43	0
+	+	502	0
+	+	43	0
+	+	53	0
+	+	67	0
+	+	73	0
+	+	79	0
+	+	85	0
+	+	99	10
+	+	101	10
+	+	103	10
+	+	106	0
+	+	199	0
+	+	276	0
+	+	446	0
+	+	491	0
+	+	500	10
+	+	502	10
+
+> ~/Code/bayes.py
+	*	1538838407	0
+	"	75	42
+
+> ~/NERD_tree_1
+	*	1538837864	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/vimrc
+	*	1538837737	0
+	"	1	0
+	.	57	0
+	+	57	0
 
 > ~/bayes.py
 	*	1538730280	0
@@ -426,18 +478,6 @@ $
 	*	1538670423	0
 	"	18	0
 
-> ~/NERD_tree_1
-	*	1538670326	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/.vim/vimrc
-	*	1538670307	0
-	"	57	0
-	.	57	0
-	+	57	0
-
 > ~/.config/privarcy/etc/cron/SysBackup
 	*	1538655464	0
 	"	12	18
@@ -464,77 +504,3 @@ $
 > /usr/lib/systemd/system/alsa-restore.service
 	*	1538653393	0
 	"	1	0
-
-> ~/.asoundrc
-	*	1538635118	0
-	"	2	0
-	^	6	1
-	.	6	0
-	+	6	0
-
-> ~/test.py
-	*	1538592924	0
-	"	2	10
-	^	2	11
-	.	2	10
-	+	32	23
-	+	32	17
-	+	32	0
-	+	32	46
-	+	32	0
-	+	32	28
-	+	32	31
-	+	32	36
-	+	32	13
-	+	32	45
-	+	32	12
-	+	32	0
-	+	32	23
-	+	32	143
-	+	32	0
-	+	32	26
-	+	32	138
-	+	32	0
-	+	32	37
-	+	32	0
-	+	32	17
-	+	32	0
-	+	32	33
-	+	32	36
-	+	32	41
-	+	32	77
-	+	32	0
-	+	1	0
-	+	1	36
-	+	1	4
-	+	1	3
-	+	1	4
-	+	1	7
-	+	28	21
-	+	28	0
-	+	1	0
-	+	1	12
-	+	1	103
-	+	1	89
-	+	1	103
-	+	1	11
-	+	1	15
-	+	1	0
-	+	1	11
-	+	1	7
-	+	1	11
-	+	1	7
-	+	1	0
-	+	1	11
-	+	1	7
-	+	1	11
-	+	1	7
-	+	1	8
-	+	1	25
-	+	96	0
-	+	2	9
-	+	61	0
-	+	75	28
-	+	1	23
-	+	33	70
-	+	2	10
