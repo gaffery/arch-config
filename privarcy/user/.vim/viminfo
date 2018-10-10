@@ -20,10 +20,10 @@
 $
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1538859444,,"w"
 :q
-|2,0,1538839872,,"q"
+|2,0,1539024937,,"q"
+:w
+|2,0,1539024937,,"w"
 :%s/ "香港电视"//g
 |2,0,1538839861,,"%s/ \"香港电视\"//g"
 :%s/ "音乐电台" //g
@@ -244,31 +244,31 @@ $
 |3,0,0,1,2,0,1538839948,"",""
 "1	LINE	0
 	
-|3,0,1,1,1,0,1538859443,""
+|3,0,1,1,1,0,1539024474,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1538859441,""
+	dd
+|3,0,2,1,1,0,1539024386,"dd"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1538859406,""
+|3,0,3,1,1,0,1538859443,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1538859385,""
+|3,0,4,1,1,0,1538859441,""
 "5	LINE	0
-	# Needs Graphviz, which can be installed by `brew install graphviz` on OS X.
-|3,0,5,1,1,0,1538859384,"# Needs Graphviz, which can be installed by `brew install graphviz` on OS X."
+	
+|3,0,5,1,1,0,1538859406,""
 "6	LINE	0
-	"""
-|3,0,6,1,1,0,1538859383,"\"\"\""
+	
+|3,0,6,1,1,0,1538859385,""
 "7	LINE	0
-	python
-|3,0,7,1,1,0,1538859383,"python"
+	# Needs Graphviz, which can be installed by `brew install graphviz` on OS X.
+|3,0,7,1,1,0,1538859384,"# Needs Graphviz, which can be installed by `brew install graphviz` on OS X."
 "8	LINE	0
-	pip install networkx
-|3,0,8,1,1,0,1538859383,"pip install networkx"
+	"""
+|3,0,8,1,1,0,1538859383,"\"\"\""
 "9	LINE	0
-	pip install pygraphviz
-|3,0,9,1,1,0,1538859383,"pip install pygraphviz"
+	python
+|3,0,9,1,1,0,1538859383,"python"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -325,33 +325,37 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	'
-|3,1,36,0,1,0,1538859599,"'"
+	m
+|3,1,36,0,1,0,1539024923,"m"
 
 # Buffer list:
-%~/test.py	15	28
+%~/test.py	2	11
 
 # History of marks within files (newest to oldest):
 
 > ~/test.py
-	*	1538859647	0
-	"	15	28
-	^	14	0
-	.	14	0
+	*	1539025602	0
+	"	2	11
+	^	1	4
+	.	1	3
 	+	1	50
 	+	1	58
-	+	16	0
-	+	1	0
-	+	6	21
-	+	16	0
-	+	15	0
-	+	5	0
-	+	12	0
-	+	6	21
-	+	4	0
-	+	6	31
-	+	13	25
 	+	14	0
+	+	1	0
+	+	4	21
+	+	14	0
+	+	13	0
+	+	3	0
+	+	10	0
+	+	4	21
+	+	2	0
+	+	4	31
+	+	11	25
+	+	12	0
+	+	2	0
+	+	1	20
+	+	2	10
+	+	1	3
 
 > ~/test.dot
 	*	1538856811	0

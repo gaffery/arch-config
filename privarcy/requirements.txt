@@ -28,7 +28,7 @@ numpy==1.15.2
 packaging==18.0
 parso==0.3.1
 pexpect==4.6.0
-pickleshare==0.7.4
+pickleshare==0.7.5
 progress==1.4
 prompt-toolkit==1.0.15
 ptyprocess==0.6.0
@@ -54,4 +54,4 @@ webencodings==0.5.1
 xdot==0.9
 yapf==0.24.0
 ydcv==0.5
-youtube-dl==2018.9.26
+youtube-dl==2018.10.5
