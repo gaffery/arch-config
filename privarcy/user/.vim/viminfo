@@ -11,19 +11,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\V\<digraph\>
+~MSle0/\V\<digraph\>
 
 # Last Substitute Search Pattern:
-~MSle0& "香港电视"
+~MSle0~&cp -p
 
 # Last Substitute String:
-$
+$rsync -av --delete
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1539445944,,"q"
+|2,0,1539459053,,"q"
 :w
-|2,0,1539445881,,"w"
+|2,0,1539459052,,"w"
+:%s/cp -p/rsync -av --delete
+|2,0,1539459049,,"%s/cp -p/rsync -av --delete"
+:%s/cp -Rp/rsync -av --delete
+|2,0,1539459023,,"%s/cp -Rp/rsync -av --delete"
 :%s/ "香港电视"//g
 |2,0,1538839861,,"%s/ \"香港电视\"//g"
 :%s/ "音乐电台" //g
@@ -116,12 +120,12 @@ $
 |2,0,1538236428,,"wq"
 :bNext
 |2,0,1538224690,,"bNext"
-:git 
-|2,0,1538224592,,"git "
-:git
-|2,0,1538224571,,"git"
 
 # Search String History (newest to oldest):
+? cp -p
+|2,1,1539459049,,"cp -p"
+? cp -Rp
+|2,1,1539459023,,"cp -Rp"
 ?/sun ra
 |2,1,1538839958,47,"sun ra"
 ?  "香港电视"
@@ -218,10 +222,6 @@ $
 |2,1,1529237452,47,"view3d."
 ?/view3d_to_select
 |2,1,1529236716,47,"view3d_to_select"
-?/VIE3D
-|2,1,1529236970,47,"VIE3D"
-?/http://images.adsttc.com.qtlcn.com/media/images/5942/4c15/b22e/3848/9c00/00e1/slideshow/Nueva_Sede_EDU_-_Foto._Alejandro_Arango_(33).jpg?1497517064
-|2,1,1529063880,47,"http://images.adsttc.com.qtlcn.com/media/images/5942/4c15/b22e/3848/9c00/00e1/slideshow/Nueva_Sede_EDU_-_Foto._Alejandro_Arango_(33).jpg?1497517064"
 
 # Expression History (newest to oldest):
 
@@ -245,32 +245,32 @@ $
 	
 |3,0,0,1,2,0,1538839948,"",""
 ""1	LINE	0
-	!#i
-|3,1,1,1,1,0,1539445369,"!#i"
+	:w
+|3,1,1,1,1,0,1539449496,":w"
 "2	LINE	0
-	!#
-|3,0,2,1,1,0,1539445341,"!#"
+	__author__ = "jiangze"
+|3,0,2,1,1,0,1539449492,"__author__ = \"jiangze\""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1539445341,""
+	"""
+|3,0,3,1,1,0,1539449468,"\"\"\""
 "4	LINE	0
-	!#
-|3,0,4,1,1,0,1539445168,"!#"
+	"""
+|3,0,4,1,1,0,1539449467,"\"\"\""
 "5	LINE	0
-	#in
-|3,0,5,1,1,0,1539445162,"#in"
+	author:jiangze
+|3,0,5,1,1,0,1539449466,"author:jiangze"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1539024474,""
+	DESCRIPTION:这是一个关于朴素贝叶斯的分类
+|3,0,6,1,1,0,1539449348,"DESCRIPTION:这是一个关于朴素贝叶斯的分类"
 "7	LINE	0
-	dd
-|3,0,7,1,1,0,1539024386,"dd"
+	
+|3,0,7,1,1,0,1539449346,""
 "8	LINE	0
-	
-|3,0,8,1,1,0,1538859443,""
+	'''
+|3,0,8,1,1,0,1539448819,"'''"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1538859441,""
+	'''
+|3,0,9,1,1,0,1539448807,"'''"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -327,14 +327,74 @@ $
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	m
-|3,0,36,0,1,0,1539024923,"m"
+	述
+|3,0,36,0,1,0,1539449170,"述"
 
 # Buffer list:
-%~/Code/C_language/Lesson_one.c	6	0
-%~/Code/data.csv	58	0
+%~/.config/privarcy/etc/cron/SysBackup	13	0
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/privarcy/etc/cron/SysBackup
+	*	1539459052	0
+	"	13	0
+	.	12	0
+	+	5	0
+	+	12	0
+
+> ~/Code/bayes.py
+	*	1539449496	0
+	"	5	0
+	^	5	0
+	.	5	0
+	+	6	39
+	+	6	0
+	+	6	6
+	+	6	0
+	+	6	2
+	+	135	0
+	+	134	0
+	+	6	0
+	+	9	22
+	+	6	10
+	+	6	0
+	+	5	0
+
+> ~/Code/C_language/Lesson_one.c
+	*	1539448542	0
+	"	4	0
+	.	6	0
+	+	12	18
+	+	12	12
+	+	12	26
+	+	12	9
+	+	12	8
+	+	12	0
+	+	12	28
+	+	12	32
+	+	12	9
+	+	12	18
+	+	12	14
+	+	12	0
+	+	12	25
+	+	12	28
+	+	12	23
+	+	12	13
+	+	12	0
+	+	12	8
+	+	12	0
+	+	12	37
+	+	12	19
+	+	12	0
+	+	12	6
+	+	12	0
+	+	12	15
+	+	12	0
+	+	1	0
+	+	5	0
+	+	3	0
+	+	6	0
+	a	9	15
 
 > ~/Code/C_language/NERD_tree_1
 	*	1539445943	0
@@ -345,16 +405,6 @@ $
 > ~/Code/data.csv
 	*	1539445939	0
 	"	58	0
-
-> ~/Code/C_language/Lesson_one.c
-	*	1539445892	0
-	"	6	0
-	^	6	10
-	.	6	9
-	+	1	18
-	+	3	12
-	+	5	26
-	+	6	9
 
 > ~/Code/C_language/Lesson_one.py
 	*	1539445854	0
@@ -432,13 +482,3 @@ $
 	+	491	0
 	+	500	10
 	+	502	10
-
-> ~/Code/bayes.py
-	*	1538838407	0
-	"	75	42
-
-> ~/NERD_tree_1
-	*	1538837864	0
-	"	5	0
-	.	1	0
-	+	1	0

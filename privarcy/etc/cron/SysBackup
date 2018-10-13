@@ -2,15 +2,15 @@
 cd /home/gaffey
 sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'System Backup!' '开始拷贝文件进入git项目...'
 # 用户隐藏外部文件备份
-cp -Rp .moc /home/gaffey/.config/privarcy/user/.
-cp -Rp .vim /home/gaffey/.config/privarcy/user/.
-cp -Rp .w3m /home/gaffey/.config/privarcy/user/.
-cp -Rp .ipython /home/gaffey/.config/privarcy/user/.
-cp -Rp .netease-musicbox /home/gaffey/.config/privarcy/user/.
-cp -Rp .local /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .moc /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .vim /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .w3m /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .ipython /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .netease-musicbox /home/gaffey/.config/privarcy/user/.
+rsync -av --delete .local /home/gaffey/.config/privarcy/user/.
 # 自定义配置备份
-cp -p /etc/lxdm/lxdm.conf .config/privarcy/etc/.
-cp -p /etc/cron.d/* .config/privarcy/etc/.
+rsync -av --delete /etc/lxdm/lxdm.conf .config/privarcy/etc/.
+rsync -av --delete /etc/cron.d/* .config/privarcy/etc/.
 # 软件列表备份
 pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
 pip freeze > /home/gaffey/.config/privarcy/requirements.txt

@@ -97,6 +97,7 @@ python-numpy
 python-pip
 python2-jedi
 reiserfsprogs
+rsync
 s-nail
 screenfetch
 sed
