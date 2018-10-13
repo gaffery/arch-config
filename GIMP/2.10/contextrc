@@ -1,13 +1,12 @@
 # GIMP user context
 
-(tool "gimp-paintbrush-tool")
-(paint-info "gimp-paintbrush")
-(foreground (color-rgb 0.431373 0.184314 0.050980))
+(tool "gimp-eraser-tool")
+(paint-info "gimp-eraser")
 (brush "2. Block 01")
 (dynamics "Perspective")
 (mybrush "classicroundblock static c")
 (pattern "Pine")
-(gradient "Custom")
+(gradient "Tropical Colors")
 (palette "Default")
 (font "Sans-serif")
 (tool-preset "Wacom Intuos PT M 2 Pen stylus")

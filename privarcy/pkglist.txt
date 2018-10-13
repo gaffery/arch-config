@@ -111,9 +111,7 @@ taglib
 tar
 terminator
 texinfo
-thunar
 thunar-archive-plugin
-thunar-volman
 tk
 transmission-gtk
 tumbler
@@ -121,7 +119,6 @@ unrar
 unzip
 usbutils
 util-linux
-vi
 viewnior
 vim
 w3m

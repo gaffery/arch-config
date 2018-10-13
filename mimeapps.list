@@ -123,5 +123,6 @@ application/rss+xml=userapp-Thunderbird-GIC9PZ.desktop;
 application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop;
 audio/x-wav=mpv.desktop;
 text/csv=leafpad.desktop;
+application/mbox=leafpad.desktop;
 
 [Removed Associations]
