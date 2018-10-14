@@ -1,5 +1,5 @@
 #EXTM3U
-#MOCSERIAL: 256
+#MOCSERIAL: 512
 #EXTINF:-1,CRI轻松调频
 http://lhttp.qingting.fm/live/1006/64k.mp3
 #EXTINF:-1,CRI环球资讯
