@@ -20,10 +20,14 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1539526782,,"w"
 :q
-|2,0,1539525280,,"q"
+|2,0,1539608681,,"q"
+:w
+|2,0,1539608680,,"w"
+:w ex1.c
+|2,0,1539608220,,"w ex1.c"
+:w ex1
+|2,0,1539608189,,"w ex1"
 :%s/cp -p/rsync -av --delete
 |2,0,1539459049,,"%s/cp -p/rsync -av --delete"
 :%s/cp -Rp/rsync -av --delete
@@ -116,10 +120,6 @@ $rsync -av --delete
 |2,0,1538377998,,"w testlib.py"
 :w libpycall.c
 |2,0,1538374958,,"w libpycall.c"
-:wq
-|2,0,1538236428,,"wq"
-:bNext
-|2,0,1538224690,,"bNext"
 
 # Search String History (newest to oldest):
 ? cp -p
@@ -244,9 +244,9 @@ $rsync -av --delete
 	
 	
 |3,0,0,1,2,0,1538839948,"",""
-""1	LINE	0
+"1	LINE	0
 	:w
-|3,1,1,1,1,0,1539449496,":w"
+|3,0,1,1,1,0,1539449496,":w"
 "2	LINE	0
 	__author__ = "jiangze"
 |3,0,2,1,1,0,1539449492,"__author__ = \"jiangze\""
@@ -326,14 +326,33 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	述
-|3,0,36,0,1,0,1539449170,"述"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1539608557," "
 
 # Buffer list:
-%~/.config/privarcy/PreLogin	5	49
+%~/Code/C/test.c	7	0
 
 # History of marks within files (newest to oldest):
+
+> ~/Code/C/test.c
+	*	1539608680	0
+	"	7	0
+	^	2	0
+	.	2	0
+	+	3	30
+	+	5	22
+	+	6	9
+	+	1	17
+	+	2	0
+
+> ~/Code/C/Makefile
+	*	1539608587	0
+	"	2	0
+	^	4	10
+	.	4	9
+	+	1	7
+	+	4	9
 
 > ~/.config/privarcy/PreLogin
 	*	1539526782	0
@@ -440,28 +459,3 @@ $rsync -av --delete
 > ~/Code/C_language/Lesson_one.py
 	*	1539445854	0
 	"	1	0
-
-> ~/test.dot
-	*	1538856811	0
-	"	28	4
-	.	29	0
-	+	1	99
-	+	1	0
-	+	1	13
-	+	1	99
-	+	1	15
-	+	1	99
-	+	1	0
-	+	1	9
-	+	1	99
-	+	1	9
-	+	1	0
-	+	1	9
-	+	29	0
-
-> ~/mykey.py
-	*	1538847012	0
-	"	920	20
-	^	368	23
-	.	368	0
-	+	368	0
