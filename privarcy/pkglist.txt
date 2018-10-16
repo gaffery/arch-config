@@ -99,6 +99,7 @@ python2-jedi
 reiserfsprogs
 rsync
 s-nail
+samba
 screenfetch
 sed
 shadow
@@ -120,6 +121,7 @@ unrar
 unzip
 usbutils
 util-linux
+valgrind
 viewnior
 vim
 w3m

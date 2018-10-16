@@ -20,10 +20,20 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1539608681,,"q"
+:w ex5.c
+|2,0,1539701379,,"w ex5.c"
 :w
-|2,0,1539608680,,"w"
+|2,0,1539701344,,"w"
+:w ex5
+|2,0,1539701286,,"w ex5"
+:q
+|2,0,1539701311,,"q"
+:bd
+|2,0,1539622505,,"bd"
+:PlugUpdate
+|2,0,1539622397,,"PlugUpdate"
+:PlugInstall
+|2,0,1539622614,,"PlugInstall"
 :w ex1.c
 |2,0,1539608220,,"w ex1.c"
 :w ex1
@@ -68,8 +78,6 @@ $rsync -av --delete
 |2,0,1538666206,,"r"
 :PlugClean
 |2,0,1538670329,,"PlugClean"
-:PlugInstall
-|2,0,1538670076,,"PlugInstall"
 :q!
 |2,0,1538655189,,"q!"
 :%s/scalar_summary/summary.scalar
@@ -110,16 +118,8 @@ $rsync -av --delete
 |2,0,1538570428,,"yank"
 :comclear
 |2,0,1538570426,,"comclear"
-:PlugUpdate
-|2,0,1538455934,,"PlugUpdate"
 :w! testlib.py 
 |2,0,1538378051,,"w! testlib.py "
-:w testlib.py!
-|2,0,1538378010,,"w testlib.py!"
-:w testlib.py
-|2,0,1538377998,,"w testlib.py"
-:w libpycall.c
-|2,0,1538374958,,"w libpycall.c"
 
 # Search String History (newest to oldest):
 ? cp -p
@@ -241,36 +241,35 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-	
-	
-|3,0,0,1,2,0,1538839948,"",""
+		rm -f ex1
+|3,0,0,1,1,0,1539622947,"	rm -f ex1"
 "1	LINE	0
-	:w
-|3,0,1,1,1,0,1539449496,":w"
+		printf("I am %d years old.\n");
+|3,0,1,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
 "2	LINE	0
-	__author__ = "jiangze"
-|3,0,2,1,1,0,1539449492,"__author__ = \"jiangze\""
+		int age = 10;
+|3,0,2,1,1,0,1539701176,"	int age = 10;"
 "3	LINE	0
-	"""
-|3,0,3,1,1,0,1539449468,"\"\"\""
+		return 0;
+|3,0,3,1,1,0,1539700127,"	return 0;"
 "4	LINE	0
-	"""
-|3,0,4,1,1,0,1539449467,"\"\"\""
+		rm -f ex1
+|3,0,4,1,1,0,1539622952,"	rm -f ex1"
 "5	LINE	0
-	author:jiangze
-|3,0,5,1,1,0,1539449466,"author:jiangze"
-"6	LINE	0
-	DESCRIPTION:这是一个关于朴素贝叶斯的分类
-|3,0,6,1,1,0,1539449348,"DESCRIPTION:这是一个关于朴素贝叶斯的分类"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1539449346,""
+|3,0,5,1,1,0,1539622763,""
+"6	LINE	0
+	int
+|3,0,6,1,1,0,1539622753,"int"
+"7	LINE	0
+	hu}
+|3,0,7,1,1,0,1539622595,"hu}"
 "8	LINE	0
-	'''
-|3,0,8,1,1,0,1539448819,"'''"
+	
+|3,0,8,1,1,0,1539608727,""
 "9	LINE	0
-	'''
-|3,0,9,1,1,0,1539448807,"'''"
+	#include <stdio.h>
+|3,0,9,1,1,0,1539608725,"#include <stdio.h>"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -327,13 +326,50 @@ $rsync -av --delete
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1539608557," "
+	height
+|3,1,36,0,1,0,1539701247,"height"
 
 # Buffer list:
-%~/Code/C/test.c	7	0
+%~/Code/C/ex1.c	8	0
 
 # History of marks within files (newest to oldest):
+
+> ~/Code/C/ex1.c
+	*	1539701379	0
+	"	8	0
+	^	8	0
+	.	8	0
+	+	2	0
+	+	1	18
+	+	2	0
+	+	5	11
+	+	7	30
+	+	9	2
+	+	9	0
+	+	5	16
+	+	3	30
+	+	5	17
+	+	7	0
+	+	6	23
+	+	7	43
+	+	8	0
+
+> ~/Code/C/NERD_tree_1
+	*	1539701345	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Code/C/Makefile
+	*	1539701308	0
+	"	4	9
+	^	4	12
+	.	4	9
+	+	1	7
+	+	3	6
+	+	4	0
+	+	5	0
+	+	4	9
 
 > ~/Code/C/test.c
 	*	1539608680	0
@@ -345,14 +381,6 @@ $rsync -av --delete
 	+	6	9
 	+	1	17
 	+	2	0
-
-> ~/Code/C/Makefile
-	*	1539608587	0
-	"	2	0
-	^	4	10
-	.	4	9
-	+	1	7
-	+	4	9
 
 > ~/.config/privarcy/PreLogin
 	*	1539526782	0
@@ -451,11 +479,3 @@ $rsync -av --delete
 	"	5	0
 	.	1	0
 	+	1	0
-
-> ~/Code/data.csv
-	*	1539445939	0
-	"	58	0
-
-> ~/Code/C_language/Lesson_one.py
-	*	1539445854	0
-	"	1	0
