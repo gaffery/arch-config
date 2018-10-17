@@ -3836,3 +3836,45 @@
 2018-10-15 00:15:33,185 - WARNING - NEMbox.player:145: Song 26508205 is unavailable due to copyright issue.
 2018-10-15 00:15:33,231 - DEBUG - NEMbox.player:285: 30967315,定西(2014i/O版),http://m10.music.126.net/20181015001137/2e8d730c4fabddd4c3bf4e8a79b96579/ymusic/844b/1e3a/7577/cd7225617478684b0cf98acc4b695d86.mp3
 2018-10-15 00:15:33,497 - WARNING - NEMbox.player:145: Song 30967315 is unavailable due to copyright issue.
+################################################################################
+2018-10-17 23:12:06,695 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-17 23:12:06,696 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-17 23:12:18,236 - DEBUG - NEMbox.player:285: 211442,追风的女儿,http://m10.music.126.net/20181017233701/693f6773ed2af5b475336ca9eba62745/ymusic/03ed/58b6/5c31/e5146dfbaa8454bf009927caf9343cb4.mp3
+2018-10-17 23:16:41,410 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:16:41,410 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:16:41,743 - DEBUG - NEMbox.player:285: 411349443,我最亲爱的,http://m10.music.126.net/20181017234127/4ebd49a6df781bfafabf349c6f9669d6/ymusic/30c9/98cf/e5aa/cd90bdf8b2aba741d38edb0e770e847b.mp3
+2018-10-17 23:16:44,109 - DEBUG - NEMbox.player:285: 33418869,你把我灌醉,http://m10.music.126.net/20181017234127/05ac133e800be5411f63539660c5a44b/ymusic/d5ff/2069/d6fb/2993358fd1d18a7dbc4ea212ef36ecf0.mp3
+2018-10-17 23:21:59,706 - DEBUG - NEMbox.player:285: 28152005,想着你亲爱的,http://m10.music.126.net/20181017234127/7727149511d3b78a469bc4ec9878589b/ymusic/2dfe/d8d8/0f3b/c757c2c173dbfc25ada0080e95de464f.mp3
+2018-10-17 23:22:05,650 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:22:05,650 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:22:06,002 - DEBUG - NEMbox.player:285: 193121,风云,http://m10.music.126.net/20181017234652/b86561bc729b50e890528e0d82bb366f/ymusic/3f43/ea2b/feb4/40a9e9dd1ba18cd2c06022576d61bb81.mp3
+2018-10-17 23:25:06,242 - DEBUG - NEMbox.player:285: 421091354,最美传奇,http://m10.music.126.net/20181017234652/acefaf912201d1e2b26f062f548c156c/ymusic/8ca3/c47e/5920/12211aea865f04fd9931b73b658550c7.mp3
+2018-10-17 23:29:15,270 - DEBUG - NEMbox.player:285: 5255887,银色的月亮,http://m10.music.126.net/20181017234652/3721c4744d5be6b225d642a5d69d2bd7/ymusic/e42a/12ea/9c4f/05741921766b4cc56806f78cd19d708e.mp3
+2018-10-17 23:33:18,109 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:33:18,110 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:33:18,606 - DEBUG - NEMbox.player:285: 26902922,梦中的雪莲花,http://m10.music.126.net/20181017235804/8d2b75f5f588724964015c2e8ba744e5/ymusic/4402/f137/0905/b738e07aaeff944931309123eb617a80.mp3
+2018-10-17 23:37:49,027 - DEBUG - NEMbox.player:285: 277584,十二楼,http://m10.music.126.net/20181017235804/2972acfd5c25902182e56c398294166e/ymusic/486f/a1ae/f6de/67e3a694d71bc1a81d2d512301b288aa.mp3
+2018-10-17 23:43:03,232 - DEBUG - NEMbox.player:285: 186323,偷情,http://m10.music.126.net/20181017235804/e20a0e2863383dcc1274a05aaeb7e741/ymusic/3938/ffad/53e9/c9969d56b4aab34605f30341271a8e9d.mp3
+2018-10-17 23:47:37,366 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:47:37,366 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:47:37,814 - DEBUG - NEMbox.player:285: 156918,美丽新世界,http://m10.music.126.net/20181018001223/75316dbe7dbd1428a6e999db923b89e5/ymusic/a227/b795/7eaf/99b3173e05f89ba2744b000e104ac9e2.mp3
+2018-10-17 23:51:44,282 - DEBUG - NEMbox.player:285: 27902160,父亲,http://m10.music.126.net/20181018001223/9fac42f63e66068f9c2048d825d43757/ymusic/5acd/258a/fbf3/ef6f7bbd7196348d42a7f38ccbf6e5cd.mp3
+2018-10-17 23:54:30,898 - DEBUG - NEMbox.player:285: 196108,迟到,http://m10.music.126.net/20181018001223/cd4704639d06808b343e812830e792c6/ymusic/ebd4/c770/52fb/1d19a3435ddc69083c31e1fad92e1bb2.mp3
+2018-10-17 23:54:33,195 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:54:33,196 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:54:33,415 - DEBUG - NEMbox.player:285: 431357712,你在终点等我,http://m10.music.126.net/20181018001919/14019ade61f182dc6ec7b95486a563d3/ymusic/7150/e87d/6da8/b8d42dc149142f09756df19d3ef749d8.mp3
+2018-10-17 23:54:37,063 - DEBUG - NEMbox.player:285: 26620638,Letter,http://m10.music.126.net/20181018001919/ab3845d14abd750912361444763b13e9/ymusic/b45a/317c/d5ad/9362f8d9b783b02d79cd5aaf081102f1.mp3
+2018-10-17 23:54:38,679 - DEBUG - NEMbox.player:285: 34614539,杨门女将之女儿当自强,http://m10.music.126.net/20181018001919/1ca2236811463694970a5666cf3213c7/ymusic/f8ba/3371/71fe/d6cafce2b65a65c2a398eae88f394cce.mp3
+2018-10-17 23:54:39,371 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:54:39,371 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:54:40,592 - DEBUG - NEMbox.player:285: 108104,弄错的车站,http://m10.music.126.net/20181018001926/fd8348a2cad8d6f2f1ce83ed20285135/ymusic/44bc/43a1/29cb/cc4b21b041fb04339585e8992b1f4950.mp3
+2018-10-17 23:54:42,807 - DEBUG - NEMbox.player:285: 36921480,独自旅行,http://m10.music.126.net/20181018001926/27d5b724152d5f3789626e1976cd9b90/ymusic/b4aa/6e27/7cf5/8fff2a58853886a1db8267793f50eb31.mp3
+2018-10-17 23:54:43,599 - DEBUG - NEMbox.player:285: 298913,走过咖啡屋,http://m10.music.126.net/20181018001926/0cbbe1bbbe350f5ff12c8f666019a22b/ymusic/77d9/3ded/d2f1/6ef76d590cf693a136dea0c63ea57fb2.mp3
+2018-10-17 23:54:44,707 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:54:44,708 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:54:45,935 - DEBUG - NEMbox.player:285: 196148,渔家傲,http://m10.music.126.net/20181018001932/b7bb7990f7bfa0d12a2fb86353f2a536/ymusic/fcd8/a57e/e8e4/c92cc27cdd7334da5a9f5fc21efad1e0.mp3
+2018-10-17 23:56:11,334 - DEBUG - NEMbox.player:285: 86202,Mark's Theme,http://m10.music.126.net/20181018001932/c9cc1babdb580d11ecc63d54e1c03a93/ymusic/599d/a9ca/0417/7ebc4691fc657edeca76d3479d7d2dba.mp3
+2018-10-17 23:57:47,066 - DEBUG - NEMbox.player:285: 29810154,上任弼马温,http://m10.music.126.net/20181018001932/2a7f1d8414bafd2fe9dce36fa5046c45/ymusic/3d85/4bd1/72e9/23491749e2c6e8cd517726c4708f6af3.mp3
+2018-10-17 23:59:47,403 - DEBUG - NEMbox.player:310: Callback
+2018-10-17 23:59:47,403 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-17 23:59:47,802 - DEBUG - NEMbox.player:285: 758649,帝国のマーチ(ダース・ベイダーのテーマ),http://m10.music.126.net/20181018002433/46785a92d7087f62757eadac1f52f0b6/ymusic/17a9/ba5b/695d/f29026a744fb48588b43024a23d69ec6.mp3
