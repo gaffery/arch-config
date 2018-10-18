@@ -124,5 +124,6 @@ application/x-extension-rss=userapp-Thunderbird-GIC9PZ.desktop;
 audio/x-wav=mpv.desktop;
 text/csv=leafpad.desktop;
 application/mbox=leafpad.desktop;
+video/mpeg=mpv.desktop;
 
 [Removed Associations]
