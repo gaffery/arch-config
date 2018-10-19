@@ -115,7 +115,6 @@ terminator
 texinfo
 thunar-archive-plugin
 tk
-transmission-cli
 transmission-gtk
 tumbler
 unrar
