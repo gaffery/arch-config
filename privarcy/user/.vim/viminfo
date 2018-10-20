@@ -20,10 +20,10 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1540010923,,"w"
 :q
 |2,0,1539793389,,"q"
-:w
-|2,0,1539789480,,"w"
 :w ex5.c
 |2,0,1539701379,,"w ex5.c"
 :w ex5
@@ -243,33 +243,33 @@ $rsync -av --delete
 "0	LINE	0
 		rm -f ex1
 |3,0,0,1,1,0,1539622947,"	rm -f ex1"
-"1	LINE	0
-		printf("I am %d years old.\n");
-|3,0,1,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1540010922,""
 "2	LINE	0
-		int age = 10;
-|3,0,2,1,1,0,1539701176,"	int age = 10;"
+		printf("I am %d years old.\n");
+|3,0,2,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
 "3	LINE	0
-		return 0;
-|3,0,3,1,1,0,1539700127,"	return 0;"
+		int age = 10;
+|3,0,3,1,1,0,1539701176,"	int age = 10;"
 "4	LINE	0
-		rm -f ex1
-|3,0,4,1,1,0,1539622952,"	rm -f ex1"
+		return 0;
+|3,0,4,1,1,0,1539700127,"	return 0;"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1539622763,""
+		rm -f ex1
+|3,0,5,1,1,0,1539622952,"	rm -f ex1"
 "6	LINE	0
-	int
-|3,0,6,1,1,0,1539622753,"int"
-"7	LINE	0
-	hu}
-|3,0,7,1,1,0,1539622595,"hu}"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1539608727,""
+|3,0,6,1,1,0,1539622763,""
+"7	LINE	0
+	int
+|3,0,7,1,1,0,1539622753,"int"
+"8	LINE	0
+	hu}
+|3,0,8,1,1,0,1539622595,"hu}"
 "9	LINE	0
-	#include <stdio.h>
-|3,0,9,1,1,0,1539608725,"#include <stdio.h>"
+	
+|3,0,9,1,1,0,1539608727,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -325,23 +325,29 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-""-	CHAR	0
+"-	CHAR	0
 	height
-|3,1,36,0,1,0,1539701247,"height"
+|3,0,36,0,1,0,1539701247,"height"
 
 # Buffer list:
+%~/Code/C/ex5.c	11	0
 
 # History of marks within files (newest to oldest):
 
+> ~/Code/C/ex5.c
+	*	1540012196	0
+	"	11	0
+	^	11	0
+	.	12	0
+	+	2	0
+	+	11	0
+	+	12	0
+
 > ~/NERD_tree_1
-	*	1539793387	0
-	"	1	0
+	*	1540010918	0
+	"	7	0
 	.	1	0
 	+	1	0
-
-> ~/Code/C/ex5.c
-	*	1539791716	0
-	"	5	0
 
 > ~/Code/C/ex1.c
 	*	1539701379	0

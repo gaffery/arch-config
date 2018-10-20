@@ -55,6 +55,7 @@ iproute2
 iputils
 ipython
 jfsutils
+joyutils
 kupfer
 leafpad
 less
