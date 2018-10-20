@@ -18,7 +18,6 @@ device-mapper
 dhcpcd
 diffutils
 e2fsprogs
-elementary-icon-theme
 epdfview
 exo
 faad2

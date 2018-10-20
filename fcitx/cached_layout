@@ -242,7 +242,9 @@ French:fr:French (AZERTY):azerty:fr
 French:fr:French (Breton):bre:fr
 French:fr:Occitan:oci:oc
 French:fr:Georgian (France, AZERTY Tskapo):geo:ka
+French:fr:French (US keyboard with French letters):us:fr
 French:fr:French (Sun Type 6/7):sun_type6:fr
+French:fr:French (US, with French letters, with dead keys, alternative):us-alt:fr
 English (Ghana):gh:en
 English (Ghana):gh:English (Ghana, multilingual):generic:en
 English (Ghana):gh:Akan:akan:ak
@@ -356,6 +358,7 @@ Kazakh:kz:kk
 Kazakh:kz:Russian (Kazakhstan, with Kazakh):ruskaz:kk
 Kazakh:kz:Kazakh (with Russian):kazrus:kk
 Kazakh:kz:Kazakh (extended):ext:kk
+Kazakh:kz:Kazakh (Latin):latin:kk
 Lao:la:lo
 Lao:la:Lao (STEA proposed standard layout):stea:lo
 Spanish (Latin American):latam:es
@@ -470,6 +473,7 @@ Russian:ru:Church Slavonic:chu:cu
 Russian:ru:Russian (with Ukrainian-Belorussian layout):ruu:ru
 Russian:ru:Russian (Rulemak, phonetic Colemak):rulemak:ru
 Russian:ru:Russian (Sun Type 6/7):sun_type6:ru
+Russian:ru:Russian (with US punctuation):unipunct:ru
 Russian:ru:Russian (Polyglot and Reactionary):prxn:ru
 Serbian:rs:sr
 Serbian:rs:Serbian (Cyrillic, ZE and ZHE swapped):yz:sr
@@ -575,6 +579,10 @@ English (UK):gb:English (UK, Sun Type 6/7):sun_type6:en
 Uzbek:uz:uz
 Uzbek:uz:Uzbek (Latin):latin:uz
 Vietnamese:vn:vi
+Vietnamese:vn:Vietnamese (US, with Vietnamese letters):us:vi
+Vietnamese:vn:Vietnamese (French, with Vietnamese letters):fr:vi
+Vietnamese:vn:ÐERTY):aderty:vi
+Vietnamese:vn:ĐERTY):qderty:vi
 Korean:kr:ko
 Korean:kr:Korean (101/104 key compatible):kr104:ko
 Korean:kr:Korean (Sun Type 6/7):sun_type6:ko
