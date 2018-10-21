@@ -59,7 +59,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/gaffey/Untitled.png" added="2018-10-20T10:33:01Z" modified="2018-10-20T10:33:05Z" visited="2018-10-20T10:33:01Z">
+  <bookmark href="file:///home/gaffey/Untitled.png" added="2018-10-20T10:33:01Z" modified="2018-10-20T16:06:14Z" visited="2018-10-20T10:33:01Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -67,12 +67,13 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-20T10:33:05Z" count="2"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-20T16:04:49Z" count="3"/>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2018-10-20T16:06:14Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/gaffey/Paint/Untitled1.xcf" added="2018-10-20T14:25:12Z" modified="2018-10-20T14:25:29Z" visited="2018-10-20T14:25:13Z">
+  <bookmark href="file:///home/gaffey/Paint/Untitled1.xcf" added="2018-10-20T14:25:12Z" modified="2018-10-20T16:04:56Z" visited="2018-10-20T14:25:13Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/x-xcf"/>
@@ -80,7 +81,7 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-20T14:25:29Z" count="3"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-20T16:04:56Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>

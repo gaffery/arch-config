@@ -2,7 +2,7 @@
 # alsa 声音恢复
 sudo alsactl restore
 # 影梭服务器链接
-ss-local -c ~/.config/privarcy/shadowsocks/config1.json > /dev/null 2>&1 &
+ss-local -c ~/.config/privarcy/shadowsocks/config4.json > /dev/null 2>&1 &
 cd $HOME
 # 删除多余文件
 #rm .xsession-errors .Xauthority nemcache.sqlite ICEauthority

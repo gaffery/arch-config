@@ -21,9 +21,9 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1540010923,,"w"
+|2,0,1540093173,,"w"
 :q
-|2,0,1539793389,,"q"
+|2,0,1540093015,,"q"
 :w ex5.c
 |2,0,1539701379,,"w ex5.c"
 :w ex5
@@ -243,33 +243,33 @@ $rsync -av --delete
 "0	LINE	0
 		rm -f ex1
 |3,0,0,1,1,0,1539622947,"	rm -f ex1"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1540010922,""
+"1	LINE	0
+	    "server":.28.37.199",
+|3,0,1,1,1,0,1540092967,"    \"server\":.28.37.199\","
 "2	LINE	0
-		printf("I am %d years old.\n");
-|3,0,2,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
+	
+|3,0,2,1,1,0,1540010922,""
 "3	LINE	0
-		int age = 10;
-|3,0,3,1,1,0,1539701176,"	int age = 10;"
+		printf("I am %d years old.\n");
+|3,0,3,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
 "4	LINE	0
-		return 0;
-|3,0,4,1,1,0,1539700127,"	return 0;"
+		int age = 10;
+|3,0,4,1,1,0,1539701176,"	int age = 10;"
 "5	LINE	0
-		rm -f ex1
-|3,0,5,1,1,0,1539622952,"	rm -f ex1"
+		return 0;
+|3,0,5,1,1,0,1539700127,"	return 0;"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1539622763,""
+		rm -f ex1
+|3,0,6,1,1,0,1539622952,"	rm -f ex1"
 "7	LINE	0
-	int
-|3,0,7,1,1,0,1539622753,"int"
-"8	LINE	0
-	hu}
-|3,0,8,1,1,0,1539622595,"hu}"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1539608727,""
+|3,0,7,1,1,0,1539622763,""
+"8	LINE	0
+	int
+|3,0,8,1,1,0,1539622753,"int"
+"9	LINE	0
+	hu}
+|3,0,9,1,1,0,1539622595,"hu}"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -325,14 +325,42 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	height
-|3,0,36,0,1,0,1539701247,"height"
+""-	CHAR	0
+	"
+|3,1,36,0,1,0,1540093077,"\""
 
 # Buffer list:
-%~/Code/C/ex5.c	11	0
+%~/.config/privarcy/PreLogin	5	49
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/privarcy/PreLogin
+	*	1540093173	0
+	"	5	49
+	.	5	49
+	+	5	49
+
+> ~/.config/privarcy/shadowsocks/config4.json
+	*	1540093139	0
+	"	6	16
+	^	6	17
+	.	6	0
+	+	3	0
+	+	2	13
+	+	2	0
+	+	3	21
+	+	6	17
+	+	6	0
+
+> ~/.config/privarcy/shadowsocks/config3.json
+	*	1540093012	0
+	"	1	0
+
+> ~/NERD_tree_1
+	*	1540092635	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/Code/C/ex5.c
 	*	1540012196	0
@@ -342,12 +370,6 @@ $rsync -av --delete
 	+	2	0
 	+	11	0
 	+	12	0
-
-> ~/NERD_tree_1
-	*	1540010918	0
-	"	7	0
-	.	1	0
-	+	1	0
 
 > ~/Code/C/ex1.c
 	*	1539701379	0
@@ -397,12 +419,6 @@ $rsync -av --delete
 	+	1	17
 	+	2	0
 
-> ~/.config/privarcy/PreLogin
-	*	1539526782	0
-	"	5	49
-	.	5	49
-	+	5	49
-
 > ~/test.py
 	*	1539525279	0
 	"	1	0
@@ -427,28 +443,3 @@ $rsync -av --delete
 	+	2	10
 	+	1	3
 	+	3	0
-
-> ~/.config/privarcy/etc/cron/SysBackup
-	*	1539459052	0
-	"	13	0
-	.	12	0
-	+	5	0
-	+	12	0
-
-> ~/Code/bayes.py
-	*	1539449496	0
-	"	5	0
-	^	5	0
-	.	5	0
-	+	6	39
-	+	6	0
-	+	6	6
-	+	6	0
-	+	6	2
-	+	135	0
-	+	134	0
-	+	6	0
-	+	9	22
-	+	6	10
-	+	6	0
-	+	5	0

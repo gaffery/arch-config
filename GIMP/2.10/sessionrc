@@ -11,12 +11,12 @@
     (size 1600 1129))
 (session-info "toplevel"
     (factory-entry "gimp-single-image-window")
-    (position 0 0)
+    (position 1280 0)
     (size 1276 1054)
     (open-on-exit)
     (aux-info
         (left-docks-width "200")
-        (right-docks-width "405")
+        (right-docks-width "206")
         (maximized "no"))
     (gimp-dock
         (side left)
@@ -50,9 +50,14 @@
             (dockable "gimp-gradient-list"
                 (tab-style automatic)
                 (aux-info
-                    (show-button-bar "true"))))
+                    (show-button-bar "true")))
+            (dockable "gimp-brush-editor"
+                (tab-style automatic)
+                (aux-info
+                    (edit-active "true")
+                    (current-data "2. Block 01"))))
         (book
-            (position 387)
+            (position 444)
             (current-page 0)
             (dockable "gimp-tool-preset-list"
                 (tab-style automatic)
@@ -155,7 +160,10 @@
     (size 160 720))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 1750 259))
+    (position 906 527))
+(session-info "toplevel"
+    (factory-entry "gimp-gradient-tool-dialog")
+    (position 1988 319))
 
 (hide-docks no)
 (single-window-mode yes)

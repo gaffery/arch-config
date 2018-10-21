@@ -940,7 +940,7 @@
   <resource identifier="${gimp_data_dir}/patterns/Wood/wood1.pat" checksum="0c055f250ddbccc1b32d05f8c0ad7012">
   </resource>
 
-  <resource identifier="gimp-gradient-custom" checksum="187931f355f47f9a6af3050d32deefe6">
+  <resource identifier="gimp-gradient-custom" checksum="ff7a8841ad5718a34357d7c274901d1d">
   </resource>
 
   <resource identifier="gimp-gradient-fg-bg-rgb-hardedge" checksum="12ad9439c57e897e50fb0399439e5b2b">
@@ -1168,7 +1168,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="e9dec728e95704d6dc9201fc9d152078">
+  <resource identifier="gimp-palette-color-history" checksum="abb3c5c679b192d0eb2809e60ec90ac0">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">

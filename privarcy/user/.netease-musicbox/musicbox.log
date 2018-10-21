@@ -4054,3 +4054,23 @@
 2018-10-21 00:00:02,011 - DEBUG - NEMbox.player:310: Callback
 2018-10-21 00:00:02,012 - DEBUG - NEMbox.menu:769: FM CallBack.
 2018-10-21 00:00:02,595 - DEBUG - NEMbox.player:285: 29717271,Go Time,http://m10.music.126.net/20181021002446/a4f6d1c0bb8c30ed71b780c1e61bd029/ymusic/8c38/cb83/36b0/f8a664958286c6f0160389e377f2802d.mp3
+2018-10-21 00:02:19,373 - DEBUG - NEMbox.player:285: 92608,傲气傲笑万重浪,http://m10.music.126.net/20181021002446/688c74e2c3d39fdeaa52810a3dd0af44/ymusic/36aa/10a4/3c35/8ea45678f6f4d9c5acf82df907b68c98.mp3
+2018-10-21 00:05:58,660 - DEBUG - NEMbox.player:285: 29999506,莫失莫忘,http://m10.music.126.net/20181021002446/6873906ec63e84dd5b05b2895ce2b810/ymusic/b7a9/99a4/57a1/a9130dc5527bb0ea3306c8af5c7bdb17.mp3
+2018-10-21 00:09:19,118 - DEBUG - NEMbox.player:310: Callback
+2018-10-21 00:09:19,118 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-21 00:09:19,536 - DEBUG - NEMbox.player:285: 38576323,春风十里,http://m10.music.126.net/20181021003403/13603a13de4412f024ba4052267893f5/ymusic/1445/63b3/4f5e/50b602c146cd457b676f51106f235d88.mp3
+2018-10-21 00:15:36,403 - DEBUG - NEMbox.player:285: 60102,天使的翅膀,http://m10.music.126.net/20181021003403/da0b2926b049a6e286a5594873527f77/ymusic/2002/1821/0da9/3ccbb631c2172b57f8a795bb3d651ed9.mp3
+2018-10-21 00:16:43,751 - DEBUG - NEMbox.player:310: Callback
+2018-10-21 00:16:43,752 - DEBUG - NEMbox.menu:769: FM CallBack.
+################################################################################
+2018-10-22 05:09:43,885 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-22 05:09:43,885 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+################################################################################
+2018-10-22 05:10:11,110 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-22 05:10:11,110 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-22 05:10:22,043 - DEBUG - NEMbox.player:285: 32785482,秋怨 (曼陀罗版),http://m10.music.126.net/20181022053504/fbd8e6675317264e6d161239494cb47c/ymusic/29d4/b8a0/b936/694284b3a8479646f8f4b8c951cb7065.mp3
+2018-10-22 05:10:24,820 - DEBUG - NEMbox.player:285: 30413349,夜宴紫禁宫,http://m10.music.126.net/20181022053504/c17d85e977aced76f1b6b9fe0af19ba6/ymusic/1d97/e056/17de/6e62e6dbbc9e9aabe6a6a25722730db0.mp3
+2018-10-22 05:10:26,542 - DEBUG - NEMbox.player:285: 461656630,女儿情（钢琴，葫芦丝，南箫，笛，琵琶，古筝）（Cover 吴静）,http://m10.music.126.net/20181022053504/a4580eb10b1449f6106acc1cc425328c/ymusic/0497/3127/18ce/2a2fa3b1ffd85903a41fda144dc812dd.mp3
+2018-10-22 05:14:37,585 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 05:14:37,586 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 05:14:38,154 - DEBUG - NEMbox.player:285: 300998,套马杆,http://m10.music.126.net/20181022053921/bbd3830ed8fb55169f32afc09096a246/ymusic/c6c3/f5c2/dd31/ee75cd5e1c0f69bff3a97742de7659e8.mp3
