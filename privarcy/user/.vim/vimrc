@@ -91,9 +91,9 @@ let g:lightline = {
 
 "NERDTree配置"
 noremap <F9> :NERDTreeToggle<CR>
-vnoremap <F9> :NERDTreeToggle<CR>
-inoremap <F9> :NERDTreeToggle<CR>
-cnoremap <F9> :NERDTreeToggle<CR>
+vnoremap <F9> <ESC>:NERDTreeToggle<CR>
+inoremap <F9> <ESC>:NERDTreeToggle<CR>
+cnoremap <F9> <ESC>:NERDTreeToggle<CR>
 
 let NERDTreeChDirMode=1
 let NERDTreeShowBookmarks=0

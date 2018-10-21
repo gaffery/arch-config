@@ -21,9 +21,9 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1540157425,,"w"
+|2,0,1540157594,,"w"
 :q
-|2,0,1540156708,,"q"
+|2,0,1540157435,,"q"
 :w ex5.c
 |2,0,1539701379,,"w ex5.c"
 :w ex5
@@ -240,36 +240,36 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	inoremap <F9> :NERDTreeToggle<CR>
-|3,0,0,1,1,0,1540157403,"inoremap <F9> :NERDTreeToggle<CR>"
+"0	CHAR	0
+	<ESC>
+|3,0,0,0,1,0,1540157561,"<ESC>"
 "1	LINE	0
 	
 |3,0,1,1,1,0,1540157376,""
 "2	LINE	0
-	    "server":.28.37.199",
-|3,0,2,1,1,0,1540092967,"    \"server\":.28.37.199\","
+		printf("You are %d miles away.\n", distance);
+|3,0,2,1,1,0,1540156539,"	printf(\"You are %d miles away.\\n\", distance);"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1540010922,""
+		// this is also comment
+|3,0,3,1,1,0,1540156538,"	// this is also comment"
 "4	LINE	0
-		printf("I am %d years old.\n");
-|3,0,4,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
+		int distance = 100;
+|3,0,4,1,1,0,1540156538,"	int distance = 100;"
 "5	LINE	0
-		int age = 10;
-|3,0,5,1,1,0,1539701176,"	int age = 10;"
+	
+|3,0,5,1,1,0,1540156514,""
 "6	LINE	0
-		return 0;
-|3,0,6,1,1,0,1539700127,"	return 0;"
+		//
+|3,0,6,1,1,0,1540156449,"	//"
 "7	LINE	0
-		rm -f ex1
-|3,0,7,1,1,0,1539622952,"	rm -f ex1"
+	    "server":.28.37.199",
+|3,0,7,1,1,0,1540092967,"    \"server\":.28.37.199\","
 "8	LINE	0
 	
-|3,0,8,1,1,0,1539622763,""
+|3,0,8,1,1,0,1540010922,""
 "9	LINE	0
-	int
-|3,0,9,1,1,0,1539622753,"int"
+		printf("I am %d years old.\n");
+|3,0,9,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -326,19 +326,19 @@ $rsync -av --delete
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	o
-|3,1,36,0,1,0,1540157409,"o"
+	>
+|3,1,36,0,1,0,1540157586,">"
 
 # Buffer list:
-%~/.vim/vimrc	113	2
+%~/.vim/vimrc	1	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1540157425	0
-	"	113	2
-	^	96	3
-	.	96	2
+	*	1540157601	0
+	"	1	0
+	^	1	0
+	.	93	12
 	+	93	6
 	+	98	0
 	+	93	3
@@ -346,12 +346,45 @@ $rsync -av --delete
 	+	94	4
 	+	95	4
 	+	96	2
+	+	94	0
+	+	93	13
+	+	94	14
+	+	95	14
+	+	96	14
+	+	93	12
+
+> ~/NERD_tree_1
+	*	1540157601	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/.config/privarcy/PreLogin
 	*	1540156707	0
 	"	1	0
 	.	5	49
 	+	5	49
+
+> ~/Code/C/ex5.c
+	*	1540156698	0
+	"	15	0
+	^	15	0
+	.	15	0
+	+	2	0
+	+	20	0
+	+	5	0
+	+	18	0
+	+	20	0
+	+	5	11
+	+	6	17
+	+	7	0
+	+	6	16
+	+	7	32
+	+	9	0
+	+	11	19
+	+	12	25
+	+	13	21
+	+	15	0
 
 > ~/.config/privarcy/shadowsocks/config4.json
 	*	1540093139	0
@@ -368,21 +401,6 @@ $rsync -av --delete
 > ~/.config/privarcy/shadowsocks/config3.json
 	*	1540093012	0
 	"	1	0
-
-> ~/NERD_tree_1
-	*	1540092635	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Code/C/ex5.c
-	*	1540012196	0
-	"	11	0
-	^	11	0
-	.	12	0
-	+	2	0
-	+	11	0
-	+	12	0
 
 > ~/Code/C/ex1.c
 	*	1539701379	0
