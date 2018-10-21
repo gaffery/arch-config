@@ -21,9 +21,9 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1540093173,,"w"
+|2,0,1540157425,,"w"
 :q
-|2,0,1540093015,,"q"
+|2,0,1540156708,,"q"
 :w ex5.c
 |2,0,1539701379,,"w ex5.c"
 :w ex5
@@ -241,35 +241,35 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-		rm -f ex1
-|3,0,0,1,1,0,1539622947,"	rm -f ex1"
+	inoremap <F9> :NERDTreeToggle<CR>
+|3,0,0,1,1,0,1540157403,"inoremap <F9> :NERDTreeToggle<CR>"
 "1	LINE	0
-	    "server":.28.37.199",
-|3,0,1,1,1,0,1540092967,"    \"server\":.28.37.199\","
+	
+|3,0,1,1,1,0,1540157376,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1540010922,""
+	    "server":.28.37.199",
+|3,0,2,1,1,0,1540092967,"    \"server\":.28.37.199\","
 "3	LINE	0
-		printf("I am %d years old.\n");
-|3,0,3,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
-"4	LINE	0
-		int age = 10;
-|3,0,4,1,1,0,1539701176,"	int age = 10;"
-"5	LINE	0
-		return 0;
-|3,0,5,1,1,0,1539700127,"	return 0;"
-"6	LINE	0
-		rm -f ex1
-|3,0,6,1,1,0,1539622952,"	rm -f ex1"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1539622763,""
+|3,0,3,1,1,0,1540010922,""
+"4	LINE	0
+		printf("I am %d years old.\n");
+|3,0,4,1,1,0,1539701193,"	printf(\"I am %d years old.\\n\");"
+"5	LINE	0
+		int age = 10;
+|3,0,5,1,1,0,1539701176,"	int age = 10;"
+"6	LINE	0
+		return 0;
+|3,0,6,1,1,0,1539700127,"	return 0;"
+"7	LINE	0
+		rm -f ex1
+|3,0,7,1,1,0,1539622952,"	rm -f ex1"
 "8	LINE	0
-	int
-|3,0,8,1,1,0,1539622753,"int"
+	
+|3,0,8,1,1,0,1539622763,""
 "9	LINE	0
-	hu}
-|3,0,9,1,1,0,1539622595,"hu}"
+	int
+|3,0,9,1,1,0,1539622753,"int"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -326,17 +326,30 @@ $rsync -av --delete
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	"
-|3,1,36,0,1,0,1540093077,"\""
+	o
+|3,1,36,0,1,0,1540157409,"o"
 
 # Buffer list:
-%~/.config/privarcy/PreLogin	5	49
+%~/.vim/vimrc	113	2
 
 # History of marks within files (newest to oldest):
 
+> ~/.vim/vimrc
+	*	1540157425	0
+	"	113	2
+	^	96	3
+	.	96	2
+	+	93	6
+	+	98	0
+	+	93	3
+	+	97	0
+	+	94	4
+	+	95	4
+	+	96	2
+
 > ~/.config/privarcy/PreLogin
-	*	1540093173	0
-	"	5	49
+	*	1540156707	0
+	"	1	0
 	.	5	49
 	+	5	49
 
@@ -418,28 +431,3 @@ $rsync -av --delete
 	+	6	9
 	+	1	17
 	+	2	0
-
-> ~/test.py
-	*	1539525279	0
-	"	1	0
-	^	3	0
-	.	3	0
-	+	1	50
-	+	1	58
-	+	14	0
-	+	1	0
-	+	4	21
-	+	14	0
-	+	13	0
-	+	3	0
-	+	10	0
-	+	4	21
-	+	2	0
-	+	4	31
-	+	11	25
-	+	12	0
-	+	2	0
-	+	1	20
-	+	2	10
-	+	1	3
-	+	3	0

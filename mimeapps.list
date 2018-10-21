@@ -2,7 +2,7 @@
 text/plain=leafpad.desktop
 image/bmp=gpicview.desktop
 image/gif=gpicview.desktop
-image/jpeg=viewnior.desktop
+image/jpeg=gpicview.desktop
 image/jpg=gpicview.desktop
 image/png=gpicview.desktop
 image/tiff=gpicview.desktop
@@ -42,7 +42,7 @@ text/csv=leafpad.desktop
 [Added Associations]
 text/plain=leafpad.desktop;vim.desktop;mousepad.desktop;
 video/mp4=mpv.desktop;
-image/jpeg=viewnior.desktop;gimp.desktop;feh.desktop;ristretto.desktop;gpicview.desktop;
+image/jpeg=gpicview.desktop;gimp.desktop;viewnior.desktop;feh.desktop;ristretto.desktop;
 application/x-blender=blender.desktop;
 image/png=viewnior.desktop;feh.desktop;gimp.desktop;ristretto.desktop;gpicview.desktop;
 application/x-desktop=leafpad.desktop;

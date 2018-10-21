@@ -42,6 +42,7 @@ gimp
 git
 glibc
 gparted
+gpicview-gtk3
 gptfdisk
 grep
 groff
@@ -121,7 +122,6 @@ unzip
 usbutils
 util-linux
 valgrind
-viewnior
 vim
 w3m
 wavpack

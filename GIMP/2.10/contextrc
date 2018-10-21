@@ -1,15 +1,15 @@
 # GIMP user context
 
-(tool "gimp-mypaint-brush-tool")
-(paint-info "gimp-mybrush")
-(foreground (color-rgb 0.141176 0.105882 0.070588))
+(tool "gimp-paintbrush-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 0.870588 0.870588 0.870588))
 (brush "2. Block 01")
 (dynamics "Perspective")
 (mybrush "Sketcher2 sk")
 (pattern "Pine")
-(gradient "Custom")
+(gradient "Tropical Colors")
 (palette "Default")
 (font "Sans-serif")
-(tool-preset "Wacom Intuos PT M 2 Pen stylus")
+(tool-preset "Core Pointer")
 
 # end of user context

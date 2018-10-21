@@ -46,7 +46,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/gaffey/Paint/473009113.jpg" added="2018-10-20T10:31:53Z" modified="2018-10-20T10:31:53Z" visited="2018-10-20T10:31:53Z">
+  <bookmark href="file:///home/gaffey/Paint/473009113.jpg" added="2018-10-20T10:31:53Z" modified="2018-10-21T21:20:21Z" visited="2018-10-20T10:31:53Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/jpeg"/>
@@ -54,7 +54,7 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-20T10:31:53Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-21T21:20:21Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
