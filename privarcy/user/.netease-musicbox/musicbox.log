@@ -4593,3 +4593,8 @@
 2018-10-27 05:22:51,387 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
 2018-10-27 05:22:51,387 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
 2018-10-27 05:23:04,925 - DEBUG - NEMbox.player:285: 33872544,一缕相思情,http://m10.music.126.net/20181027054742/b89d7ed87014f999dc9d86623c7a14f4/ymusic/2b3c/788e/cd64/20de391ab80802d505b19bf98de8aa85.mp3
+2018-10-27 05:26:43,791 - DEBUG - NEMbox.player:285: 33872783,无奈的相思,http://m10.music.126.net/20181027054742/7ab168aeb369835edf3be72c5a34d7a6/ymusic/1060/62da/d2be/2021cfb9f565322ca2f559c679595d3a.mp3
+2018-10-27 05:30:29,749 - DEBUG - NEMbox.player:285: 33872782,望呀望等呀等,http://m10.music.126.net/20181027054742/76b804d95d4dec47307f12461ef86d98/ymusic/ff5c/63b1/f3e7/945b9787c416110ae8ee899a3094a6d2.mp3
+2018-10-27 05:33:51,730 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 05:33:51,731 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 05:33:52,042 - DEBUG - NEMbox.player:285: 373444,花瑟秋风,http://m10.music.126.net/20181027055830/f9928a448495a3d8ee4964cd8b316eb5/ymusic/a518/7ae0/0ce7/6c790dc0c476d2f4d571d8aafe908f94.mp3
