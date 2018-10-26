@@ -4080,3 +4080,516 @@
 2018-10-22 05:27:10,092 - DEBUG - NEMbox.menu:769: FM CallBack.
 2018-10-22 05:27:10,504 - DEBUG - NEMbox.player:285: 33911738,男性本是漂泊心情,http://m10.music.126.net/20181022055153/32113eeac3d123db20a42cde4d22637f/ymusic/2fc4/9005/bbeb/4dee001f8056bc1654432c8bbd32da9d.mp3
 2018-10-22 05:31:00,423 - DEBUG - NEMbox.player:285: 33785739,吻你《胡杨女人》片尾曲,http://m10.music.126.net/20181022055153/031a43d493ecfd3469c5db253a6ba6a1/ymusic/4d58/f6c6/0c04/cc9d7eb4674f795b5d4bd6b44ce4fd31.mp3
+2018-10-22 05:34:45,653 - DEBUG - NEMbox.player:285: 421091354,最美传奇,http://m10.music.126.net/20181022055153/fde2abd47d0f9062a2eb45fe1170982f/ymusic/8ca3/c47e/5920/12211aea865f04fd9931b73b658550c7.mp3
+2018-10-22 05:38:54,525 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 05:38:54,525 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 05:38:54,810 - DEBUG - NEMbox.player:285: 33785726,鸿雁(赞歌),http://m10.music.126.net/20181022060338/5653f07ef8dd8b6f0659eb5f885c60d9/ymusic/88ba/9295/0614/047f661f78b2813504a6f8bb8fd29e7d.mp3
+2018-10-22 05:42:25,984 - DEBUG - NEMbox.player:285: 290568,欢乐中国年,http://m10.music.126.net/20181022060338/144a7fdb9e77753aec28ced59fcd6a7d/ymusic/f2fc/486d/f64c/382ba5f911082dcde505b91c78c107c9.mp3
+2018-10-22 05:46:41,614 - DEBUG - NEMbox.player:285: 242425,酒醉的探戈,http://m10.music.126.net/20181022060338/0bb2ed2790c0a6e644e4ab78bcb7e26c/ymusic/5075/8123/09a3/7cd41e216f5e51fb8d36e1e3b369fbad.mp3
+2018-10-22 05:50:18,552 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 05:50:18,552 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 05:50:18,901 - DEBUG - NEMbox.player:285: 260432,难以抗拒,http://m10.music.126.net/20181022061502/ee1d03ec6abe50748be957b485e2d5e4/ymusic/a2e0/3c71/2052/e7ec973c1856a745a3e47e6e3e06994e.mp3
+################################################################################
+2018-10-22 21:14:13,909 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-22 21:14:13,909 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-22 21:14:17,256 - DEBUG - NEMbox.player:285: 428375271,得意的笑,http://m10.music.126.net/20181022213859/9b87a23378ee039e06f3c4cf2d2b5ccb/ymusic/41a7/1296/ffea/0f7189c23c36a32863bec6f4425407e6.mp3
+2018-10-22 21:18:23,351 - DEBUG - NEMbox.player:285: 230691,星语心愿,http://m10.music.126.net/20181022213859/16e05905f5fcd7ea700f335dd01c0e7e/ymusic/740a/7846/f7a4/aff9f606a4b8622d66defe14c7c799d4.mp3
+2018-10-22 21:21:50,198 - DEBUG - NEMbox.player:285: 480510428,贝加尔湖畔▪筝声（Cover 李健）,http://m10.music.126.net/20181022213859/db268f51c20d8ea87add0f2d66e1d626/ymusic/dc13/b24a/bdaa/3c3c96d943a0406ffc625cc45e6f7425.mp3
+2018-10-22 21:26:37,963 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 21:26:37,964 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 21:26:38,409 - DEBUG - NEMbox.player:285: 5272940,飘摇,http://m10.music.126.net/20181022215121/e755a7f45e2ecac21b40e45719896d48/ymusic/af42/1794/136c/b427bdfa5c2d4952424d595099bf80a9.mp3
+2018-10-22 21:30:47,135 - DEBUG - NEMbox.player:285: 5240550,北京东路的日子,http://m10.music.126.net/20181022215121/4f5a8e1c0b2bbf53408d8749bd03c993/ymusic/9fb8/70be/ee7b/5bb795225868a7d7b7274cb9de7bdf5e.mp3
+2018-10-22 21:35:27,864 - DEBUG - NEMbox.player:285: 145586,拯救,http://m10.music.126.net/20181022215121/2d00a90ec3372bea616f6a8fc37b806e/ymusic/453b/19d7/8bdc/57b331e9daeb3af4dd4c52318a3f52b8.mp3
+2018-10-22 21:41:01,274 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 21:41:01,274 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 21:41:01,913 - DEBUG - NEMbox.player:285: 27902160,父亲,http://m10.music.126.net/20181022220544/510b3397ae654d38808e401d85712c38/ymusic/5acd/258a/fbf3/ef6f7bbd7196348d42a7f38ccbf6e5cd.mp3
+2018-10-22 21:44:11,698 - DEBUG - NEMbox.player:285: 288218,酒干倘卖无,http://m10.music.126.net/20181022220544/53b33adc33643076a30a5a99b20db3d7/ymusic/dd3c/e826/38cb/18fbc360ae6d03a5cd0d8ded3ff3131b.mp3
+2018-10-22 21:48:51,725 - DEBUG - NEMbox.player:285: 5279459,好人一生平安,http://m10.music.126.net/20181022220544/76d99534e5a50797cf8283bef54cf3ed/ymusic/023a/e576/2b35/4220260b650ad2ebc0b93452008b47bf.mp3
+2018-10-22 21:52:33,206 - DEBUG - NEMbox.player:310: Callback
+2018-10-22 21:52:33,207 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-22 21:52:33,568 - DEBUG - NEMbox.player:285: 4964085,君を忘れてた,http://m10.music.126.net/20181022221716/20bca9f7f745da194f65f434200aa28c/ymusic/1f49/82c0/3b16/3b8e7856e67870c61d8b5441b4e12ff1.mp3
+################################################################################
+2018-10-23 06:44:31,421 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-23 06:44:31,421 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-23 06:44:37,759 - DEBUG - NEMbox.player:285: 442760,月光の雲海,http://m10.music.126.net/20181023070919/548aa52dd1fff04e3b85d78fed53cc65/ymusic/03ac/47e8/a406/d3244d442c349bcf7699604b5961d5c9.mp3
+2018-10-23 06:46:43,321 - DEBUG - NEMbox.player:285: 4878597,天下大乱,http://m10.music.126.net/20181023070919/08f423d496b4954b401ebb63db748066/ymusic/b08e/9885/eebb/2c4f3c79ce343039b2fac6a85dd957dd.mp3
+2018-10-23 06:49:59,208 - DEBUG - NEMbox.player:285: 447925058,玛丽,http://m10.music.126.net/20181023070919/f6b74e88715146dd6a80f45475c28f63/ymusic/8759/0120/6c90/21882fbd6b5b5e186376811ade401d6e.mp3
+2018-10-23 06:54:42,292 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 06:54:42,293 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-23 06:54:42,605 - DEBUG - NEMbox.player:285: 29786404,好想再爱你,http://m10.music.126.net/20181023071924/481b8e603decc61ce384d47bf286e9a2/ymusic/5373/3a43/4d66/6f3fab54be2d81e744a9001baa84eb09.mp3
+2018-10-23 06:59:16,635 - DEBUG - NEMbox.player:285: 25657453,肩上蝶,http://m10.music.126.net/20181023071924/3ca4a3160ac0796afa5b27b596b2b134/ymusic/055f/036e/d1f1/4e4ea9528a0d35da6e9ea6d7af9afe4c.mp3
+2018-10-23 07:03:39,815 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 07:03:39,816 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-23 07:03:40,153 - DEBUG - NEMbox.player:285: 150979,借我一点爱,http://m10.music.126.net/20181023072822/8b83fdd301846699892ef6a8e6096c9f/ymusic/cd62/c37a/7651/103a229b5d1e9a95d7fca95cbc8ee385.mp3
+2018-10-23 07:07:06,508 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 07:07:06,509 - DEBUG - NEMbox.menu:769: FM CallBack.
+################################################################################
+2018-10-23 07:07:08,533 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-23 07:07:08,533 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-23 07:07:12,646 - DEBUG - NEMbox.player:285: 263621,分手,http://m10.music.126.net/20181023073153/e52144056aec462ca8137cfd6e2b301e/ymusic/a240/cd65/6735/f0ddaab4e053a7dd4d54321805405db4.mp3
+2018-10-23 07:07:13,951 - DEBUG - NEMbox.player:285: 27591640,爱江山更爱美人,http://m10.music.126.net/20181023073153/9e1542bd44c45fc6fafecc35eb84aa1e/ymusic/a138/22ac/28aa/1e5a6875b5ea3db72b0d6340348389d9.mp3
+2018-10-23 07:12:36,180 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 07:12:36,180 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-23 07:12:36,863 - DEBUG - NEMbox.player:285: 207209,千古绝唱,http://m10.music.126.net/20181023073718/6ba822dffed9307414a40a106fcf7dd3/ymusic/a853/e9ba/069b/cf53897cf84b854fb9a29d57d3083a14.mp3
+2018-10-23 07:18:38,307 - DEBUG - NEMbox.player:285: 1293886117,年少有为,http://m10.music.126.net/20181023073718/817214cb63b4873d515c3ba64646897e/ymusic/2242/0271/8dd1/b6da3ffc8d2561b321284004c81da136.mp3
+2018-10-23 07:18:51,555 - DEBUG - NEMbox.player:285: 157255,算了吧(Live) - live,http://m10.music.126.net/20181023073718/a43dee06139cf9644d5ccd88845cb110/ymusic/39ee/40c6/2a31/ba8d6310db22599ee1997a9f236fbe7b.mp3
+2018-10-23 07:18:53,332 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 07:18:53,333 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-23 07:18:53,839 - DEBUG - NEMbox.player:285: 276991,头号粉丝,http://m10.music.126.net/20181023074335/588ac8f2e48cefedc286e96035ed42cb/ymusic/2916/3a4b/f724/287c524a7df2fe19fbac511ef1ebdc27.mp3
+2018-10-23 07:18:55,584 - DEBUG - NEMbox.player:285: 156283,雨一直下,http://m10.music.126.net/20181023074335/534eaff19a20c1aa1d091cbd1a1eab1c/ymusic/c9ae/32e3/bc38/28b5a8de16cba6d5cb897a31d5a67b3a.mp3
+2018-10-23 07:18:56,199 - DEBUG - NEMbox.player:285: 151366,中国功夫,http://m10.music.126.net/20181023074335/2b6c597ecef4327c4d78db44cb50406b/ymusic/684f/9eb8/37ed/c563662315ce9fd8a37b02629eb7ffa2.mp3
+2018-10-23 07:18:57,044 - DEBUG - NEMbox.player:310: Callback
+2018-10-23 07:18:57,045 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-23 07:18:57,195 - DEBUG - NEMbox.player:285: 205267,寂寞在唱歌,http://m10.music.126.net/20181023074339/216015571146858c1535dca49432f76a/ymusic/d987/a328/8fd5/27141638bd5bae4cda0589605fb13eac.mp3
+2018-10-23 07:23:27,937 - DEBUG - NEMbox.player:285: 267300,心甘情愿,http://m10.music.126.net/20181023074339/8de6a35aa436d3604ec4b8ffe6a287e6/ymusic/8b5e/fcb1/d921/e206bbc3545f9ba2cecd932688ae8b61.mp3
+################################################################################
+2018-10-24 04:04:00,358 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 04:04:00,359 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-24 04:04:04,483 - DEBUG - NEMbox.player:285: 211442,追风的女儿,http://m10.music.126.net/20181024042844/985b14f14b063cf5197f35fa70adea30/ymusic/03ed/58b6/5c31/e5146dfbaa8454bf009927caf9343cb4.mp3
+2018-10-24 04:09:03,028 - DEBUG - NEMbox.player:285: 394031,蝶飞花舞,http://m10.music.126.net/20181024042844/e94f812baf319115ac437e0cb5a5fe57/ymusic/539d/b456/bd7f/be88182b7f5051fc97bc1d300a2fe146.mp3
+2018-10-24 04:11:31,706 - DEBUG - NEMbox.player:285: 5241766,天蓝蓝,http://m10.music.126.net/20181024042844/72ffbfc00531f819eeddf00dea4a2c3b/ymusic/8a1e/53ca/5ce9/0e5c4e70ba353118db6fea79d1ae145e.mp3
+2018-10-24 04:15:32,866 - DEBUG - NEMbox.player:310: Callback
+2018-10-24 04:15:32,867 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-24 04:15:33,143 - DEBUG - NEMbox.player:285: 446874907,高原深处的爱 (汉语) ,http://m10.music.126.net/20181024044014/a537be11f4d8d90c23b88bb63cde0f43/ymusic/84fb/4cfd/5427/355eccd42a4a0a078fcef7c73d70fb88.mp3
+2018-10-24 04:16:19,541 - DEBUG - NEMbox.player:285: 1318623309,《汾河湾》岳云鹏 孙越2018精选相声,http://m7.music.126.net/20181024044048/c4fd8605bb582ca76ae77e28fba5335d/ymusic/4a28/3ce1/f6e7/0e188592f5a6372dea9b9885691dbef9.mp3
+2018-10-24 04:16:19,553 - DEBUG - NEMbox.player:285: 1318623309,《汾河湾》岳云鹏 孙越2018精选相声,http://m7.music.126.net/20181024044048/c4fd8605bb582ca76ae77e28fba5335d/ymusic/4a28/3ce1/f6e7/0e188592f5a6372dea9b9885691dbef9.mp3
+2018-10-24 04:16:20,301 - WARNING - NEMbox.player:145: Song 1318623309 is unavailable due to copyright issue.
+2018-10-24 04:16:20,351 - DEBUG - NEMbox.player:285: 1318623285,《绕口令》高峰 栾云平2018精选相声,http://m8.music.126.net/20181024044048/0c7aa8ca9c043828e0ae9ed084a395de/ymusic/92dd/280d/afc5/e13cde4739b99216419ead964588e863.mp3
+2018-10-24 04:16:54,433 - DEBUG - NEMbox.player:285: 542128074,《穷富论》郭德纲 于谦,http://m7.music.126.net/20181024044127/43fbf8eea80450a061b10a29611031ae/ymusic/6672/5751/9811/4f6d52f1989cc5d01bfdb94cce29490e.mp3
+2018-10-24 04:16:55,070 - WARNING - NEMbox.player:145: Song 542128074 is unavailable due to copyright issue.
+2018-10-24 04:16:55,120 - DEBUG - NEMbox.player:285: 542125665,《隋唐木狗》郭德纲 于谦,http://m8c.music.126.net/20181024044127/473411eb7c6afea8b9531dc28ae18843/ymusic/d1d9/9a4c/361d/713e1ec97c6056e701656ac4a97abae3.mp3
+################################################################################
+2018-10-24 04:17:25,712 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 04:17:25,712 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-24 04:17:28,107 - ERROR - NEMbox.terminalsize:82: [Errno 5] Input/output error
+################################################################################
+2018-10-24 04:55:30,298 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 04:55:30,298 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-24 04:55:39,946 - DEBUG - NEMbox.player:285: 1319871848,我从未放弃过你，只是从浓烈到悄无声息。,http://m8.music.126.net/20181024052019/3d2fa09d6d1924b1d4b9257a00455890/ymusic/edfc/a516/8d6f/ec3c59bfa2d0229f2c5d61705f225c88.mp3
+2018-10-24 04:56:26,787 - DEBUG - NEMbox.player:285: 512529060,良辰美景奈何天,http://m10.music.126.net/20181024052031/c1c777f8982d2175f95cf5439b3922cc/ymusic/aee9/76ec/8e02/70f0444abc47e604e1fc5a105b26dfd2.mp3
+2018-10-24 05:05:48,434 - DEBUG - NEMbox.player:285: 1302910002,陪我长大钢琴版,http://m10.music.126.net/20181024052031/98894481a023f9f03a11148d8f4ced86/ymusic/fd34/899b/163f/03c64c09ffb0e3df9a14b78931407609.mp3
+2018-10-24 05:09:53,828 - DEBUG - NEMbox.player:285: 505688656,点星（Point The Star）,http://m10.music.126.net/20181024052031/3692f6ca05f044a63a9e017a5a1e7114/ymusic/18e3/d455/40cd/c88c1604789465bfc070da31494e2200.mp3
+2018-10-24 05:14:47,985 - DEBUG - NEMbox.player:285: 534397180,离川,http://m10.music.126.net/20181024052031/5fc8fce6aaada41d6782ff0e4dad6035/ymusic/5d2a/6a0c/fec9/42aa29091d62516049f63c281801d15b.mp3
+2018-10-24 05:18:11,650 - DEBUG - NEMbox.player:285: 543460844,Wait In Hope,http://m10.music.126.net/20181024052031/b7c39baa14d5140ed35e6230f803784f/ymusic/77ec/9e58/6746/9de5e1a5d3e78ef6c2ba485c4249d9fc.mp3
+2018-10-24 05:22:17,466 - DEBUG - NEMbox.player:285: 863344341,The Waking of Insects（惊蛰）,http://m10.music.126.net/20181024052031/491631546923475b8c83706ba146ba20/ymusic/7144/cdac/47c0/57326faeb7bc419c49249db99f7ec613.mp3
+2018-10-24 05:22:17,851 - WARNING - NEMbox.player:145: Song 863344341 is unavailable due to copyright issue.
+2018-10-24 05:22:17,901 - DEBUG - NEMbox.player:285: 503426999,葬花,http://m10.music.126.net/20181024052031/ac197804f7c7d2a2d810da7d663c203b/ymusic/78f4/e9df/25c9/216498075d6572e29a56954da17dd230.mp3
+2018-10-24 05:22:18,750 - WARNING - NEMbox.player:145: Song 503426999 is unavailable due to copyright issue.
+2018-10-24 05:22:18,799 - DEBUG - NEMbox.player:285: 478830981,五月，和风微醺,http://m10.music.126.net/20181024052031/4c803433b9673bdda69a6e29979f97a4/ymusic/3673/8b06/ada1/cf8db05f0ebf5d47b8b6c827ba4dd243.mp3
+2018-10-24 05:22:19,350 - WARNING - NEMbox.player:145: Song 478830981 is unavailable due to copyright issue.
+2018-10-24 05:22:19,397 - DEBUG - NEMbox.player:285: 29803287,Komorebi,http://m10.music.126.net/20181024052031/b305d63fd7d4514cb88af2cb47401985/ymusic/fd4f/ef5a/c3c6/e1f5a8aaa6e633bcccf7e9f2fa039b9a.mp3
+2018-10-24 05:22:19,798 - WARNING - NEMbox.player:145: Song 29803287 is unavailable due to copyright issue.
+2018-10-24 05:22:19,846 - DEBUG - NEMbox.player:285: 857896,A Little Story,http://m10.music.126.net/20181024052031/e4a61e007fbb02908f4d26f573ea8e98/ymusic/0b92/0ffd/357d/fd67d84dfe8e8ae843feaded37f77691.mp3
+2018-10-24 05:22:20,477 - WARNING - NEMbox.player:145: Song 857896 is unavailable due to copyright issue.
+2018-10-24 05:22:20,526 - DEBUG - NEMbox.player:285: 470699422,See You Again (钢琴版),http://m10.music.126.net/20181024052031/a33a91eeea8bc0a8dc2070c4174a6789/ymusic/da7e/119d/6f7b/5f14594bbdeb817e6268cd63674e6241.mp3
+2018-10-24 05:22:20,916 - WARNING - NEMbox.player:145: Song 470699422 is unavailable due to copyright issue.
+2018-10-24 05:22:20,964 - DEBUG - NEMbox.player:285: 1313443501,晓雨的回忆,http://m10.music.126.net/20181024052031/87d25b6e7ca85447fa4c133683303606/ymusic/53e3/96ca/130a/17a130167cd260b7a41771304d2ae2b8.mp3
+2018-10-24 05:22:21,343 - WARNING - NEMbox.player:145: Song 1313443501 is unavailable due to copyright issue.
+2018-10-24 05:22:21,394 - DEBUG - NEMbox.player:285: 28160231,风中的蒲公英(钢琴曲),http://m10.music.126.net/20181024052031/526a01229691d60af63bb98a33410db4/ymusic/20ac/7cc0/77c6/ce5abe016424f05462fe6e595376a768.mp3
+2018-10-24 05:22:22,180 - WARNING - NEMbox.player:145: Song 28160231 is unavailable due to copyright issue.
+2018-10-24 05:22:22,226 - DEBUG - NEMbox.player:285: 1305545921,Vapour Cola,http://m10.music.126.net/20181024052031/28254bb7b89f711801fe9f89dfced184/ymusic/dcd0/bf76/e230/9c3ac005a3c4a89bf837834794fc7c51.mp3
+2018-10-24 05:22:22,616 - WARNING - NEMbox.player:145: Song 1305545921 is unavailable due to copyright issue.
+2018-10-24 05:22:22,661 - DEBUG - NEMbox.player:285: 1302771209,谧空,http://m10.music.126.net/20181024052031/d2fe0b5af2eed036be568eeed89c7ecc/ymusic/3921/e024/7e97/7e67c4fd6db04dc986a58ecd35768c6b.mp3
+2018-10-24 05:22:23,070 - WARNING - NEMbox.player:145: Song 1302771209 is unavailable due to copyright issue.
+2018-10-24 05:22:23,117 - DEBUG - NEMbox.player:285: 5330908,I Need You,http://m10.music.126.net/20181024052031/8009497dac303d3aa64f6f21f74f6b00/ymusic/2a0d/9aa9/9e08/0d1130061c9684874abb4378e130c0ab.mp3
+2018-10-24 05:22:23,955 - WARNING - NEMbox.player:145: Song 5330908 is unavailable due to copyright issue.
+2018-10-24 05:22:24,013 - DEBUG - NEMbox.player:285: 28587142,きっとまたいつか,http://m10.music.126.net/20181024052031/ee3cf2384d09f05c36ae3a9a3245ed65/ymusic/014d/4e42/df54/520fdb41368d5b22baaaff8951cecb61.mp3
+2018-10-24 05:22:24,534 - WARNING - NEMbox.player:145: Song 28587142 is unavailable due to copyright issue.
+2018-10-24 05:22:24,585 - DEBUG - NEMbox.player:285: 474022209,Kitty,http://m10.music.126.net/20181024052031/c5603f0b1ef23085523496d930b3786e/ymusic/2b17/e8c2/f4bf/8784fe63978c7a787047a168b4bb66fd.mp3
+2018-10-24 05:22:24,961 - WARNING - NEMbox.player:145: Song 474022209 is unavailable due to copyright issue.
+2018-10-24 05:22:25,008 - DEBUG - NEMbox.player:285: 5330805,Tears In Pink Rain,http://m10.music.126.net/20181024052031/f327fda2ca5296a7ee61cec921100de8/ymusic/348f/2071/98e0/61c3af6c8ce6afa9b8d8c2934790021d.mp3
+2018-10-24 05:22:25,384 - WARNING - NEMbox.player:145: Song 5330805 is unavailable due to copyright issue.
+2018-10-24 05:22:25,434 - DEBUG - NEMbox.player:285: 803347,blue blossoms,http://m10.music.126.net/20181024052031/ebd9988ff3547f7391bbacc7dfec8ce8/ymusic/1c13/1911/a260/b4dac685eea662b080b8460eb123f17f.mp3
+2018-10-24 05:22:25,832 - WARNING - NEMbox.player:145: Song 803347 is unavailable due to copyright issue.
+2018-10-24 05:22:25,881 - DEBUG - NEMbox.player:285: 34014168,Brave Song -Piano Arrange Ver.-,http://m10.music.126.net/20181024052031/a17ee498b70d1e1963342da844a7d271/ymusic/13b2/8a24/b8a5/44e5171398344d516df4644df3ae9f53.mp3
+2018-10-24 05:22:26,368 - WARNING - NEMbox.player:145: Song 34014168 is unavailable due to copyright issue.
+2018-10-24 05:22:26,416 - DEBUG - NEMbox.player:285: 1317639665,追月123,http://m10.music.126.net/20181024052031/13e32d11e1b4e588213ecc0900e9b236/ymusic/1932/1f1e/f999/8d77f8b0e6806d5d9dd61b1176ccba89.mp3
+2018-10-24 05:22:26,804 - WARNING - NEMbox.player:145: Song 1317639665 is unavailable due to copyright issue.
+2018-10-24 05:22:26,852 - DEBUG - NEMbox.player:285: 1306093088,思絮（Thought flocculation）,http://m10.music.126.net/20181024052031/2340a89b80f67478408551a002ac48ce/ymusic/2e60/401b/1bae/c8e713cee9af28f76f88d94824238b46.mp3
+2018-10-24 05:22:27,234 - WARNING - NEMbox.player:145: Song 1306093088 is unavailable due to copyright issue.
+2018-10-24 05:22:27,283 - DEBUG - NEMbox.player:285: 1304960504,心绪 Continuous Thought,http://m10.music.126.net/20181024052031/4e912eae275f285375c354471aa25b4f/ymusic/f7ea/a640/0094/aa11d59f3671a1a8b3806cbb6a77f071.mp3
+2018-10-24 05:22:28,057 - WARNING - NEMbox.player:145: Song 1304960504 is unavailable due to copyright issue.
+2018-10-24 05:22:28,107 - DEBUG - NEMbox.player:285: 412911352,Follow The Wind,http://m10.music.126.net/20181024052031/337b37e94629b5b6f2913aaabf2e23ab/ymusic/05dd/e735/373c/2e814c03a4d2f12601c74f77a53db060.mp3
+2018-10-24 05:22:28,476 - WARNING - NEMbox.player:145: Song 412911352 is unavailable due to copyright issue.
+2018-10-24 05:22:28,525 - DEBUG - NEMbox.player:285: 463909292,《E8r 钢琴曲》What Are Words ,http://m10.music.126.net/20181024052031/71e60fc5a671bddcff62a5cae41c6047/ymusic/e75e/993a/17cc/0f7b780d35e1d0420fdf6f113cf1b135.mp3
+2018-10-24 05:22:28,917 - WARNING - NEMbox.player:145: Song 463909292 is unavailable due to copyright issue.
+2018-10-24 05:22:28,966 - DEBUG - NEMbox.player:285: 506650377,忆夏思乡,http://m10.music.126.net/20181024052031/8766791e981e01221586b3e7024d6015/ymusic/d25b/d88c/7b93/8bf2a89dadc8f31d3a21231857971c89.mp3
+2018-10-24 05:22:29,652 - WARNING - NEMbox.player:145: Song 506650377 is unavailable due to copyright issue.
+2018-10-24 05:22:29,706 - DEBUG - NEMbox.player:285: 5356117,바람꽃,http://m10.music.126.net/20181024052031/ea889eabf11bd16da5e91017faf31e94/ymusic/5f9b/1e14/ac5d/f55480c7646a553c1e8cfc78e86c6480.mp3
+2018-10-24 05:22:30,154 - WARNING - NEMbox.player:145: Song 5356117 is unavailable due to copyright issue.
+2018-10-24 05:22:30,203 - DEBUG - NEMbox.player:285: 183046,のょうと风,http://m10.music.126.net/20181024052031/f53dd64e12825e3c031d02276618d6b4/ymusic/ee81/d64a/b900/f22d4ae7cbcea0a1e2fbb64113298d31.mp3
+2018-10-24 05:22:30,586 - WARNING - NEMbox.player:145: Song 183046 is unavailable due to copyright issue.
+2018-10-24 05:22:30,633 - DEBUG - NEMbox.player:285: 496095230,吟鱼落尽,http://m10.music.126.net/20181024052031/8c06d4cef274f36ebe9518548ed4ad17/ymusic/39fa/f171/64b3/d74205d2e8a050f237b300ccdcfa0a1b.mp3
+2018-10-24 05:22:31,011 - WARNING - NEMbox.player:145: Song 496095230 is unavailable due to copyright issue.
+2018-10-24 05:22:31,059 - DEBUG - NEMbox.player:285: 1091289,The Treasure,http://m10.music.126.net/20181024052031/28bb3074ba51ae8d2bbffb37716b8cc6/ymusic/6ce0/e640/54c4/1fede2fe8421cc657bdbf20bfdc471fc.mp3
+2018-10-24 05:22:31,601 - WARNING - NEMbox.player:145: Song 1091289 is unavailable due to copyright issue.
+2018-10-24 05:22:31,650 - DEBUG - NEMbox.player:285: 18582321,Serenade,http://m10.music.126.net/20181024052031/1c86dca00962f34b9f2c20e63de23d38/ymusic/71e7/1f1f/1ab1/07749577bb472250f6426ba89afeb36a.mp3
+2018-10-24 05:22:32,020 - WARNING - NEMbox.player:145: Song 18582321 is unavailable due to copyright issue.
+2018-10-24 05:22:32,083 - DEBUG - NEMbox.player:285: 454435578,With Your Summer,http://m10.music.126.net/20181024052031/f98dd57a3fce50e7832f8529534db518/ymusic/dbcc/ea30/6057/345b34b231df6fe7a9f0c4a6e527aa18.mp3
+2018-10-24 05:22:32,460 - WARNING - NEMbox.player:145: Song 454435578 is unavailable due to copyright issue.
+2018-10-24 05:22:32,509 - DEBUG - NEMbox.player:285: 41660056,暗夜,http://m10.music.126.net/20181024052031/763f132ee334b71aeff2856131f26b10/ymusic/5622/7628/1380/d23764d96fcf11be8ac741607f42ec34.mp3
+2018-10-24 05:22:33,216 - WARNING - NEMbox.player:145: Song 41660056 is unavailable due to copyright issue.
+2018-10-24 05:22:33,264 - DEBUG - NEMbox.player:285: 28941461,No Regrets,http://m10.music.126.net/20181024052031/3afaa88a59b30ae60b815c923c2f229a/ymusic/f566/dfbd/4e91/cd32b1cc10cbc57524a8848d1e0e4af0.mp3
+2018-10-24 05:22:33,650 - WARNING - NEMbox.player:145: Song 28941461 is unavailable due to copyright issue.
+2018-10-24 05:22:33,702 - DEBUG - NEMbox.player:285: 625568,“冬のソナタ”~初めから今まで,http://m10.music.126.net/20181024052031/7d68a58d99234b26a86fca56e4a08ac2/ymusic/f33d/b5a3/464f/f43388de06654e5cee68a4bcff550355.mp3
+2018-10-24 05:22:34,069 - WARNING - NEMbox.player:145: Song 625568 is unavailable due to copyright issue.
+2018-10-24 05:22:34,117 - DEBUG - NEMbox.player:285: 485856132,Good Night,http://m10.music.126.net/20181024052031/daf90bd9243f0dbe3e3e19d78eb9589c/ymusic/dfbd/f466/2685/3a6cccec101e142c64d06a1576a55285.mp3
+2018-10-24 05:22:34,500 - WARNING - NEMbox.player:145: Song 485856132 is unavailable due to copyright issue.
+2018-10-24 05:22:34,548 - DEBUG - NEMbox.player:285: 39635710,Fell for U,http://m10.music.126.net/20181024052031/34fa8329263fd0d272ca53a519bec95c/ymusic/01ff/44ca/fb02/c843f055e49787c7306db2a4f54a25c2.mp3
+2018-10-24 05:22:35,075 - WARNING - NEMbox.player:145: Song 39635710 is unavailable due to copyright issue.
+2018-10-24 05:22:35,119 - DEBUG - NEMbox.player:285: 1091773,Song for Sienna,http://m10.music.126.net/20181024052031/e207b98cce85c46b470afb68a7f35336/ymusic/0803/a664/f7f6/d06883d75ede74d27e54809ec041035f.mp3
+2018-10-24 05:22:35,495 - WARNING - NEMbox.player:145: Song 1091773 is unavailable due to copyright issue.
+2018-10-24 05:22:35,539 - DEBUG - NEMbox.player:285: 414706265,大鱼 钢琴版,http://m10.music.126.net/20181024052031/f1802174643f6635e74f996c8459f170/ymusic/22b9/0b53/239c/54ce9be912b33d7ffc63e8e5247c2a8c.mp3
+2018-10-24 05:22:35,901 - WARNING - NEMbox.player:145: Song 414706265 is unavailable due to copyright issue.
+2018-10-24 05:22:35,950 - DEBUG - NEMbox.player:285: 5330847,눈꽃송E,http://m10.music.126.net/20181024052031/5ce6d7bf044f53b0c4656caabb2d3ae5/ymusic/afaf/1293/e9df/e66d47b7dbf88734b25f2e59fcaac31e.mp3
+2018-10-24 05:22:36,374 - WARNING - NEMbox.player:145: Song 5330847 is unavailable due to copyright issue.
+2018-10-24 05:22:36,423 - DEBUG - NEMbox.player:285: 4922660,月明かり,http://m10.music.126.net/20181024052031/c53b9ff6371476cc76c614d77fd44f8e/ymusic/0fa8/4649/7a95/28801c1f3cff99d97d1dd17edca71bc4.mp3
+2018-10-24 05:22:36,855 - WARNING - NEMbox.player:145: Song 4922660 is unavailable due to copyright issue.
+2018-10-24 05:22:36,905 - DEBUG - NEMbox.player:285: 27671041,Last Train Home ~ Twinkle Train Take Us Home,http://m10.music.126.net/20181024052031/2e23a37955902fd906f0a126a6b808c7/ymusic/e61d/e0b2/8845/116f2cda4ab299abdaacf54958b2cc74.mp3
+2018-10-24 05:22:37,294 - WARNING - NEMbox.player:145: Song 27671041 is unavailable due to copyright issue.
+2018-10-24 05:22:37,344 - DEBUG - NEMbox.player:285: 419877515,穿越时空的思念（Cover：和田薫）,http://m10.music.126.net/20181024052031/c7d8e187bfd9a2fb0e61874d3eec8742/ymusic/d64c/02b0/9465/3c0063349d80634a19b608e3c11a7275.mp3
+2018-10-24 05:22:37,682 - DEBUG - NEMbox.player:285: 450380588,锦鲤抄（Cover 雲の泣&銀臨）,http://m10.music.126.net/20181024054718/101f15057009bc6935d5ead99f70c61c/ymusic/9e72/ade3/14e0/6bf1e0bcf0eab451b598da7523744e91.mp3
+2018-10-24 05:22:42,836 - DEBUG - NEMbox.player:285: 450229614,蓝莲花 笛子版（Cover 许巍）,http://m10.music.126.net/20181024054718/d4352eb19ab3b70bf9bbac6cbbda0cda/ymusic/8810/bd83/ccbe/30e2254b6f03f3ba0cbeb22949a841d7.mp3
+2018-10-24 05:27:16,692 - DEBUG - NEMbox.player:285: 5265710,笛子,http://m10.music.126.net/20181024054718/41a4d4534ecb21a9fb3188f2af62ace2/ymusic/ffaa/2788/b29e/1015e16c51cad9ce6995ae1ca231eb03.mp3
+2018-10-24 05:27:43,501 - DEBUG - NEMbox.player:285: 449831896,红颜旧-竹笛（Cover 刘涛）,http://m10.music.126.net/20181024054718/ecfbdcaa80b4f087b15bce132e91eea3/ymusic/3375/ed13/b711/de7c46f019bd6a8236745f2b99be93a1.mp3
+2018-10-24 05:31:22,896 - DEBUG - NEMbox.player:285: 456564519,腐草为萤,http://m10.music.126.net/20181024054718/4b78d876adbecf19a3ebc9c928da34db/ymusic/63c8/5f66/5677/3e23a2c52e51d15d2ee79cee1572a747.mp3
+2018-10-24 05:36:05,618 - DEBUG - NEMbox.player:285: 30373113,一剪梅(笛子演奏版) - 笛子演奏版,http://m10.music.126.net/20181024054718/d1efffc19d59c26f8f6febedbf7452f9/ymusic/7655/99da/f803/28aaf59e929de6331dd6db4b83772f60.mp3
+2018-10-24 05:39:41,666 - DEBUG - NEMbox.player:285: 450229686,难念的经 笛子版（Cover 周华健）,http://m10.music.126.net/20181024054718/267a21c38e1082e71f0ca735a87eda98/ymusic/1cb5/0061/2676/9ef5d84b558d7876acc946b2fdd09ed6.mp3
+2018-10-24 05:44:27,219 - DEBUG - NEMbox.player:285: 214588,画心,http://m10.music.126.net/20181024054718/d1cdd09b56e0fd50eaa11befec94bde4/ymusic/e30b/eb9c/3ec8/189d05bc057126eb687d0adb586a2f9d.mp3
+2018-10-24 05:49:31,387 - DEBUG - NEMbox.player:285: 214585,问情,http://m10.music.126.net/20181024054718/9b26d8ad41c26c6f5e45c028e9ac6c7a/ymusic/ce1d/fd6c/9153/3ac0bcaa4d20d867d477cce62e5e65f2.mp3
+2018-10-24 05:49:31,819 - WARNING - NEMbox.player:145: Song 214585 is unavailable due to copyright issue.
+2018-10-24 05:49:31,869 - DEBUG - NEMbox.player:285: 5260847,神话,http://m10.music.126.net/20181024054718/df305e00c900bd50e7f53b15fc4aa9a8/ymusic/0a5d/58f0/73be/ceb706f91322d5853e8a22a478633d48.mp3
+2018-10-24 05:49:32,689 - WARNING - NEMbox.player:145: Song 5260847 is unavailable due to copyright issue.
+2018-10-24 05:49:32,738 - DEBUG - NEMbox.player:285: 613677,月光,http://m10.music.126.net/20181024054718/6cb98abb85614718429612891e8a27c2/ymusic/f352/6c97/a9f7/dbc0353078b139649b78d552022f02aa.mp3
+2018-10-24 05:49:33,126 - WARNING - NEMbox.player:145: Song 613677 is unavailable due to copyright issue.
+2018-10-24 05:49:33,171 - DEBUG - NEMbox.player:285: 5260841,飘摇,http://m10.music.126.net/20181024054718/e79176871410d058f36cfc6585f76a29/ymusic/3300/1591/6d4b/a9b80597c39c12bdc376a7ffb64fb2ff.mp3
+2018-10-24 05:49:33,543 - WARNING - NEMbox.player:145: Song 5260841 is unavailable due to copyright issue.
+2018-10-24 05:49:33,593 - DEBUG - NEMbox.player:285: 230697,遇见,http://m10.music.126.net/20181024054718/d9fe95e7cdc04af9c1e9adb950321058/ymusic/411b/1ae1/f580/3a5b1e29ffdb842e6b75ba10609e8433.mp3
+2018-10-24 05:49:34,291 - WARNING - NEMbox.player:145: Song 230697 is unavailable due to copyright issue.
+2018-10-24 05:49:34,341 - DEBUG - NEMbox.player:285: 251205,约定,http://m10.music.126.net/20181024054718/d8cc0dc84a291a990509604da11c3c09/ymusic/adf6/33e2/32c4/8fea34e7806f8bb5ec03a9c8b581afef.mp3
+2018-10-24 05:49:34,730 - WARNING - NEMbox.player:145: Song 251205 is unavailable due to copyright issue.
+2018-10-24 05:49:34,774 - DEBUG - NEMbox.player:285: 25901429,化蝶,http://m10.music.126.net/20181024054718/80662214c1f2b3b213f22561de96fc37/ymusic/6f4d/fb18/22a4/ba3b2fd0f983f6a37e1140c4df83b424.mp3
+2018-10-24 05:49:35,155 - WARNING - NEMbox.player:145: Song 25901429 is unavailable due to copyright issue.
+2018-10-24 05:49:35,201 - DEBUG - NEMbox.player:285: 5272265,梁祝,http://m10.music.126.net/20181024054718/06a21ad78cd027dd5348d9551fa70333/ymusic/ea89/d070/4603/c645504335f5d4e5a1de62223ef26e17.mp3
+2018-10-24 05:49:35,597 - WARNING - NEMbox.player:145: Song 5272265 is unavailable due to copyright issue.
+2018-10-24 05:49:35,645 - DEBUG - NEMbox.player:285: 340856,随缘,http://m10.music.126.net/20181024054718/400c3733eee25e972bf9436ed45c2cab/ymusic/0f30/b714/fd11/ffc4e2968324a5d2f1d4995a9db22f0d.mp3
+2018-10-24 05:49:36,205 - WARNING - NEMbox.player:145: Song 340856 is unavailable due to copyright issue.
+2018-10-24 05:49:36,253 - DEBUG - NEMbox.player:285: 5260843,童话,http://m10.music.126.net/20181024054718/3c889488698c38e6cb64111f671d7e02/ymusic/4304/27ce/d3ee/54a3f040b77fe31c7dadfad1d372682e.mp3
+2018-10-24 05:49:36,621 - WARNING - NEMbox.player:145: Song 5260843 is unavailable due to copyright issue.
+2018-10-24 05:49:36,670 - DEBUG - NEMbox.player:285: 5258790,飘雪,http://m10.music.126.net/20181024054718/1bc43a99b54267e8e54843199577b583/ymusic/0b7b/daaa/8b40/9294fb85568ee8ec3a73ab33b0884ead.mp3
+2018-10-24 05:49:37,074 - WARNING - NEMbox.player:145: Song 5258790 is unavailable due to copyright issue.
+2018-10-24 05:49:37,125 - DEBUG - NEMbox.player:285: 418257893,【古筝】大鱼,http://m10.music.126.net/20181024054718/82ecd0393bccb03b5d6b7de5379b9d4e/ymusic/fecf/a2a9/076d/718933afdb0a80c04113897ec2b75e76.mp3
+2018-10-24 05:49:37,867 - WARNING - NEMbox.player:145: Song 418257893 is unavailable due to copyright issue.
+2018-10-24 05:49:37,914 - DEBUG - NEMbox.player:285: 96533,江南 (古筝/张璐),http://m10.music.126.net/20181024054718/c2b12e4470bf7732a60a45d662dfbe59/ymusic/42f2/0f4d/3759/d0cb56d6f2e3e2cad7e928a018c37fc8.mp3
+2018-10-24 05:49:38,291 - WARNING - NEMbox.player:145: Song 96533 is unavailable due to copyright issue.
+2018-10-24 05:49:38,341 - DEBUG - NEMbox.player:285: 5260838,雏菊,http://m10.music.126.net/20181024054718/3f21cc8043dde9422c152712fb5eb9c7/ymusic/92af/7adc/baec/71749518f5bf5a18bc431eaacef43a5c.mp3
+2018-10-24 05:49:38,711 - WARNING - NEMbox.player:145: Song 5260838 is unavailable due to copyright issue.
+2018-10-24 05:49:38,758 - DEBUG - NEMbox.player:285: 475258052,田子坊,http://m10.music.126.net/20181024054718/26bfb5f91a320d7b41c50adea2890746/ymusic/24d1/bf09/dfec/afd2a0c0e388c8eea813df3f866358e9.mp3
+2018-10-24 05:49:39,446 - WARNING - NEMbox.player:145: Song 475258052 is unavailable due to copyright issue.
+2018-10-24 05:49:39,493 - DEBUG - NEMbox.player:285: 230380,女儿情,http://m10.music.126.net/20181024054718/5b66ee7337ee0174c4af41f05f3262f8/ymusic/6ab7/3585/69dd/2bd470e32be724e6592a702e835be51e.mp3
+2018-10-24 05:49:39,882 - WARNING - NEMbox.player:145: Song 230380 is unavailable due to copyright issue.
+2018-10-24 05:49:39,929 - DEBUG - NEMbox.player:285: 340858,云水逸,http://m10.music.126.net/20181024054718/2f197bf54931ece878b0e0ce80765048/ymusic/b2b7/656d/0dc2/133fa5620419849848671e2a7ebf2fcf.mp3
+2018-10-24 05:49:40,297 - WARNING - NEMbox.player:145: Song 340858 is unavailable due to copyright issue.
+2018-10-24 05:49:40,344 - DEBUG - NEMbox.player:285: 340860,发如雪,http://music.163.com/song/media/outer/url?id=340860.mp3
+2018-10-24 05:49:46,877 - DEBUG - NEMbox.player:285: 5267880,追梦人,http://m10.music.126.net/20181024054718/fdeead0867730c8702695af88c180391/ymusic/247a/67b0/d2f4/db4936dde7084f9a8b4062b4b8673d1e.mp3
+2018-10-24 05:49:48,369 - WARNING - NEMbox.player:145: Song 5267880 is unavailable due to copyright issue.
+2018-10-24 05:49:48,420 - DEBUG - NEMbox.player:285: 5231332,千百度,http://m10.music.126.net/20181024054718/d46d5bfd1f971d64de89c1eb52585a80/ymusic/856a/be47/d949/105940795baec1b09ef20133f51d27f0.mp3
+2018-10-24 05:49:48,933 - WARNING - NEMbox.player:145: Song 5231332 is unavailable due to copyright issue.
+2018-10-24 05:49:48,981 - DEBUG - NEMbox.player:285: 35847622,红颜旧 - 古筝,http://m10.music.126.net/20181024054718/055fd0f6494faffa98d33ac2ef3ba8e7/ymusic/bc70/8597/e318/9eab9bf23a053c1cf54d87ad52c193e5.mp3
+2018-10-24 05:49:49,365 - WARNING - NEMbox.player:145: Song 35847622 is unavailable due to copyright issue.
+2018-10-24 05:49:49,412 - DEBUG - NEMbox.player:285: 408814576,南山南（古筝）,http://m10.music.126.net/20181024054718/986dbe800af500ed6af8599c996f636e/ymusic/b096/3fb3/46f7/f0ea2c6894e9cdd16a14f504f93005da.mp3
+2018-10-24 05:49:49,781 - WARNING - NEMbox.player:145: Song 408814576 is unavailable due to copyright issue.
+2018-10-24 05:49:49,829 - DEBUG - NEMbox.player:285: 33911611,卷珠帘 - 古筝版,http://m10.music.126.net/20181024054718/f94d8a7a10a01147abc1df9d85aecb13/ymusic/c9f8/8343/afaa/a40ea25780c10503c71a3d705f20b61a.mp3
+2018-10-24 05:49:50,553 - WARNING - NEMbox.player:145: Song 33911611 is unavailable due to copyright issue.
+2018-10-24 05:49:50,598 - DEBUG - NEMbox.player:285: 33911615,青花瓷 - 古筝版,http://music.163.com/song/media/outer/url?id=33911615.mp3
+2018-10-24 05:49:51,314 - DEBUG - NEMbox.player:285: 426341501,琵琶语 古筝版,http://m10.music.126.net/20181024054718/568c154b1de1968029d8523e5a6d219d/ymusic/85a6/955d/830f/5086ed9c9faacc66bade2a07fd3a7a19.mp3
+2018-10-24 05:49:51,723 - WARNING - NEMbox.player:145: Song 426341501 is unavailable due to copyright issue.
+2018-10-24 05:49:51,772 - DEBUG - NEMbox.player:285: 30031502,千本桜(古筝版),http://m10.music.126.net/20181024054718/190560a47a8bd6deeeb431adcd09ddd0/ymusic/8cad/09d1/160a/031a8e65c9800fd1d729fc5fb30bea37.mp3
+2018-10-24 05:49:52,377 - WARNING - NEMbox.player:145: Song 30031502 is unavailable due to copyright issue.
+2018-10-24 05:49:52,425 - DEBUG - NEMbox.player:285: 35729203,缥缃醉 - music,http://m10.music.126.net/20181024054718/2ef883ce4d312bc43a826609111bc480/ymusic/948e/59cb/9211/41c8360fa503427df292d2d2eff99608.mp3
+2018-10-24 05:49:52,801 - WARNING - NEMbox.player:145: Song 35729203 is unavailable due to copyright issue.
+2018-10-24 05:49:52,847 - DEBUG - NEMbox.player:285: 5270412,一剪梅(古筝),http://m10.music.126.net/20181024054718/3f25f5473c583f18f6212426355703a1/ymusic/613a/e565/6cf8/89d1dabb7b5ece360111c8460988f462.mp3
+2018-10-24 05:49:53,230 - WARNING - NEMbox.player:145: Song 5270412 is unavailable due to copyright issue.
+2018-10-24 05:49:53,276 - DEBUG - NEMbox.player:285: 5260840,冰菊物语,http://m10.music.126.net/20181024054718/695201c0ecaaaa7094e158d73b478278/ymusic/6f5a/39a8/2d77/8a15b41da3df6b2896f8ebe221763c46.mp3
+2018-10-24 05:49:53,732 - WARNING - NEMbox.player:145: Song 5260840 is unavailable due to copyright issue.
+2018-10-24 05:49:53,781 - DEBUG - NEMbox.player:285: 340866,千年一叹,http://m10.music.126.net/20181024054718/f08f01922a3e0a05b8a3c00a2574d995/ymusic/61d4/394f/00a5/935c51da8317b0ff4033ca5f90bcef65.mp3
+2018-10-24 05:49:54,272 - WARNING - NEMbox.player:145: Song 340866 is unavailable due to copyright issue.
+2018-10-24 05:49:54,318 - DEBUG - NEMbox.player:285: 396316,古筝梁祝,http://m10.music.126.net/20181024054718/44f1c3feab662930eac5d8ac5ae23d61/ymusic/6770/d69e/da96/3d7c4715f01a3f5b39546628d1992ac4.mp3
+2018-10-24 05:49:54,740 - WARNING - NEMbox.player:145: Song 396316 is unavailable due to copyright issue.
+2018-10-24 05:49:54,788 - DEBUG - NEMbox.player:285: 230691,星语心愿,http://m10.music.126.net/20181024054718/0e093cfa956551834acde9f59fb0b68d/ymusic/740a/7846/f7a4/aff9f606a4b8622d66defe14c7c799d4.mp3
+2018-10-24 05:49:55,153 - WARNING - NEMbox.player:145: Song 230691 is unavailable due to copyright issue.
+2018-10-24 05:49:55,198 - DEBUG - NEMbox.player:285: 5258792,知心爱人,http://m10.music.126.net/20181024054718/4393222b88bca913308982e18345aa30/ymusic/cfac/35ef/2a5d/602acb6b5aa3eabde24fd8d9c8a1ebd7.mp3
+2018-10-24 05:49:55,950 - WARNING - NEMbox.player:145: Song 5258792 is unavailable due to copyright issue.
+2018-10-24 05:49:56,000 - DEBUG - NEMbox.player:285: 5260836,千里之外,http://music.163.com/song/media/outer/url?id=5260836.mp3
+2018-10-24 05:49:56,666 - DEBUG - NEMbox.player:285: 251141,情非得以,http://m10.music.126.net/20181024054718/d281c5df4efae2ff12f886763c91c350/ymusic/dfec/1b3a/6bb1/0feda2d5688d5d8756332ee3df8cb9b7.mp3
+2018-10-24 05:49:57,071 - WARNING - NEMbox.player:145: Song 251141 is unavailable due to copyright issue.
+2018-10-24 05:49:57,120 - DEBUG - NEMbox.player:285: 526854,もらい泣き,http://m10.music.126.net/20181024054718/cb33c11a823347cca3e74618b1efd5fc/ymusic/b89f/bcf3/9c93/729798a7af5e57608984f6394acdc2f4.mp3
+2018-10-24 05:49:57,732 - WARNING - NEMbox.player:145: Song 526854 is unavailable due to copyright issue.
+2018-10-24 05:49:57,780 - DEBUG - NEMbox.player:285: 302358,春よ、来い,http://m10.music.126.net/20181024054718/5eb6188958fac1fd1305b80c4588f5d4/ymusic/f318/aa6a/fab3/c90dd6639530bd3fef4013511910f2f6.mp3
+2018-10-24 05:49:58,165 - WARNING - NEMbox.player:145: Song 302358 is unavailable due to copyright issue.
+2018-10-24 05:49:58,215 - DEBUG - NEMbox.player:285: 461855254,一生所爱（古筝）,http://m10.music.126.net/20181024054718/f323ac1979f376fac2c5dd5c396d643c/ymusic/0272/17a0/9bcf/a469e767be4ca148900082efdf5a24cc.mp3
+2018-10-24 05:49:58,589 - WARNING - NEMbox.player:145: Song 461855254 is unavailable due to copyright issue.
+2018-10-24 05:49:58,637 - DEBUG - NEMbox.player:285: 25638315,流恋月影-古筝(伴奏) - instrumental,http://m10.music.126.net/20181024054718/eab9f01188a906183942e3ff4d477cc3/ymusic/f521/9610/1341/166fde6e43bfbac781c961096223a560.mp3
+2018-10-24 05:49:59,346 - WARNING - NEMbox.player:145: Song 25638315 is unavailable due to copyright issue.
+2018-10-24 05:49:59,394 - DEBUG - NEMbox.player:285: 251194,城里的月光,http://m10.music.126.net/20181024054718/19864fd8a8aac5039131944219f0389c/ymusic/0cd2/8117/7b05/a2694e7779130a8ad08663f087242c88.mp3
+2018-10-24 05:49:59,766 - WARNING - NEMbox.player:145: Song 251194 is unavailable due to copyright issue.
+2018-10-24 05:49:59,813 - DEBUG - NEMbox.player:285: 340868,沧海一声笑,http://m10.music.126.net/20181024054718/8de399b8d29d930ef653692ea4c7b0f7/ymusic/082e/d7e1/5d56/8546dfb1b86ac794117a84fdc3638935.mp3
+2018-10-24 05:50:00,209 - WARNING - NEMbox.player:145: Song 340868 is unavailable due to copyright issue.
+2018-10-24 05:50:00,255 - DEBUG - NEMbox.player:285: 134860,我只在乎你,http://m10.music.126.net/20181024054718/b38b3c6cd74d0fa9d9a7d62415f8e2d3/ymusic/2028/951f/517e/cab1531b604c6bda3d29fc04d8b52540.mp3
+2018-10-24 05:50:00,651 - WARNING - NEMbox.player:145: Song 134860 is unavailable due to copyright issue.
+2018-10-24 05:50:00,697 - DEBUG - NEMbox.player:285: 251157,很爱很爱你,http://m10.music.126.net/20181024054718/38b3740d2a75e7fe871b64bc8f16afc3/ymusic/5c63/19bb/6256/4ab5bec6c94b205dd9281316554c6859.mp3
+2018-10-24 05:50:01,161 - WARNING - NEMbox.player:145: Song 251157 is unavailable due to copyright issue.
+2018-10-24 05:50:01,208 - DEBUG - NEMbox.player:285: 302332,美丽的神话,http://m10.music.126.net/20181024054718/b4fe150d79f9bfc101617a7e18ca3bd4/ymusic/81ef/d0d1/ceaf/e1af7d765578510c0c1e3473a32fcbfc.mp3
+2018-10-24 05:50:01,580 - WARNING - NEMbox.player:145: Song 302332 is unavailable due to copyright issue.
+2018-10-24 05:50:01,619 - DEBUG - NEMbox.player:285: 125002,风中的承诺,http://m10.music.126.net/20181024054718/958c18e92cd3ebef326ec9b68b4d3c2b/ymusic/90c3/f0a2/b524/30473305d3a238802d1f9ac6c48ad6ee.mp3
+2018-10-24 05:50:02,003 - WARNING - NEMbox.player:145: Song 125002 is unavailable due to copyright issue.
+2018-10-24 05:50:02,049 - DEBUG - NEMbox.player:285: 274937,相思风雨中,http://m10.music.126.net/20181024054718/c4a2b659a72e70bc6227089124f0a24e/ymusic/ace0/f1a1/7a52/64d1d6b9b932d034d78e5efda091b238.mp3
+2018-10-24 05:50:02,426 - WARNING - NEMbox.player:145: Song 274937 is unavailable due to copyright issue.
+2018-10-24 05:50:02,475 - DEBUG - NEMbox.player:285: 5260842,寂寞沙洲冷,http://m10.music.126.net/20181024054718/7c6f4a554e391993a40dcf368d509da8/ymusic/799a/1ee0/e513/c226c558a8750cc2759e4479ebae70a2.mp3
+2018-10-24 05:50:02,924 - WARNING - NEMbox.player:145: Song 5260842 is unavailable due to copyright issue.
+2018-10-24 05:50:02,972 - DEBUG - NEMbox.player:285: 183027,不装饰你的梦,http://m10.music.126.net/20181024054718/209fd455de21a9ce2387a864d41dc3f9/ymusic/570b/c310/d90e/45f2ad02a6bac48b708c1971cd0f8287.mp3
+2018-10-24 05:50:03,361 - WARNING - NEMbox.player:145: Song 183027 is unavailable due to copyright issue.
+2018-10-24 05:50:03,411 - DEBUG - NEMbox.player:285: 251168,情深深雨蒙蒙,http://m10.music.126.net/20181024054718/4d0a97da7dc53b933d45dc1f07bee5a5/ymusic/4309/f523/e9a9/94ed8451378b66d6ed240aa7b775b13e.mp3
+2018-10-24 05:50:03,802 - WARNING - NEMbox.player:145: Song 251168 is unavailable due to copyright issue.
+2018-10-24 05:50:03,852 - DEBUG - NEMbox.player:285: 5231339,我记得我爱过,http://m10.music.126.net/20181024054718/6f6004de0be0fc7808f40d1657fdbc2e/ymusic/e496/e179/33c4/45fefe68831278db22e669bdf722b010.mp3
+2018-10-24 05:50:04,238 - WARNING - NEMbox.player:145: Song 5231339 is unavailable due to copyright issue.
+2018-10-24 05:50:04,287 - DEBUG - NEMbox.player:285: 134870,恰似你的温柔,http://m10.music.126.net/20181024054718/9089e4c59be229cd2da856f6e1452bf5/ymusic/6387/6fc1/f461/9cd3382833dacbf01333627d5cd9f0ad.mp3
+2018-10-24 05:50:04,613 - WARNING - NEMbox.player:145: Song 134870 is unavailable due to copyright issue.
+2018-10-24 05:50:04,661 - DEBUG - NEMbox.player:285: 124983,一起走过的日子,http://m10.music.126.net/20181024054718/7b1a1374085d097c696c376d7525a51f/ymusic/a1aa/d704/8caf/6d05b62a929bae8dad226bea40b66aec.mp3
+2018-10-24 05:50:05,454 - WARNING - NEMbox.player:145: Song 124983 is unavailable due to copyright issue.
+2018-10-24 05:50:05,503 - DEBUG - NEMbox.player:285: 408814572,See You Again（古筝）,http://m10.music.126.net/20181024054718/b292b38305bb15ff80ddd5cd29acf899/ymusic/e27d/5cc7/8b6e/38df0d10e826f09a1fbeb736e921bce1.mp3
+2018-10-24 05:50:05,894 - WARNING - NEMbox.player:145: Song 408814572 is unavailable due to copyright issue.
+2018-10-24 05:50:05,944 - DEBUG - NEMbox.player:285: 5267884,羞答答的玫瑰静悄悄的开,http://m10.music.126.net/20181024054718/d1a51e6e68bffd2c291dae6543300799/ymusic/555f/a0dc/998a/899b416c806c5c8f7e939ab68e3b96f4.mp3
+2018-10-24 05:50:06,324 - WARNING - NEMbox.player:145: Song 5267884 is unavailable due to copyright issue.
+2018-10-24 05:50:06,372 - DEBUG - NEMbox.player:285: 480510428,贝加尔湖畔▪筝声（Cover 李健）,http://m10.music.126.net/20181024054718/46bd995594b70ec4d43999442848f7b9/ymusic/dc13/b24a/bdaa/3c3c96d943a0406ffc625cc45e6f7425.mp3
+2018-10-24 05:50:07,069 - WARNING - NEMbox.player:145: Song 480510428 is unavailable due to copyright issue.
+2018-10-24 05:50:07,118 - DEBUG - NEMbox.player:285: 447834391,River Flows In You（古筝x钢琴）,http://m10.music.126.net/20181024054718/5d960beb025c3f086f8f6d6f60d6c121/ymusic/5d2a/f4c5/fa6c/3a584ce281cedf61f9dd0c443031cfa5.mp3
+2018-10-24 05:50:07,522 - WARNING - NEMbox.player:145: Song 447834391 is unavailable due to copyright issue.
+2018-10-24 05:50:07,572 - DEBUG - NEMbox.player:285: 454472972,【古筝】回忆杀！《太多》,http://m10.music.126.net/20181024054718/cfd38e9a674d8df100d861e555b65929/ymusic/2033/0f20/4e46/a372a3e5ae3509a0f724eef506973949.mp3
+2018-10-24 05:50:07,964 - WARNING - NEMbox.player:145: Song 454472972 is unavailable due to copyright issue.
+2018-10-24 05:50:08,016 - DEBUG - NEMbox.player:285: 446581585,【古筝】回忆杀！春光灿烂猪八戒主题曲之好春光,http://m10.music.126.net/20181024054718/1f665a3fd7edb8097c80a0d03846ffec/ymusic/7ec5/9464/3cfe/973fdc8065fc4d0907b0c5abaccf119d.mp3
+2018-10-24 05:50:08,773 - DEBUG - NEMbox.player:285: 218864,童年,http://m10.music.126.net/20181024061449/ab5d637215000467bab6977707ab3c3d/ymusic/f49c/0af1/ec02/a2626426f0df01aaecc200cc13239fa8.mp3
+2018-10-24 05:53:20,457 - DEBUG - NEMbox.player:285: 135630,涛声依旧,http://m10.music.126.net/20181024061449/a0d2125a0790fbc33f8b0c1be632a6d5/ymusic/0afa/1aff/72e1/7a44339a97955619b13e71c9dea443c3.mp3
+2018-10-24 05:57:57,464 - DEBUG - NEMbox.player:285: 293931,执着,http://m10.music.126.net/20181024061449/446d73bbe3046907334968ef0244659a/ymusic/ba1a/8111/8894/84422c2b21a25f18390a04c1ba25d916.mp3
+2018-10-24 06:01:49,923 - DEBUG - NEMbox.player:285: 213149,快乐老家,http://m10.music.126.net/20181024061449/fb230edc235fe83e62d3f79ef8441535/ymusic/81ce/b640/4a6b/124b4d307866f7575870eafe18a8de4a.mp3
+2018-10-24 06:06:47,158 - DEBUG - NEMbox.player:285: 5274752,大中国,http://m10.music.126.net/20181024061449/cb8dcd2c2c26a691d3d9cdebb12f4ea5/ymusic/2558/6ad7/26ba/718e753ae045272186c6ed92886f7160.mp3
+2018-10-24 06:11:04,219 - DEBUG - NEMbox.player:285: 5280037,中华民谣,http://m10.music.126.net/20181024061449/7ae7533cbbb9e15f9af954ee59367858/ymusic/c62d/a4c8/532f/046f7a05ebb73d6f62418bfb0d7e3c32.mp3
+2018-10-24 06:15:23,612 - DEBUG - NEMbox.player:285: 173819,笑脸,http://m10.music.126.net/20181024061449/8317ecd476122f87d8d2d772999660e4/ymusic/6b79/fff0/32c2/c573ec3216ba0410d456b4bc17b2d11f.mp3
+2018-10-24 06:15:23,989 - WARNING - NEMbox.player:145: Song 173819 is unavailable due to copyright issue.
+2018-10-24 06:15:24,038 - DEBUG - NEMbox.player:285: 205613,我的1997,http://m10.music.126.net/20181024061449/6aa27ab2c8405a40e456f5908b66688b/ymusic/5eed/2598/c01d/27f29f37829b650ab04ba27b98f9a4d2.mp3
+2018-10-24 06:15:24,413 - WARNING - NEMbox.player:145: Song 205613 is unavailable due to copyright issue.
+2018-10-24 06:15:24,459 - DEBUG - NEMbox.player:285: 151436,霸王别姬,http://m10.music.126.net/20181024061449/872a748ddb9bd56f18e89145c19942cb/ymusic/96f9/1c65/687f/d3d65a2247e04f0d7c4b060e2e160149.mp3
+2018-10-24 06:15:24,845 - WARNING - NEMbox.player:145: Song 151436 is unavailable due to copyright issue.
+2018-10-24 06:15:24,894 - DEBUG - NEMbox.player:285: 109391,好汉歌,http://m10.music.126.net/20181024061449/54709760262baac4843dff7db6d1761d/ymusic/63e0/5bab/759d/cacd95cc9233e10ebcac5313d37594bf.mp3
+2018-10-24 06:15:25,274 - WARNING - NEMbox.player:145: Song 109391 is unavailable due to copyright issue.
+2018-10-24 06:15:25,323 - DEBUG - NEMbox.player:285: 290589,祝你平安,http://m10.music.126.net/20181024061449/b8483752d3b0ff65cb560471634c6d2d/ymusic/4fd6/4248/1950/0d3b22e9e2f498fd5e13846cf6631342.mp3
+2018-10-24 06:15:25,711 - WARNING - NEMbox.player:145: Song 290589 is unavailable due to copyright issue.
+2018-10-24 06:15:25,760 - DEBUG - NEMbox.player:285: 135768,懂你,http://m10.music.126.net/20181024061449/ed7ee2a59585bd6cba688d0444f380d2/ymusic/62d9/4cd1/0806/a6c7eae113531e4ea9454b15fd924989.mp3
+2018-10-24 06:15:26,525 - WARNING - NEMbox.player:145: Song 135768 is unavailable due to copyright issue.
+2018-10-24 06:15:26,573 - DEBUG - NEMbox.player:285: 334940,真的好想你,http://m10.music.126.net/20181024061449/4239932c69ad0d13a244e11fd044e86f/ymusic/b733/1801/7870/1031025dd1a7f6284ee0e43b85ae95b2.mp3
+2018-10-24 06:15:26,955 - WARNING - NEMbox.player:145: Song 334940 is unavailable due to copyright issue.
+2018-10-24 06:15:27,002 - DEBUG - NEMbox.player:285: 261847,只要你过的比我好,http://m10.music.126.net/20181024061449/7ffe36c5b3e70c58c09bd82eebffa0d0/ymusic/2542/9ad7/718b/e8613f1a1d358c2b2a894836ea6f7a2a.mp3
+2018-10-24 06:15:27,372 - WARNING - NEMbox.player:145: Song 261847 is unavailable due to copyright issue.
+2018-10-24 06:15:27,424 - DEBUG - NEMbox.player:285: 357263,Don't Break My Heart,http://m10.music.126.net/20181024061449/32aeae35c441860b412560dcd920dbb0/ymusic/bc43/be12/29e6/24445d7669bfb4578d035c2128c5e1fe.mp3
+2018-10-24 06:15:27,815 - WARNING - NEMbox.player:145: Song 357263 is unavailable due to copyright issue.
+2018-10-24 06:15:27,863 - DEBUG - NEMbox.player:285: 247873,把耳朵叫醒,http://m10.music.126.net/20181024061449/2889b8f878b47d5d9d97246cba2f28a6/ymusic/df55/5ac7/112e/5450bb6bea1f5acb33568a4301edcb65.mp3
+2018-10-24 06:15:28,237 - WARNING - NEMbox.player:145: Song 247873 is unavailable due to copyright issue.
+2018-10-24 06:15:28,284 - DEBUG - NEMbox.player:285: 376593,Happy Baby,http://m10.music.126.net/20181024061449/c169ac98c450f12547e40162913fad19/ymusic/080a/fcdb/6cd9/f74bb439a52e684b29173c32a4a8372a.mp3
+2018-10-24 06:15:28,655 - WARNING - NEMbox.player:145: Song 376593 is unavailable due to copyright issue.
+2018-10-24 06:15:28,704 - DEBUG - NEMbox.player:285: 181946,纤夫的爱,http://m10.music.126.net/20181024061449/5e0bb3b9f525f93071c0ead09bde029d/ymusic/8d7a/8005/349d/8287e028a8680366c68c987ce40a5cfc.mp3
+2018-10-24 06:15:29,086 - WARNING - NEMbox.player:145: Song 181946 is unavailable due to copyright issue.
+2018-10-24 06:15:29,135 - DEBUG - NEMbox.player:285: 5254447,大花轿,http://music.163.com/song/media/outer/url?id=5254447.mp3
+2018-10-24 06:15:30,238 - DEBUG - NEMbox.player:285: 99181,九妹,http://m10.music.126.net/20181024061449/7c3358b43cd59b00fb536bb1c1e675b0/ymusic/7d26/27d7/bee2/d582f41850d16653dae6a01afd113afe.mp3
+2018-10-24 06:15:30,639 - WARNING - NEMbox.player:145: Song 99181 is unavailable due to copyright issue.
+2018-10-24 06:15:30,688 - DEBUG - NEMbox.player:285: 5281327,同桌的你,http://m10.music.126.net/20181024061449/4272b05eddb5d3d37ce325f0a757c40c/ymusic/f402/74c6/f84e/e3f7f9d009f9f31c398d90919488a62b.mp3
+2018-10-24 06:15:31,072 - WARNING - NEMbox.player:145: Song 5281327 is unavailable due to copyright issue.
+2018-10-24 06:15:31,122 - DEBUG - NEMbox.player:285: 280175,征服,http://m10.music.126.net/20181024061449/edd9c27a83bb35a843ea78c2960b794b/ymusic/c6d5/fe6a/8c52/a93fc0287cb53afb466385172386422e.mp3
+2018-10-24 06:15:31,683 - WARNING - NEMbox.player:145: Song 280175 is unavailable due to copyright issue.
+2018-10-24 06:15:31,729 - DEBUG - NEMbox.player:285: 317151,心雨,http://m10.music.126.net/20181024061449/27ca29bfce3fc307e609312f3410ac65/ymusic/7404/ce9e/ddee/537cbed201e2e5a0c9778446469e3527.mp3
+2018-10-24 06:15:32,108 - WARNING - NEMbox.player:145: Song 317151 is unavailable due to copyright issue.
+2018-10-24 06:15:32,157 - DEBUG - NEMbox.player:285: 126443,窗外,http://m10.music.126.net/20181024061449/d2218c10ecb9c00aebf6108a013759e8/ymusic/21b6/490d/8b1b/238d8533f3680f818dc8ed54df2d46eb.mp3
+2018-10-24 06:15:32,533 - WARNING - NEMbox.player:145: Song 126443 is unavailable due to copyright issue.
+2018-10-24 06:15:32,579 - DEBUG - NEMbox.player:285: 122290,幸福生活,http://m10.music.126.net/20181024061449/92317ed85526a028d00902c697eacdc6/ymusic/9f4d/d15e/8b2a/17c900b7586420a5bb090895acb7fefd.mp3
+2018-10-24 06:15:33,345 - WARNING - NEMbox.player:145: Song 122290 is unavailable due to copyright issue.
+2018-10-24 06:15:33,392 - DEBUG - NEMbox.player:285: 104275,常回家看看,http://m10.music.126.net/20181024061449/67eaf472e025037a556c160450136b4d/ymusic/d190/12b1/4472/16ec581c58e22d5a3f1e962d64635b89.mp3
+2018-10-24 06:15:33,776 - WARNING - NEMbox.player:145: Song 104275 is unavailable due to copyright issue.
+2018-10-24 06:15:33,824 - DEBUG - NEMbox.player:285: 213223,寂寞让我如此美丽,http://m10.music.126.net/20181024061449/fc64e0b60ec607d979df298b2cdd3a4a/ymusic/8390/314a/c2ea/fa423b48e331addb8d0a944ca1a3e8cf.mp3
+2018-10-24 06:15:34,191 - WARNING - NEMbox.player:145: Song 213223 is unavailable due to copyright issue.
+2018-10-24 06:15:34,237 - DEBUG - NEMbox.player:285: 175957,露天电影院,http://m10.music.126.net/20181024061449/86692115601ae6b26f7ec069579af460/ymusic/8188/9ca3/69d4/056b9f3164517e1eac6e7a8eed40383d.mp3
+2018-10-24 06:15:34,616 - WARNING - NEMbox.player:145: Song 175957 is unavailable due to copyright issue.
+2018-10-24 06:15:34,664 - DEBUG - NEMbox.player:285: 280220,雾里看花,http://m10.music.126.net/20181024061449/c800339286597397530c2e4fd7f36644/ymusic/1061/544c/0421/674dba2a6f543eb16830c72a88d37552.mp3
+2018-10-24 06:15:35,114 - WARNING - NEMbox.player:145: Song 280220 is unavailable due to copyright issue.
+2018-10-24 06:15:35,161 - DEBUG - NEMbox.player:285: 122021,一封家书,http://m10.music.126.net/20181024061449/e9d242ba0f54040b78f44c4f60aa716e/ymusic/49ab/c16f/b57c/7a6daa6172ed9bd041d2b7743ad97f4b.mp3
+2018-10-24 06:15:35,530 - WARNING - NEMbox.player:145: Song 122021 is unavailable due to copyright issue.
+2018-10-24 06:15:35,578 - DEBUG - NEMbox.player:285: 105431,我的眼里只有你,http://m10.music.126.net/20181024061449/9684ca885f4fb3da4da358e9afa3927c/ymusic/4f57/d1fe/95b6/da27a1e1e2dd9e34783f095db47083c7.mp3
+2018-10-24 06:15:35,948 - WARNING - NEMbox.player:145: Song 105431 is unavailable due to copyright issue.
+2018-10-24 06:15:35,997 - DEBUG - NEMbox.player:285: 316940,轻轻的告诉你,http://m10.music.126.net/20181024061449/d9f53259e6cd790d3002e849b670476f/ymusic/93c5/da61/492d/ffcbdbb548c4b5d0221af6d49e29a4f0.mp3
+2018-10-24 06:15:36,693 - WARNING - NEMbox.player:145: Song 316940 is unavailable due to copyright issue.
+2018-10-24 06:15:36,743 - DEBUG - NEMbox.player:285: 164009,想说爱你不容易,http://m10.music.126.net/20181024061449/45a8ba285bc643da24200a3d4106b6a5/ymusic/0261/a9ea/0015/9b35aaa4380df313be91f3bbaf9fe6e4.mp3
+2018-10-24 06:15:37,144 - WARNING - NEMbox.player:145: Song 164009 is unavailable due to copyright issue.
+2018-10-24 06:15:37,194 - DEBUG - NEMbox.player:285: 237468,潮湿的心,http://m10.music.126.net/20181024061449/3b904056a8299c36a19f2330f5ca8a04/ymusic/dd31/04f5/cb11/a212b3feca7d63e970101ec3ae9d6535.mp3
+2018-10-24 06:15:37,589 - WARNING - NEMbox.player:145: Song 237468 is unavailable due to copyright issue.
+2018-10-24 06:15:37,633 - DEBUG - NEMbox.player:285: 186816,回到拉萨,http://m10.music.126.net/20181024061449/9f40ad2cb1b1035942640d1494486719/ymusic/82ac/d3e6/f7be/9d5d085e3d8388814c0a9e46156e924f.mp3
+2018-10-24 06:15:38,029 - WARNING - NEMbox.player:145: Song 186816 is unavailable due to copyright issue.
+2018-10-24 06:15:38,075 - DEBUG - NEMbox.player:285: 357279,无地自容,http://m10.music.126.net/20181024061449/72d99c5a3d2df5999b6191b7deb72ab7/ymusic/ae42/bc49/9a12/66f047658888e73f5ec448d2b396798a.mp3
+2018-10-24 06:15:38,486 - WARNING - NEMbox.player:145: Song 357279 is unavailable due to copyright issue.
+2018-10-24 06:15:38,539 - DEBUG - NEMbox.player:285: 5279721,姑娘 漂亮,http://m10.music.126.net/20181024061449/4ae3663c764c878c78fd27051c6591df/ymusic/3cf6/4262/895f/f6e17524837bd411e026a13380e92f94.mp3
+2018-10-24 06:15:38,911 - WARNING - NEMbox.player:145: Song 5279721 is unavailable due to copyright issue.
+2018-10-24 06:15:38,959 - DEBUG - NEMbox.player:285: 168161,我思念的城市,http://m10.music.126.net/20181024061449/0050c14df395d7ed2bf7eef51bee58b0/ymusic/4c27/8416/5b5b/1629920041332877ab8a1eeb6f451ece.mp3
+2018-10-24 06:15:39,331 - WARNING - NEMbox.player:145: Song 168161 is unavailable due to copyright issue.
+2018-10-24 06:15:39,379 - DEBUG - NEMbox.player:285: 108119,恋恋风尘,http://m10.music.126.net/20181024061449/2d25f99f6fbc27bbbf202ed85e8636dc/ymusic/3d43/de58/64c1/f2e4af5ba3cc633c0333ef6063c6a230.mp3
+2018-10-24 06:15:44,819 - WARNING - NEMbox.player:145: Song 108119 is unavailable due to copyright issue.
+2018-10-24 06:15:44,870 - DEBUG - NEMbox.player:285: 394756,无法逃脱,http://m10.music.126.net/20181024061449/ae9b90c1e3bdbaf206caffa683c8674b/ymusic/cd1d/af61/3d50/7301aa4d960e418128892e6bb8f6f6d9.mp3
+2018-10-24 06:15:46,366 - WARNING - NEMbox.player:145: Song 394756 is unavailable due to copyright issue.
+2018-10-24 06:15:46,411 - DEBUG - NEMbox.player:285: 276333,思念,http://m10.music.126.net/20181024061449/43d948518c2f1750a97626f4b52f4d76/ymusic/629a/6647/7cc3/cbf7000d57cd96201cafb730486ad5be.mp3
+2018-10-24 06:15:46,798 - WARNING - NEMbox.player:145: Song 276333 is unavailable due to copyright issue.
+2018-10-24 06:15:46,845 - DEBUG - NEMbox.player:285: 79740,阿莲,http://music.163.com/song/media/outer/url?id=79740.mp3
+2018-10-24 06:15:47,897 - DEBUG - NEMbox.player:285: 122058,小芳,http://m10.music.126.net/20181024061449/001e83317c1e8ffddef302bb88ac2b8d/ymusic/0833/4ef3/03d0/b07f964cb6c43d08897ada0b74df0bcd.mp3
+2018-10-24 06:15:48,301 - WARNING - NEMbox.player:145: Song 122058 is unavailable due to copyright issue.
+2018-10-24 06:15:48,348 - DEBUG - NEMbox.player:285: 71717,望故乡,http://music.163.com/song/media/outer/url?id=71717.mp3
+2018-10-24 06:15:49,532 - DEBUG - NEMbox.player:285: 125684,爱情鸟,http://m10.music.126.net/20181024061449/956e7835e3f91cc341931b1686f348de/ymusic/d6df/2ac2/777c/9743a11f4a198b34c5cb7a8f3e28f369.mp3
+2018-10-24 06:15:49,968 - WARNING - NEMbox.player:145: Song 125684 is unavailable due to copyright issue.
+2018-10-24 06:15:50,011 - DEBUG - NEMbox.player:285: 327799,阿姐鼓,http://m10.music.126.net/20181024061449/531cec0de06a72e3e8704f59ae86d964/ymusic/0daa/2d6a/c5db/b86256713e692dcd31dea625728255bf.mp3
+2018-10-24 06:15:50,405 - WARNING - NEMbox.player:145: Song 327799 is unavailable due to copyright issue.
+2018-10-24 06:15:50,453 - DEBUG - NEMbox.player:285: 92613,边走边唱,http://m10.music.126.net/20181024061449/9c63b0b3f8a48319914872526e6f25f8/ymusic/816f/150b/c9e8/e34d4ba7f6904a9f99e93cbbb106621f.mp3
+2018-10-24 06:15:51,252 - WARNING - NEMbox.player:145: Song 92613 is unavailable due to copyright issue.
+2018-10-24 06:15:51,300 - DEBUG - NEMbox.player:285: 304607,热血颂,http://m10.music.126.net/20181024061449/7454cd5c3a3134c14996fbd9bcfcb5af/ymusic/9bd7/d3cc/0f5a/86f3ebccfafd94a1d7f1c1cdb2a175b8.mp3
+2018-10-24 06:15:51,690 - WARNING - NEMbox.player:145: Song 304607 is unavailable due to copyright issue.
+2018-10-24 06:15:51,738 - DEBUG - NEMbox.player:285: 145754,红旗飘飘,http://m10.music.126.net/20181024061449/c45a2b8be64fbb980edb4ba9e0975dcc/ymusic/50fa/6439/1b86/f9ee15e149911262259bccf1c176acc3.mp3
+2018-10-24 06:15:52,112 - WARNING - NEMbox.player:145: Song 145754 is unavailable due to copyright issue.
+2018-10-24 06:15:52,160 - DEBUG - NEMbox.player:285: 300441,亚洲雄风,http://m10.music.126.net/20181024061449/01439d1952632b2f9748c9864bf3e368/ymusic/d669/4e42/ccbd/7dc5282cf3f17c7babd0d820f0899399.mp3
+2018-10-24 06:15:52,858 - WARNING - NEMbox.player:145: Song 300441 is unavailable due to copyright issue.
+2018-10-24 06:15:52,904 - DEBUG - NEMbox.player:285: 316049,纯真年代,http://m10.music.126.net/20181024061449/6e42201b5574bcc8431e3100839ed971/ymusic/d31b/d5c1/94e8/9547f31c4e1698c8a12117a98d5801be.mp3
+2018-10-24 06:15:53,290 - WARNING - NEMbox.player:145: Song 316049 is unavailable due to copyright issue.
+2018-10-24 06:15:53,337 - DEBUG - NEMbox.player:285: 135312,多变的海,http://m10.music.126.net/20181024061449/5cb2765419cfabe1c7e729ed5b2307d9/ymusic/8abd/00c8/7378/a0b875bec93fa80f53440b182b26ee58.mp3
+2018-10-24 06:15:53,782 - WARNING - NEMbox.player:145: Song 135312 is unavailable due to copyright issue.
+2018-10-24 06:15:53,829 - DEBUG - NEMbox.player:285: 162100,伤心雨,http://m10.music.126.net/20181024061449/acc510a02537bccc682cf604aa118348/ymusic/1e3b/8b56/1e84/b5f29856a6e09465497416970ac8844a.mp3
+2018-10-24 06:15:54,602 - WARNING - NEMbox.player:145: Song 162100 is unavailable due to copyright issue.
+2018-10-24 06:15:54,651 - DEBUG - NEMbox.player:285: 308462,步步高,http://m10.music.126.net/20181024061449/0510c375b2cc1dae4ce858f5f03f7ae8/ymusic/a20d/640f/fdba/de0ca15eb06815ec8de744b7d8b1982a.mp3
+2018-10-24 06:15:55,038 - WARNING - NEMbox.player:145: Song 308462 is unavailable due to copyright issue.
+2018-10-24 06:15:55,087 - DEBUG - NEMbox.player:285: 168079,日子,http://m10.music.126.net/20181024061449/a8ab2e7e49cbcf1f0a83128059c0d636/ymusic/3827/aec2/1f0b/03d76f70eb49d7620bb0cbfe32aeb837.mp3
+2018-10-24 06:15:55,450 - WARNING - NEMbox.player:145: Song 168079 is unavailable due to copyright issue.
+2018-10-24 06:15:55,500 - DEBUG - NEMbox.player:285: 381900,送别,http://m10.music.126.net/20181024061449/9a92c4f32513d56cbea4c18e24738caa/ymusic/58d3/7c92/b8be/a19ebc09e26c4df1b47a075ea8984f5d.mp3
+2018-10-24 06:15:55,900 - WARNING - NEMbox.player:145: Song 381900 is unavailable due to copyright issue.
+2018-10-24 06:15:55,947 - DEBUG - NEMbox.player:285: 140139,相约,http://m10.music.126.net/20181024061449/9b3f305591532baff1667155d7980d01/ymusic/ee20/4486/bffd/4135e23398b38b6528c8c80ff14abdfc.mp3
+2018-10-24 06:15:56,331 - WARNING - NEMbox.player:145: Song 140139 is unavailable due to copyright issue.
+2018-10-24 06:15:56,379 - DEBUG - NEMbox.player:285: 332200,听吧,http://m10.music.126.net/20181024061449/cc76c52175d2b0f13f4416c6fa841670/ymusic/43fb/0f90/c087/ac81e54a94b2a926a8cf26a7ee74b27a.mp3
+2018-10-24 06:15:56,761 - WARNING - NEMbox.player:145: Song 332200 is unavailable due to copyright issue.
+2018-10-24 06:15:56,811 - DEBUG - NEMbox.player:285: 357399,静止,http://m10.music.126.net/20181024061449/dcebfb478385ba5970cdb38cec36eac7/ymusic/6724/d7c4/dc7c/cd7b5f2726349540a0f14e2d9533a9ca.mp3
+2018-10-24 06:15:57,190 - WARNING - NEMbox.player:145: Song 357399 is unavailable due to copyright issue.
+2018-10-24 06:15:57,237 - DEBUG - NEMbox.player:285: 164852,想,http://m10.music.126.net/20181024061449/f80979b7acbd88dda02dedb07f0e96dd/ymusic/d174/0003/daba/9935d0b4d2e7b46d1b4fba8c62ff5a34.mp3
+2018-10-24 06:15:58,087 - WARNING - NEMbox.player:145: Song 164852 is unavailable due to copyright issue.
+2018-10-24 06:15:58,136 - DEBUG - NEMbox.player:285: 109496,弯弯的月亮,http://m10.music.126.net/20181024061449/bec63e5ea58e32c50f9fd843434a4dab/ymusic/fb2b/58ee/70f5/4f278280c8f845499758d8f2adc4ddea.mp3
+2018-10-24 06:15:58,893 - WARNING - NEMbox.player:145: Song 109496 is unavailable due to copyright issue.
+2018-10-24 06:15:58,941 - DEBUG - NEMbox.player:285: 195935,我终于失去了你,http://m10.music.126.net/20181024061449/228d188fe7f31db94d6c563e6bcfb1c0/ymusic/46a3/e379/a00c/69ae8426192323795bd7a30298321b34.mp3
+2018-10-24 06:15:59,351 - WARNING - NEMbox.player:145: Song 195935 is unavailable due to copyright issue.
+2018-10-24 06:15:59,400 - DEBUG - NEMbox.player:285: 71434,晚秋,http://m10.music.126.net/20181024061449/ed2e77d2b2fd680f42d1aadcad429050/ymusic/1062/c93d/2061/9895cbc2b1df35c2b7de25c5f4c20b9d.mp3
+2018-10-24 06:15:59,806 - WARNING - NEMbox.player:145: Song 71434 is unavailable due to copyright issue.
+2018-10-24 06:15:59,855 - DEBUG - NEMbox.player:285: 173387,珍惜,http://m10.music.126.net/20181024061449/046c4c055a062a6fd87146cd39c5a032/ymusic/786c/4e2e/c56f/6128443d781de6cbfecdeeab8a491a25.mp3
+2018-10-24 06:16:00,238 - WARNING - NEMbox.player:145: Song 173387 is unavailable due to copyright issue.
+2018-10-24 06:16:00,285 - DEBUG - NEMbox.player:285: 5269027,姐姐,http://m10.music.126.net/20181024061449/1fbc9f69eb9479ad24bdfe7b842958ed/ymusic/c7a3/28ee/b4f2/9cb820dbcb79eacd7d4e3217645f3e68.mp3
+2018-10-24 06:16:00,690 - WARNING - NEMbox.player:145: Song 5269027 is unavailable due to copyright issue.
+2018-10-24 06:16:00,740 - DEBUG - NEMbox.player:285: 213606,忘不了你呀，妈妈,http://music.163.com/song/media/outer/url?id=213606.mp3
+2018-10-24 06:16:01,846 - DEBUG - NEMbox.player:285: 32192222,知心爱人,http://m10.music.126.net/20181024061449/cef4609827b9cdbb20a1daa512d7bfff/ymusic/85c7/14f7/99e6/550617bcd9147ffbcc03034af3492dfa.mp3
+2018-10-24 06:16:02,230 - WARNING - NEMbox.player:145: Song 32192222 is unavailable due to copyright issue.
+2018-10-24 06:16:02,277 - DEBUG - NEMbox.player:285: 254061,在等待,http://m10.music.126.net/20181024061449/d9fd1dffaf39a3890e1f611f6fdb665b/ymusic/f841/94e0/8f12/177c41271c9d5d1d01c09753a9e96dba.mp3
+2018-10-24 06:16:02,676 - WARNING - NEMbox.player:145: Song 254061 is unavailable due to copyright issue.
+2018-10-24 06:16:02,726 - DEBUG - NEMbox.player:285: 5252537,走四方,http://music.163.com/song/media/outer/url?id=5252537.mp3
+2018-10-24 06:16:03,598 - DEBUG - NEMbox.player:285: 98003,春水流,http://m10.music.126.net/20181024061449/27072db5d03ca6d394649d2cd691e688/ymusic/5f32/92f9/3944/2803eb2fb86972ff820de20c1cb04d07.mp3
+2018-10-24 06:16:03,982 - WARNING - NEMbox.player:145: Song 98003 is unavailable due to copyright issue.
+2018-10-24 06:16:04,031 - DEBUG - NEMbox.player:285: 27580541,流浪歌,http://m10.music.126.net/20181024061449/3254e9eca13b79ac9e80cf2d92779c93/ymusic/af8f/8d22/b245/6b656b20007731c49ff25b1606740477.mp3
+2018-10-24 06:16:04,435 - WARNING - NEMbox.player:145: Song 27580541 is unavailable due to copyright issue.
+2018-10-24 06:16:04,485 - DEBUG - NEMbox.player:285: 220238,潇洒女兵,http://m10.music.126.net/20181024061449/e37279a91397b6b2954a293ced09c84c/ymusic/b8c4/a7c2/dcd1/ada169498ffad57fd26d5097fda8a76e.mp3
+2018-10-24 06:16:04,968 - WARNING - NEMbox.player:145: Song 220238 is unavailable due to copyright issue.
+2018-10-24 06:16:05,016 - DEBUG - NEMbox.player:285: 30496894,夏末初秋的爱情,http://m10.music.126.net/20181024061449/13ab72b68781285ca5e8c7772a705759/ymusic/93bc/7e06/c66a/58ffd49b874f035e1d8ae6b0239b013b.mp3
+2018-10-24 06:16:05,401 - WARNING - NEMbox.player:145: Song 30496894 is unavailable due to copyright issue.
+2018-10-24 06:16:05,449 - DEBUG - NEMbox.player:285: 70798,给我一点爱,http://m10.music.126.net/20181024061449/3fb5a271f0902b99540d2c2f3a1a8d9b/ymusic/b7fa/0222/6031/59cf883a2bed952b10a217a21a88688a.mp3
+2018-10-24 06:16:05,830 - WARNING - NEMbox.player:145: Song 70798 is unavailable due to copyright issue.
+2018-10-24 06:16:05,878 - DEBUG - NEMbox.player:285: 93789,爱情飞蛾,http://m10.music.126.net/20181024061449/239d94e9a6e25a654f916dea800fb11b/ymusic/a3c4/a442/10bf/d5316d9ce4e0414eb032f30e4b5e12c1.mp3
+2018-10-24 06:16:06,275 - WARNING - NEMbox.player:145: Song 93789 is unavailable due to copyright issue.
+2018-10-24 06:16:06,320 - DEBUG - NEMbox.player:285: 122891,爱在你身边,http://m10.music.126.net/20181024061449/a5e9cb2b50e948c9939dec9657397bff/ymusic/a18a/53ca/cc8f/44f66cf5ab3f7c054c6625d592f30767.mp3
+2018-10-24 06:16:06,710 - WARNING - NEMbox.player:145: Song 122891 is unavailable due to copyright issue.
+2018-10-24 06:16:06,758 - DEBUG - NEMbox.player:285: 223803,断翅的蝴蝶,http://m10.music.126.net/20181024061449/0c06de5fc3f1dc2979fe739fbd7695c1/ymusic/483c/a45a/c417/220c6fc341524e02474904f0cbbe2159.mp3
+2018-10-24 06:16:07,136 - WARNING - NEMbox.player:145: Song 223803 is unavailable due to copyright issue.
+2018-10-24 06:16:07,183 - DEBUG - NEMbox.player:285: 207209,千古绝唱,http://m10.music.126.net/20181024061449/0214190a03433c2c399e0f7ace17c240/ymusic/a853/e9ba/069b/cf53897cf84b854fb9a29d57d3083a14.mp3
+2018-10-24 06:16:07,574 - WARNING - NEMbox.player:145: Song 207209 is unavailable due to copyright issue.
+2018-10-24 06:16:07,621 - DEBUG - NEMbox.player:285: 104294,愚公移山,http://m10.music.126.net/20181024061449/a2a8a9890c8437e8020b567dc9fee333/ymusic/1cd3/67e1/29db/6ca0330cdb24e1359b083f9ed8f6e92d.mp3
+2018-10-24 06:16:08,304 - WARNING - NEMbox.player:145: Song 104294 is unavailable due to copyright issue.
+2018-10-24 06:16:08,350 - DEBUG - NEMbox.player:285: 196165,朋友,http://m10.music.126.net/20181024061449/85748b0ab3e240407dcc62b28ebd877a/ymusic/c9c1/1b6b/9204/69853256970ed258492f7c59107888a2.mp3
+2018-10-24 06:16:08,736 - WARNING - NEMbox.player:145: Song 196165 is unavailable due to copyright issue.
+2018-10-24 06:16:08,783 - DEBUG - NEMbox.player:285: 5280159,飞天,http://m10.music.126.net/20181024061449/d019c74ba5e2c753a5bebfb2a11720a5/ymusic/353b/6511/47fe/ce0b566b0ce1b055e6a38287cb460623.mp3
+2018-10-24 06:16:09,167 - WARNING - NEMbox.player:145: Song 5280159 is unavailable due to copyright issue.
+2018-10-24 06:16:09,216 - DEBUG - NEMbox.player:285: 245432,火把,http://m10.music.126.net/20181024061449/aab660344a29c83cd1e886f175f87d29/ymusic/f022/69c7/f266/2a1b2398dbf3730faed956724578cd35.mp3
+2018-10-24 06:16:09,597 - WARNING - NEMbox.player:145: Song 245432 is unavailable due to copyright issue.
+2018-10-24 06:16:09,646 - DEBUG - NEMbox.player:285: 151479,天堂,http://m10.music.126.net/20181024061449/a8a2db07bdd7ff319d57b0236cc82cdb/ymusic/41c4/e749/7867/9f3c14c7c34eec7ad7bc6bff2322cadf.mp3
+2018-10-24 06:16:10,134 - WARNING - NEMbox.player:145: Song 151479 is unavailable due to copyright issue.
+2018-10-24 06:16:10,182 - DEBUG - NEMbox.player:285: 5269128,如果爱搁浅,http://m10.music.126.net/20181024061449/7b3f1e1b7ce3fda2e14c9f47a2e9cbff/ymusic/d2fa/fab8/1cd8/e5684bc8f3d4f393d8abcdde627d1879.mp3
+2018-10-24 06:16:10,553 - WARNING - NEMbox.player:145: Song 5269128 is unavailable due to copyright issue.
+2018-10-24 06:16:10,601 - DEBUG - NEMbox.player:285: 233130,黑头发飘起来,http://m10.music.126.net/20181024061449/3279c7bef962ba55b65c64a1c6a67a06/ymusic/e77a/c797/c400/c830ced409a0dff3c31dfdd16dbfc2f0.mp3
+2018-10-24 06:16:11,013 - WARNING - NEMbox.player:145: Song 233130 is unavailable due to copyright issue.
+2018-10-24 06:16:11,063 - DEBUG - NEMbox.player:285: 136146,其实我已不在意,http://m10.music.126.net/20181024061449/de2f0105e1680c6ed52ae5b7d3c18f46/ymusic/9af7/3511/759a/727f46718654d1da2579f3ddd58f1bda.mp3
+2018-10-24 06:16:11,725 - WARNING - NEMbox.player:145: Song 136146 is unavailable due to copyright issue.
+2018-10-24 06:16:11,772 - DEBUG - NEMbox.player:285: 249396,梦里水乡,http://m10.music.126.net/20181024061449/c64669ba00850744156917945ae76c05/ymusic/a466/1652/d3ce/a7bde8d62c407d590441af6e5af34812.mp3
+2018-10-24 06:16:12,152 - WARNING - NEMbox.player:145: Song 249396 is unavailable due to copyright issue.
+2018-10-24 06:16:12,201 - DEBUG - NEMbox.player:285: 5274936,十五的月亮十六圆,http://m10.music.126.net/20181024061449/4a27daead739e6e19c76d1227c61585a/ymusic/14d1/7df2/86e1/d65b16889906a4ceb1999b1aeb114e8c.mp3
+2018-10-24 06:16:12,580 - WARNING - NEMbox.player:145: Song 5274936 is unavailable due to copyright issue.
+2018-10-24 06:16:12,628 - DEBUG - NEMbox.player:285: 390464,最美 (demo) - demo,http://m10.music.126.net/20181024061449/1ce95bdb2dfca1cbdab5ef314c8f213e/ymusic/71de/5b7a/4d2f/e157ac089d6ac629efdc8266ae054313.mp3
+2018-10-24 06:16:13,020 - WARNING - NEMbox.player:145: Song 390464 is unavailable due to copyright issue.
+2018-10-24 06:16:13,070 - DEBUG - NEMbox.player:285: 337112,春暖花开,http://m10.music.126.net/20181024061449/55de901e7fa1cb9548f142a470e1e4bd/ymusic/18ff/e1f6/0683/22cbf4978de4e1303023c081563fc13a.mp3
+2018-10-24 06:16:13,558 - WARNING - NEMbox.player:145: Song 337112 is unavailable due to copyright issue.
+2018-10-24 06:16:13,603 - DEBUG - NEMbox.player:285: 77169,暮春秋色,http://m10.music.126.net/20181024061449/4d8de087b632b48f574fe90c3b24edde/ymusic/3e48/558c/70dc/cc43bc28773303c1eea29d4c26a82398.mp3
+2018-10-24 06:16:13,981 - WARNING - NEMbox.player:145: Song 77169 is unavailable due to copyright issue.
+2018-10-24 06:16:14,031 - DEBUG - NEMbox.player:285: 332197,梦的翅膀,http://m10.music.126.net/20181024061449/f1079415831f0119cdd6a0a9a4156253/ymusic/fc7b/f0ff/2887/c71030b910acc236e8ea457ff0c959ee.mp3
+2018-10-24 06:16:14,405 - WARNING - NEMbox.player:145: Song 332197 is unavailable due to copyright issue.
+2018-10-24 06:16:14,455 - DEBUG - NEMbox.player:285: 332227,我怎么了,http://m10.music.126.net/20181024061449/ec42ddbbeaca91cd02e88793c2c292fb/ymusic/d30f/2d91/008b/0139e823e600bbb02bd0efc17427f009.mp3
+2018-10-24 06:16:14,860 - WARNING - NEMbox.player:145: Song 332227 is unavailable due to copyright issue.
+2018-10-24 06:16:14,910 - DEBUG - NEMbox.player:285: 125685,透过开满鲜花的月亮,http://m10.music.126.net/20181024061449/3c167d7a03748cef0374e36d6f8f566c/ymusic/36b8/0772/71cd/be5ffa4401356a1e9d441ad48a54586d.mp3
+2018-10-24 06:16:15,308 - WARNING - NEMbox.player:145: Song 125685 is unavailable due to copyright issue.
+2018-10-24 06:16:15,355 - DEBUG - NEMbox.player:285: 293885,好大一棵树,http://m10.music.126.net/20181024061449/1a0a3e0329d3eab3086697d5502ce198/ymusic/228b/df68/9b08/31f9352a5941ed1b65c71a0db872d9a5.mp3
+2018-10-24 06:16:15,725 - WARNING - NEMbox.player:145: Song 293885 is unavailable due to copyright issue.
+2018-10-24 06:16:15,774 - DEBUG - NEMbox.player:285: 90318,牵挂你的人是我,http://m10.music.126.net/20181024061449/2386975afee8898956b6b0596527529a/ymusic/3e74/1995/2faf/19dbb128325510d307ad6811f19c52f6.mp3
+2018-10-24 06:16:16,163 - WARNING - NEMbox.player:145: Song 90318 is unavailable due to copyright issue.
+2018-10-24 06:16:16,210 - DEBUG - NEMbox.player:285: 363451,粉墨人生,http://m10.music.126.net/20181024061449/ddcbef127b5574c1ff0c32c6f70d3c02/ymusic/0b8c/b3ab/3536/f0cd645f095da893876a8157c899d8be.mp3
+2018-10-24 06:16:21,667 - WARNING - NEMbox.player:145: Song 363451 is unavailable due to copyright issue.
+2018-10-24 06:16:21,716 - DEBUG - NEMbox.player:285: 70652,水云间,http://m10.music.126.net/20181024061449/1da7108ab13c1bfc12b1e731ed7c51ad/ymusic/dd0d/5f2e/8f8f/6401cce1100e48af8f872a93b442a9a7.mp3
+2018-10-24 06:16:23,196 - WARNING - NEMbox.player:145: Song 70652 is unavailable due to copyright issue.
+2018-10-24 06:16:23,246 - DEBUG - NEMbox.player:285: 301226,太阳升,http://m10.music.126.net/20181024061449/724a6d3843c27d95ef9f83c9fb8eb781/ymusic/7b5d/6bd7/443f/12b30ea7a0dab98fabe006421a049117.mp3
+2018-10-24 06:16:23,620 - WARNING - NEMbox.player:145: Song 301226 is unavailable due to copyright issue.
+2018-10-24 06:16:23,670 - DEBUG - NEMbox.player:285: 65501,同一首歌,http://m10.music.126.net/20181024061449/4362de3f707d271a42dd8067ca6e2615/ymusic/15ee/6339/a955/5dde475ca8272eb6e388b02047a6a5cb.mp3
+2018-10-24 06:16:24,083 - WARNING - NEMbox.player:145: Song 65501 is unavailable due to copyright issue.
+2018-10-24 06:16:24,131 - DEBUG - NEMbox.player:285: 85823,让我再看你一眼,http://m10.music.126.net/20181024061449/63ca94aa04cbe2f82af3b15f2a56272b/ymusic/63aa/1dba/4f89/d25c002f1cfdee73097e881ff8523592.mp3
+2018-10-24 06:16:24,589 - WARNING - NEMbox.player:145: Song 85823 is unavailable due to copyright issue.
+2018-10-24 06:16:24,637 - DEBUG - NEMbox.player:285: 85827,让世界充满爱,http://m10.music.126.net/20181024061449/c7d076901cbb5898084dbf3c64428420/ymusic/39eb/4d55/ab91/e466d40b333f90136e7913ac5159bdd8.mp3
+2018-10-24 06:16:25,005 - WARNING - NEMbox.player:145: Song 85827 is unavailable due to copyright issue.
+2018-10-24 06:16:25,053 - DEBUG - NEMbox.player:285: 87259,一九九七,http://m10.music.126.net/20181024061449/7f3732accfc2c42db581c745674ac0fe/ymusic/2915/83de/6618/c8a8bf73878fb70a254275f04e74a727.mp3
+2018-10-24 06:16:25,436 - WARNING - NEMbox.player:145: Song 87259 is unavailable due to copyright issue.
+2018-10-24 06:16:25,482 - DEBUG - NEMbox.player:285: 28427187,1997永恒的爱,http://m10.music.126.net/20181024061449/cb7a55678ded84f76e4e45b3d68e3279/ymusic/05ff/6308/6519/779b620a267e555b3736da374a0908b2.mp3
+2018-10-24 06:16:25,881 - WARNING - NEMbox.player:145: Song 28427187 is unavailable due to copyright issue.
+2018-10-24 06:16:25,927 - DEBUG - NEMbox.player:285: 5272610,相约一九九八,http://m10.music.126.net/20181024061449/4166352ca5ef465d6fbd2cd8b6e75547/ymusic/bc86/5425/bd60/e7785cf6f5921b046092940e510ed47c.mp3
+2018-10-24 06:16:26,323 - WARNING - NEMbox.player:145: Song 5272610 is unavailable due to copyright issue.
+2018-10-24 06:16:26,375 - DEBUG - NEMbox.player:285: 5278162,公元一九九七 我走近你,http://m10.music.126.net/20181024061449/6107863fa68c04fe66bd97d7de290901/ymusic/1087/3213/6b77/e868a52bbe80ca0421c6a459c4c88bad.mp3
+2018-10-24 06:16:26,766 - WARNING - NEMbox.player:145: Song 5278162 is unavailable due to copyright issue.
+################################################################################
+2018-10-24 06:17:26,394 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 06:17:26,394 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-24 06:17:41,799 - ERROR - NEMbox.terminalsize:82: [Errno 5] Input/output error
+################################################################################
+2018-10-24 06:23:54,601 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 06:23:54,601 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+################################################################################
+2018-10-24 06:25:43,106 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-24 06:25:43,107 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-24 06:25:47,067 - DEBUG - NEMbox.player:285: 5270972,浪子的心情,http://m10.music.126.net/20181024065027/0b68e34b0e6d71913e87be0b125e4f0e/ymusic/bb2a/cee8/49d8/5101cfd11a7c959128957e3d178ff112.mp3
+2018-10-24 06:25:58,619 - DEBUG - NEMbox.player:285: 5271006,金包银,http://m10.music.126.net/20181024065027/e011f8110362fcf2b191faa5ed3436eb/ymusic/d65f/aeda/eb7e/faa8d7a0fd474dc6139139ec5169dd91.mp3
+2018-10-24 06:29:23,090 - DEBUG - NEMbox.player:285: 5271007,爱情恰恰恰,http://m10.music.126.net/20181024065027/8473fdd759f43be955b6386de2d9bdd2/ymusic/4efe/8663/21c1/917328a6f10175f9abf3deeab0e6ea51.mp3
+2018-10-24 06:32:35,537 - DEBUG - NEMbox.player:285: 5271017,赌情博爱,http://m10.music.126.net/20181024065027/876978d81e545b19aea0a1559b07300e/ymusic/58cc/d7f3/096f/300f5303f3273f5cdfa2fd04508dd701.mp3
+2018-10-24 06:32:44,772 - DEBUG - NEMbox.player:285: 5270974,爱情骗子我问你,http://m10.music.126.net/20181024065027/12e48e9b24104e84ace8f3ed3cc30149/ymusic/5d01/30c4/92c8/fd6eb426445cac91a2a7c788cf2ecc84.mp3
+################################################################################
+2018-10-25 07:21:16,470 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-25 07:21:16,470 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-25 07:21:29,678 - DEBUG - NEMbox.player:285: 5270987,爱拼才会赢,http://m10.music.126.net/20181025074604/c6480234904ab4b0e0c50fbc18f7b831/ymusic/0e7b/20bd/0c0e/60d63cf51e8af571d6c1a368c1f0f634.mp3
+2018-10-25 07:25:14,884 - DEBUG - NEMbox.player:285: 5270988,男性的本领,http://m10.music.126.net/20181025074604/8fa92feb32a811e3d733d60f439fc999/ymusic/24de/0062/fd7e/c4cb5e77d6517e421a7fc7846e26f28e.mp3
+################################################################################
+2018-10-27 05:22:51,387 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-27 05:22:51,387 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-27 05:23:04,925 - DEBUG - NEMbox.player:285: 33872544,一缕相思情,http://m10.music.126.net/20181027054742/b89d7ed87014f999dc9d86623c7a14f4/ymusic/2b3c/788e/cd64/20de391ab80802d505b19bf98de8aa85.mp3

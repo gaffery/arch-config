@@ -15,7 +15,7 @@ Name[es]=Notas
 Name[eu]=Oharrak
 Name[fi]=Muistiinpanot
 Name[fr]=Notes
-Name[gl]=Notas 
+Name[gl]=Notas
 Name[hr]=Bilješke
 Name[hu]=Jegyzetek
 Name[id]=Catatan
@@ -101,3 +101,4 @@ Icon=xfce4-notes-plugin
 OnlyShowIn=XFCE;GNOME;
 Terminal=false
 Hidden=true
+
