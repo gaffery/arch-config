@@ -3,10 +3,6 @@
 #
 # 影梭服务器链接
 ss-local -c ~/.config/privarcy/shadowsocks/config4.json > /dev/null 2>&1 &
-cd $HOME
-# 删除多余文件
-#rm .xsession-errors .Xauthority nemcache.sqlite ICEauthority
-#rm -Rf .pki .nv .gnupg
 # ipfs 服务启动
 # export IPFS_PATH=/repo/IPFS&&ipfs daemon > /dev/null 2>&1 &
 # 校正数位板映射
@@ -14,7 +10,3 @@ xsetwacom --set "Wacom Intuos PT M 2 Pen stylus" Area 0 0 21600 9112
 # 自定义键盘映射
 sleep 3
 xmodmap ~/.config/privarcy/etc/Xmodmap
-# 连接蓝牙音箱
-# echo -e 'power on\nquit' | bluetoothctl&&sleep 0.5&&echo -e 'connect \t \nquit' | bluetoothctl
-# houdini sesinetd
-sudo /opt/hfs17.0.352/houdini/sbin/sesinetd
