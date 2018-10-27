@@ -1,6 +1,6 @@
 #!/bin/bash
 # alsa 声音恢复
-#sudo alsactl restore
+#
 # 影梭服务器链接
 ss-local -c ~/.config/privarcy/shadowsocks/config4.json > /dev/null 2>&1 &
 cd $HOME
@@ -16,3 +16,5 @@ sleep 3
 xmodmap ~/.config/privarcy/etc/Xmodmap
 # 连接蓝牙音箱
 # echo -e 'power on\nquit' | bluetoothctl&&sleep 0.5&&echo -e 'connect \t \nquit' | bluetoothctl
+# houdini sesinetd
+sudo /opt/hfs17.0.352/houdini/sbin/sesinetd

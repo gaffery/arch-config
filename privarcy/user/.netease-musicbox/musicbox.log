@@ -4598,3 +4598,19 @@
 2018-10-27 05:33:51,730 - DEBUG - NEMbox.player:310: Callback
 2018-10-27 05:33:51,731 - DEBUG - NEMbox.menu:769: FM CallBack.
 2018-10-27 05:33:52,042 - DEBUG - NEMbox.player:285: 373444,花瑟秋风,http://m10.music.126.net/20181027055830/f9928a448495a3d8ee4964cd8b316eb5/ymusic/a518/7ae0/0ce7/6c790dc0c476d2f4d571d8aafe908f94.mp3
+################################################################################
+2018-10-27 06:05:49,684 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-27 06:05:49,684 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-27 06:05:56,007 - DEBUG - NEMbox.player:285: 276294,相思,http://m10.music.126.net/20181027063033/5e8bfa128ee218998063b2a576926e6f/ymusic/3635/0101/4547/565379c66cf1468050d8d5a2a83752a9.mp3
+2018-10-27 06:05:57,826 - DEBUG - NEMbox.player:285: 4875127,美丽的神话Ⅰ,http://m10.music.126.net/20181027063033/e035e2b109836c2e6114cb00e9ab8a6d/ymusic/8ac6/d238/eb80/fdddf8b4af8701763573135f14c29ff0.mp3
+2018-10-27 06:10:49,337 - DEBUG - NEMbox.player:285: 4876565,曾经最美,http://m10.music.126.net/20181027063033/fca334829b89b9715f75a21f5c71db87/ymusic/c38c/0496/7ab1/0ea543d536b0c4530d35cc2cb57b1b88.mp3
+2018-10-27 06:15:23,438 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 06:15:23,440 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 06:15:23,856 - DEBUG - NEMbox.player:285: 140410,无言的结局(怀旧版),http://m10.music.126.net/20181027064002/3e35290cfe54e2d705dee7626f7fae65/ymusic/053f/4316/194e/e00868db7c7a4a9e7ac639edd13a69e1.mp3
+2018-10-27 06:19:08,640 - DEBUG - NEMbox.player:285: 5285581,风雨兼程,http://m10.music.126.net/20181027064002/1d0581aa5ccfe25e51c8c0ab0699fa51/ymusic/f7dc/0c71/0bdc/3db04d7e57d10365bb5bdb49e93b079f.mp3
+2018-10-27 06:22:56,959 - DEBUG - NEMbox.player:285: 237435,多少柔情多少泪,http://m10.music.126.net/20181027064002/895077214f500681e7236c98b2b91c18/ymusic/66a4/47fd/da15/3242bcb4af669b3d63380692ce86ecba.mp3
+2018-10-27 06:25:21,177 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 06:25:21,177 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 06:25:21,479 - DEBUG - NEMbox.player:285: 4878345,敢问路在何方,http://m10.music.126.net/20181027064959/8d46ba6938de06f17b9017c17ddf2d10/ymusic/39ab/152c/cb31/b5e1a6dde8c30f34c2ccdf34cd1a684c.mp3
+2018-10-27 06:29:08,128 - DEBUG - NEMbox.player:285: 27591748,哭诸葛,http://m10.music.126.net/20181027064959/fe90c1f1c4496de3a1508625f7367467/ymusic/265a/84ce/95e2/6033140acdbd15ee90210a164e01d462.mp3
+2018-10-27 06:31:29,458 - DEBUG - NEMbox.player:285: 158654,说谎,http://m10.music.126.net/20181027064959/f029ad56c40f7618f5a7559633e08ea9/ymusic/cdd6/11f7/abfd/72dfe6a2762c847386a86368b7d3ef21.mp3

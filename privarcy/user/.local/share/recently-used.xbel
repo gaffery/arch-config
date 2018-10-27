@@ -13,7 +13,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/gaffey/Paint/Untitled.xcf" added="2018-10-12T17:15:31Z" modified="2018-10-17T22:30:23Z" visited="2018-10-12T17:15:31Z">
+  <bookmark href="file:///home/gaffey/Paint/Untitled.xcf" added="2018-10-12T17:15:31Z" modified="2018-10-26T21:53:26Z" visited="2018-10-12T17:15:31Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/x-xcf"/>
@@ -21,7 +21,7 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-17T22:30:23Z" count="5"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2018-10-26T21:53:26Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>

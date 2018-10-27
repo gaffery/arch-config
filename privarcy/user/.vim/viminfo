@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\V\<digraph\>
+~MSle0~/server
 
 # Last Substitute Search Pattern:
 ~MSle0&cp -p
@@ -21,15 +21,15 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1540333721,,"w"
+|2,0,1540602250,,"w"
+:q
+|2,0,1540601914,,"q"
 :saveas Code/C/ex13.c
 |2,0,1540329817,,"saveas Code/C/ex13.c"
 :saveas ex13.c
 |2,0,1540328862,,"saveas ex13.c"
 :s ex13.c
 |2,0,1540328855,,"s ex13.c"
-:q
-|2,0,1540331907,,"q"
 :q!
 |2,0,1540331881,,"q!"
 :q1
@@ -122,6 +122,8 @@ $rsync -av --delete
 |2,0,1538571457,,"e!"
 
 # Search String History (newest to oldest):
+?/server
+|2,1,1540599914,47,"server"
 ? cp -p
 |2,1,1539459049,,"cp -p"
 ? cp -Rp
@@ -220,8 +222,6 @@ $rsync -av --delete
 |2,1,1529237474,47,"bor"
 ?/view3d.
 |2,1,1529237452,47,"view3d."
-?/view3d_to_select
-|2,1,1529236716,47,"view3d_to_select"
 
 # Expression History (newest to oldest):
 
@@ -341,15 +341,36 @@ $rsync -av --delete
 |3,1,36,0,1,0,1540332096,"]"
 
 # Buffer list:
-%~/Code/C/ex13.c	4	0
-%~/Code/C/ex12.c	1	0
-%~/ex13.c	1	0
+%/etc/profile	21	10
 
 # History of marks within files (newest to oldest):
 
+> /etc/profile
+	*	1540602283	0
+	"	21	10
+
+> ~/.config/fish/config.fish
+	*	1540602282	0
+	"	2	24
+	^	2	37
+	.	2	36
+	+	2	36
+
+> ~/.config/fish/fishd.arch
+	*	1540601970	0
+	"	20	24
+
+> /tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD
+	*	1540600753	0
+	"	90	16
+
+> ~/Desktop/Houdini17.0/crack/说明.txt
+	*	1540599760	0
+	"	15	31
+
 > ~/Code/C/ex13.c
-	*	1540333721	0
-	"	4	0
+	*	1540590072	0
+	"	1	0
 	^	10	24
 	.	11	0
 	+	46	23
@@ -504,100 +525,3 @@ $rsync -av --delete
 > /usr/share/alsa/alsa.conf
 	*	1540241977	0
 	"	1	0
-
-> ~/.config/privarcy/PreLogin
-	*	1540241704	0
-	"	3	0
-	.	3	0
-	+	5	49
-	+	3	0
-
-> ~/Code/C/ex11.c
-	*	1540158661	0
-	"	16	18
-	^	19	24
-	.	16	18
-	+	2	0
-	+	27	0
-	+	5	0
-	+	25	0
-	+	27	0
-	+	5	11
-	+	6	17
-	+	7	0
-	+	6	16
-	+	7	32
-	+	9	0
-	+	11	19
-	+	12	25
-	+	13	21
-	+	15	0
-	+	18	24
-	+	19	36
-	+	21	2
-	+	20	5
-	+	21	0
-	+	22	0
-	+	19	23
-	+	16	18
-
-> ~/Code/C/ex1.c
-	*	1540157795	0
-	"	6	0
-	^	11	0
-	.	11	0
-	+	2	0
-	+	1	18
-	+	2	0
-	+	5	11
-	+	7	30
-	+	9	2
-	+	9	0
-	+	5	16
-	+	3	30
-	+	5	17
-	+	7	0
-	+	6	23
-	+	7	43
-	+	8	0
-	+	11	0
-
-> ~/.vim/vimrc
-	*	1540157601	0
-	"	1	0
-	^	1	0
-	.	93	12
-	+	93	6
-	+	98	0
-	+	93	3
-	+	97	0
-	+	94	4
-	+	95	4
-	+	96	2
-	+	94	0
-	+	93	13
-	+	94	14
-	+	95	14
-	+	96	14
-	+	93	12
-
-> ~/Code/C/ex5.c
-	*	1540156698	0
-	"	15	0
-	^	15	0
-	.	15	0
-	+	2	0
-	+	20	0
-	+	5	0
-	+	18	0
-	+	20	0
-	+	5	11
-	+	6	17
-	+	7	0
-	+	6	16
-	+	7	32
-	+	9	0
-	+	11	19
-	+	12	25
-	+	13	21
-	+	15	0
