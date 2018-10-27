@@ -4614,3 +4614,26 @@
 2018-10-27 06:25:21,479 - DEBUG - NEMbox.player:285: 4878345,敢问路在何方,http://m10.music.126.net/20181027064959/8d46ba6938de06f17b9017c17ddf2d10/ymusic/39ab/152c/cb31/b5e1a6dde8c30f34c2ccdf34cd1a684c.mp3
 2018-10-27 06:29:08,128 - DEBUG - NEMbox.player:285: 27591748,哭诸葛,http://m10.music.126.net/20181027064959/fe90c1f1c4496de3a1508625f7367467/ymusic/265a/84ce/95e2/6033140acdbd15ee90210a164e01d462.mp3
 2018-10-27 06:31:29,458 - DEBUG - NEMbox.player:285: 158654,说谎,http://m10.music.126.net/20181027064959/f029ad56c40f7618f5a7559633e08ea9/ymusic/cdd6/11f7/abfd/72dfe6a2762c847386a86368b7d3ef21.mp3
+################################################################################
+2018-10-27 10:15:21,239 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-27 10:15:21,239 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-27 10:15:28,474 - DEBUG - NEMbox.player:285: 29710981,喜剧之王,http://m10.music.126.net/20181027104006/70c1eee4320b81e8ac7984a4c707e709/ymusic/f4e9/f9e4/999e/01fdf85a99dab9961b292a2d407c66b9.mp3
+2018-10-27 10:15:30,956 - DEBUG - NEMbox.player:285: 210281,心动,http://m10.music.126.net/20181027104006/348e2bd3762da33fbb5418a6679ef5c3/ymusic/f425/9cde/2fe9/53299c88629d02739e4087a2811330d6.mp3
+2018-10-27 10:15:31,099 - DEBUG - NEMbox.player:285: 31877628,十年(Live),http://m10.music.126.net/20181027104006/051fdf3b692c6d22cb2756105bfeb74d/ymusic/8dfe/a85c/ce67/9a5315e4db0d12193d21c5cf834eefab.mp3
+2018-10-27 10:15:31,353 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 10:15:31,353 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 10:15:31,575 - DEBUG - NEMbox.player:285: 151311,精忠报国,http://m10.music.126.net/20181027104010/4e6ddb7a216ba8fd723ae4b81b16fab0/ymusic/f9d6/b2c1/c6e7/6302175093367415ccfe59e0cc1a3ecd.mp3
+2018-10-27 10:15:31,775 - DEBUG - NEMbox.player:285: 29535229,烟花三月,http://m10.music.126.net/20181027104010/e906a3725d9b3ba8ac1134cdeaefdcd0/ymusic/6842/2b29/94a1/29116ced22ba60c18637220fc7d274c5.mp3
+2018-10-27 10:15:38,700 - DEBUG - NEMbox.player:285: 88253,长清,http://m10.music.126.net/20181027104010/c8a855a86aac2df617cbaa8d32610c97/ymusic/35fc/ea45/cb7c/af0953aede9ec157040134ebd91fed01.mp3
+################################################################################
+2018-10-27 10:15:45,833 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-27 10:15:45,833 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-27 10:15:50,224 - DEBUG - NEMbox.player:285: 4874666,万里长城永不倒,http://m10.music.126.net/20181027104027/30734845f6150727269b543bf7a6bc9c/ymusic/3cf4/f0f3/bae7/233828cc184b2393dafb147cc5f996c9.mp3
+2018-10-27 10:18:46,306 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 10:18:46,306 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 10:18:46,743 - DEBUG - NEMbox.player:285: 36103005,得意的笑,http://m10.music.126.net/20181027104325/8dbe7ab60c5126d17aa21194a74c2538/ymusic/f7dc/e949/da69/5be67fa5798d90b58fff7ef5fe76ff3c.mp3
+2018-10-27 10:21:17,982 - DEBUG - NEMbox.player:285: 28234436,英雄一怒为红颜,http://m10.music.126.net/20181027104325/1ce96f21b63a55adde61e46fb58f0576/ymusic/d17d/5489/dcab/eb4d8bf8d0e640942f1e8723c2cedd27.mp3
+2018-10-27 10:24:16,437 - DEBUG - NEMbox.player:285: 277125,甜美生活,http://m10.music.126.net/20181027104325/8af012e8f2d71c77f39280a69ef958bd/ymusic/788e/0d24/2a10/1679f54f7c7adc8251db2d4463c79ce2.mp3
+2018-10-27 10:28:19,924 - DEBUG - NEMbox.player:310: Callback
+2018-10-27 10:28:19,925 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-27 10:28:20,387 - DEBUG - NEMbox.player:285: 342330,爱情没那么美,http://m10.music.126.net/20181027105259/c915025f5c1cf787ca39c18405d45928/ymusic/6b31/d52d/f4d8/591d954ba82c53149a3f4a88db7fd909.mp3

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/gaffey/MyPaint/scrap001_a.ora" added="2018-10-27T09:37:51Z" modified="2018-10-27T10:22:03Z" visited="2018-10-27T09:37:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/openraster"/>
+        <bookmark:applications>
+          <bookmark:application name="mypaint" exec="&apos;/usr/bin/mypaint&apos;" modified="2018-10-27T10:22:03Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

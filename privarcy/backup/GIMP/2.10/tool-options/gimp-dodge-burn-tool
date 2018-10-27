@@ -1,0 +1,12 @@
+# GIMP gimp-dodge-burn-tool options
+
+(foreground (color-rgb 0.941177 0.290196 0.290196))
+(brush "Pencil 01")
+(dynamics "Pencil Generic")
+(palette "Color History")
+(brush-size 140.000000)
+(dynamics-expanded yes)
+(fade-length 140.000000)
+(fade-unit percent)
+
+# end of gimp-dodge-burn-tool options

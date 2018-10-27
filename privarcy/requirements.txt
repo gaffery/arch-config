@@ -16,7 +16,6 @@ ipython==6.5.0
 ipython-genutils==0.1.0
 jedi==0.13.1
 kiwisolver==1.0.1
-lensfun==0.3.2
 lockfile==0.12.2
 matplotlib==3.0.0
 mpg123==0.4

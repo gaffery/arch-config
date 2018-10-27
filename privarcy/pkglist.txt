@@ -38,7 +38,6 @@ gcc
 gcc-libs
 gdb
 gettext
-gimp
 git
 glibc
 gparted
@@ -77,6 +76,7 @@ mlocate
 moc
 mpg123
 mpv
+mypaint
 nano
 netctl
 network-manager-applet

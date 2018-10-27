@@ -1,0 +1,16 @@
+# GIMP gimp-paintbrush-tool options
+
+(foreground (color-rgb 0.941177 0.290196 0.290196))
+(opacity 0.250000)
+(brush "Pencil 01")
+(dynamics "Pencil Generic")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 140.000000)
+(application-mode incremental)
+(use-jitter yes)
+(dynamics-expanded yes)
+(fade-length 140.000000)
+(fade-unit percent)
+
+# end of gimp-paintbrush-tool options

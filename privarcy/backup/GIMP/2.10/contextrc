@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-mypaint-brush-tool")
+(paint-info "gimp-mybrush")
+(foreground (color-rgb 0.941177 0.290196 0.290196))
+(brush "Pencil 01")
+(dynamics "Pencil Generic")
+(mybrush "Sketcher2 sk")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Sans-serif")
+(tool-preset "Pencil")
+
+# end of user context
