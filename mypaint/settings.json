@@ -1,11 +1,8 @@
 {
-  "frame.color_rgba": [
-    0.12, 
-    0.12, 
-    0.12, 
-    0.92
+  "color_chooser.fast_subset.window_size": [
+    282, 
+    311
   ], 
-  "ui.feedback.scale": false, 
   "colors.palette": {
     "name": "MyPaint Default", 
     "columns": 7, 
@@ -320,28 +317,9 @@
       ]
     ]
   }, 
-  "color_chooser.fast_subset.window_size": [
-    282, 
-    311
-  ], 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#000000", 
-  "view.default_zoom": 1.0, 
+  "colors.current": "#df6b52", 
   "brushmanager.selected_groups": [], 
-  "ui.toolbar_items": {
-    "toolbar1_file": true, 
-    "toolbar1_view_modes": true, 
-    "toolbar1_edit": true, 
-    "toolbar1_blendmodes": false, 
-    "toolbar1_view_manips": false, 
-    "toolbar1_view_resets": true, 
-    "toolbar1_scrap": false, 
-    "toolbar1_linemodes": true
-  }, 
-  "brush_chooser.default.window_size": [
-    256, 
-    295
-  ], 
   "input.button_mapping": {
     "<Primary>Button3": "SymmetryEditMode", 
     "<Shift>Button1": "StraightMode", 
@@ -352,107 +330,17 @@
     "<Alt>Button2": "ZoomViewMode", 
     "<Alt>Button1": "ColorPickMode"
   }, 
-  "ui.dark_theme_variant": true, 
   "misc.context_restores_color": false, 
-  "document.autosave_backups": true, 
-  "color_chooser.default.window_size": [
-    282, 
-    311
-  ], 
+  "colors.wheels.type": "rgb", 
   "ui.parts": {
     "main_toolbar": true, 
     "menubar": true
   }, 
   "ui.hide_toolbar_in_fullscreen": true, 
-  "ui.toolbar_icon_size": "small", 
+  "document.autosave_backups": true, 
   "color_chooser.fast_subset.selected_adjuster": "PaletteTool", 
-  "display.colorspace": "srgb", 
   "input.device_mode": "screen", 
-  "ui.hide_cursor_while_painting": false, 
   "ui.hide_subwindows_in_fullscreen": true, 
-  "workspace.layout": {
-    "fullscreen": false, 
-    "left_sidebar": {
-      "h": 948, 
-      "w": 238, 
-      "groups": [
-        {
-          "h": 159, 
-          "tools": [
-            [
-              "MyPaintHistoryPanel"
-            ]
-          ], 
-          "w": 238, 
-          "active_page": 0
-        }, 
-        {
-          "tools": [], 
-          "active_page": -1
-        }
-      ]
-    }, 
-    "autohide": false, 
-    "maximized": false, 
-    "position": {
-      "y": 0, 
-      "h": 1054, 
-      "w": 1276, 
-      "x": 1280
-    }, 
-    "floating": [], 
-    "right_sidebar": {
-      "h": 948, 
-      "w": 260, 
-      "groups": [
-        {
-          "h": 341, 
-          "tools": [
-            [
-              "MyPaintPaletteTool"
-            ]
-          ], 
-          "w": 260, 
-          "active_page": 0
-        }, 
-        {
-          "h": 302, 
-          "tools": [
-            [
-              "MyPaintLayersTool"
-            ]
-          ], 
-          "w": 260, 
-          "active_page": 0
-        }, 
-        {
-          "h": 291, 
-          "tools": [
-            [
-              "MyPaintWashColorChangerTool"
-            ]
-          ], 
-          "w": 260, 
-          "active_page": 0
-        }, 
-        {
-          "tools": [], 
-          "active_page": -1
-        }
-      ]
-    }
-  }, 
-  "colors.history": [
-    "#e4988f", 
-    "#ff0000", 
-    "#ddc0b4", 
-    "#5e5e5e", 
-    "#000000"
-  ], 
-  "saving.scrap_prefix": "~/MyPaint/scrap", 
-  "ui.hide_menubar_in_fullscreen": true, 
-  "cursor.freehand.style": "thin", 
-  "brush_chooser.default.selected_group": "classic", 
   "input.global_pressure_mapping": [
     [
       0.0, 
@@ -463,9 +351,7 @@
       0.0
     ]
   ], 
-  "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "classic/knife", 
-  "ui.support_smooth_scrolling": true, 
+  "view.real_alpha_checks": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
@@ -473,8 +359,83 @@
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
     "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
   }, 
-  "color_chooser.default.selected_adjuster": "CrossedBowlColorChangerTool", 
-  "view.real_alpha_checks": true, 
+  "frame.color_rgba": [
+    0.12, 
+    0.12, 
+    0.12, 
+    0.92
+  ], 
+  "ui.feedback.scale": false, 
+  "ui.toolbar_items": {
+    "toolbar1_file": false, 
+    "toolbar1_view_modes": false, 
+    "toolbar1_edit": false, 
+    "toolbar1_blendmodes": false, 
+    "toolbar1_view_manips": false, 
+    "toolbar1_view_resets": false, 
+    "toolbar1_scrap": false, 
+    "toolbar1_linemodes": false
+  }, 
+  "brush_chooser.default.window_size": [
+    256, 
+    295
+  ], 
+  "ui.dark_theme_variant": true, 
+  "color_chooser.default.window_size": [
+    282, 
+    311
+  ], 
+  "view.default_zoom": 1.0, 
+  "ui.toolbar_icon_size": "large", 
+  "display.colorspace": "srgb", 
+  "ui.hide_cursor_while_painting": false, 
+  "workspace.layout": {
+    "fullscreen": false, 
+    "left_sidebar": {
+      "h": 940, 
+      "w": 8, 
+      "groups": [
+        {
+          "tools": [], 
+          "active_page": -1
+        }
+      ]
+    }, 
+    "autohide": true, 
+    "maximized": false, 
+    "position": {
+      "y": 0, 
+      "h": 1054, 
+      "w": 1276, 
+      "x": 1280
+    }, 
+    "floating": [], 
+    "right_sidebar": {
+      "h": 940, 
+      "w": 8, 
+      "groups": [
+        {
+          "tools": [], 
+          "active_page": -1
+        }
+      ]
+    }
+  }, 
+  "colors.history": [
+    "#ff8369", 
+    "#0a0a0a", 
+    "#6b3a2f", 
+    "#af5b4a", 
+    "#df6a51"
+  ], 
+  "saving.scrap_prefix": "~/MyPaint/scrap", 
+  "ui.hide_menubar_in_fullscreen": true, 
+  "cursor.freehand.style": "thin", 
+  "brush_chooser.default.selected_group": "experimental", 
+  "saving.default_format": "openraster", 
+  "brushmanager.selected_brush": "experimental/basic", 
+  "ui.support_smooth_scrolling": true, 
+  "color_chooser.default.selected_adjuster": "HSVSquareTool", 
   "document.autosave_interval": 10, 
   "scratchpad.last_opened_scratchpad": "/home/gaffey/.local/share/mypaint/scratchpads/autosave.ora", 
   "devbrush.last_used": "Wacom Intuos PT M 2 Pen stylus"

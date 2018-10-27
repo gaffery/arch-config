@@ -1,12 +1,12 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "A soft eraser", 
+    "description": "", 
     "group": "", 
-    "notes": "A brush preset part of the Brushkit v0.6 \n created in october 2012 by David Revoy ( aka Deevad ) \n source: http://www.davidrevoy.com/article142/ressource-mypaint-brushes \n license: CC-Zero/Public-Domain", 
-    "parent_brush_name": "deevad/kneaded_eraser", 
+    "notes": "", 
+    "parent_brush_name": "tanda/acrylic-03-paint", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 0.63, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -23,7 +23,18 @@
         }, 
         "change_color_l": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.01
+                    ], 
+                    [
+                        1.0, 
+                        0.01
+                    ]
+                ]
+            }
         }, 
         "change_color_v": {
             "base_value": 0.0, 
@@ -54,11 +65,11 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 5.24, 
+            "base_value": 6.0, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
-            "base_value": 0.0, 
+            "base_value": 6.0, 
             "inputs": {}
         }, 
         "dabs_per_second": {
@@ -70,31 +81,42 @@
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
-            "base_value": 178.09, 
-            "inputs": {}
+            "base_value": 90.0, 
+            "inputs": {
+                "random": [
+                    [
+                        0.0, 
+                        -180.0
+                    ], 
+                    [
+                        1.0, 
+                        180.0
+                    ]
+                ]
+            }
         }, 
         "elliptical_dab_ratio": {
-            "base_value": 2.32, 
-            "inputs": {}
+            "base_value": 10.0, 
+            "inputs": {
+                "speed1": [
+                    [
+                        0.0, 
+                        -8.5
+                    ], 
+                    [
+                        4.0, 
+                        8.5
+                    ]
+                ]
+            }
         }, 
         "eraser": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "hardness": {
             "base_value": 1.0, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        0.12
-                    ], 
-                    [
-                        1.0, 
-                        -0.18
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
@@ -113,11 +135,22 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 0.09, 
-            "inputs": {}
+            "base_value": 1.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        1.0
+                    ], 
+                    [
+                        1.0, 
+                        1.0
+                    ]
+                ]
+            }
         }, 
         "opaque_linearize": {
-            "base_value": 0.0, 
+            "base_value": 0.9, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -129,20 +162,12 @@
                         0.0
                     ], 
                     [
-                        0.302469, 
-                        0.104167
+                        0.049383, 
+                        0.572917
                     ], 
                     [
-                        0.546296, 
-                        0.333333
-                    ], 
-                    [
-                        0.688272, 
-                        0.729167
-                    ], 
-                    [
-                        0.814815, 
-                        0.927083
+                        0.151235, 
+                        0.916667
                     ], 
                     [
                         1.0, 
@@ -160,24 +185,30 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 1.32, 
+            "base_value": 2.7, 
             "inputs": {
                 "pressure": [
                     [
                         0.0, 
-                        -0.5
-                    ], 
-                    [
-                        0.228395, 
-                        0.054687
-                    ], 
-                    [
-                        0.574074, 
-                        0.515625
+                        -2.5
                     ], 
                     [
                         1.0, 
-                        0.75
+                        0.3125
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.0
+                    ], 
+                    [
+                        0.669753, 
+                        -0.0
+                    ], 
+                    [
+                        1.0, 
+                        -2.0
                     ]
                 ]
             }
@@ -196,7 +227,18 @@
         }, 
         "smudge": {
             "base_value": 0.0, 
-            "inputs": {}
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.4
+                    ]
+                ]
+            }
         }, 
         "smudge_length": {
             "base_value": 0.5, 
@@ -227,11 +269,11 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": 4.0, 
+            "base_value": 7.0, 
             "inputs": {}
         }, 
         "stroke_holdtime": {
-            "base_value": 0.0, 
+            "base_value": 10.0, 
             "inputs": {}
         }, 
         "stroke_threshold": {
