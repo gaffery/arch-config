@@ -318,9 +318,11 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#df6b52", 
+  "colors.current": "#1a5f69", 
   "brushmanager.selected_groups": [], 
   "input.button_mapping": {
+    "<Primary>Button1": "ColorPickMode", 
+    "<Primary>Button2": "ZoomViewMode", 
     "<Primary>Button3": "SymmetryEditMode", 
     "<Shift>Button1": "StraightMode", 
     "<Shift>Button2": "RotateViewMode", 
@@ -355,9 +357,9 @@
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
-    "Virtual core XTEST pointer:mouse:2": {}, 
+    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}, 
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
-    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
+    "Virtual core XTEST pointer:mouse:2": {}
   }, 
   "frame.color_rgba": [
     0.12, 
@@ -377,8 +379,8 @@
     "toolbar1_linemodes": false
   }, 
   "brush_chooser.default.window_size": [
-    256, 
-    295
+    338, 
+    320
   ], 
   "ui.dark_theme_variant": true, 
   "color_chooser.default.window_size": [
@@ -390,9 +392,9 @@
   "display.colorspace": "srgb", 
   "ui.hide_cursor_while_painting": false, 
   "workspace.layout": {
-    "fullscreen": false, 
+    "fullscreen": true, 
     "left_sidebar": {
-      "h": 940, 
+      "h": 998, 
       "w": 8, 
       "groups": [
         {
@@ -403,15 +405,10 @@
     }, 
     "autohide": true, 
     "maximized": false, 
-    "position": {
-      "y": 0, 
-      "h": 1054, 
-      "w": 1276, 
-      "x": 1280
-    }, 
+    "position": {}, 
     "floating": [], 
     "right_sidebar": {
-      "h": 940, 
+      "h": 1078, 
       "w": 8, 
       "groups": [
         {
@@ -422,20 +419,20 @@
     }
   }, 
   "colors.history": [
-    "#ff8369", 
-    "#0a0a0a", 
-    "#6b3a2f", 
-    "#af5b4a", 
-    "#df6a51"
+    "#1f8623", 
+    "#1f8648", 
+    "#1f8664", 
+    "#1f7986", 
+    "#1a5f69"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
   "cursor.freehand.style": "thin", 
-  "brush_chooser.default.selected_group": "experimental", 
+  "brush_chooser.default.selected_group": "set#4", 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "experimental/basic", 
+  "brushmanager.selected_brush": "kaerhon_v1/paint_sm", 
   "ui.support_smooth_scrolling": true, 
-  "color_chooser.default.selected_adjuster": "HSVSquareTool", 
+  "color_chooser.default.selected_adjuster": "WashColorChangerTool", 
   "document.autosave_interval": 10, 
   "scratchpad.last_opened_scratchpad": "/home/gaffey/.local/share/mypaint/scratchpads/autosave.ora", 
   "devbrush.last_used": "Wacom Intuos PT M 2 Pen stylus"

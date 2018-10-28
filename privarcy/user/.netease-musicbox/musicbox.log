@@ -4637,3 +4637,48 @@
 2018-10-27 10:28:19,924 - DEBUG - NEMbox.player:310: Callback
 2018-10-27 10:28:19,925 - DEBUG - NEMbox.menu:769: FM CallBack.
 2018-10-27 10:28:20,387 - DEBUG - NEMbox.player:285: 342330,爱情没那么美,http://m10.music.126.net/20181027105259/c915025f5c1cf787ca39c18405d45928/ymusic/6b31/d52d/f4d8/591d954ba82c53149a3f4a88db7fd909.mp3
+################################################################################
+2018-10-28 14:06:19,301 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-28 14:06:19,301 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2018-10-28 14:06:47,130 - DEBUG - NEMbox.player:285: 159513,云游四海,http://m10.music.126.net/20181028143122/a944d546c3452ce9d30b8d12991750b3/ymusic/71f8/3058/c3a6/290ff46b0cbbbdb8369283d1bffcec7f.mp3
+2018-10-28 14:07:44,302 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:07:44,303 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:07:44,921 - DEBUG - NEMbox.player:285: 27731351,爱上你等于爱上错,http://m10.music.126.net/20181028143222/e93d98434fd93628b5743ea3ec46773e/ymusic/76c3/338c/07be/23ce1c8ff71c65fdd728a9f6a07813ee.mp3
+2018-10-28 14:07:46,563 - DEBUG - NEMbox.player:285: 209647,看我72变,http://m10.music.126.net/20181028143222/ae191404ad20eaea3401c66a1e0a50f4/ymusic/925b/6d3f/33d8/b321ffa48c77e695f6d724b4707939cf.mp3
+2018-10-28 14:07:47,402 - DEBUG - NEMbox.player:285: 350703,唱得响亮,http://m10.music.126.net/20181028143222/15a32975c72fd90ce382f3e7e8f982f6/ymusic/0546/a673/6bf3/020985a0859ba27e533e76517e50eb27.mp3
+2018-10-28 14:07:47,640 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:07:47,640 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:07:47,881 - DEBUG - NEMbox.player:285: 167912,新不了情,http://m10.music.126.net/20181028143225/f72ece572c28111dfac174170abefe3e/ymusic/e716/5167/b06f/16f9595e4c4abddca20922f93cfbf5ce.mp3
+2018-10-28 14:07:49,578 - DEBUG - NEMbox.player:285: 224352,半月琴(笛子),http://m10.music.126.net/20181028143225/71a0241ec116f03ff3695b677a94b383/ymusic/0c80/bd96/5dc9/8eb536f25843492b391eaa51c2491853.mp3
+2018-10-28 14:07:49,792 - DEBUG - NEMbox.player:285: 119547,闲云孤鹤,http://m10.music.126.net/20181028143225/d0321408332e68d014de3c90cda093a4/ymusic/f668/01e7/decc/20983a73d0e47f98c92057680710595b.mp3
+2018-10-28 14:07:50,647 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:07:50,647 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:07:50,896 - DEBUG - NEMbox.player:285: 179765,你的选择,http://m10.music.126.net/20181028143228/96e116376be1eeddd77069185a7a7531/ymusic/4637/3655/8020/8a90458c2e04a91efeddd94455589371.mp3
+2018-10-28 14:07:51,546 - DEBUG - NEMbox.player:285: 36871866,隐形的翅膀,http://m10.music.126.net/20181028143228/8e0ec5ed9dfdbc884aea7a226c9935b8/ymusic/7bbb/cb9d/9f23/cc4f95b9e93cb9aa0dc4572ccc489c13.mp3
+2018-10-28 14:07:51,730 - DEBUG - NEMbox.player:285: 5234090,喝下你藏好的毒,http://m10.music.126.net/20181028143228/61627389309bfa6d45febd87d712b475/ymusic/21a3/e947/6582/2f13fc3943c01791004c9706cf859fcd.mp3
+2018-10-28 14:07:51,737 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:07:51,737 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:07:51,741 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:07:51,741 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:07:53,369 - DEBUG - NEMbox.player:285: 210837,恰似你的温柔,http://m10.music.126.net/20181028143229/d798cd5343e2455f08791b6f23cc1171/ymusic/d945/3756/6c9f/fe23314855fe08a7cd30352dae60b92a.mp3
+2018-10-28 14:13:05,190 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:13:05,787 - DEBUG - NEMbox.player:285: 215973,谁愿放手,http://m10.music.126.net/20181028143229/8c9d15d88d1913c7c1c2088b179a958e/ymusic/6446/f735/abcf/64aa41210152eacb2cdf80f84f436240.mp3
+2018-10-28 14:13:06,793 - DEBUG - NEMbox.player:285: 96108,摇篮曲 Lullaby(蒙古族民歌),http://m10.music.126.net/20181028143229/c851a0db8e8dd375cab9d30fd474828a/ymusic/54cb/4e63/ded2/d32631d4f98795cb54da5d4f5edf07f2.mp3
+2018-10-28 14:18:03,902 - DEBUG - NEMbox.player:285: 144155,心太软,http://m10.music.126.net/20181028143229/1929257284295cb859858aa753f1e538/ymusic/2390/7c87/9a1e/c9cd2250c06462bafb319a07cdb0f07f.mp3
+2018-10-28 14:23:54,373 - DEBUG - NEMbox.player:285: 33872777,歌声恋情,http://m10.music.126.net/20181028143229/8b1afd9a4efb52990564f727ce090e44/ymusic/f045/15cd/a6df/77c92850dda9087163c150ad5af5500f.mp3
+2018-10-28 14:27:01,695 - DEBUG - NEMbox.player:285: 33916099,心所爱的人-探戈,http://m10.music.126.net/20181028143742/d55fe05010e5ebbea944614e0954408f/ymusic/9ec9/2b4b/79ee/0fd9724e87423851c283505563a18842.mp3
+2018-10-28 14:30:42,266 - DEBUG - NEMbox.player:285: 33872667,泪洒爱河桥,http://m10.music.126.net/20181028143742/3bc16d43ee75d438ea4152962c21598b/ymusic/3acb/bc13/65f2/131e5ad23f273c87eb3d9d799174556f.mp3
+2018-10-28 14:33:56,362 - DEBUG - NEMbox.player:285: 4875626,情非得已,http://m10.music.126.net/20181028143742/3153ed5b4c28554561e071fbede6bfe2/ymusic/bd54/a3ca/d210/d786f338349768af4956fb300278f989.mp3
+2018-10-28 14:38:31,021 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:38:31,022 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:38:31,295 - DEBUG - NEMbox.player:285: 5279411,妈妈的吻,http://m10.music.126.net/20181028150308/a72a2ae00d47168c8fc249e59e6f7d2a/ymusic/9b42/11e1/fe5a/a77ee9258767b025b937afc926bb5a0f.mp3
+2018-10-28 14:41:38,089 - DEBUG - NEMbox.player:285: 32046185,那么骄傲（Cover 金海心）,http://m10.music.126.net/20181028150308/f5b8db1ed680a20a6ffa43f63c5870a9/ymusic/eb10/72f1/a966/f8e5662ebc2546e8c87b2a35ac050bee.mp3
+2018-10-28 14:45:42,809 - DEBUG - NEMbox.player:285: 214565,游园.梦回莺啭,http://m10.music.126.net/20181028150308/17f7ef8b9bbfa626dbdbc3788885003d/ymusic/98d2/c5fe/7c32/7a495861982ba7eb3b62d195624ce1ee.mp3
+2018-10-28 14:46:30,449 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:46:30,449 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:46:30,778 - DEBUG - NEMbox.player:285: 230326,沉默是金,http://m10.music.126.net/20181028151107/2684c0a8c06aafae04dc6b3a675c30cf/ymusic/fb4c/a0c9/bb33/c0109c8202fbb596c924987ec86200f1.mp3
+2018-10-28 14:46:32,353 - DEBUG - NEMbox.player:285: 341536,秋风词,http://m10.music.126.net/20181028151107/790a0048d57271bb398988c4f3a28e43/ymusic/51d4/2b45/4c57/9a8915baf228f6f368aaca8e8044bd2b.mp3
+2018-10-28 14:46:33,820 - DEBUG - NEMbox.player:285: 5230976,最浪漫的事,http://m10.music.126.net/20181028151107/42d5c8828fa5d52ad06fc93df9e60d98/ymusic/5c12/f04e/d50a/4bd65164d60ac0008e9ccdeb6b5f9f75.mp3
+2018-10-28 14:46:33,955 - DEBUG - NEMbox.player:310: Callback
+2018-10-28 14:46:33,955 - DEBUG - NEMbox.menu:769: FM CallBack.
+2018-10-28 14:46:34,259 - DEBUG - NEMbox.player:285: 298849,梦醒时分,http://m10.music.126.net/20181028151111/a6ea86f6e1c096c252c0466ca2133b98/ymusic/6e52/a275/b3e0/2daf1387c32c0c71a0cf770448b9fe2c.mp3

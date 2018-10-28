@@ -13,4 +13,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/gaffey/MyPaint/scrap001_b.ora" added="2018-10-28T05:58:02Z" modified="2018-10-28T05:58:24Z" visited="2018-10-28T05:58:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/openraster"/>
+        <bookmark:applications>
+          <bookmark:application name="mypaint" exec="&apos;/usr/bin/mypaint&apos;" modified="2018-10-28T05:58:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/gaffey/MyPaint/scrap002_a.ora" added="2018-10-28T06:04:33Z" modified="2018-10-28T06:04:33Z" visited="2018-10-28T06:04:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/openraster"/>
+        <bookmark:applications>
+          <bookmark:application name="mypaint" exec="&apos;/usr/bin/mypaint&apos;" modified="2018-10-28T06:04:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

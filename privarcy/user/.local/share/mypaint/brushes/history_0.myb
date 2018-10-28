@@ -1,12 +1,12 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "", 
+    "description": "A digital pencil hard 4H", 
     "group": "", 
-    "notes": "", 
-    "parent_brush_name": "tanda/acrylic-03-paint", 
+    "notes": "A brush preset part of the Brushkit v0.6 \n created in october 2012 by David Revoy ( aka Deevad ) \n source: http://www.davidrevoy.com/article142/ressource-mypaint-brushes \n license: CC-Zero/Public-Domain", 
+    "parent_brush_name": "deevad/4H_pencil", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.63, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -23,33 +23,22 @@
         }, 
         "change_color_l": {
             "base_value": 0.0, 
-            "inputs": {
-                "stroke": [
-                    [
-                        0.0, 
-                        -0.01
-                    ], 
-                    [
-                        1.0, 
-                        0.01
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "change_color_v": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.1991503572538056, 
+            "base_value": 0.2509157509157509, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.8897180762852405, 
+            "base_value": 0.883495145631068, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5254901960784314, 
+            "base_value": 0.403921568627451, 
             "inputs": {}
         }, 
         "colorize": {
@@ -65,11 +54,11 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 6.0, 
+            "base_value": 4.0, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
-            "base_value": 6.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "dabs_per_second": {
@@ -82,49 +71,49 @@
         }, 
         "elliptical_dab_angle": {
             "base_value": 90.0, 
-            "inputs": {
-                "random": [
-                    [
-                        0.0, 
-                        -180.0
-                    ], 
-                    [
-                        1.0, 
-                        180.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "elliptical_dab_ratio": {
-            "base_value": 10.0, 
-            "inputs": {
-                "speed1": [
-                    [
-                        0.0, 
-                        -8.5
-                    ], 
-                    [
-                        4.0, 
-                        8.5
-                    ]
-                ]
-            }
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "eraser": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 1.0, 
-            "inputs": {}
+            "base_value": 0.2, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.3
+                    ]
+                ]
+            }
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "offset_by_random": {
-            "base_value": 0.0, 
-            "inputs": {}
+            "base_value": 0.5, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        -0.3
+                    ]
+                ]
+            }
         }, 
         "offset_by_speed": {
             "base_value": 0.0, 
@@ -135,22 +124,11 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 1.0, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        1.0
-                    ], 
-                    [
-                        1.0, 
-                        1.0
-                    ]
-                ]
-            }
+            "base_value": 0.0257201646091, 
+            "inputs": {}
         }, 
         "opaque_linearize": {
-            "base_value": 0.9, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -160,14 +138,6 @@
                     [
                         0.0, 
                         0.0
-                    ], 
-                    [
-                        0.049383, 
-                        0.572917
-                    ], 
-                    [
-                        0.151235, 
-                        0.916667
                     ], 
                     [
                         1.0, 
@@ -185,30 +155,20 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 2.7, 
+            "base_value": 1.35, 
             "inputs": {
                 "pressure": [
                     [
                         0.0, 
-                        -2.5
+                        -0.687917
+                    ], 
+                    [
+                        0.752976, 
+                        0.236471
                     ], 
                     [
                         1.0, 
-                        0.3125
-                    ]
-                ], 
-                "stroke": [
-                    [
-                        0.0, 
-                        -0.0
-                    ], 
-                    [
-                        0.669753, 
-                        -0.0
-                    ], 
-                    [
-                        1.0, 
-                        -2.0
+                        0.286632
                     ]
                 ]
             }
@@ -227,18 +187,7 @@
         }, 
         "smudge": {
             "base_value": 0.0, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        1.0, 
-                        0.4
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "smudge_length": {
             "base_value": 0.5, 
@@ -269,11 +218,11 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": 7.0, 
+            "base_value": 4.0, 
             "inputs": {}
         }, 
         "stroke_holdtime": {
-            "base_value": 10.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "stroke_threshold": {

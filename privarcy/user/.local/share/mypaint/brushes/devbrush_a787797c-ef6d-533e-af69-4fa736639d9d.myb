@@ -3,10 +3,10 @@
     "description": "", 
     "group": "", 
     "notes": "", 
-    "parent_brush_name": "experimental/basic", 
+    "parent_brush_name": "kaerhon_v1/paint_sm", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 3.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -30,15 +30,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.029550827423167853, 
+            "base_value": 0.5208920187793428, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.6322869955156951, 
+            "base_value": 0.7497360084477298, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.8745098039215686, 
+            "base_value": 0.41263616557734206, 
             "inputs": {}
         }, 
         "colorize": {
@@ -58,7 +58,7 @@
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
-            "base_value": 0.0, 
+            "base_value": 6.0, 
             "inputs": {}
         }, 
         "dabs_per_second": {
@@ -66,12 +66,23 @@
             "inputs": {}
         }, 
         "direction_filter": {
-            "base_value": 2.0, 
+            "base_value": 0.89, 
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
             "base_value": 90.0, 
-            "inputs": {}
+            "inputs": {
+                "direction": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        180.0, 
+                        180.0
+                    ]
+                ]
+            }
         }, 
         "elliptical_dab_ratio": {
             "base_value": 1.0, 
@@ -82,7 +93,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.8, 
+            "base_value": 0.9, 
             "inputs": {}
         }, 
         "lock_alpha": {
@@ -103,10 +114,29 @@
         }, 
         "opaque": {
             "base_value": 1.0, 
-            "inputs": {}
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        -0.989583
+                    ], 
+                    [
+                        0.39404, 
+                        -0.833333
+                    ], 
+                    [
+                        0.711921, 
+                        -0.427083
+                    ], 
+                    [
+                        1.0, 
+                        1.0
+                    ]
+                ]
+            }
         }, 
         "opaque_linearize": {
-            "base_value": 0.9, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -116,6 +146,18 @@
                     [
                         0.0, 
                         0.0
+                    ], 
+                    [
+                        0.015, 
+                        0.0
+                    ], 
+                    [
+                        0.069277, 
+                        0.9375
+                    ], 
+                    [
+                        0.25, 
+                        1.0
                     ], 
                     [
                         1.0, 
@@ -133,7 +175,7 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 2.0, 
+            "base_value": 2.7, 
             "inputs": {}
         }, 
         "restore_color": {
@@ -149,12 +191,46 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.0, 
-            "inputs": {}
+            "base_value": 0.75, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.7
+                    ], 
+                    [
+                        0.35927152317880795, 
+                        0.48124999999999996
+                    ], 
+                    [
+                        0.7019867549668874, 
+                        0.029166666666666716
+                    ], 
+                    [
+                        1.0, 
+                        -0.7
+                    ]
+                ]
+            }
         }, 
         "smudge_length": {
             "base_value": 0.5, 
-            "inputs": {}
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        -0.326667
+                    ], 
+                    [
+                        0.245033, 
+                        0.178646
+                    ], 
+                    [
+                        1.0, 
+                        0.49
+                    ]
+                ]
+            }
         }, 
         "smudge_radius_log": {
             "base_value": 0.0, 
@@ -165,7 +241,7 @@
             "inputs": {}
         }, 
         "speed1_gamma": {
-            "base_value": 4.0, 
+            "base_value": 2.87, 
             "inputs": {}
         }, 
         "speed1_slowness": {
