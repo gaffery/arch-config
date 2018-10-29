@@ -4682,3 +4682,6 @@
 2018-10-28 14:46:33,955 - DEBUG - NEMbox.player:310: Callback
 2018-10-28 14:46:33,955 - DEBUG - NEMbox.menu:769: FM CallBack.
 2018-10-28 14:46:34,259 - DEBUG - NEMbox.player:285: 298849,梦醒时分,http://m10.music.126.net/20181028151111/a6ea86f6e1c096c252c0466ca2133b98/ymusic/6e52/a275/b3e0/2daf1387c32c0c71a0cf770448b9fe2c.mp3
+################################################################################
+2018-10-29 10:11:08,525 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2018-10-29 10:11:08,525 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.

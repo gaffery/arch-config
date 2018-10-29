@@ -66,6 +66,8 @@ func! CompileRun()
 		exec '!python %'
 	elseif &filetype == 'sh'
 		exec '!bash %'
+	elseif &filetype == 'conf' 
+		exec '!mpv ' getline('.')
 	endif
 endfunc
 

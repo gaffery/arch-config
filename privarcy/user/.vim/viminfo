@@ -21,9 +21,85 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1540602250,,"w"
+|2,0,1540783434,,"w"
+:filetype
+|2,0,1540781880,,"filetype"
+:! mpv .
+|2,0,1540779520,,"! mpv ."
+:! mpv 
+|2,0,1540779460,,"! mpv "
+:exe "!mpv " . getline(".")
+|2,0,1540781263,,"exe \"!mpv \" . getline(\".\")"
+:exe "!mpv " . getline(".") &
+|2,0,1540781250,,"exe \"!mpv \" . getline(\".\") &"
+:exe "!mpv " . getline(".")&
+|2,0,1540781243,,"exe \"!mpv \" . getline(\".\")&"
+:exe "!mpv " .line(".")
+|2,0,1540780780,,"exe \"!mpv \" .line(\".\")"
+:exe "!echo " .line(".")
+|2,0,1540780770,,"exe \"!echo \" .line(\".\")"
+:getline('.')|xargs mpv
+|2,0,1540780684,,"getline('.')|xargs mpv"
+:getline('.')
+|2,0,1540780672,,"getline('.')"
+:mpv getline('.')
+|2,0,1540780662,,"mpv getline('.')"
+:mpv `echo getline('.')`
+|2,0,1540780652,,"mpv `echo getline('.')`"
+:mpv `getline('.')`
+|2,0,1540780642,,"mpv `getline('.')`"
+:printf getline('.')
+|2,0,1540780621,,"printf getline('.')"
+:!mpv getline('.')
+|2,0,1540780594,,"!mpv getline('.')"
+:echo getline('.')
+|2,0,1540780575,,"echo getline('.')"
+:.w !mpv 
+|2,0,1540780482,,".w !mpv "
+:.w !mpv -
+|2,0,1540780475,,".w !mpv -"
+:.w !mpv
+|2,0,1540780462,,".w !mpv"
+:mpv getline(".")
+|2,0,1540780399,,"mpv getline(\".\")"
+: mpv 
+|2,0,1540780376,," mpv "
+:!! mpv
+|2,0,1540780263,,"!! mpv"
+:!! 
+|2,0,1540780259,,"!! "
+:exec 'mpv' getline('.')
+|2,0,1540780243,,"exec 'mpv' getline('.')"
+:exec 'mpv '.getline('.')
+|2,0,1540780216,,"exec 'mpv '.getline('.')"
+:exec 'ehco '.getline('.')
+|2,0,1540780202,,"exec 'ehco '.getline('.')"
+:exec 'ehco'.getline('.')
+|2,0,1540780194,,"exec 'ehco'.getline('.')"
+:.w !echo
+|2,0,1540780139,,".w !echo"
+:echo getline(".")|xargs !mpv
+|2,0,1540780071,,"echo getline(\".\")|xargs !mpv"
+:echo getline(".")|xargs mpv
+|2,0,1540780063,,"echo getline(\".\")|xargs mpv"
+:echo getline(".")
+|2,0,1540780053,,"echo getline(\".\")"
+:!echo getline(".")
+|2,0,1540780028,,"!echo getline(\".\")"
+:!mpv getline(".")
+|2,0,1540780016,,"!mpv getline(\".\")"
+:getline(".")
+|2,0,1540780007,,"getline(\".\")"
+:echo .
+|2,0,1540779848,,"echo ."
+:! echo .
+|2,0,1540779842,,"! echo ."
+:! ehco .
+|2,0,1540779832,,"! ehco ."
+:!mpv .
+|2,0,1540779778,,"!mpv ."
 :q
-|2,0,1540601914,,"q"
+|2,0,1540779774,,"q"
 :saveas Code/C/ex13.c
 |2,0,1540329817,,"saveas Code/C/ex13.c"
 :saveas ex13.c
@@ -44,84 +120,12 @@ $rsync -av --delete
 |2,0,1540158042,,"save ex11"
 :oldfiles
 |2,0,1540157789,,"oldfiles"
-:w ex5.c
-|2,0,1539701379,,"w ex5.c"
-:w ex5
-|2,0,1539701286,,"w ex5"
-:bd
-|2,0,1539622505,,"bd"
-:PlugUpdate
-|2,0,1539622397,,"PlugUpdate"
-:PlugInstall
-|2,0,1539622614,,"PlugInstall"
-:w ex1.c
-|2,0,1539608220,,"w ex1.c"
-:w ex1
-|2,0,1539608189,,"w ex1"
-:%s/cp -p/rsync -av --delete
-|2,0,1539459049,,"%s/cp -p/rsync -av --delete"
-:%s/cp -Rp/rsync -av --delete
-|2,0,1539459023,,"%s/cp -Rp/rsync -av --delete"
-:%s/ "香港电视"//g
-|2,0,1538839861,,"%s/ \"香港电视\"//g"
-:%s/ "音乐电台" //g
-|2,0,1538839839,,"%s/ \"音乐电台\" //g"
-:%s/ "国外电台" //g
-|2,0,1538839806,,"%s/ \"国外电台\" //g"
-:%s/ "中国电台" //g
-|2,0,1538839787,,"%s/ \"中国电台\" //g"
-:%s/ "台湾电台" //g
-|2,0,1538839726,,"%s/ \"台湾电台\" //g"
-:%s/ "" //g
-|2,0,1538839691,,"%s/ \"\" //g"
-:w!
-|2,0,1538839616,,"w!"
-:qw
-|2,0,1538839614,,"qw"
-:%s/ "香港电台" //g
-|2,0,1538839609,,"%s/ \"香港电台\" //g"
-:%s/ "香港电台 "//g
-|2,0,1538839598,,"%s/ \"香港电台 \"//g"
-:%s/ "香港电台"//g
-|2,0,1538839565,,"%s/ \"香港电台\"//g"
-:%s/group-title=//g
-|2,0,1538839466,,"%s/group-title=//g"
-:%s/radio=true//g
-|2,0,1538839358,,"%s/radio=true//g"
-:%s/radio=true/g
-|2,0,1538839334,,"%s/radio=true/g"
-:radio=true
-|2,0,1538839320,,"radio=true"
-:r
-|2,0,1538666206,,"r"
-:PlugClean
-|2,0,1538670329,,"PlugClean"
-:%s/scalar_summary/summary.scalar
-|2,0,1538573510,,"%s/scalar_summary/summary.scalar"
-:%s/
-|2,0,1538573469,,"%s/"
-:%s/histogram_summary/summary.histogram/g
-|2,0,1538573432,,"%s/histogram_summary/summary.histogram/g"
-:%shistogram_summary
-|2,0,1538573408,,"%shistogram_summary"
-:%retab!
-|2,0,1538572651,,"%retab!"
-:set expandtab
-|2,0,1538572646,,"set expandtab"
-:set expandtab 
-|2,0,1538572473,,"set expandtab "
-:set noexpandtab
-|2,0,1538572426,,"set noexpandtab"
-:set ts=4
-|2,0,1538572390,,"set ts=4"
-:source .vim/vimrc
-|2,0,1538571921,,"source .vim/vimrc"
-:retab
-|2,0,1538571731,,"retab"
-:e!
-|2,0,1538571457,,"e!"
 
 # Search String History (newest to oldest):
+?/fastdir
+|2,1,1540776995,47,"fastdir"
+?/Layouts
+|2,1,1540776425,47,"Layouts"
 ?/server
 |2,1,1540599914,47,"server"
 ? cp -p
@@ -218,10 +222,6 @@ $rsync -av --delete
 |2,1,1529694660,47,"w"
 ?/border
 |2,1,1529237511,47,"border"
-?/bor
-|2,1,1529237474,47,"bor"
-?/view3d.
-|2,1,1529237452,47,"view3d."
 
 # Expression History (newest to oldest):
 
@@ -240,47 +240,39 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-				case 'i':
-				case 'I':
-					printf("%d: 'I'\n",i);
-					break;
-	
-|3,0,0,0,5,0,1540329576,"			case 'i':","			case 'I':","				printf(\"%d: 'I'\\n\",i);","				break;",""
+"0	LINE	0
+	#EXTINF:-1,VOA广播
+|3,0,0,1,1,0,1540783175,"#EXTINF:-1,VOA广播"
 "1	LINE	0
-		rm -f 
-|3,0,1,1,1,0,1540331872,"	rm -f "
+	http://audio.xmcdn.com/group42/M09/4C/22/wKgJ81qvp2WiTyFyABmlLmQvnkU143.mp3
+|3,0,1,1,1,0,1540783433,"http://audio.xmcdn.com/group42/M09/4C/22/wKgJ81qvp2WiTyFyABmlLmQvnkU143.mp3"
 "2	LINE	0
-		rm -f 
-|3,0,2,1,1,0,1540331646,"	rm -f "
+	#EXTINF:-1,口语天天练
+|3,0,2,1,1,0,1540783433,"#EXTINF:-1,口语天天练"
 "3	LINE	0
-		int i = 0;
-|3,0,3,1,1,0,1540330975,"	int i = 0;"
+	
+|3,0,3,1,1,0,1540783180,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1540330883,""
+|3,0,4,1,1,0,1540783087,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1540330883,""
+|3,0,5,1,1,0,1540783002,""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1540329711,""
+	#
+|3,0,6,1,1,0,1540782929,"#"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1540329710,""
-"8	CHAR	0
-			printf("%d: 'E'\n",i);
-					break;		printf("%d: 'E'\n",i);
-					break;		printf("%d: 'E'\n",i);
-					break;		printf("%d: 'E'\n",i);
-					break;		printf("%d: 'E'\n",i);
-					break;		printf("%d: 'E'\n",i);
-					break;
+|3,0,7,1,1,0,1540781517,""
+"8	LINE	0
 	
-|3,0,8,0,8,0,1540329514,"		printf(\"%d: 'E'\\n\",i);","				break;		printf(\"%d: 'E'\\n\",i);","				break;		printf(\"%d: 'E'\\n\",i);","				break;		printf(\"%d: 'E'\\n\",i);","				break;		printf(\"%d: 'E'\\n\",i);","				break;		printf(\"%d: 'E'\\n\",i);","				break;",""
-"9	LINE	0
-		return 0;
-|3,0,9,1,1,0,1540329068,"	return 0;"
+|3,0,8,1,1,0,1540781514,""
+"9	CHAR	0
+	noremap <F8> :call CompileRun()<CR>
+	vnoremap <F8> :call CompileRun()<CR>
+	inoremap <F8> <ESC>:call CompileRun()<CR>
+	cnoremap <F8> <ESC>:call CompileRun()<CR>
+|3,0,9,0,4,0,1540781513,"noremap <F8> :call CompileRun()<CR>","vnoremap <F8> :call CompileRun()<CR>","inoremap <F8> <ESC>:call CompileRun()<CR>","cnoremap <F8> <ESC>:call CompileRun()<CR>"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -337,13 +329,69 @@ $rsync -av --delete
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	]
-|3,1,36,0,1,0,1540332096,"]"
+	台
+|3,1,36,0,1,0,1540783447,"台"
 
 # Buffer list:
-%/etc/profile	21	10
+%~/.config/mpv/playlist.m3u8	44	0
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/mpv/playlist.m3u8
+	*	1540783459	0
+	"	44	0
+	^	5	20
+	.	5	20
+	+	2	0
+	+	1	0
+	+	1	26
+	+	1	74
+	+	3	0
+	+	3	20
+	+	7	0
+	+	3	17
+	+	4	89
+	+	4	0
+	+	7	0
+	+	6	51
+	+	5	0
+	+	5	20
+	+	1	0
+	+	5	20
+
+> ~/.vim/vimrc
+	*	1540782076	0
+	"	62	13
+	^	70	27
+	.	70	26
+	+	131	0
+	+	87	0
+	+	86	0
+	+	87	10
+	+	87	11
+	+	69	7
+	+	87	0
+	+	69	24
+	+	70	13
+	+	69	25
+	+	70	26
+	a	85	22
+
+> ~/playlist.m3u
+	*	1540782045	0
+	"	4	1
+
+> ~/test.sh
+	*	1540781954	0
+	"	1	0
+
+> ~/test.c
+	*	1540781934	0
+	"	1	0
+
+> /usr/share/doc/moc/config.example
+	*	1540777023	0
+	"	31	35
 
 > /etc/profile
 	*	1540602283	0
@@ -363,165 +411,3 @@ $rsync -av --delete
 > /tmp/yaourt-tmp-gaffey/aur-houdini/PKGBUILD
 	*	1540600753	0
 	"	90	16
-
-> ~/Desktop/Houdini17.0/crack/说明.txt
-	*	1540599760	0
-	"	15	31
-
-> ~/Code/C/ex13.c
-	*	1540590072	0
-	"	1	0
-	^	10	24
-	.	11	0
-	+	46	23
-	+	46	18
-	+	46	0
-	+	46	13
-	+	46	0
-	+	46	10
-	+	46	0
-	+	46	52
-	+	46	34
-	+	46	36
-	+	46	30
-	+	46	24
-	+	46	14
-	+	46	52
-	+	46	0
-	+	46	6
-	+	46	0
-	+	46	10
-	+	46	19
-	+	46	0
-	+	46	2
-	+	46	15
-	+	46	8
-	+	46	0
-	+	46	2
-	+	46	0
-	+	46	7
-	+	46	13
-	+	46	39
-	+	46	36
-	+	46	10
-	+	46	0
-	+	46	2
-	+	46	0
-	+	46	38
-	+	46	27
-	+	46	18
-	+	46	12
-	+	46	27
-	+	46	9
-	+	46	12
-	+	46	9
-	+	46	15
-	+	46	17
-	+	46	0
-	+	46	9
-	+	46	17
-	+	46	0
-	+	46	9
-	+	46	17
-	+	46	12
-	+	46	15
-	+	46	27
-	+	46	9
-	+	46	48
-	+	46	0
-	+	46	9
-	+	46	0
-	+	5	11
-	+	46	0
-	+	11	0
-	+	10	12
-	+	11	0
-	+	14	0
-	+	42	0
-	+	12	0
-	+	11	0
-	+	12	0
-	+	10	20
-	+	11	0
-	+	12	0
-	+	10	22
-	+	11	0
-	+	12	0
-	+	10	0
-	+	11	0
-	a	43	9
-
-> ~/Code/C/Makefile
-	*	1540331905	0
-	"	4	1
-	^	4	0
-	.	4	0
-	+	4	6
-	+	1	14
-	+	4	0
-
-> ~/NERD_tree_1
-	*	1540329827	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/Code/C/ex12.c
-	*	1540247869	0
-	"	17	0
-	^	7	17
-	.	7	7
-	+	2	0
-	+	18	0
-	+	5	0
-	+	16	0
-	+	18	0
-	+	5	11
-	+	14	17
-	+	14	0
-	+	14	16
-	+	14	32
-	+	14	0
-	+	14	19
-	+	14	25
-	+	14	21
-	+	14	0
-	+	14	24
-	+	14	36
-	+	14	2
-	+	14	5
-	+	14	0
-	+	14	23
-	+	14	18
-	+	14	0
-	+	5	13
-	+	14	0
-	+	6	10
-	+	5	0
-	+	6	52
-	+	7	34
-	+	7	36
-	+	7	30
-	+	7	24
-	+	7	14
-	+	14	52
-	+	14	0
-	+	5	6
-	+	5	0
-	+	7	10
-	+	7	19
-	+	14	0
-	+	7	2
-	+	7	15
-	+	7	8
-	+	7	0
-	+	7	2
-	+	7	0
-	+	8	0
-	+	7	0
-	+	13	0
-	+	7	7
-
-> /usr/share/alsa/alsa.conf
-	*	1540241977	0
-	"	1	0

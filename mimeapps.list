@@ -1,2 +1,4 @@
 [Added Associations]
 text/plain=leafpad.desktop;
+audio/x-mpegurl=leafpad.desktop;
+video/x-matroska=mpv.desktop;
