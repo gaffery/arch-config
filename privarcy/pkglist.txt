@@ -114,7 +114,6 @@ terminator
 texinfo
 thunar-archive-plugin
 tk
-transmission-gtk
 tumbler
 unrar
 unzip
