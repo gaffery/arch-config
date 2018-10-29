@@ -2,7 +2,6 @@
 cd /home/gaffey
 sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'System Backup!' '开始拷贝文件进入git项目...'
 # 用户隐藏外部文件备份
-rsync -av --delete .moc /home/gaffey/.config/privarcy/user/.
 rsync -av --delete .vim /home/gaffey/.config/privarcy/user/.
 rsync -av --delete .w3m /home/gaffey/.config/privarcy/user/.
 rsync -av --delete .ipython /home/gaffey/.config/privarcy/user/.

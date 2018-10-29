@@ -1,19 +1,7 @@
 #EXTM3U
-#MOCSERIAL: 512
-#EXTINF:-1,CRI轻松调频
-http://lhttp.qingting.fm/live/1006/64k.mp3
-#EXTINF:-1,CRI环球资讯
-http://lhttp.qingting.fm/live/1005/64k.mp3
-#EXTINF:-1,广东广播在线
-http://ctt.rgd.com.cn/hifi
-#EXTINF:-1,AsiaFM亚洲音乐台
-http://lhttp.qingting.fm/live/4581/64k.mp3
-#EXTINF:-1,银河台经典评书 
-http://lhttp.qingting.fm/live/4992/64k.mp3
-#EXTINF:-1,北京故事广播
-http://lhttp.qingting.fm/live/337/64k.mp3
-#EXTINF:-1,哈尔滨文艺广播
-http://lhttp.qingting.fm/live/20083/64k.mp3
+#MOCSERIAL: 256
+#EXTINF:-1,BBC广播
+http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk
 #EXTINF:-1,北京外语广播
 http://lhttp.qingting.fm/live/334/64k.mp3
 #EXTINF:-1,金荔枝经典流行音乐
@@ -38,3 +26,17 @@ http://lhttp.qingting.fm/live/4893/64k.mp3
 http://lhttp.qingting.fm/live/5022349/64k.mp3
 #EXTINF:-1,国乐悠扬
 http://lhttp.qingting.fm/live/20207766/64k.mp3
+#EXTINF:-1,CRI轻松调频
+http://lhttp.qingting.fm/live/1006/64k.mp3
+#EXTINF:-1,CRI环球资讯
+http://lhttp.qingting.fm/live/1005/64k.mp3
+#EXTINF:-1,广东广播在线
+http://ctt.rgd.com.cn/hifi
+#EXTINF:-1,AsiaFM亚洲音乐台
+http://lhttp.qingting.fm/live/4581/64k.mp3
+#EXTINF:-1,银河台经典评书 
+http://lhttp.qingting.fm/live/4992/64k.mp3
+#EXTINF:-1,北京故事广播
+http://lhttp.qingting.fm/live/337/64k.mp3
+#EXTINF:-1,哈尔滨文艺广播
+http://lhttp.qingting.fm/live/20083/64k.mp3

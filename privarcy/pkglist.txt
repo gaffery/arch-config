@@ -73,7 +73,6 @@ man-db
 man-pages
 mdadm
 mlocate
-moc
 mpg123
 mpv
 mypaint

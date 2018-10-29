@@ -7,4 +7,3 @@ menu_last_item   = M-d END
 toggle_read_tags = f
 toggle_mixer     = m
 go               = v ENTER
-delete_from_playlist = x
