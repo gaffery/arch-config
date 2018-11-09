@@ -3,10 +3,10 @@
     "description": "", 
     "group": "", 
     "notes": "", 
-    "parent_brush_name": "tanda/acrylic-03-with-water", 
+    "parent_brush_name": "kaerhon_v1/smudge_ink(0.7)_sm", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.44, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -30,15 +30,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.5205411255411257, 
+            "base_value": 0.11595239400863645, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.7661691542288557, 
+            "base_value": 0.8117647171020508, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.5254901960784314, 
+            "base_value": 0.9411764740943909, 
             "inputs": {}
         }, 
         "colorize": {
@@ -54,11 +54,11 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 6.0, 
+            "base_value": 2.2, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
-            "base_value": 6.0, 
+            "base_value": 0.51, 
             "inputs": {}
         }, 
         "dabs_per_second": {
@@ -71,44 +71,18 @@
         }, 
         "elliptical_dab_angle": {
             "base_value": 90.0, 
-            "inputs": {
-                "random": [
-                    [
-                        0.0, 
-                        -180.0
-                    ], 
-                    [
-                        1.0, 
-                        180.0
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "elliptical_dab_ratio": {
-            "base_value": 10.0, 
-            "inputs": {
-                "speed1": [
-                    [
-                        0.0, 
-                        -7.5
-                    ], 
-                    [
-                        0.962963, 
-                        -2.03125
-                    ], 
-                    [
-                        4.0, 
-                        0.0
-                    ]
-                ]
-            }
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "eraser": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.95, 
+            "base_value": 0.89, 
             "inputs": {}
         }, 
         "lock_alpha": {
@@ -128,12 +102,20 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 0.34293552812071326, 
+            "base_value": 1.0, 
             "inputs": {
                 "pressure": [
                     [
                         0.0, 
-                        1.0
+                        -0.989583
+                    ], 
+                    [
+                        0.38253, 
+                        -0.59375
+                    ], 
+                    [
+                        0.656627, 
+                        0.041667
                     ], 
                     [
                         1.0, 
@@ -143,7 +125,7 @@
             }
         }, 
         "opaque_linearize": {
-            "base_value": 0.9, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -155,8 +137,16 @@
                         0.0
                     ], 
                     [
-                        0.058642, 
-                        0.604167
+                        0.015, 
+                        0.0
+                    ], 
+                    [
+                        0.069277, 
+                        0.9375
+                    ], 
+                    [
+                        0.25, 
+                        1.0
                     ], 
                     [
                         1.0, 
@@ -174,16 +164,28 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 2.9, 
+            "base_value": 1.26, 
             "inputs": {
                 "pressure": [
                     [
                         0.0, 
-                        -2.6
+                        -1.86375
+                    ], 
+                    [
+                        0.237952, 
+                        -1.42
+                    ], 
+                    [
+                        0.5, 
+                        -0.355
+                    ], 
+                    [
+                        0.76506, 
+                        1.42
                     ], 
                     [
                         1.0, 
-                        0.433333
+                        2.13
                     ]
                 ]
             }
@@ -201,7 +203,7 @@
             "inputs": {}
         }, 
         "smudge": {
-            "base_value": 0.9, 
+            "base_value": 0.69, 
             "inputs": {}
         }, 
         "smudge_length": {
@@ -209,7 +211,7 @@
             "inputs": {}
         }, 
         "smudge_radius_log": {
-            "base_value": 0.0, 
+            "base_value": 0.93, 
             "inputs": {}
         }, 
         "snap_to_pixel": {
@@ -217,7 +219,7 @@
             "inputs": {}
         }, 
         "speed1_gamma": {
-            "base_value": 4.0, 
+            "base_value": 2.87, 
             "inputs": {}
         }, 
         "speed1_slowness": {
@@ -229,7 +231,7 @@
             "inputs": {}
         }, 
         "speed2_slowness": {
-            "base_value": 0.9, 
+            "base_value": 0.8, 
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {

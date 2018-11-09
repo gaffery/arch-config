@@ -36,6 +36,7 @@ complete -c curl -l dns-interface --description '(DNS) Tell curl to send outgoin
 complete -c curl -l dns-ipv4-addr --description '(DNS) Tell curl to bind to <ip-address> when making IPv4 DNS requests, so tha…'
 complete -c curl -l dns-ipv6-addr --description '(DNS) Tell curl to bind to <ip-address> when making IPv6 DNS requests, so tha…'
 complete -c curl -l dns-servers --description 'Set the list of DNS servers to be used instead of the system default.'
+complete -c curl -l doh-url --description '(all) Specifies which DNS-over-HTTPS (DOH) server to use to resolve hostnames…'
 complete -c curl -s D -l dump-header --description '(HTTP FTP) Write the received protocol headers to the specified file.'
 complete -c curl -l egd-file --description '(TLS) Specify the path name to the Entropy Gathering Daemon socket.'
 complete -c curl -l engine --description '(TLS) Select the OpenSSL crypto engine to use for cipher operations.'

@@ -2,3 +2,8 @@
 text/plain=leafpad.desktop;
 audio/x-mpegurl=leafpad.desktop;
 video/x-matroska=mpv.desktop;
+application/vnd.apple.mpegurl=leafpad.desktop;mpv.desktop;
+image/jpeg=gpicview.desktop;
+image/openraster=mypaint.desktop;
+text/x-lua=leafpad.desktop;
+application/json=leafpad.desktop;

@@ -57,6 +57,16 @@ Plug 'Yggdroot/indentLine'
 call plug#end()
 
 "自定义函数"
+func! Mpv()
+python << EOF
+import vim
+cur_line = vim.current.line
+delcomments = cur_line.split('#')[0]
+cururl = '!mpv '+delcomments.split(',')[-1]
+vim.command(cururl)
+EOF
+endfunc
+
 func! CompileRun()
 	exec "w"
 	silent !clear
@@ -67,7 +77,7 @@ func! CompileRun()
 	elseif &filetype == 'sh'
 		exec '!bash %'
 	elseif &filetype == 'conf' 
-		exec '!mpv ' getline('.')
+		exec 'call Mpv()'
 	endif
 endfunc
 

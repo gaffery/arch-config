@@ -1,5 +1,5 @@
 function fit_to_screen()
-    scale = 2561.0 / mp.get_property("width")
+    scale = 2562.0 / mp.get_property("width")
     mp.set_property("window-scale", scale)
 end
 
