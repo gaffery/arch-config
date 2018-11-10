@@ -5,8 +5,6 @@ sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus 
 rsync -av --delete .vim /home/gaffey/.config/privarcy/user/.
 rsync -av --delete .w3m /home/gaffey/.config/privarcy/user/.
 rsync -av --delete .ipython /home/gaffey/.config/privarcy/user/.
-rsync -av --delete .netease-musicbox /home/gaffey/.config/privarcy/user/.
-rsync -av --delete .local /home/gaffey/.config/privarcy/user/.
 # 自定义配置备份
 rsync -av --delete /etc/lxdm/lxdm.conf .config/privarcy/etc/.
 rsync -av --delete /etc/cron.d/* .config/privarcy/etc/.

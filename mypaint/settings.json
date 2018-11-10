@@ -321,21 +321,21 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#f0b42d", 
+  "colors.current": "#0f0900", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
-    "toolbar1_file": true, 
-    "toolbar1_view_modes": true, 
-    "toolbar1_edit": true, 
+    "toolbar1_file": false, 
+    "toolbar1_view_modes": false, 
+    "toolbar1_edit": false, 
     "toolbar1_blendmodes": false, 
     "toolbar1_view_manips": false, 
-    "toolbar1_view_resets": true, 
+    "toolbar1_view_resets": false, 
     "toolbar1_scrap": false, 
-    "toolbar1_linemodes": true
+    "toolbar1_linemodes": false
   }, 
   "brush_chooser.default.window_size": [
-    256, 
+    286, 
     294
   ], 
   "input.button_mapping": {
@@ -351,6 +351,7 @@
     "<Alt>Button1": "ColorPickMode"
   }, 
   "ui.dark_theme_variant": true, 
+  "scratchpad.last_opened": "/home/gaffey/.local/share/mypaint/scratchpads/autosave.ora", 
   "misc.context_restores_color": true, 
   "document.autosave_backups": true, 
   "color_chooser.default.window_size": [
@@ -368,17 +369,17 @@
   "ui.hide_subwindows_in_fullscreen": true, 
   "workspace.layout": {
     "fullscreen": false, 
-    "right_sidebar": {
+    "left_sidebar": {
       "h": 942, 
+      "w": 8, 
       "groups": [
         {
           "tools": [], 
           "active_page": -1
         }
-      ], 
-      "w": 8
+      ]
     }, 
-    "autohide": true, 
+    "autohide": false, 
     "maximized": false, 
     "position": {
       "y": 0, 
@@ -387,27 +388,27 @@
       "x": 0
     }, 
     "floating": [], 
-    "left_sidebar": {
+    "right_sidebar": {
       "h": 942, 
+      "w": 8, 
       "groups": [
         {
           "tools": [], 
           "active_page": -1
         }
-      ], 
-      "w": 8
+      ]
     }
   }, 
   "colors.history": [
-    "#ff00d3", 
-    "#ff03d4", 
-    "#f9ade7", 
-    "#f02d9b", 
-    "#f0b42d"
+    "#0f0900", 
+    "#170d01", 
+    "#110a00", 
+    "#281203", 
+    "#0f0800"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
-  "brush_chooser.default.selected_group": "set#3", 
+  "brush_chooser.default.selected_group": "set#4", 
   "input.global_pressure_mapping": [
     [
       0.0, 
@@ -419,13 +420,13 @@
     ]
   ], 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "tanda/acrylic-03-with-water", 
+  "brushmanager.selected_brush": "kaerhon_v1/paint_barrr_sm", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
-    "Virtual core XTEST pointer:mouse:2": {}, 
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
+    "Virtual core XTEST pointer:mouse:2": {}, 
     "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
   }, 
   "color_chooser.default.selected_adjuster": "WashColorChangerTool", 

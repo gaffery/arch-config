@@ -7,3 +7,4 @@ image/jpeg=gpicview.desktop;
 image/openraster=mypaint.desktop;
 text/x-lua=leafpad.desktop;
 application/json=leafpad.desktop;
+application/x-shellscript=leafpad.desktop;vim.desktop;

@@ -11,17 +11,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/server
+~MSle0/^$
 
 # Last Substitute Search Pattern:
-~MSle0&cp -p
+~MSle0~&^$
 
 # Last Substitute String:
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1541429959,,"w"
+|2,0,1541831254,,"w"
+::g/^$/d 
+|2,0,1541796416,,":g/^$/d "
+::g/^$/d
+|2,0,1541796407,,":g/^$/d"
+:e
+|2,0,1541777284,,"e"
 :W
 |2,0,1541428973,,"W"
 :saveas ~/Code/C/ex15.c
@@ -114,14 +120,10 @@ $rsync -av --delete
 |2,0,1540779848,,"echo ."
 :! echo .
 |2,0,1540779842,,"! echo ."
-:! ehco .
-|2,0,1540779832,,"! ehco ."
-:!mpv .
-|2,0,1540779778,,"!mpv ."
-:saveas Code/C/ex13.c
-|2,0,1540329817,,"saveas Code/C/ex13.c"
 
 # Search String History (newest to oldest):
+? ^$
+|2,1,1541796416,,"^$"
 ?/fastdir
 |2,1,1540776995,47,"fastdir"
 ?/Layouts
@@ -220,8 +222,6 @@ $rsync -av --delete
 |2,1,1529741837,,"\\<必要模块\\>"
 ?/w
 |2,1,1529694660,47,"w"
-?/border
-|2,1,1529237511,47,"border"
 
 # Expression History (newest to oldest):
 
@@ -243,73 +243,103 @@ $rsync -av --delete
 "0	LINE	0
 		printf("---\n");
 |3,0,0,1,1,0,1541428807,"	printf(\"---\\n\");"
-"1	LINE	0
-		prin
-|3,0,1,1,1,0,1541428810,"	prin"
+""1	LINE	0
+	dD
+	http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/6/b/6b98b062f77a8e84f53354190f96ac7a1476353709-1280-720-899-h264.mp4/master.m3u8
+	http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/7/f/7f478a87469d38746eec654880db3ea71476218102-1280-720-1287-h264.mp4/master.m3u8
+	http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/4/b/4bb3f1e47426bbffdade6f130a73bb081476324309-1280-720-1311-h264.mp4/master.m3u8
+	https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream1/playlist.m3u8
+	https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream2/playlist.m3u8
+	https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream3/playlist.m3u8
+	javvv1,https://d.eeoai.com/20180414/113/9/9.mp4
+	javvv2,https://d.eeoai.com/20180415/113/13/13.mp4
+	javvv3,https://d.eeoai.com/20180418/113/13/13.mp4
+	javvv4,https://d.eeoai.com/20180426/113/13/13.mp4
+	javvv5,https://d.eeoai.com/20180427/113/13/13.mp4
+	javvv6,https://d.eeoai.com/20180513/113/113/113.mp4
+	javvv7,https://d.eeoai.com/20180522/113/113/113.mp4
+	javvv8,https://d.eeoai.com/20180523/113/113/113.mp4
+	javvv9,https://d.eeoai.com/20180422/112/12/12.mp4
+	javvv10,https://d.eeoai.com/20180424/112/12/12.mp4
+	javvv11,https://d.eeoai.com/20180427/112/12/12.mp4
+	javvv12,https://d.eeoai.com/20180429/112/8/8.mp4
+	javvv13,https://d.eeoai.com/20180430/112/12/12.mp4
+	javvv14,https://d.eeoai.com/20180508/112/8/8.mp4
+	javvv15,https://d.eeoai.com/20180510/112/8/8.mp4
+	javvv16,https://d.eeoai.com/20180520/112/112/112.mp4
+	javvv17,https://d.738nn.com/20181016/100/3076/3076.mp4
+	javvv18,https://d.738nn.com/20180812/100/1404/1404.mp4
+	javvv19,https://d.738nn.com/20180812/100/9003/9003.mp4
+	javvv20,https://d.738nn.com/20180813/100/1001/1001.mp4
+	javvv21,http://cdn3.z2cy.com:8091/20180906/U3YJe9sO/index.m3u8
+	javvv22,http://cdn3.z2cy.com:8091/20180906/j7mAY9VA//index.m3u8  
+	javvv23,http://cdn3.z2cy.com:8091/20180905/ru9o3SIn/index.m3u8     
+	javvv24,http://cdn3.z2cy.com:8091/20180905/k3oZpDms/index.m3u8      
+	javvv25,http://cdn3.z2cy.com:8091/20180905/ENnxLKZb/index.m3u8
+	javvv26,http://cdn3.z2cy.com:8091/20180905/yz30LMbp/index.m3u8   
+	javvv27,http://cdn3.z2cy.com:8091/20180903/Kwb8yULX/index.m3u8   
+	javvv28,http://cdn3.z2cy.com:8091/20180904/Vc7l577z/index.m3u8   
+	javvv29,http://cdn3.z2cy.com:8091/20180904/28s1HXz3/index.m3u8     
+	javvv30,http://cdn3.z2cy.com:8091/20180904/3OAw7rmP/index.m3u8     
+	javvv31,http://cdn3.z2cy.com:8091/20180905/C1HkdyAk/index.m3u8
+	javvv32,http://v.6bzy.org:8100/20180617/MtdNP8Av/index.m3u8
+	javvv33,http://v.6bzy.org:8100/20180617/COg9UlW5/index.m3u8
+	javvv34,http://v.6bzy.org:8100/20180617/O9Ul3vvH/index.m3u8    
+	javvv35,http://v.6bzy.org:8100/20180617/VszsTacX/index.m3u8
+	javvv36,https://v-kankan.com/20181014/3693_c9cfa1c8/index.m3u8
+	javvv37,https://v-kankan.com/20181014/3691_8e845328/index.m3u8
+	javvv38,https://v-tudou.com/20181011/8614_38b75512/index.m3u8
+	javvv39,https://v-tudou.com/20181012/8671_e741775f/index.m3u8
+	javvv40,https://v-kankan.com/20180923/3056_207f6cad/index.m3u8
+	javvv41,https://d.738nn.com/20181011/111/3052/3052.mp4
+	javvv42,https://d.738nn.com/20180807/111/1111/1111.mp4
+	javvv43,https://d.eeoai.com/20181011/111/6339/6339.mp4
+	javvv44,https://d.eeoai.com/20181017/113/6372/6372.mp4
+	javvv45,https://d.eeoai.com/20180413/113/16/16.mp4
+	javun3,https://v-pptv.com/20181008/4289_337f0330/index.m3u8
+	javun4,http://logo.com-live-ko-com-kovin.com/76/hls/index.m3u8
+	javun5,https://v-kankan.com/20180930/3240_256df7fb/index.m3u8
+	javun6,https://yun.iixx-yun.com/20180128/u45eXL4e/index.m3u8
+	javun7,https://yun.iixx-yun.com/20180131/KZv42tTJ/index.m3u8
+|3,1,1,1,57,0,1541831976,"dD","http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/6/b/6b98b062f77a8e84f53354190f96ac7a1476353709-1280-720-899-h264.mp4/master.m3u8","http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/7/f/7f478a87469d38746eec654880db3ea71476218102-1280-720-1287-h264.mp4/master.m3u8","http://hls2e-vz-videos2.yjcontentdelivery.com/_hls/4/b/4bb3f1e47426bbffdade6f130a73bb081476324309-1280-720-1311-h264.mp4/master.m3u8",>74
+|<"https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream1/playlist.m3u8","https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream2/playlist.m3u8","https://5a2a51fc4cfde.streamlock.net/lfh/_definst_/Stream3/playlist.m3u8","javvv1,https://d.eeoai.com/20180414/113/9/9.mp4","javvv2,https://d.eeoai.com/20180415/113/13/13.mp4","javvv3,https://d.eeoai.com/20180418/113/13/13.mp4","javvv4,https://d.eeoai.com/20180426/113/13/13.mp4","javvv5,https://d.eeoai.com/20180427/113/13/13.mp4",>53
+|<"javvv6,https://d.eeoai.com/20180513/113/113/113.mp4","javvv7,https://d.eeoai.com/20180522/113/113/113.mp4","javvv8,https://d.eeoai.com/20180523/113/113/113.mp4","javvv9,https://d.eeoai.com/20180422/112/12/12.mp4","javvv10,https://d.eeoai.com/20180424/112/12/12.mp4","javvv11,https://d.eeoai.com/20180427/112/12/12.mp4","javvv12,https://d.eeoai.com/20180429/112/8/8.mp4","javvv13,https://d.eeoai.com/20180430/112/12/12.mp4","javvv14,https://d.eeoai.com/20180508/112/8/8.mp4",>50
+|<"javvv15,https://d.eeoai.com/20180510/112/8/8.mp4","javvv16,https://d.eeoai.com/20180520/112/112/112.mp4","javvv17,https://d.738nn.com/20181016/100/3076/3076.mp4","javvv18,https://d.738nn.com/20180812/100/1404/1404.mp4","javvv19,https://d.738nn.com/20180812/100/9003/9003.mp4","javvv20,https://d.738nn.com/20180813/100/1001/1001.mp4","javvv21,http://cdn3.z2cy.com:8091/20180906/U3YJe9sO/index.m3u8","javvv22,http://cdn3.z2cy.com:8091/20180906/j7mAY9VA//index.m3u8  ",>69
+|<"javvv23,http://cdn3.z2cy.com:8091/20180905/ru9o3SIn/index.m3u8     ","javvv24,http://cdn3.z2cy.com:8091/20180905/k3oZpDms/index.m3u8      ","javvv25,http://cdn3.z2cy.com:8091/20180905/ENnxLKZb/index.m3u8","javvv26,http://cdn3.z2cy.com:8091/20180905/yz30LMbp/index.m3u8   ","javvv27,http://cdn3.z2cy.com:8091/20180903/Kwb8yULX/index.m3u8   ","javvv28,http://cdn3.z2cy.com:8091/20180904/Vc7l577z/index.m3u8   ","javvv29,http://cdn3.z2cy.com:8091/20180904/28s1HXz3/index.m3u8     ",>69
+|<"javvv30,http://cdn3.z2cy.com:8091/20180904/3OAw7rmP/index.m3u8     ","javvv31,http://cdn3.z2cy.com:8091/20180905/C1HkdyAk/index.m3u8","javvv32,http://v.6bzy.org:8100/20180617/MtdNP8Av/index.m3u8","javvv33,http://v.6bzy.org:8100/20180617/COg9UlW5/index.m3u8","javvv34,http://v.6bzy.org:8100/20180617/O9Ul3vvH/index.m3u8    ","javvv35,http://v.6bzy.org:8100/20180617/VszsTacX/index.m3u8","javvv36,https://v-kankan.com/20181014/3693_c9cfa1c8/index.m3u8",>64
+|<"javvv37,https://v-kankan.com/20181014/3691_8e845328/index.m3u8","javvv38,https://v-tudou.com/20181011/8614_38b75512/index.m3u8","javvv39,https://v-tudou.com/20181012/8671_e741775f/index.m3u8","javvv40,https://v-kankan.com/20180923/3056_207f6cad/index.m3u8","javvv41,https://d.738nn.com/20181011/111/3052/3052.mp4","javvv42,https://d.738nn.com/20180807/111/1111/1111.mp4","javvv43,https://d.eeoai.com/20181011/111/6339/6339.mp4","javvv44,https://d.eeoai.com/20181017/113/6372/6372.mp4",>52
+|<"javvv45,https://d.eeoai.com/20180413/113/16/16.mp4","javun3,https://v-pptv.com/20181008/4289_337f0330/index.m3u8","javun4,http://logo.com-live-ko-com-kovin.com/76/hls/index.m3u8","javun5,https://v-kankan.com/20180930/3240_256df7fb/index.m3u8","javun6,https://yun.iixx-yun.com/20180128/u45eXL4e/index.m3u8","javun7,https://yun.iixx-yun.com/20180131/KZv42tTJ/index.m3u8"
 "2	LINE	0
 	
-	int can_print_it(char ch)
-	{
-		return isalpha(ch) || isblank(ch);
-	}
-	
-	void print_letters(char argv[])
-	{
-		for(int i = 0; argv[i] != '\0'; i++)
-		{
-			char ch = argv[i];
-			if(can_print_it(ch))
-			{
-				printf("'%c' == %d ", ch, ch);
-			}
-		}
-	
-		printf("\n");
-	}
-	
-	void print_arguments(int argc , char *argv[])
-	{
-		for(int i = 1; i < argc; i++)
-		{
-			if(i < 3)
-			{
-				print_letters(argv[i]);
-			}
-			else
-			{
-				break;
-			}
-		}
-	}
-	
-	int main(int argc, char *argv[])
-	{
-		print_arguments(argc, argv);
-		return 0;
-	}
-|3,0,2,1,40,0,1541428303,"","int can_print_it(char ch)","{","	return isalpha(ch) || isblank(ch);","}","","void print_letters(char argv[])","{","	for(int i = 0; argv[i] != '\\0'; i++)","	{","		char ch = argv[i];","		if(can_print_it(ch))","		{","			printf(\"'%c' == %d \", ch, ch);","		}","	}","","	printf(\"\\n\");","}","","void print_arguments(int argc , char *argv[])","{","	for(int i = 1; i < argc; i++)","	{","		if(i < 3)","		{","			print_letters(argv[i]);",>5
-|<"		}","		else","		{","			break;","		}","	}","}","","int main(int argc, char *argv[])","{","	print_arguments(argc, argv);","	return 0;","}"
+|3,0,2,1,1,0,1541831967,""
 "3	LINE	0
-	#include <ctype.h>
-|3,0,3,1,1,0,1541428302,"#include <ctype.h>"
+	
+|3,0,3,1,1,0,1541796407,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1541337701,""
+|3,0,4,1,1,0,1541796407,""
 "5	LINE	0
-				printf("\n");
-|3,0,5,1,1,0,1541085028,"			printf(\"\\n\");"
+	
+|3,0,5,1,1,0,1541796407,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1541084908,""
+|3,0,6,1,1,0,1541796407,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1541084771,""
+|3,0,7,1,1,0,1541796407,""
 "8	LINE	0
-			print_letters(argv[i]);
-|3,0,8,1,1,0,1541084769,"		print_letters(argv[i]);"
+	
+|3,0,8,1,1,0,1541796407,""
 "9	LINE	0
-		int i;
-|3,0,9,1,1,0,1541084709,"	int i;"
+	
+	FREEDAILYIPTV COM, http://vmdirect.co.uk:5001/live/Errol/Errol/6672.ts
+	FREEDAILYIPTV COM (1+),http://vmdirect.co.uk:5001/live/Errol/Errol/6695.ts
+	FREEDAILYIPTV COM (2+),http://vmdirect.co.uk:5001/live/Martin/Martin/6672.ts
+	FREEDAILYIPTV COM (3+),http://vmdirect.co.uk:5001/live/Martin/Martin/6678.ts
+	FREEDAILYIPTV COM (4+),http://vmdirect.co.uk:5001/live/Martin/Martin/6691.ts
+	FREEDAILYIPTV COM (5+),http://vmdirect.co.uk:5001/live/Martin/Martin/6692.ts
+|3,0,9,1,7,0,1541796401,"","FREEDAILYIPTV COM, http://vmdirect.co.uk:5001/live/Errol/Errol/6672.ts","FREEDAILYIPTV COM (1+),http://vmdirect.co.uk:5001/live/Errol/Errol/6695.ts","FREEDAILYIPTV COM (2+),http://vmdirect.co.uk:5001/live/Martin/Martin/6672.ts","FREEDAILYIPTV COM (3+),http://vmdirect.co.uk:5001/live/Martin/Martin/6678.ts","FREEDAILYIPTV COM (4+),http://vmdirect.co.uk:5001/live/Martin/Martin/6691.ts",>78
+|<"FREEDAILYIPTV COM (5+),http://vmdirect.co.uk:5001/live/Martin/Martin/6692.ts"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -365,61 +395,90 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-""-	CHAR	0
-	r
-|3,1,36,0,1,0,1541428970,"r"
+"-	CHAR	0
+	BRAZZERS,http://vmdirect.co.uk:5001/live/Errol/Errol/6693.ts
+|3,0,36,0,1,0,1541796131,"BRAZZERS,http://vmdirect.co.uk:5001/live/Errol/Errol/6693.ts"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	3	0
+%~/.config/mpv/playlist.m3u8	52	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1541769295	0
-	"	3	0
-	.	61	0
-	+	61	0
-	+	61	26
-	+	61	74
-	+	61	0
-	+	61	20
-	+	61	0
-	+	61	17
-	+	61	89
-	+	61	0
-	+	61	51
-	+	61	0
-	+	61	20
-	+	61	0
-	+	61	20
-	+	68	0
-	+	870	65
-	+	871	0
-	+	61	0
-	+	61	5
-	+	69	11
-	+	61	0
-	+	67	38
-	+	61	5
-	+	61	14
-	+	61	0
-	+	61	15
-	+	61	11
-	+	61	115
-	+	61	0
-	+	61	107
-	+	61	12
-	+	61	0
-	+	61	65
-	+	61	32
-	+	61	0
-	+	61	80
-	+	61	0
-	+	61	79
-	+	61	0
-	+	61	39
-	+	61	0
-	a	3	0
+	*	1541833264	0
+	"	52	0
+	^	57	0
+	.	57	0
+	+	58	0
+	+	58	26
+	+	58	74
+	+	58	0
+	+	58	20
+	+	58	0
+	+	58	17
+	+	58	89
+	+	58	0
+	+	58	51
+	+	58	0
+	+	58	20
+	+	58	0
+	+	58	20
+	+	64	0
+	+	697	65
+	+	698	0
+	+	58	0
+	+	58	5
+	+	64	11
+	+	58	0
+	+	63	38
+	+	58	5
+	+	58	14
+	+	58	0
+	+	58	15
+	+	58	11
+	+	58	115
+	+	58	0
+	+	58	107
+	+	58	12
+	+	58	0
+	+	58	65
+	+	58	32
+	+	58	0
+	+	58	80
+	+	58	0
+	+	58	79
+	+	58	0
+	+	58	39
+	+	58	0
+	+	64	47
+	+	109	0
+	+	64	0
+	+	109	0
+	+	64	0
+	+	2	0
+	+	79	0
+	+	109	0
+	+	110	0
+	+	113	60
+	+	114	0
+	+	58	0
+	+	64	0
+	+	57	0
+	a	2	0
+
+> ~/Desktop/awabest.com_javvv.txt
+	*	1541775570	0
+	"	9	0
+
+> ~/Desktop/list.txt
+	*	1541773877	0
+	"	1	84657
+
+> ~/NERD_tree_1
+	*	1541773847	0
+	"	12	0
+	.	1	0
+	+	1	0
 
 > ~/Code/C/ex15.c
 	*	1541429961	0
@@ -513,12 +572,6 @@ $rsync -av --delete
 	+	36	24
 	+	39	10
 	+	11	23
-
-> ~/NERD_tree_1
-	*	1541428284	0
-	"	4	0
-	.	1	0
-	+	1	0
 
 > ~/.config/privarcy/PreLogin
 	*	1541313716	0
@@ -643,11 +696,3 @@ $rsync -av --delete
 > ~/playlist.m3u
 	*	1540782045	0
 	"	4	1
-
-> ~/test.sh
-	*	1540781954	0
-	"	1	0
-
-> ~/test.c
-	*	1540781934	0
-	"	1	0

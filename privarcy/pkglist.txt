@@ -112,6 +112,7 @@ tar
 terminator
 texinfo
 thunar-archive-plugin
+thunar-volman
 tk
 tumbler
 unrar
@@ -129,7 +130,6 @@ xdot
 xf86-input-keyboard
 xf86-input-mouse
 xf86-input-wacom
-xfce4-notes-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager

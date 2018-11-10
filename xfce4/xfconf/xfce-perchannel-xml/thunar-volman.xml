@@ -19,4 +19,10 @@
   <property name="autoipod" type="empty">
     <property name="enabled" type="bool" value="false"/>
   </property>
+  <property name="autoplay-audio-cds" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
+  <property name="autoplay-video-cds" type="empty">
+    <property name="enabled" type="bool" value="false"/>
+  </property>
 </channel>
