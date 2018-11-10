@@ -7,6 +7,8 @@ automake
 bash
 binutils
 bison
+bluez
+bluez-utils
 bzip2
 chromium
 clang
@@ -88,6 +90,7 @@ patch
 pciutils
 perl
 pkgconf
+ppsspp
 procps-ng
 proxychains-ng
 psmisc
