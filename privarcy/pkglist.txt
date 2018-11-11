@@ -90,7 +90,6 @@ patch
 pciutils
 perl
 pkgconf
-ppsspp
 procps-ng
 proxychains-ng
 psmisc

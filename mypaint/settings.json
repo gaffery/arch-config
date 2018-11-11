@@ -321,7 +321,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#0f0900", 
+  "colors.current": "#ff3622", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
@@ -369,42 +369,42 @@
   "ui.hide_subwindows_in_fullscreen": true, 
   "workspace.layout": {
     "fullscreen": false, 
-    "left_sidebar": {
+    "right_sidebar": {
       "h": 942, 
-      "w": 8, 
       "groups": [
         {
           "tools": [], 
           "active_page": -1
         }
-      ]
+      ], 
+      "w": 8
     }, 
-    "autohide": false, 
+    "autohide": true, 
     "maximized": false, 
     "position": {
       "y": 0, 
       "h": 1054, 
       "w": 1276, 
-      "x": 0
+      "x": 253
     }, 
     "floating": [], 
-    "right_sidebar": {
+    "left_sidebar": {
       "h": 942, 
-      "w": 8, 
       "groups": [
         {
           "tools": [], 
           "active_page": -1
         }
-      ]
+      ], 
+      "w": 8
     }
   }, 
   "colors.history": [
-    "#0f0900", 
-    "#170d01", 
-    "#110a00", 
-    "#281203", 
-    "#0f0800"
+    "#f1f1f1", 
+    "#fffdfd", 
+    "#090909", 
+    "#ca9a21", 
+    "#ff3621"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
@@ -420,16 +420,16 @@
     ]
   ], 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "kaerhon_v1/paint_barrr_sm", 
+  "brushmanager.selected_brush": "kaerhon_v1/Sketcher2_sk", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
+    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}, 
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
-    "Virtual core XTEST pointer:mouse:2": {}, 
-    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
+    "Virtual core XTEST pointer:mouse:2": {}
   }, 
-  "color_chooser.default.selected_adjuster": "WashColorChangerTool", 
+  "color_chooser.default.selected_adjuster": "PaletteTool", 
   "view.real_alpha_checks": true, 
   "document.autosave_interval": 10, 
   "scratchpad.last_opened_scratchpad": "/home/gaffey/.local/share/mypaint/scratchpads/autosave.ora", 

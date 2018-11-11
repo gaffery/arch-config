@@ -64,6 +64,7 @@ cur_line = vim.current.line
 delcomments = cur_line.split('#')[0]
 cururl = '!mpv '+delcomments.split(',')[-1]
 vim.command(cururl)
+vim.command("execute line('.')+1")
 EOF
 endfunc
 
@@ -77,7 +78,7 @@ func! CompileRun()
 	elseif &filetype == 'sh'
 		exec '!bash %'
 	elseif &filetype == 'conf' 
-		exec 'call Mpv()'
+		exec 'call Mpv()' 
 	endif
 endfunc
 
