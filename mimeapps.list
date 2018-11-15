@@ -1,5 +1,5 @@
 [Added Associations]
-text/plain=leafpad.desktop;
+text/plain=leafpad.desktop;vim.desktop;
 audio/x-mpegurl=leafpad.desktop;
 video/x-matroska=mpv.desktop;
 application/vnd.apple.mpegurl=leafpad.desktop;mpv.desktop;

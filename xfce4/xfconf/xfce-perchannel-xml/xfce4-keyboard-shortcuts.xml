@@ -77,6 +77,7 @@
       <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
       <property name="KP_Add" type="string" value="amixer set PCM 5%+"/>
       <property name="KP_Subtract" type="string" value="amixer set PCM 5%-"/>
+      <property name="Scroll_Lock" type="string" value="mypaint"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

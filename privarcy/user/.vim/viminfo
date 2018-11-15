@@ -20,10 +20,56 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1541949119,,"q"
+:!proxychains mpv "http://liveal.quanmin.tv/live/2036316982.flv"
+|2,0,1542297545,,"!proxychains mpv \"http://liveal.quanmin.tv/live/2036316982.flv\""
+:!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv
+|2,0,1542297534,,"!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv"
+:!proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542297489,,"!proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542297476,,"!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:/
+|2,0,1542297451,,"/"
+:!proxychains mpv 
+|2,0,1542297438,,"!proxychains mpv "
+:!proxychains mpv Desktop/Video/Alice\ in\ Wonderland\ 3D\ 2010\ 1080p\ Half-SBS\ BluRay\ DTS\ x264-z-man.mkv
+|2,0,1542297411,,"!proxychains mpv Desktop/Video/Alice\\ in\\ Wonderland\\ 3D\\ 2010\\ 1080p\\ Half-SBS\\ BluRay\\ DTS\\ x264-z-man.mkv"
+:!proxychains mpv
+|2,0,1542297391,,"!proxychains mpv"
+:!bash proxychains mpv
+|2,0,1542297385,,"!bash proxychains mpv"
+:!bash "proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542297180,,"!bash \"proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:!bash "mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542297159,,"!bash \"mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542297080,,"!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:execute "proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542297032,,"execute \"proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:execute "proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542297025,,"execute \"proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:execute "proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542297004,,"execute \"proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:!proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296964,,"!proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:!proxychains "mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+|2,0,1542296943,,"!proxychains \"mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
+:!proxychains !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296919,,"!proxychains !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:!SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296881,,"!SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:!SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296873,,"!SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296865,,"SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296855,,"SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
+:http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,0,1542296843,,"http://data1.cache.directory/media/videos/iphone/4350.mp4"
 :w
-|2,0,1541927918,,"w"
+|2,0,1542296418,,"w"
+:q
+|2,0,1542295800,,"q"
 :source .vim/vimrc
 |2,0,1541876337,,"source .vim/vimrc"
 :execute line('.')+1
@@ -74,54 +120,14 @@ $rsync -av --delete
 |2,0,1541075369,,"saveas Code/C/ex14.c"
 :PlugUpdate
 |2,0,1541074765,,"PlugUpdate"
-:PlugInstall
-|2,0,1541074757,,"PlugInstall"
-:call Mpv()
-|2,0,1540984530,,"call Mpv()"
-:!Mpv
-|2,0,1540984522,,"!Mpv"
-:Mpv()
-|2,0,1540984515,,"Mpv()"
-:w!
-|2,0,1540803111,,"w!"
-:filetype
-|2,0,1540781880,,"filetype"
-:! mpv .
-|2,0,1540779520,,"! mpv ."
-:! mpv 
-|2,0,1540779460,,"! mpv "
-:exe "!mpv " . getline(".")
-|2,0,1540781263,,"exe \"!mpv \" . getline(\".\")"
-:exe "!mpv " . getline(".") &
-|2,0,1540781250,,"exe \"!mpv \" . getline(\".\") &"
-:exe "!mpv " . getline(".")&
-|2,0,1540781243,,"exe \"!mpv \" . getline(\".\")&"
-:exe "!mpv " .line(".")
-|2,0,1540780780,,"exe \"!mpv \" .line(\".\")"
-:exe "!echo " .line(".")
-|2,0,1540780770,,"exe \"!echo \" .line(\".\")"
-:getline('.')|xargs mpv
-|2,0,1540780684,,"getline('.')|xargs mpv"
-:getline('.')
-|2,0,1540780672,,"getline('.')"
-:mpv getline('.')
-|2,0,1540780662,,"mpv getline('.')"
-:mpv `echo getline('.')`
-|2,0,1540780652,,"mpv `echo getline('.')`"
-:mpv `getline('.')`
-|2,0,1540780642,,"mpv `getline('.')`"
-:printf getline('.')
-|2,0,1540780621,,"printf getline('.')"
-:!mpv getline('.')
-|2,0,1540780594,,"!mpv getline('.')"
-:echo getline('.')
-|2,0,1540780575,,"echo getline('.')"
-:.w !mpv 
-|2,0,1540780482,,".w !mpv "
-:.w !mpv -
-|2,0,1540780475,,".w !mpv -"
 
 # Search String History (newest to oldest):
+?/http://liveal.quanmin.tv/live/2036316982.flv
+|2,1,1542297522,47,"http://liveal.quanmin.tv/live/2036316982.flv"
+?/http://data1.cache.directory/media/videos/iphone/4350.mp4
+|2,1,1542297469,47,"http://data1.cache.directory/media/videos/iphone/4350.mp4"
+? \<http\>
+|2,1,1542297442,,"\\<http\\>"
 ? ^$
 |2,1,1541796416,,"^$"
 ?/fastdir
@@ -216,12 +222,6 @@ $rsync -av --delete
 |2,1,1529932300,47,"softtabstop"
 ?/autoindent
 |2,1,1529932104,47,"autoindent"
-?/soft
-|2,1,1529931991,47,"soft"
-? \<必要模块\>
-|2,1,1529741837,,"\\<必要模块\\>"
-?/w
-|2,1,1529694660,47,"w"
 
 # Expression History (newest to oldest):
 
@@ -240,32 +240,63 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	vim.command(cururl)
-|3,0,0,1,1,0,1541873201,"vim.command(cururl)"
-""1	LINE	0
-	海看大片,http://223.99.186.132:6610/shandong_cabletv.live.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000407/index.m3u8
-|3,1,1,1,1,0,1541927899,"海看大片,http://223.99.186.132:6610/shandong_cabletv.live.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000407/index.m3u8"
+"0	CHAR	0
+	http://liveal.quanmin.tv/live/2036316982.flv
+|3,0,0,0,1,0,1542297516,"http://liveal.quanmin.tv/live/2036316982.flv"
+"1	LINE	0
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+|3,0,1,1,29,0,1542295702,"","","","","","","","","","","","","","","","","","","","","","","","","","","","",""
 "2	LINE	0
-	电影轮播2,http://aldirect.hls.huya.com/huyalive/94525224-2460685722-10568564701724147712-2789
-|3,0,2,1,1,0,1541876724,"电影轮播2,http://aldirect.hls.huya.com/huyalive/94525224-2460685722-10568564701724147712-2789"
+	海看大片,http://223.99.186.132:6610/shandong_cabletv.live.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000407/index.m3u8
+|3,0,2,1,1,0,1541927899,"海看大片,http://223.99.186.132:6610/shandong_cabletv.live.zte.com/223.99.253.7:8081/00/SNM/CHANNEL00000407/index.m3u8"
 "3	LINE	0
-	import os
-|3,0,3,1,1,0,1541876330,"import os"
+	电影轮播2,http://aldirect.hls.huya.com/huyalive/94525224-2460685722-10568564701724147712-2789
+|3,0,3,1,1,0,1541876724,"电影轮播2,http://aldirect.hls.huya.com/huyalive/94525224-2460685722-10568564701724147712-2789"
 "4	LINE	0
+	import os
+|3,0,4,1,1,0,1541876330,"import os"
+"5	LINE	0
 	next_num = vim.num
-|3,0,4,1,1,0,1541874872,"next_num = vim.num"
-"5	CHAR	0
+|3,0,5,1,1,0,1541874872,"next_num = vim.num"
+"6	CHAR	0
 	xt_num = vim.num
 	v
-|3,0,5,0,2,0,1541874869,"xt_num = vim.num","v"
-"6	LINE	0
-	num = str(int(vim.current.line)+1)
-|3,0,6,1,1,0,1541874056,"num = str(int(vim.current.line)+1)"
+|3,0,6,0,2,0,1541874869,"xt_num = vim.num","v"
 "7	LINE	0
+	num = str(int(vim.current.line)+1)
+|3,0,7,1,1,0,1541874056,"num = str(int(vim.current.line)+1)"
+"8	LINE	0
 	
-|3,0,7,1,1,0,1541872956,""
-"8	BLOCK	0
+|3,0,8,1,1,0,1541872956,""
+"9	BLOCK	0
 	,
 	,
 	,
@@ -275,52 +306,7 @@ $rsync -av --delete
 	,
 	,
 	,
-|3,0,8,2,9,0,1541872943,",",",",",",",",",",",",",",",",","
-"9	BLOCK	1
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-	，
-|3,0,9,2,43,1,1541872899,"，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，","，"
+|3,0,9,2,9,0,1541872943,",",",",",",",",",",",",",",",",","
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -376,20 +362,55 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	next_num
-|3,0,36,0,1,0,1541874690,"next_num"
+""-	CHAR	0
+	proxyuhttp
+|3,1,36,0,1,0,1542296011,"proxyuhttp"
 
 # Buffer list:
-%~/Code/C/ex15.c	15	14
+%~/.vim/vimrc	71	17
 
 # History of marks within files (newest to oldest):
 
+> ~/.vim/vimrc
+	*	1542297566	0
+	"	71	17
+	^	65	24
+	.	65	0
+	+	142	0
+	+	142	10
+	+	142	11
+	+	142	7
+	+	142	0
+	+	142	24
+	+	142	13
+	+	142	25
+	+	142	26
+	+	142	19
+	+	142	21
+	+	142	0
+	+	67	13
+	+	67	0
+	+	67	6
+	+	67	14
+	+	67	12
+	+	66	24
+	+	67	19
+	+	66	17
+	+	67	19
+	+	66	0
+	+	67	32
+	+	62	8
+	+	63	21
+	+	62	0
+	+	63	0
+	+	65	0
+	a	67	21
+
 > ~/.config/mpv/playlist.m3u8
-	*	1541956735	0
-	"	28	0
-	^	54	15
-	.	2	0
+	*	1542297564	0
+	"	11	13
+	^	86	17
+	.	87	0
 	+	85	29
 	+	85	27
 	+	85	29
@@ -471,6 +492,10 @@ $rsync -av --delete
 	+	55	0
 	+	10	0
 	+	2	0
+	+	86	2
+	+	88	0
+	+	86	16
+	+	87	0
 
 > ~/Code/C/ex15.c
 	*	1541949113	0
@@ -564,39 +589,6 @@ $rsync -av --delete
 	+	36	24
 	+	39	10
 	+	11	23
-
-> ~/.vim/vimrc
-	*	1541876332	0
-	"	63	0
-	.	63	0
-	+	142	0
-	+	142	10
-	+	142	11
-	+	142	7
-	+	142	0
-	+	142	24
-	+	142	13
-	+	142	25
-	+	142	26
-	+	142	19
-	+	142	21
-	+	142	0
-	+	67	13
-	+	67	0
-	+	67	6
-	+	67	14
-	+	67	12
-	+	66	24
-	+	67	19
-	+	66	17
-	+	67	19
-	+	66	0
-	+	67	32
-	+	62	8
-	+	63	21
-	+	62	0
-	+	63	0
-	a	67	21
 
 > ~/Desktop/awabest.com_javvv.txt
 	*	1541775570	0
