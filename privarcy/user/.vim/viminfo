@@ -20,6 +20,10 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1542299992,,"q"
+:w
+|2,0,1542299902,,"w"
 :!proxychains mpv "http://liveal.quanmin.tv/live/2036316982.flv"
 |2,0,1542297545,,"!proxychains mpv \"http://liveal.quanmin.tv/live/2036316982.flv\""
 :!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv
@@ -66,10 +70,6 @@ $rsync -av --delete
 |2,0,1542296855,,"SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
 :http://data1.cache.directory/media/videos/iphone/4350.mp4
 |2,0,1542296843,,"http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:w
-|2,0,1542296418,,"w"
-:q
-|2,0,1542295800,,"q"
 :source .vim/vimrc
 |2,0,1541876337,,"source .vim/vimrc"
 :execute line('.')+1
@@ -363,52 +363,17 @@ $rsync -av --delete
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 ""-	CHAR	0
-	proxyuhttp
-|3,1,36,0,1,0,1542296011,"proxyuhttp"
+	v
+|3,1,36,0,1,0,1542298294,"v"
 
 # Buffer list:
-%~/.vim/vimrc	71	17
+%~/.config/mpv/playlist.m3u8	20	0
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/vimrc
-	*	1542297566	0
-	"	71	17
-	^	65	24
-	.	65	0
-	+	142	0
-	+	142	10
-	+	142	11
-	+	142	7
-	+	142	0
-	+	142	24
-	+	142	13
-	+	142	25
-	+	142	26
-	+	142	19
-	+	142	21
-	+	142	0
-	+	67	13
-	+	67	0
-	+	67	6
-	+	67	14
-	+	67	12
-	+	66	24
-	+	67	19
-	+	66	17
-	+	67	19
-	+	66	0
-	+	67	32
-	+	62	8
-	+	63	21
-	+	62	0
-	+	63	0
-	+	65	0
-	a	67	21
-
 > ~/.config/mpv/playlist.m3u8
-	*	1542297564	0
-	"	11	13
+	*	1542383258	0
+	"	20	0
 	^	86	17
 	.	87	0
 	+	85	29
@@ -496,6 +461,47 @@ $rsync -av --delete
 	+	88	0
 	+	86	16
 	+	87	0
+
+> ~/.vim/vimrc
+	*	1542299902	0
+	"	66	3
+	^	65	14
+	.	65	13
+	+	142	0
+	+	142	10
+	+	142	11
+	+	142	7
+	+	142	0
+	+	142	24
+	+	142	13
+	+	142	25
+	+	142	26
+	+	142	19
+	+	142	21
+	+	142	0
+	+	67	13
+	+	67	0
+	+	67	6
+	+	67	14
+	+	67	12
+	+	66	24
+	+	67	19
+	+	66	17
+	+	67	19
+	+	66	0
+	+	67	32
+	+	62	8
+	+	63	21
+	+	62	0
+	+	63	0
+	+	65	13
+	a	67	21
+
+> ~/NERD_tree_1
+	*	1542299884	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/Code/C/ex15.c
 	*	1541949113	0
@@ -597,12 +603,6 @@ $rsync -av --delete
 > ~/Desktop/list.txt
 	*	1541773877	0
 	"	1	84657
-
-> ~/NERD_tree_1
-	*	1541773847	0
-	"	12	0
-	.	1	0
-	+	1	0
 
 > ~/.config/privarcy/PreLogin
 	*	1541313716	0
