@@ -8,3 +8,7 @@ image/openraster=mypaint.desktop;
 text/x-lua=leafpad.desktop;
 application/json=leafpad.desktop;
 application/x-shellscript=leafpad.desktop;vim.desktop;
+text/x-log=leafpad.desktop;vim.desktop;
+image/png=gpicview.desktop;
+text/x-python3=leafpad.desktop;
+text/x-python=leafpad.desktop;

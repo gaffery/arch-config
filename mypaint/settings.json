@@ -321,7 +321,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#000000", 
+  "colors.current": "#ff3622", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
@@ -385,7 +385,7 @@
       "y": 0, 
       "h": 1054, 
       "w": 1276, 
-      "x": 0
+      "x": 1037
     }, 
     "floating": [], 
     "right_sidebar": {
@@ -400,11 +400,11 @@
     }
   }, 
   "colors.history": [
-    "#ffc38f", 
-    "#2b2117", 
-    "#d5a377", 
-    "#d7a477", 
-    "#000000"
+    "#ff3621", 
+    "#ff3621", 
+    "#ff3621", 
+    "#ff3621", 
+    "#ff3621"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
@@ -420,14 +420,14 @@
     ]
   ], 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "kaerhon_v1/Dirty_Transparent_sk", 
+  "brushmanager.selected_brush": "kaerhon_v1/extreme_round_l", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
+    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}, 
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
-    "Virtual core XTEST pointer:mouse:2": {}, 
-    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
+    "Virtual core XTEST pointer:mouse:2": {}
   }, 
   "color_chooser.default.selected_adjuster": "PaletteTool", 
   "view.real_alpha_checks": true, 
