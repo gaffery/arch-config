@@ -13,3 +13,5 @@ image/png=gpicview.desktop;
 text/x-python3=leafpad.desktop;
 text/x-python=leafpad.desktop;
 text/x-matlab=leafpad.desktop;
+text/x-opml+xml=chromium.desktop;
+application/x-xbel=chromium.desktop;

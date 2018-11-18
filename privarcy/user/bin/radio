@@ -37,7 +37,7 @@ CONFIG_DEFAULT = {
         'end': 'KEY_END',
         'pageup': 'KEY_PPAGE',
         'pagedown': 'KEY_NPAGE',
-        'enter': 'KEY_ENTER',
+        'enter': ' ',
         'stop': 'v',
         'exit': 'q',
         'favourite': 'f'
