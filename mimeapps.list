@@ -12,3 +12,4 @@ text/x-log=leafpad.desktop;vim.desktop;
 image/png=gpicview.desktop;
 text/x-python3=leafpad.desktop;
 text/x-python=leafpad.desktop;
+text/x-matlab=leafpad.desktop;

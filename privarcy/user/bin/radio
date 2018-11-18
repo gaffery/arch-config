@@ -33,8 +33,8 @@ CONFIG_DEFAULT = {
     'keymap.vim': {
         'up': 'k',
         'down': 'j',
-        'start': 'h',
-        'end': 'l',
+        'start': 'KEY_HOME',
+        'end': 'KEY_END',
         'pageup': 'KEY_PPAGE',
         'pagedown': 'KEY_NPAGE',
         'enter': 'KEY_ENTER',
