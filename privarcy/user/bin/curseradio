@@ -7,6 +7,7 @@ import pathlib
 import xdg.BaseDirectory
 import configparser
 import re
+import pickle
 
 CONFIG_DEFAULT = {
     'opml': {
@@ -21,8 +22,8 @@ CONFIG_DEFAULT = {
     'keymap.default': {
         'up': 'KEY_UP',
         'down': 'KEY_DOWN',
-        'start': 'KEY_HOME',
-        'end': 'KEY_END',
+        'left': 'KEY_HOME',
+        'right': 'KEY_END',
         'pageup': 'KEY_PPAGE',
         'pagedown': 'KEY_NPAGE',
         'enter': 'KEY_ENTER',
@@ -33,12 +34,12 @@ CONFIG_DEFAULT = {
     'keymap.vim': {
         'up': 'k',
         'down': 'j',
-        'start': 'KEY_HOME',
-        'end': 'KEY_END',
+        'left': 'h',
+        'right': 'l',
         'pageup': 'KEY_PPAGE',
         'pagedown': 'KEY_NPAGE',
         'enter': ' ',
-        'stop': 'v',
+        'stop': 'x',
         'exit': 'q',
         'favourite': 'f'
     }
@@ -313,7 +314,7 @@ class OPMLBrowser:
             keysrc = self.config[section]
         else:
             keysrc = self.config['keymap.default']
-        for key in ('up', 'down', 'start', 'end', 'pageup', 'pagedown', 'enter', 'stop', 'exit', 'favourite'):
+        for key in ('up', 'down', 'left', 'right', 'pageup', 'pagedown', 'enter', 'stop', 'exit', 'favourite'):
             value = keysrc.get(key, self.config['keymap.default'][key])
             if value.startswith('KEY_'):
                 keymap[key] = getattr(curses, value)
@@ -351,14 +352,16 @@ class OPMLBrowser:
         self.screen.refresh()
         curses.doupdate()
 
+ 
+
     def move(self, rel=None, to=None):
         """
         Recalculate screen scrolling after movement.
         """
         if to is not None:
-            if to == "start":
+            if to == "left":
                 target = 0
-            elif to == "end":
+            elif to == "right":
                 target = len(self.flat) - 1
         elif rel is not None:
             target = self.top + self.cursor + rel
@@ -376,6 +379,34 @@ class OPMLBrowser:
         else:
             self.cursor = target - self.top
 
+    def display_layer(self, direction=None, msg=None):
+        if direction == 'left':
+            pass
+        if direction == 'right':
+            self.screen.clear()
+
+            width0 = 6 * (self.maxx - 10) // 10
+            width1 = 4 * (self.maxx - 10) // 10
+
+            showobjs = self.flat[self.top:self.top + self.maxy - 1]
+            for i, (obj, depth) in enumerate(showobjs):
+                text = obj.render()
+                if i == self.cursor:
+                    style = curses.color_pair(1)
+                else:
+                    style = curses.A_NORMAL
+                self.screen.addstr(i, depth * 2, text[0][:width0 - depth * 2], style)
+                self.screen.addstr(i, width0 + 2, text[1][:width1 - 4])
+                self.screen.addstr(i, width0 + width1, text[2][:4])
+                self.screen.addstr(i, width0 + width1 + 5, text[3][:5])
+
+            if msg is not None:
+                self.screen.addstr(self.maxy - 1, 0, msg[:self.maxx - 1], curses.A_BOLD)
+            else:
+                self.screen.addstr(self.maxy - 1, 0, self.status[:self.maxx - 1], curses.A_BOLD)
+            self.screen.refresh()
+            curses.doupdate()
+
     def interact(self):
         """
         Main loop. Listen for keyboard input and respond.
@@ -388,10 +419,18 @@ class OPMLBrowser:
                 self.move(rel=-1)
             elif ch == self.keymap['down']:
                 self.move(rel=1)
-            elif ch == self.keymap['start']:
-                self.move(to="start")
-            elif ch == self.keymap['end']:
-                self.move(to="end")
+
+            elif ch == self.keymap['left']:
+                for msg in self.selected.activate():
+                    if isinstance(msg, list):
+                        self.display_layer(direction='left', msg=msg)
+                self.flat = self.root.flatten([])
+            elif ch == self.keymap['right']:
+                for msg in self.selected.activate():
+                    if isinstance(msg, str):
+                        self.display_layer(direction='right', msg=msg)
+                self.flat = self.root.flatten([])
+
             elif ch == self.keymap['pageup']:  # page up
                 self.move(rel=-self.maxy)
             elif ch == self.keymap['pagedown']:  # page down
@@ -404,8 +443,9 @@ class OPMLBrowser:
                         if self.child is not None:
                             self.child.terminate()
                             self.child.wait()
-
-                        command = [self.config['playback']['command']] + msg
+                        parm = ['--no-video']
+                        command = [self.config['playback']['command']] + parm + msg
+                        pickle.dump(command, open('/home/gaffey/command', 'wb'))
                         self.child = subprocess.Popen(
                             command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL)
                         self.status = "Playing {}".format(self.selected.text)

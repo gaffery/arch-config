@@ -20,10 +20,10 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1542714604,,"q"
 :w
 |2,0,1542559889,,"w"
-:q
-|2,0,1542558369,,"q"
 :PlugUpdate
 |2,0,1542446737,,"PlugUpdate"
 :PlugInstall
@@ -330,66 +330,21 @@ $rsync -av --delete
 |3,0,36,0,1,0,1542559275,"KEY_ENTER"
 
 # Buffer list:
-%~/.config/privarcy/user/bin/radio	288	33
+%~/.config/mpv/playlist.m3u8	6	0
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/privarcy/user/bin/radio
-	*	1542560208	0
-	"	288	33
-	^	36	8
-	.	38	0
-	+	38	0
-	+	38	8
-	+	38	0
-	+	40	18
-	+	38	18
-	+	38	16
-	+	40	18
-	+	36	7
-	+	38	0
-	+	37	0
-	+	38	0
+> ~/curseradio
+	*	1542714602	0
+	"	1	0
 
-> ~/curseradio.py
-	*	1542555976	0
-	"	326	0
-	^	326	38
-	.	326	37
-	+	325	0
-	+	326	37
-
-> ~/NERD_tree_1
-	*	1542554915	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/curseradio/curseradio/__init__.py
-	*	1542551380	0
-	"	4	30
-
-> ~/curseradio/curseradio/curseradio.py
-	*	1542551348	0
-	"	433	0
-	.	435	0
-	+	435	25
-	+	434	26
-	+	435	0
-
-> ~/curseradio/NERD_tree_1
-	*	1542551326	0
-	"	6	9
-	.	1	0
-	+	1	0
-
-> ~/curseradio/curseradio/__main__.py
-	*	1542551323	0
-	"	8	9
+> ~/which
+	*	1542714583	0
+	"	1	0
 
 > ~/.config/mpv/playlist.m3u8
-	*	1542551230	0
-	"	78	0
+	*	1542714430	0
+	"	6	0
 	.	1	0
 	+	1295	29
 	+	1295	27
@@ -476,10 +431,55 @@ $rsync -av --delete
 	+	1295	0
 	+	1	0
 
-> ~/+ tet.txt
-	*	1542392314	0
-	"	1	0
+> /usr/share/alsa/alsa.conf
+	*	1542713961	0
+	"	5	0
 
-> ~/tet.txt
-	*	1542392282	0
-	"	1	0
+> ~/.config/privarcy/user/bin/radio
+	*	1542560208	0
+	"	288	33
+	^	36	8
+	.	38	0
+	+	38	0
+	+	38	8
+	+	38	0
+	+	40	18
+	+	38	18
+	+	38	16
+	+	40	18
+	+	36	7
+	+	38	0
+	+	37	0
+	+	38	0
+
+> ~/curseradio.py
+	*	1542555976	0
+	"	326	0
+	^	326	38
+	.	326	37
+	+	325	0
+	+	326	37
+
+> ~/NERD_tree_1
+	*	1542554915	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/curseradio/curseradio/__init__.py
+	*	1542551380	0
+	"	4	30
+
+> ~/curseradio/curseradio/curseradio.py
+	*	1542551348	0
+	"	433	0
+	.	435	0
+	+	435	25
+	+	434	26
+	+	435	0
+
+> ~/curseradio/NERD_tree_1
+	*	1542551326	0
+	"	6	9
+	.	1	0
+	+	1	0
