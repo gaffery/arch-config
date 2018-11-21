@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/favourite
+~MSle0~/selected
 
 # Last Substitute Search Pattern:
 ~MSle0&mms
@@ -20,10 +20,18 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1542714604,,"q"
 :w
-|2,0,1542559889,,"w"
+|2,0,1542807543,,"w"
+:selected
+|2,0,1542807024,,"selected"
+:nohl
+|2,0,1542806802,,"nohl"
+:nosl
+|2,0,1542806679,,"nosl"
+:q
+|2,0,1542721087,,"q"
+:nohlsearch
+|2,0,1542717293,,"nohlsearch"
 :PlugUpdate
 |2,0,1542446737,,"PlugUpdate"
 :PlugInstall
@@ -112,16 +120,50 @@ $rsync -av --delete
 |2,0,1541874911,,"echo line(\".\")"
 :e!
 |2,0,1541874856,,"e!"
-:echo lein(".")
-|2,0,1541874830,,"echo lein(\".\")"
-:<C-R>=virtcol('.')<CR>
-|2,0,1541874795,,"<C-R>=virtcol('.')<CR>"
-:line(".")
-|2,0,1541874739,,"line(\".\")"
-:line
-|2,0,1541874728,,"line"
 
 # Search String History (newest to oldest):
+?/selected
+|2,1,1542807034,47,"selected"
+?/collapsed
+|2,1,1542806880,47,"collapsed"
+?/collapsed 
+|2,1,1542806849,47,"collapsed "
+?/from_xml
+|2,1,1542806769,47,"from_xml"
+?/OPMLOutline
+|2,1,1542806655,47,"OPMLOutline"
+?/self.selected
+|2,1,1542806462,47,"self.selected"
+?/self.selected.activate
+|2,1,1542806423,47,"self.selected.activate"
+? \<OPMLAudio\>
+|2,1,1542812075,,"\\<OPMLAudio\\>"
+?/ready 
+|2,1,1542810826,47,"ready "
+? \<self\>
+|2,1,1542808061,,"\\<self\\>"
+? \<if\>
+|2,1,1542807909,,"\\<if\\>"
+?/ready
+|2,1,1542807806,47,"ready"
+?/rel
+|2,1,1542721855,47,"rel"
+?/self.root.
+|2,1,1542718519,47,"self.root."
+?/root
+|2,1,1542718469,47,"root"
+?/self.root
+|2,1,1542718455,47,"self.root"
+?/start
+|2,1,1542718078,47,"start"
+?/nohi
+|2,1,1542716790,47,"nohi"
+?/enter
+|2,1,1542716760,47,"enter"
+?/msg
+|2,1,1542715651,47,"msg"
+?/playb
+|2,1,1542714692,47,"playb"
 ?/favourite
 |2,1,1542560083,47,"favourite"
 ?/command
@@ -180,48 +222,6 @@ $rsync -av --delete
 |2,1,1538839466,,"group-title="
 ? radio=true
 |2,1,1538839358,,"radio=true"
-??scalar_summary
-|2,1,1538839353,63,"scalar_summary"
-?/%s
-|2,1,1538839296,47,"%s"
-?? 
-|2,1,1538669345,63," "
-? \V:
-|2,1,1538670084,,"\\V:"
-?/cv2
-|2,1,1538657016,47,"cv2"
-? scalar_summary
-|2,1,1538573510,,"scalar_summary"
-? histogram_summary
-|2,1,1538573432,,"histogram_summary"
-?/hisg
-|2,1,1538573298,47,"hisg"
-? @$
-|2,1,1538221788,,"@$"
-?/im
-|2,1,1538219433,47,"im"
-?/set
-|2,1,1538219472,47,"set"
-? \<endfunction\>
-|2,1,1538053271,,"\\<endfunction\\>"
-?/error
-|2,1,1538047535,47,"error"
-? true
-|2,1,1530285047,,"true"
-? extend
-|2,1,1530284898,,"extend"
-? map
-|2,1,1530284432,,"map"
-? bpy
-|2,1,1530284079,,"bpy"
-? arr
-|2,1,1530284018,,"arr"
-?/t
-|2,1,1530282604,47,"t"
-??as
-|2,1,1530282591,63,"as"
-??bpy
-|2,1,1530282395,63,"bpy"
 
 # Expression History (newest to oldest):
 
@@ -240,36 +240,45 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	favourite
-|3,1,0,0,1,0,1542560081,"favourite"
-"1	LINE	0
-	        'end': 'l',
-|3,0,1,1,1,0,1542559889,"        'end': 'l',"
-"2	LINE	0
-	        'start': 'h',
-|3,0,2,1,1,0,1542559888,"        'start': 'h',"
-"3	LINE	0
-	        'start': 'h',
-|3,0,3,1,1,0,1542559885,"        'start': 'h',"
-"4	LINE	0
-	        'end': 'KEY_END',
-|3,0,4,1,1,0,1542559884,"        'end': 'KEY_END',"
-"5	LINE	0
-	        'end': 'l',
-|3,0,5,1,1,0,1542557249,"        'end': 'l',"
-"6	LINE	0
-	        'start': 'h',
-|3,0,6,1,1,0,1542557249,"        'start': 'h',"
-"7	LINE	0
-	        'start': 'h',
-|3,0,7,1,1,0,1542557246,"        'start': 'h',"
-"8	LINE	0
-	        'end': 'KEY_END',
-|3,0,8,1,1,0,1542557245,"        'end': 'KEY_END',"
-"9	LINE	0
+"0	LINE	0
+	                self.move(rel=1)
+|3,0,0,1,1,0,1542812520,"                self.move(rel=1)"
+""1	LINE	0
 	
-|3,0,9,1,1,0,1542551320,""
+|3,1,1,1,1,0,1542812552,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1542812541,""
+"3	LINE	0
+	                # self.move(to='left', target=self.cursor - 5)
+|3,0,3,1,1,0,1542812539,"                # self.move(to='left', target=self.cursor - 5)"
+"4	LINE	0
+	                target = target
+|3,0,4,1,1,0,1542812509,"                target = target"
+"5	CHAR	0
+	     if isinstance(self.selected, OPMLOutlineLink):
+	                    fakeroot = OPMLOutline.from_xml(self.selected.url)
+	                    self.selected.children = fakeroot.children
+	                    self.selected.ready = True
+	                    self.selected.collapsed = False
+	                if isinstance(self.selected, OPMLOutline):
+	                    self.selected.collapsed = False
+	                self.flat = self.root.flatten([])
+|3,0,5,0,8,0,1542812490,"     if isinstance(self.selected, OPMLOutlineLink):","                    fakeroot = OPMLOutline.from_xml(self.selected.url)","                    self.selected.children = fakeroot.children","                    self.selected.ready = True","                    self.selected.collapsed = False","                if isinstance(self.selected, OPMLOutline):","                    self.selected.collapsed = False",>51
+|<"                self.flat = self.root.flatten([])"
+"6	LINE	0
+	                target = target
+|3,0,6,1,1,0,1542812444,"                target = target"
+"7	CHAR	0
+	 self.selected.collapsed = True
+	                self.flat = self.root.flatten([])
+|3,0,7,0,2,0,1542812433," self.selected.collapsed = True","                self.flat = self.root.flatten([])"
+"8	LINE	0
+	                if isinstance(self.selected, OPMLAudio):
+|3,0,8,1,1,0,1542812281,"                if isinstance(self.selected, OPMLAudio):"
+"9	LINE	0
+	                    playlist = r.text.split("\n")[0]
+|3,0,9,1,1,0,1542812245,"                    playlist = r.text.split(\"\\n\")[0]"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -322,29 +331,43 @@ $rsync -av --delete
 |<"  File \"/usr/lib/python3.6/lib2to3/pgen2/parse.py\", line 159, in addtoken","    raise ParseError(\"bad input\", type, value, context)","lib2to3.pgen2.parse.ParseError: bad input: type=22, value='=', context=('', (36, 15))","","During handling of the above exception, another exception occurred:","","Traceback (most recent call last):","  File \"/usr/bin/yapf\", line 11, in <module>","    sys.exit(run_main())",>85
 |<"  File \"/usr/lib/python3.6/site-packages/yapf/__init__.py\", line 313, in run_main","    sys.exit(main(sys.argv))","  File \"/usr/lib/python3.6/site-packages/yapf/__init__.py\", line 183, in main","    verify=args.verify)","  File \"/usr/lib/python3.6/site-packages/yapf/yapflib/yapf_api.py\", line 129, in FormatCode","    tree = pytree_utils.ParseCodeToTree(unformatted_source)","  File \"/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py\", line 127, in ParseCodeToTree",>13
 |<"    raise e","  File \"/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py\", line 125, in ParseCodeToTree","    ast.parse(code)","  File \"/usr/lib/python3.6/ast.py\", line 35, in parse","    return compile(source, filename, mode, PyCF_ONLY_AST)","  File \"<unknown>\", line 36","    with outputfile=open(fileurl,'wb') as f:","                   ^","SyntaxError: invalid syntax"
+"h	CHAR	0
+	563
+<hhhhhhhhhhhhhhliint(lxlllllllllllllli)hi.0jhhhhhhhhhhhhhhhhhhjhiint(lx$a)hhi.li90€kb€kb0:w€k; uGkkkjBlkkkkkkhllllllllllllllllllllllllllll€k;uBGBBuuuuuuuuuuuuuukjhhhhhhhhhhhhhhhhllllllllllllllhhhhlllhhhhkkjjllllllllha):wkjhhhhhhhhhhhhhhhhlliii€kbnt(lxlllllllllllllli)hhhhhhkkjhkhhhhhhhhhhhliinit€kb€kbt(lxlllllllllllllllha):wjja):wjjjkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj:wjkkkkkkkkkkkjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkjkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjkjjjkkkkkkkkkkkkkkkkkkkkjj:w
+|3,0,17,0,1,0,1542722471,>562
+|<"hhhhhhhhhhhhhhliint(lxlllllllllllllli)hi.0jhhhhhhhhhhhhhhhhhhjhiint(lx$a)hhi.li90€kb€kb0:w€k; uGkkkjBlkkkkkkhllllllllllllllllllllllllllll€k;uBGBBuuuuuuuuuuuuuukjhhhhhhhhhhhhhhhhllllllllllllllhhhhlllhhhhkkjjllllllllha):wkjhhhhhhhhhhhhhhhhlliii€kbnt(lxlllllllllllllli)hhhhhhkkjhkhhhhhhhhhhhliinit€kb€kbt(lxlllllllllllllllha):wjja):wjjjkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj:wjkkkkkkkkkkkjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkj
+|<jjjjjjkkkjkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjkjjjkkkkkkkkkkkkkkkkkkkkjj:w"
+"j	CHAR	0
+	
+|3,0,19,0,1,0,1542717081,""
+"k	CHAR	0
+	4039
+<kkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjj\c jkddjddddddk\c :wjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllljjjjjjjjjjllllllllllllllllllkjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhllxxxxxxxxxxxjlllddklllllllllllllllllllllllllllllli[0ll:whlx:whhxxx:wuuuuuuuuuuuuuuuuuj:wjjjjjjjkkkjkjkklllllllllllllllllllllllllllllllllli_lefuhlhhli_uuuuuuuuuukkdddddd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjlllllllllllllllk\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjkjddukokkk€kb€kb€kbse€kb€kbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkkkkki	self.mov	(to+€kb='leftjkj\c j\c \j\c j\c :w€ku€kukjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkjjjjllli,to€kbag€kbrge	=non	hhhhhhhhhhi :wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkxata	:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjkjllllli,ta	=4:wjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjdkjdddd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllllllkkjkllllllllllllllllllllllkkllllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjllljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkjkjjocurre€kbun€kbt€kb€kb€kbrentNa€kb€kbLine jjj€kb€kb€kb€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kl€kr€kb=€kb€kb€kb€kb€kb)€kb_line - €kb€kb= None :wjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkoself.to€kb€kbtu€kb€kb €kb  €kbtosel€kb€kb€kb€kb€kbjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkjkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjllllllllllhhhhhhhhhhhhhhhhhllllllljjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkhhhhhlhlddkocur		 = sur€kb€kbus€kb€kb€kbsur€kb€kbel	.cus	jjjjjjjjjkkkkkkkkkyyjjjpkddjjlllllllljjjjjjkkkkppkkkkkklyjjjjjjpkddlllljjjjjjjkkkkkkjkdddd:wjlllllllllllkkyyjjjkplllllllllllllllllllklxxxxxuuuuulllllllxicur		:w
+|3,0,20,0,1,0,1542809717,>4046
+|<"kkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjj\\c jkddjddddddk\\c :wjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllljjjjjjjjjjllllllllllllllllllkjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhllxxxxxxxxxxxjlllddklllllllllllllllllllllllllllllli[0ll:whlx:whhxxx:wuuuuuuuuuuuuuuuuuj:wjjjjjjjkkkjkjkklllllllllllllllllllllllllllllllllli_lefuhlhhli_uuuuuuuuuukkdddddd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjlllllllllllllllk\\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjkjddukokkk€kb€kb€kbse€kb€kbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkkkkki	self.mov	(to+€kb='leftjkj\\c j\\c \\j\\c j\\c :w€ku€kukjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkjjjjllli,to€kbag€kbrge	=non	hhhhhhhhhhi :wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkxata	:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjkjllllli,ta	=4:wjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjdkjdddd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllllllkkjkllllllllllllllllllllllkkllllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjlll
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkjkjjocurre€kbun€kbt€kb€kb€kbrentNa€kb€kbLine jjj€kb€kb€kb€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€
+|<ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kl€kr€kb=€kb€kb€kb€kb€kb)€kb_line - €kb€kb= None :wjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkoself.to€kb€kbtu€kb€kb €kb  €kbtosel€kb€kb€kb€kb€kbjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkjkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjllllllllllhhhhhhhhhhhhhhhhhllllllljjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkhhhhhlhlddkocur		 = sur€kb€kbus€kb€kb€kbsur€kb€kbel	.cus	jjjjjjjjjkkkkkkkkkyyjjjpkddjjlllllllljjjj
+|<jjkkkkppkkkkkklyjjjjjjpkddlllljjjjjjjkkkkkkjkdddd:wjlllllllllllkkyyjjjkplllllllllllllllllllklxxxxxuuuuulllllllxicur		:w"
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
 "-	CHAR	0
-	KEY_ENTER
-|3,0,36,0,1,0,1542559275,"KEY_ENTER"
+	 
+|3,0,36,0,1,0,1542812727," "
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	6	0
+%~/.config/mpv/playlist.m3u8	11	0
 
 # History of marks within files (newest to oldest):
 
-> ~/curseradio
-	*	1542714602	0
-	"	1	0
-
-> ~/which
-	*	1542714583	0
-	"	1	0
-
 > ~/.config/mpv/playlist.m3u8
-	*	1542714430	0
-	"	6	0
+	*	1542814715	0
+	"	11	0
 	.	1	0
 	+	1295	29
 	+	1295	27
@@ -431,6 +454,105 @@ $rsync -av --delete
 	+	1295	0
 	+	1	0
 
+> ~/.config/privarcy/user/bin/curseradio
+	*	1542807647	0
+	"	367	15
+	^	367	16
+	.	367	15
+	+	457	28
+	+	457	39
+	+	457	40
+	+	457	0
+	+	457	12
+	+	457	13
+	+	457	0
+	+	457	27
+	+	457	0
+	+	457	20
+	+	457	0
+	+	457	27
+	+	457	1
+	+	457	41
+	+	457	0
+	+	457	1
+	+	457	31
+	+	457	16
+	+	457	32
+	+	457	1
+	+	457	59
+	+	457	60
+	+	457	0
+	+	457	4
+	+	457	0
+	+	457	5
+	+	457	0
+	+	457	24
+	+	457	0
+	+	457	24
+	+	457	5
+	+	457	0
+	+	457	5
+	+	457	0
+	+	457	5
+	+	457	15
+	+	457	39
+	+	457	40
+	+	457	52
+	+	457	23
+	+	457	0
+	+	457	23
+	+	457	0
+	+	457	23
+	+	457	0
+	+	457	5
+	+	457	0
+	+	457	54
+	+	457	0
+	+	457	19
+	+	457	21
+	+	457	19
+	+	457	0
+	+	457	44
+	+	457	45
+	+	457	0
+	+	457	44
+	+	457	50
+	+	457	49
+	+	457	0
+	+	457	35
+	+	457	51
+	+	457	50
+	+	457	0
+	+	457	45
+	+	457	0
+	+	457	46
+	+	457	45
+	+	457	0
+	+	457	11
+	+	457	0
+	+	457	4
+	+	457	0
+	+	457	4
+	+	457	0
+	+	457	30
+	+	457	0
+	+	457	50
+	+	457	0
+	+	379	0
+	+	367	15
+	a	378	12
+	b	258	26
+	s	241	0
+	u	400	41
+
+> ~/curseradio
+	*	1542714602	0
+	"	1	0
+
+> ~/which
+	*	1542714583	0
+	"	1	0
+
 > /usr/share/alsa/alsa.conf
 	*	1542713961	0
 	"	5	0
@@ -477,9 +599,3 @@ $rsync -av --delete
 	+	435	25
 	+	434	26
 	+	435	0
-
-> ~/curseradio/NERD_tree_1
-	*	1542551326	0
-	"	6	9
-	.	1	0
-	+	1	0

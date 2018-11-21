@@ -1,13 +1,11 @@
 #!/usr/bin/env python
+import os
+import re
 import curses
 import subprocess
 import lxml.etree
 import requests
-import pathlib
-import xdg.BaseDirectory
 import configparser
-import re
-import pickle
 
 CONFIG_DEFAULT = {
     'opml': {
@@ -16,32 +14,22 @@ CONFIG_DEFAULT = {
     'playback': {
         'command': '/usr/bin/mpv'
     },
+    'playlist': {
+        'path': '~/.config/mpv/m3u8.conf'
+    },
     'interface': {
         'keymap': 'vim'
-    },
-    'keymap.default': {
-        'up': 'KEY_UP',
-        'down': 'KEY_DOWN',
-        'left': 'KEY_HOME',
-        'right': 'KEY_END',
-        'pageup': 'KEY_PPAGE',
-        'pagedown': 'KEY_NPAGE',
-        'enter': 'KEY_ENTER',
-        'stop': 'k',
-        'exit': 'q',
-        'favourite': 'f'
     },
     'keymap.vim': {
         'up': 'k',
         'down': 'j',
         'left': 'h',
         'right': 'l',
-        'pageup': 'KEY_PPAGE',
-        'pagedown': 'KEY_NPAGE',
+        'pageup': 'e',
+        'pagedown': 'd',
         'enter': ' ',
         'stop': 'x',
         'exit': 'q',
-        'favourite': 'f'
     }
 }
 
@@ -225,14 +213,17 @@ class OPMLOutlineLink(OPMLOutline):
 
 
 class OPMLFavourites(OPMLOutline):
-    """
-    A special outline subclass representing a locally stored favourites list
-    which tracks whether it has been altered so it can be saved if necessary.
-    """
-
     def __init__(self, text, attr):
         super().__init__("Favourites", {})
         self.dirty = False
+
+    def from_conf(self, path):
+        print (path)
+        # if attr is None: attr = {}
+        # tree = lxml.etree.parse(url)
+        # result = cls(text=text, attr=attr)
+        # result.children = [OPMLNode.from_element(o) for o in tree.xpath('/opml/body/outline')]
+        # return result
 
     def toggle(self, other):
         self.dirty = True
@@ -240,18 +231,6 @@ class OPMLFavourites(OPMLOutline):
             self.children.remove(other)
         else:
             self.children.append(other)
-
-    def to_xml(self):
-        """
-        For the favourites object, we skip generating an extra <outline>
-        (corresponding to this object), and just place the children (ie,
-        the actual favourite items) as the toplevel.
-        """
-        opml = lxml.etree.Element("opml")
-        body = lxml.etree.SubElement(opml, "body")
-        for c in self.children:
-            body.append(c.to_element())
-        return opml
 
 
 class OPMLBrowser:
@@ -284,26 +263,14 @@ class OPMLBrowser:
         self.interact()
 
     def load_favourites(self):
-        for path in xdg.BaseDirectory.load_data_paths("curseradio"):
-            opmlpath = pathlib.Path(path, "favourites.opml")
-            if opmlpath.exists():
-                return OPMLFavourites.from_xml(str(opmlpath))
+        m3u8path = self.config['playlist']['path']
+        # if os.path.exists(m3u8path):
+        #     return OPMLFavourites.from_conf(m3u8path)
         return OPMLFavourites("", {})
-
-    def save_favourites(self):
-        path = xdg.BaseDirectory.save_data_path("curseradio")
-        if self.favourites.dirty:
-            opmlpath = pathlib.Path(path, "favourites.opml")
-            opml = lxml.etree.ElementTree(self.favourites.to_xml())
-            opml.write(str(opmlpath))
 
     def load_config(self):
         config = configparser.ConfigParser(strict=True)
         config.read_dict(CONFIG_DEFAULT)
-        for path in xdg.BaseDirectory.load_config_paths("curseradio"):
-            configpath = pathlib.Path(path, "curseradio.cfg")
-            if configpath.exists():
-                config.read(str(configpath))
         return config
 
     def get_keymap(self):
@@ -312,10 +279,8 @@ class OPMLBrowser:
         section = 'keymap.{}'.format(chosen)
         if self.config.has_section(section):
             keysrc = self.config[section]
-        else:
-            keysrc = self.config['keymap.default']
-        for key in ('up', 'down', 'left', 'right', 'pageup', 'pagedown', 'enter', 'stop', 'exit', 'favourite'):
-            value = keysrc.get(key, self.config['keymap.default'][key])
+        for key in ('up', 'down', 'left', 'right', 'pageup', 'pagedown', 'enter', 'stop', 'exit'):
+            value = keysrc.get(key, self.config[section][key])
             if value.startswith('KEY_'):
                 keymap[key] = getattr(curses, value)
             else:
@@ -335,7 +300,6 @@ class OPMLBrowser:
         for i, (obj, depth) in enumerate(showobjs):
             text = obj.render()
             if i == self.cursor:
-                # style = curses.A_BOLD
                 style = curses.color_pair(1)
             else:
                 style = curses.A_NORMAL
@@ -352,17 +316,24 @@ class OPMLBrowser:
         self.screen.refresh()
         curses.doupdate()
 
- 
-
     def move(self, rel=None, to=None):
         """
         Recalculate screen scrolling after movement.
         """
         if to is not None:
+            target = self.cursor
             if to == "left":
-                target = 0
-            elif to == "right":
-                target = len(self.flat) - 1
+                self.selected.collapsed = True
+                self.flat = self.root.flatten([])
+            if to == 'right':
+                if isinstance(self.selected, OPMLOutlineLink):
+                    fakeroot = OPMLOutline.from_xml(self.selected.url)
+                    self.selected.children = fakeroot.children
+                    self.selected.ready = True
+                    self.selected.collapsed = False
+                if isinstance(self.selected, OPMLOutline):
+                    self.selected.collapsed = False
+                self.flat = self.root.flatten([])
         elif rel is not None:
             target = self.top + self.cursor + rel
 
@@ -379,34 +350,6 @@ class OPMLBrowser:
         else:
             self.cursor = target - self.top
 
-    def display_layer(self, direction=None, msg=None):
-        if direction == 'left':
-            pass
-        if direction == 'right':
-            self.screen.clear()
-
-            width0 = 6 * (self.maxx - 10) // 10
-            width1 = 4 * (self.maxx - 10) // 10
-
-            showobjs = self.flat[self.top:self.top + self.maxy - 1]
-            for i, (obj, depth) in enumerate(showobjs):
-                text = obj.render()
-                if i == self.cursor:
-                    style = curses.color_pair(1)
-                else:
-                    style = curses.A_NORMAL
-                self.screen.addstr(i, depth * 2, text[0][:width0 - depth * 2], style)
-                self.screen.addstr(i, width0 + 2, text[1][:width1 - 4])
-                self.screen.addstr(i, width0 + width1, text[2][:4])
-                self.screen.addstr(i, width0 + width1 + 5, text[3][:5])
-
-            if msg is not None:
-                self.screen.addstr(self.maxy - 1, 0, msg[:self.maxx - 1], curses.A_BOLD)
-            else:
-                self.screen.addstr(self.maxy - 1, 0, self.status[:self.maxx - 1], curses.A_BOLD)
-            self.screen.refresh()
-            curses.doupdate()
-
     def interact(self):
         """
         Main loop. Listen for keyboard input and respond.
@@ -419,33 +362,25 @@ class OPMLBrowser:
                 self.move(rel=-1)
             elif ch == self.keymap['down']:
                 self.move(rel=1)
-
-            elif ch == self.keymap['left']:
-                for msg in self.selected.activate():
-                    if isinstance(msg, list):
-                        self.display_layer(direction='left', msg=msg)
-                self.flat = self.root.flatten([])
             elif ch == self.keymap['right']:
-                for msg in self.selected.activate():
-                    if isinstance(msg, str):
-                        self.display_layer(direction='right', msg=msg)
-                self.flat = self.root.flatten([])
+                self.move(to='right')
+            elif ch == self.keymap['left']:
+                self.move(to='left')
 
-            elif ch == self.keymap['pageup']:  # page up
-                self.move(rel=-self.maxy)
-            elif ch == self.keymap['pagedown']:  # page down
-                self.move(rel=self.maxy)
+            elif ch == self.keymap['pageup']:
+                self.move(rel=-(int(self.maxy / 5.0)))
+            elif ch == self.keymap['pagedown']:
+                self.move(rel=(int(self.maxy / 5.0)))
             elif ch == self.keymap['enter'] or ch == ord('\n'):
                 for msg in self.selected.activate():
                     if isinstance(msg, str):
                         self.display(msg=msg)
-                    elif isinstance(msg, list):  # command to run
+                    elif isinstance(msg, list):
                         if self.child is not None:
                             self.child.terminate()
                             self.child.wait()
                         parm = ['--no-video']
                         command = [self.config['playback']['command']] + parm + msg
-                        pickle.dump(command, open('/home/gaffey/command', 'wb'))
                         self.child = subprocess.Popen(
                             command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL)
                         self.status = "Playing {}".format(self.selected.text)
@@ -456,17 +391,11 @@ class OPMLBrowser:
                 if self.child is not None:
                     self.child.terminate()
                     self.child.wait()
-                self.save_favourites()
                 return
             elif ch == self.keymap['stop']:
                 if self.child is not None:
                     self.child.terminate()
                     self.child.wait()
-            elif ch == self.keymap['favourite']:
-                self.favourites.toggle(self.selected)
-                self.flat = self.root.flatten([])
-                self.move(rel=0)
-
             if self.child is not None:
                 if self.child.poll() is not None:
                     self.child = None
