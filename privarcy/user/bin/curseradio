@@ -6,6 +6,7 @@ import subprocess
 import lxml.etree
 import requests
 import configparser
+import pickle
 
 CONFIG_DEFAULT = {
     'opml': {
@@ -15,7 +16,7 @@ CONFIG_DEFAULT = {
         'command': '/usr/bin/mpv'
     },
     'playlist': {
-        'path': '~/.config/mpv/m3u8.conf'
+        'path': '/home/gaffey/.config/mpv/m3u8.conf'
     },
     'interface': {
         'keymap': 'vim'
@@ -46,10 +47,12 @@ class OPMLNode:
         children set to all the outlines contained in the file. (The header
         is currently discarded).
         """
-        if attr is None: attr = {}
+        if attr is None:
+            attr = {}
         tree = lxml.etree.parse(url)
         result = cls(text=text, attr=attr)
         result.children = [OPMLNode.from_element(o) for o in tree.xpath('/opml/body/outline')]
+        # pickle.dump(result,open('/home/gaffey/playlist','wb'))
         return result
 
     @classmethod
@@ -67,7 +70,6 @@ class OPMLNode:
         type = attr.get('type', None)
         if type is None and len(element) > 0:
             type = "outline"
-
         if type == "outline":
             node = OPMLOutline(text=text, attr=attr)
             for child in element.xpath('./outline'):
@@ -152,6 +154,7 @@ class OPMLAudio(OPMLNode):
         yield "Fetching playlist"
         r = requests.get(self.url)
         playlist = r.text.split("\n")[0]
+        # pickle.dump(playlist,open('/home/gaffey/playlist','wb'))
         yield [playlist]
 
     def render(self):
@@ -212,27 +215,6 @@ class OPMLOutlineLink(OPMLOutline):
         self.collapsed = not self.collapsed
 
 
-class OPMLFavourites(OPMLOutline):
-    def __init__(self, text, attr):
-        super().__init__("Favourites", {})
-        self.dirty = False
-
-    def from_conf(self, path):
-        print (path)
-        # if attr is None: attr = {}
-        # tree = lxml.etree.parse(url)
-        # result = cls(text=text, attr=attr)
-        # result.children = [OPMLNode.from_element(o) for o in tree.xpath('/opml/body/outline')]
-        # return result
-
-    def toggle(self, other):
-        self.dirty = True
-        if other in self.children:
-            self.children.remove(other)
-        else:
-            self.children.append(other)
-
-
 class OPMLBrowser:
     """
     Curses browser for an OPML tree. Includes simple keyboard navigation
@@ -248,25 +230,18 @@ class OPMLBrowser:
         self.keymap = self.get_keymap()
         self.root = OPMLOutline.from_xml(self.config['opml']['root'])
         self.root.collapsed = False
-        self.favourites = self.load_favourites()
-        self.root.children.insert(0, self.favourites)
+
+        self.flat = self.root.flatten([])
         self.screen = screen
         self.selected = self.root
         self.cursor = 0
         self.top = 0
-        self.flat = self.root.flatten([])
         self.maxy, self.maxx = self.screen.getmaxyx()
         self.child = None
         self.status = ""
 
         self.display()
         self.interact()
-
-    def load_favourites(self):
-        m3u8path = self.config['playlist']['path']
-        # if os.path.exists(m3u8path):
-        #     return OPMLFavourites.from_conf(m3u8path)
-        return OPMLFavourites("", {})
 
     def load_config(self):
         config = configparser.ConfigParser(strict=True)
@@ -316,35 +291,18 @@ class OPMLBrowser:
         self.screen.refresh()
         curses.doupdate()
 
-    def move(self, rel=None, to=None):
+    def move(self, rel=None):
         """
         Recalculate screen scrolling after movement.
         """
-        if to is not None:
-            target = self.cursor
-            if to == "left":
-                self.selected.collapsed = True
-                self.flat = self.root.flatten([])
-            if to == 'right':
-                if isinstance(self.selected, OPMLOutlineLink):
-                    fakeroot = OPMLOutline.from_xml(self.selected.url)
-                    self.selected.children = fakeroot.children
-                    self.selected.ready = True
-                    self.selected.collapsed = False
-                if isinstance(self.selected, OPMLOutline):
-                    self.selected.collapsed = False
-                self.flat = self.root.flatten([])
-        elif rel is not None:
-            target = self.top + self.cursor + rel
-
+        target = self.top + self.cursor + rel
         target = min(target, len(self.flat) - 1)
         target = max(target, 0)
         self.selected = self.flat[target][0]
-
         if target < self.top:
             self.top = target
             self.cursor = 0
-        elif target > self.top + self.maxy - 1:
+        elif target > self.top + self.maxy - 2:
             self.top = target - (self.maxy - 2)
             self.cursor = self.maxy - 2
         else:
@@ -363,14 +321,14 @@ class OPMLBrowser:
             elif ch == self.keymap['down']:
                 self.move(rel=1)
             elif ch == self.keymap['right']:
-                self.move(to='right')
+                self.move(rel=5)
             elif ch == self.keymap['left']:
-                self.move(to='left')
+                self.move(rel=-5)
 
             elif ch == self.keymap['pageup']:
-                self.move(rel=-(int(self.maxy / 5.0)))
+                self.move(rel=-(int(self.maxy / 2.0)))
             elif ch == self.keymap['pagedown']:
-                self.move(rel=(int(self.maxy / 5.0)))
+                self.move(rel=(int(self.maxy / 2.0)))
             elif ch == self.keymap['enter'] or ch == ord('\n'):
                 for msg in self.selected.activate():
                     if isinstance(msg, str):

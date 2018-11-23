@@ -425,9 +425,9 @@
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
-    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}, 
     "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
-    "Virtual core XTEST pointer:mouse:2": {}
+    "Virtual core XTEST pointer:mouse:2": {}, 
+    "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
   }, 
   "color_chooser.default.selected_adjuster": "PaletteTool", 
   "view.real_alpha_checks": true, 

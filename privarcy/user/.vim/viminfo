@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/selected
+~MSle0~/cursoradio
 
 # Last Substitute Search Pattern:
 ~MSle0&mms
@@ -21,15 +21,19 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1542807543,,"w"
+|2,0,1542982298,,"w"
+:q
+|2,0,1542980388,,"q"
+:q!
+|2,0,1542980103,,"q!"
+:load_config
+|2,0,1542814312,,"load_config"
 :selected
 |2,0,1542807024,,"selected"
 :nohl
 |2,0,1542806802,,"nohl"
 :nosl
 |2,0,1542806679,,"nosl"
-:q
-|2,0,1542721087,,"q"
 :nohlsearch
 |2,0,1542717293,,"nohlsearch"
 :PlugUpdate
@@ -116,20 +120,54 @@ $rsync -av --delete
 |2,0,1541874932,,"eval(echo line(\".\")+1)"
 :echo line(".")+1
 |2,0,1541874919,,"echo line(\".\")+1"
-:echo line(".")
-|2,0,1541874911,,"echo line(\".\")"
-:e!
-|2,0,1541874856,,"e!"
 
 # Search String History (newest to oldest):
+?/curser
+|2,1,1542896083,47,"curser"
+?/cursoradio
+|2,1,1542896076,47,"cursoradio"
+?/self.flat
+|2,1,1542893076,47,"self.flat"
+?/TODO
+|2,1,1542820564,47,"TODO"
+?/todu
+|2,1,1542820542,47,"todu"
+?/pickle
+|2,1,1542817745,47,"pickle"
+?/config
+|2,1,1542817580,47,"config"
+?/pick
+|2,1,1542817570,47,"pick"
+?/OPMLAudio
+|2,1,1542817395,47,"OPMLAudio"
+?/from_xml
+|2,1,1542816365,47,"from_xml"
+?/libpath
+|2,1,1542815585,47,"libpath"
+?/libpaht
+|2,1,1542815580,47,"libpaht"
+?/CONFIG_DEFAULT
+|2,1,1542814576,47,"CONFIG_DEFAULT"
+?/self.config
+|2,1,1542814370,47,"self.config"
+?/load_config
+|2,1,1542814325,47,"load_config"
+?/lo
+|2,1,1542814303,47,"lo"
+? \<return\>
+|2,1,1542814124,,"\\<return\\>"
+?/pathlib
+|2,1,1542813799,47,"pathlib"
+?/Favourites
+|2,1,1542813218,47,"Favourites"
+?/OPMLFavourites
+|2,1,1542813208,47,"OPMLFavourites"
 ?/selected
 |2,1,1542807034,47,"selected"
 ?/collapsed
 |2,1,1542806880,47,"collapsed"
 ?/collapsed 
 |2,1,1542806849,47,"collapsed "
-?/from_xml
-|2,1,1542806769,47,"from_xml"
 ?/OPMLOutline
 |2,1,1542806655,47,"OPMLOutline"
 ?/self.selected
@@ -184,44 +222,6 @@ $rsync -av --delete
 |2,1,1542392527,,"mms"
 ?/http://liveal.quanmin.tv/live/2036316982.flv
 |2,1,1542297522,47,"http://liveal.quanmin.tv/live/2036316982.flv"
-?/http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,1,1542297469,47,"http://data1.cache.directory/media/videos/iphone/4350.mp4"
-? \<http\>
-|2,1,1542297442,,"\\<http\\>"
-? ^$
-|2,1,1541796416,,"^$"
-?/fastdir
-|2,1,1540776995,47,"fastdir"
-?/Layouts
-|2,1,1540776425,47,"Layouts"
-?/server
-|2,1,1540599914,47,"server"
-? cp -p
-|2,1,1539459049,,"cp -p"
-? cp -Rp
-|2,1,1539459023,,"cp -Rp"
-?/sun ra
-|2,1,1538839958,47,"sun ra"
-?  "é¦™æ¸¯ç”µè§†"
-|2,1,1538839861,," \"é¦™æ¸¯ç”µè§†\""
-?  "éŸ³ä¹ç”µå°" 
-|2,1,1538839830,," \"éŸ³ä¹ç”µå°\" "
-?  "å›½å¤–ç”µå°" 
-|2,1,1538839806,," \"å›½å¤–ç”µå°\" "
-?  "ä¸­å›½ç”µå°" 
-|2,1,1538839787,," \"ä¸­å›½ç”µå°\" "
-?  "å°æ¹¾ç”µå°" 
-|2,1,1538839726,," \"å°æ¹¾ç”µå°\" "
-?  "é¦™æ¸¯ç”µå°" 
-|2,1,1538839609,," \"é¦™æ¸¯ç”µå°\" "
-?  "é¦™æ¸¯ç”µå° "
-|2,1,1538839598,," \"é¦™æ¸¯ç”µå° \""
-?  "é¦™æ¸¯ç”µå°"
-|2,1,1538839565,," \"é¦™æ¸¯ç”µå°\""
-? group-title=
-|2,1,1538839466,,"group-title="
-? radio=true
-|2,1,1538839358,,"radio=true"
 
 # Expression History (newest to oldest):
 
@@ -241,44 +241,66 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-	                self.move(rel=1)
-|3,0,0,1,1,0,1542812520,"                self.move(rel=1)"
-""1	LINE	0
+	        self.flat = self.root.flatten([])
+|3,0,0,1,1,0,1542894948,"        self.flat = self.root.flatten([])"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1542812552,""
-"2	LINE	0
+|3,0,1,1,1,0,1542895949,""
+"2	CHAR	0
 	
-|3,0,2,1,1,0,1542812541,""
+	    def load_favourites(self):
+	        m3u8path = self.config['playlist']['path']
+	        if os.path.exists(m3u8path):
+	            return OPMLFavourites.from_conf(m3u8path)
+	        return OPMLFavourites("", {})
+|3,0,2,0,6,0,1542895948,"","    def load_favourites(self):","        m3u8path = self.config['playlist']['path']","        if os.path.exists(m3u8path):","            return OPMLFavourites.from_conf(m3u8path)","        return OPMLFavourites(\"\", {})"
 "3	LINE	0
-	                # self.move(to='left', target=self.cursor - 5)
-|3,0,3,1,1,0,1542812539,"                # self.move(to='left', target=self.cursor - 5)"
+	        self.root.children.insert(0, self.favourites)
+|3,0,3,1,1,0,1542895935,"        self.root.children.insert(0, self.favourites)"
 "4	LINE	0
-	                target = target
-|3,0,4,1,1,0,1542812509,"                target = target"
-"5	CHAR	0
-	     if isinstance(self.selected, OPMLOutlineLink):
-	                    fakeroot = OPMLOutline.from_xml(self.selected.url)
-	                    self.selected.children = fakeroot.children
-	                    self.selected.ready = True
-	                    self.selected.collapsed = False
-	                if isinstance(self.selected, OPMLOutline):
-	                    self.selected.collapsed = False
-	                self.flat = self.root.flatten([])
-|3,0,5,0,8,0,1542812490,"     if isinstance(self.selected, OPMLOutlineLink):","                    fakeroot = OPMLOutline.from_xml(self.selected.url)","                    self.selected.children = fakeroot.children","                    self.selected.ready = True","                    self.selected.collapsed = False","                if isinstance(self.selected, OPMLOutline):","                    self.selected.collapsed = False",>51
-|<"                self.flat = self.root.flatten([])"
+	        self.favourites = self.load_favourites()
+|3,0,4,1,1,0,1542895930,"        self.favourites = self.load_favourites()"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1542895924,""
 "6	LINE	0
-	                target = target
-|3,0,6,1,1,0,1542812444,"                target = target"
-"7	CHAR	0
-	 self.selected.collapsed = True
-	                self.flat = self.root.flatten([])
-|3,0,7,0,2,0,1542812433," self.selected.collapsed = True","                self.flat = self.root.flatten([])"
-"8	LINE	0
-	                if isinstance(self.selected, OPMLAudio):
-|3,0,8,1,1,0,1542812281,"                if isinstance(self.selected, OPMLAudio):"
+	
+|3,0,6,1,1,0,1542895924,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1542895923,""
+"8	CHAR	0
+	
+	class OPMLFavourites(OPMLOutline):
+	    def __init__(self, text, attr):
+	        super().__init__("Custom Radio", {})
+	        self.dirty = False
+	        # self.url = attr['URL']
+	
+	    @classmethod
+	    def from_conf(cls, path):
+	        text = 'è‡ªå®šä¹‰ç”µå°'
+	        attr = {"URL":'test '}
+	        return cls(text, attr)
+	
+	    def flatten(self, result, depth=0):
+	        result.append((self, depth))
+	        if not self.collapsed:
+	            for c in self.children:
+	                c.flatten(result, depth + 1)
+	        return result
+	
+	    def toggle(self, other):
+	        self.dirty = True
+	        if other in self.children:
+	            self.children.remove(other)
+	        else:
+	            self.children.append(other)
+|3,0,8,0,26,0,1542895922,"","class OPMLFavourites(OPMLOutline):","    def __init__(self, text, attr):","        super().__init__(\"Custom Radio\", {})","        self.dirty = False","        # self.url = attr['URL']","","    @classmethod","    def from_conf(cls, path):","        text = 'è‡ªå®šä¹‰ç”µå°'","        attr = {\"URL\":'test '}","        return cls(text, attr)","","    def flatten(self, result, depth=0):","        result.append((self, depth))",>32
+|<"        if not self.collapsed:","            for c in self.children:","                c.flatten(result, depth + 1)","        return result","","    def toggle(self, other):","        self.dirty = True","        if other in self.children:","            self.children.remove(other)","        else:","            self.children.append(other)"
 "9	LINE	0
-	                    playlist = r.text.split("\n")[0]
-|3,0,9,1,1,0,1542812245,"                    playlist = r.text.split(\"\\n\")[0]"
+	        self.flat = self.root.flatten([])
+|3,0,9,1,1,0,1542894958,"        self.flat = self.root.flatten([])"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -338,36 +360,58 @@ $rsync -av --delete
 |<"hhhhhhhhhhhhhhliint(lxlllllllllllllli)hi.0jhhhhhhhhhhhhhhhhhhjhiint(lx$a)hhi.li90€kb€kb0:w€k; uGkkkjBlkkkkkkhllllllllllllllllllllllllllll€k;uBGBBuuuuuuuuuuuuuukjhhhhhhhhhhhhhhhhllllllllllllllhhhhlllhhhhkkjjllllllllha):wkjhhhhhhhhhhhhhhhhlliii€kbnt(lxlllllllllllllli)hhhhhhkkjhkhhhhhhhhhhhliinit€kb€kbt(lxlllllllllllllllha):wjja):wjjjkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj:wjkkkkkkkkkkkjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkj
 |<jjjjjjkkkjkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjkjjjkkkkkkkkkkkkkkkkkkkkjj:w"
 "j	CHAR	0
-	
-|3,0,19,0,1,0,1542717081,""
+	kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjkjjdduddudd:wkkkjyyjjjjkkopkddoukokkkdd:wkk
+|3,0,19,0,1,0,1542894990,"kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjkjjdduddudd:wkkkjyyjjjjkkopkddoukokkkdd:wkk"
 "k	CHAR	0
-	4039
-<kkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjj\c jkddjddddddk\c :wjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllljjjjjjjjjjllllllllllllllllllkjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhllxxxxxxxxxxxjlllddklllllllllllllllllllllllllllllli[0ll:whlx:whhxxx:wuuuuuuuuuuuuuuuuuj:wjjjjjjjkkkjkjkklllllllllllllllllllllllllllllllllli_lefuhlhhli_uuuuuuuuuukkdddddd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjlllllllllllllllk\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjkjddukokkk€kb€kb€kbse€kb€kbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkkkkki	self.mov	(to+€kb='leftjkj\c j\c \j\c j\c :w€ku€kukjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkjjjjllli,to€kbag€kbrge	=non	hhhhhhhhhhi :wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkxata	:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjkjllllli,ta	=4:wjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjdkjdddd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllllllkkjkllllllllllllllllllllllkkllllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjllljjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkjkjjocurre€kbun€kbt€kb€kb€kbrentNa€kb€kbLine jjj€kb€kb€kb€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kl€kr€kb=€kb€kb€kb€kb€kb)€kb_line - €kb€kb= None :wjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkoself.to€kb€kbtu€kb€kb €kb  €kbtosel€kb€kb€kb€kb€kbjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkjkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjllllllllllhhhhhhhhhhhhhhhhhllllllljjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkhhhhhlhlddkocur		 = sur€kb€kbus€kb€kb€kbsur€kb€kbel	.cus	jjjjjjjjjkkkkkkkkkyyjjjpkddjjlllllllljjjjjjkkkkppkkkkkklyjjjjjjpkddlllljjjjjjjkkkkkkjkdddd:wjlllllllllllkkyyjjjkplllllllllllllllllllklxxxxxuuuuulllllllxicur		:w
-|3,0,20,0,1,0,1542809717,>4046
-|<"kkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjj\\c jkddjddddddk\\c :wjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkklllllllllllllllljjjjjjjjjjllllllllllllllllllkjkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhllxxxxxxxxxxxjlllddklllllllllllllllllllllllllllllli[0ll:whlx:whhxxx:wuuuuuuuuuuuuuuuuuj:wjjjjjjjkkkjkjkklllllllllllllllllllllllllllllllllli_lefuhlhhli_uuuuuuuuuukkdddddd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-|<kkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjlllllllllllllllk\\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
-|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkjjkjddukokkk€kb€kb€kbse€kb€kbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-|<kkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkkkkki	self.mov	(to+€kb='leftjkj\\c j\\c \\j\\c j\\c :w€ku€kukjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjkkkkkkkkkkkjjjjllli,to€kbag€kbrge	=non	hhhhhhhhhhi :wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkk
-|<kkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkxata	:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjkjllllli,ta	=4:wjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjdkjdddd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkllllllllllllllllllllllllllkkjkllllllllllllllllllllllkkllllllllllllllllllllllkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjlll
-|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkjkjjocurre€kbun€kbt€kb€kb€kbrentNa€kb€kbLine jjj€kb€kb€kb€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€
-|<ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kl€kr€kb=€kb€kb€kb€kb€kb)€kb_line - €kb€kb= None :wjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkoself.to€kb€kbtu€kb€kb €kb  €kbtosel€kb€kb€kb€kb€kbjjjjjjjjjjjjjjj
-|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjkkkkjkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjllllllllllhhhhhhhhhhhhhhhhhllllllljjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkhhhhhlhlddkocur		 = sur€kb€kbus€kb€kb€kbsur€kb€kbel	.cus	jjjjjjjjjkkkkkkkkkyyjjjpkddjjlllllllljjjj
-|<jjkkkkppkkkkkklyjjjjjjpkddlllljjjjjjjkkkkkkjkdddd:wjlllllllllllkkyyjjjkplllllllllllllllllllklxxxxxuuuuulllllllxicur		:w"
+	6699
+<kjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjdd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkjhhhhhhhhhhhhhhhhhdwdwxhxhlhx:w€k;:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjhjjjkvjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\c ujvjjjjjjjjjjjjjjjjjjjjjjjjjjjj\c :wjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjkGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkklllllljjjjjjjjkkjjjjjjjjkkkjjjjjjjjjkkjjjjjjjjjjjjjkkkkkkkjkllllllllllllllllllllllllljjjjjjjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjkjjjjjjjjjjjjjjjkkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkvjjjjjj\c :wjlllllllllllllllllllljlllvwy/"nNNNnnnnnnnnnnnnnn€ý,€ý.€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdjjjjjj€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€ku€ku€kuv€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kdv€kd€kd€kd€kd€kd€kd€kdduv€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kdGG€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€ku€ku€ku€ku€kddd€kd€kd€kd€kd€ku€kd€kd€kl€kl€kl€kl€kl€kl€kl€klv€kd€kd€kd€kdddd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kuuuv€kd€kd€kd€kdddd€ku:w€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kdv€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd#€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdG€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€ku€ku€ku€ku€ku€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kl€kld$€kd€kd€kr€kr€krd$€kd€kd€kd€kd€kd€kdd$€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kunkjjjjjdddd:wkkkkj\c kkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjjjjjjjjjkjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkhhhhhhhhhkkvjjjjjjjjjj$dddddddddk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjvjjjjj$djddkkjjjjjjjjjjjjjjkkkkkkkkkkkkkdd:w/confignnnnnnnnnnnnnnnnnnnnkkkkkkkkkkkkkkkkkkkkkkkkkkkknnnnnnnn/lo
+|3,0,20,0,1,0,1542814305,>6703
+|<"kjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjdd:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkjhhhhhhhhhhhhhhhhhdwdwxhxhlhx:w€k;:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjkkkkkkkjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkjhjjjkvjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\\c ujvjjjjjjjjjjjjjjjjjjjjjjjjjjjj\\c :wjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjkGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkklllllljjjjjjjjkkjjjjjjjjkkkjjjjjjjjjkkjjjjjjjjjjjjjkkkkkkkjkllllllllllllllllllllllllljjjjjjjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjjjjjjjjjjjjjkkkkkjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkjkjjjjjjjjjjjjjjjkkjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkvjjjjjj\\c :wjlllllllllllllllllllljlllvwy/\"nNNNnnnnnnnnnnnnnn€ý,€ý.€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kd€kd€kd€kd€kd€kd€
+|<kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdjjjjjj€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€ku€ku€kuv€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kdv€kd€kd€kd€kd€kd€kd€kdduv€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd
+|<€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kdGG€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€ku€ku€ku€ku€kddd€kd€kd€kd€kd€ku€kd€kd€kl€kl€kl€kl€kl€kl€kl€klv€kd€kd€kd€kdddd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kuuuv€kd€kd€kd€kdddd€ku:w€k
+|<u€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd
+|<€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€
+|<ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kd€kd€kd€kd€kd€kd€kdv€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd#€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kdG€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€
+|<kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€ku€ku€ku€ku€ku€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kl€kld$€kd€kd€kr€kr€krd$€kd€kd€kd€kd€kd€kdd$€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€k
+|<u€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku\nkjjjjjdddd:wkkkkj\\c kkjjjjjjjjjjjjjjjjjj
+|<jjjjjjjkkkkjjjjjjjjjkjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkhhhhhhhhhkkvjjjjjjjjjj$dddddddddk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjvjjjjj$djddkkjjjjjjjjjjjjjjkkkkkkkkkkkkkdd:w/confignnnnnnnnnnnnnnnnnnnnkkkkkkkkkkkkkkkkkkkkkkkkkkkknnnnnnnn/lo"
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1542812727," "
+"w	CHAR	0
+	6055
+<€ku€kr€ý,€ý.hhxxii€kbnetw€kb€kb€kb€kblxicustom hhhhhhrcrC:wjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhhhhhhkkkkkkkkkkkkkjjjjjjjjjjjjjhkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkjjjjjjjjjjjjjjjjhhhhhhhhhjvj$\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjllllljjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkjjjjkjjjjjjjjjjjjjjjjjj/from_xmlkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhjjjkkGggjjjjjjjjkoimp	€kb	 pi€kbki€kb€kbik€kbc	Gkgggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj:wjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjkkkkjjjjjjjjjjkkkkllllllllllopik	.dum	(pl€kbal	,€kb,open('€kb€kB€kb;€kB€kb€kb'~/playlistlli,w€kb'wb:w€kd€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kli€kb/h€kbh	ga€kb€kb/g	:w€ý,€ý.jjjjjjjjjjjjjkkj\c :w€ý,€ý-€ý.€ý,€ý.jkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjllllllllllllllljjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkjkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjknnnnnnnnjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/pick	€kbnyykkkkkkkkkkkkkkkkkkGggkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkllllllllllllljjkojjjjkkkki		pkj\c kjkddllllllllllllixxhxxxxxxxxxxires	:wkk:wjjyyjpkkddjllllllllllllll:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkllllllllllllllllllllllllllllllllllllljkjjkkjjjjkkk\c :wjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkhhhhhhhhhjkhhvwy/"kkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkhhhhhhhhhh$hhhhhhhhhhhhhhhhhhhhhhhhhyyjjkhhhhhhhhhhhhhhhhhhhhhkvjj$ykkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli€kb:wkojhhhhhhhhvjjj\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\c lllllllllllllllhhhxxxxim3u	:w
+|3,0,32,0,1,0,1542817777,>6063
+|<"€ku€kr€ý,€ý.hhxxii€kbnetw€kb€kb€kb€kblxicustom hhhhhhrcrC:wjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhhhhhhkkkkkkkkkkkkkjjjjjjjjjjjjjhkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkjjjjjjjjjjjjjjjjhhhhhhhhhjvj$\\c :wkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjllllljjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkjjjjkjjjjjjjjjjjjjjjjjj/from_xmlkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhjjjkkGggjjjjjjjjkoimp	€kb	 pi€kbki€kb€kbik€kbc	Gkgggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj:wjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjkkkkjjjjjjjjjjkkkkllllllllllopik	.dum	(pl€kbal	,€kb,open('€kb€kB€kb;€kB€kb€kb'~/playlistlli,w€kb'wb:w€kd€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€k
+|<l€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kli€kb/h€kbh	ga€kb€kb/g	:w€ý,€ý.jjjjjjjjjjjjjkkj\\c :w€ý,€ý-€ý.€ý,€ý.jkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjllllllll
+|<llllllljjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkjkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjknnnnnnnnjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/pick	€kbnyykkkkkkkkkkkkkkkkkkGggkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkllllllllllllljjkojjjjkkkki		pkj\\c kjkddllllllllllllixxhxxxxxxxxxxires	:wkk:wjjyyjpkkddjllllllllllllll:wjjjjjjjjjjjjjjjjjjjjjjjjjjj
+|<jjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkllllllllllllllllllllllllllllllllllllljkjjkkjjjjkkk\\c :wjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkhhhhhhhhhjkhhvwy/\"kkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkhhhhhhhhhh$hhhhhhhhhhhhhhhhhhhhhhhhhyyjjkhhhhhhhhhhhhhhhhhhhhhkvjj$ykkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+|<kkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli€kb:wkojhhhhhhhhvjjj\\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkk
+|<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
+|<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
+""-	CHAR	0
+	6
+|3,1,36,0,1,0,1542982256,"6"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	11	0
+%~/.config/mpv/playlist.m3u8	21	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1542814715	0
-	"	11	0
+	*	1542988047	0
+	"	21	0
 	.	1	0
 	+	1295	29
 	+	1295	27
@@ -454,96 +498,112 @@ $rsync -av --delete
 	+	1295	0
 	+	1	0
 
+> ~/.config/privarcy/PreLogin
+	*	1542982298	0
+	"	3	49
+	^	3	50
+	.	3	49
+	+	3	49
+
+> ~/.config/privarcy/shadowsocks/config5.json
+	*	1542982276	0
+	"	11	18
+	^	6	32
+	.	6	31
+	+	2	27
+	+	3	23
+	+	6	31
+
+> ~/.config/privarcy/shadowsocks/config2.json
+	*	1542980431	0
+	"	6	21
+	^	6	22
+	.	6	21
+	+	6	21
+
+> ~/.config/privarcy/shadowsocks/config1.json
+	*	1542979949	0
+	"	3	1
+
 > ~/.config/privarcy/user/bin/curseradio
-	*	1542807647	0
-	"	367	15
-	^	367	16
-	.	367	15
-	+	457	28
-	+	457	39
-	+	457	40
-	+	457	0
-	+	457	12
-	+	457	13
-	+	457	0
-	+	457	27
-	+	457	0
-	+	457	20
-	+	457	0
-	+	457	27
-	+	457	1
-	+	457	41
-	+	457	0
-	+	457	1
-	+	457	31
-	+	457	16
-	+	457	32
-	+	457	1
-	+	457	59
-	+	457	60
-	+	457	0
-	+	457	4
-	+	457	0
-	+	457	5
-	+	457	0
-	+	457	24
-	+	457	0
-	+	457	24
-	+	457	5
-	+	457	0
-	+	457	5
-	+	457	0
-	+	457	5
-	+	457	15
-	+	457	39
-	+	457	40
-	+	457	52
-	+	457	23
-	+	457	0
-	+	457	23
-	+	457	0
-	+	457	23
-	+	457	0
-	+	457	5
-	+	457	0
-	+	457	54
-	+	457	0
-	+	457	19
-	+	457	21
-	+	457	19
-	+	457	0
-	+	457	44
-	+	457	45
-	+	457	0
-	+	457	44
-	+	457	50
-	+	457	49
-	+	457	0
-	+	457	35
-	+	457	51
-	+	457	50
-	+	457	0
-	+	457	45
-	+	457	0
-	+	457	46
-	+	457	45
-	+	457	0
-	+	457	11
-	+	457	0
-	+	457	4
-	+	457	0
-	+	457	4
-	+	457	0
-	+	457	30
-	+	457	0
-	+	457	50
-	+	457	0
-	+	379	0
-	+	367	15
-	a	378	12
-	b	258	26
-	s	241	0
-	u	400	41
+	*	1542896089	0
+	"	272	35
+	.	1	0
+	+	1	0
+	+	1	16
+	+	1	0
+	+	1	13
+	+	1	19
+	+	1	26
+	+	1	0
+	+	1	8
+	+	1	0
+	+	1	27
+	+	1	0
+	+	1	30
+	+	1	31
+	+	1	0
+	+	297	0
+	+	297	9
+	+	297	8
+	+	297	0
+	+	1	0
+	+	293	27
+	+	297	0
+	+	298	0
+	+	301	0
+	+	323	30
+	+	325	31
+	+	1	0
+	+	328	48
+	+	330	47
+	+	245	0
+	+	50	24
+	+	51	0
+	+	73	0
+	+	1	0
+	+	245	0
+	+	217	0
+	+	217	21
+	+	217	0
+	+	217	17
+	+	217	0
+	+	217	19
+	+	238	0
+	+	232	0
+	+	217	0
+	+	217	4
+	+	217	0
+	+	232	33
+	+	217	8
+	+	217	0
+	+	232	0
+	+	217	16
+	+	217	26
+	+	217	0
+	+	217	27
+	+	217	0
+	+	217	29
+	+	217	27
+	+	217	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	232	0
+	+	217	8
+	+	217	19
+	+	217	28
+	+	217	24
+	+	71	0
+	+	232	0
+	+	217	0
+	+	232	0
+	+	1	0
+	+	245	0
+	+	1	0
+	a	245	0
+	b	227	26
+	u	333	41
 
 > ~/curseradio
 	*	1542714602	0
@@ -573,29 +633,3 @@ $rsync -av --delete
 	+	38	0
 	+	37	0
 	+	38	0
-
-> ~/curseradio.py
-	*	1542555976	0
-	"	326	0
-	^	326	38
-	.	326	37
-	+	325	0
-	+	326	37
-
-> ~/NERD_tree_1
-	*	1542554915	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/curseradio/curseradio/__init__.py
-	*	1542551380	0
-	"	4	30
-
-> ~/curseradio/curseradio/curseradio.py
-	*	1542551348	0
-	"	433	0
-	.	435	0
-	+	435	25
-	+	434	26
-	+	435	0
