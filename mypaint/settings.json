@@ -321,7 +321,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#ff3622", 
+  "colors.current": "#b84200", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
@@ -385,7 +385,7 @@
       "y": 0, 
       "h": 1054, 
       "w": 1276, 
-      "x": 1037
+      "x": 0
     }, 
     "floating": [], 
     "right_sidebar": {
@@ -404,11 +404,11 @@
     "#ff3621", 
     "#ff3621", 
     "#ff3621", 
-    "#ff3621"
+    "#b84200"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
-  "brush_chooser.default.selected_group": "set#4", 
+  "brush_chooser.default.selected_group": "set#3", 
   "input.global_pressure_mapping": [
     [
       0.0, 
@@ -420,13 +420,13 @@
     ]
   ], 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "kaerhon_v1/extreme_round_l", 
+  "brushmanager.selected_brush": "tanda/acrylic-03-with-water", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 
     "Wacom Intuos PT M 2 Pad pad:tablet-pad:6": {}, 
-    "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
     "Virtual core XTEST pointer:mouse:2": {}, 
+    "Wacom Intuos PT M 2 Pen stylus:pen:6": {}, 
     "Wacom Intuos PT M 2 Finger touch:touchpad:6": {}
   }, 
   "color_chooser.default.selected_adjuster": "PaletteTool", 

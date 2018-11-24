@@ -11,7 +11,6 @@ bluez
 bluez-utils
 bzip2
 chromium
-chromium-bsu
 clang
 cmake
 coreutils

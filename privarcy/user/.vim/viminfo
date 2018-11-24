@@ -21,11 +21,37 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1542982298,,"w"
+|2,0,1543053213,,"w"
+:source .vim/vimrc
+|2,0,1543052602,,"source .vim/vimrc"
+::
+|2,0,1543052282,,":"
+:call AutoFormat('test')
+|2,0,1543051536,,"call AutoFormat('test')"
+:'<,'>!python
+|2,0,1543053158,,"'<,'>!python"
+:'<,'>!python %
+|2,0,1543053138,,"'<,'>!python %"
+:source ~/.vim/vimrc
+|2,0,1543049243,,"source ~/.vim/vimrc"
 :q
-|2,0,1542980388,,"q"
+|2,0,1543052817,,"q"
+:IndentWidth
+|2,0,1543051221,,"IndentWidth"
 :q!
-|2,0,1542980103,,"q!"
+|2,0,1543051148,,"q!"
+:'<,'>ClangFormat
+|2,0,1543050153,,"'<,'>ClangFormat"
+:ClangFormat
+|2,0,1543049628,,"ClangFormat"
+:!proxychains mpv "http://liveal.quanmin.tv/live/2036316982.flv"
+|2,0,1543049160,,"!proxychains mpv \"http://liveal.quanmin.tv/live/2036316982.flv\""
+:source .vim
+|2,0,1543049030,,"source .vim"
+:ClangFormatjj
+|2,0,1543048883,,"ClangFormatjj"
+:PlugInstall
+|2,0,1543048184,,"PlugInstall"
 :load_config
 |2,0,1542814312,,"load_config"
 :selected
@@ -38,8 +64,6 @@ $rsync -av --delete
 |2,0,1542717293,,"nohlsearch"
 :PlugUpdate
 |2,0,1542446737,,"PlugUpdate"
-:PlugInstall
-|2,0,1542446718,,"PlugInstall"
 :g/
 |2,0,1542392556,,"g/"
 :g/mms/d
@@ -56,8 +80,6 @@ $rsync -av --delete
 |2,0,1542392214,," ~/tet.txt"
 :a ~/tet.txt
 |2,0,1542392209,,"a ~/tet.txt"
-:!proxychains mpv "http://liveal.quanmin.tv/live/2036316982.flv"
-|2,0,1542297545,,"!proxychains mpv \"http://liveal.quanmin.tv/live/2036316982.flv\""
 :!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv
 |2,0,1542297534,,"!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv"
 :!proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
@@ -98,28 +120,6 @@ $rsync -av --delete
 |2,0,1542296873,,"!SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
 :SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
 |2,0,1542296865,,"SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296855,,"SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296843,,"http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:source .vim/vimrc
-|2,0,1541876337,,"source .vim/vimrc"
-:execute line('.')+1
-|2,0,1541875163,,"execute line('.')+1"
-:execute line('.')
-|2,0,1541875158,,"execute line('.')"
-:execute 3
-|2,0,1541875148,,"execute 3"
-:execute a:line
-|2,0,1541875141,,"execute a:line"
-:cal cursor(30,2)
-|2,0,1541875097,,"cal cursor(30,2)"
-:exec(echo line(".")+1)
-|2,0,1541874942,,"exec(echo line(\".\")+1)"
-:eval(echo line(".")+1)
-|2,0,1541874932,,"eval(echo line(\".\")+1)"
-:echo line(".")+1
-|2,0,1541874919,,"echo line(\".\")+1"
 
 # Search String History (newest to oldest):
 ?/curser
@@ -240,67 +240,36 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        self.flat = self.root.flatten([])
-|3,0,0,1,1,0,1542894948,"        self.flat = self.root.flatten([])"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1542895949,""
-"2	CHAR	0
-	
-	    def load_favourites(self):
-	        m3u8path = self.config['playlist']['path']
-	        if os.path.exists(m3u8path):
-	            return OPMLFavourites.from_conf(m3u8path)
-	        return OPMLFavourites("", {})
-|3,0,2,0,6,0,1542895948,"","    def load_favourites(self):","        m3u8path = self.config['playlist']['path']","        if os.path.exists(m3u8path):","            return OPMLFavourites.from_conf(m3u8path)","        return OPMLFavourites(\"\", {})"
+"0	CHAR	0
+	'!python %'
+|3,0,0,0,1,0,1543053086,"'!python %'"
+""1	LINE	0
+	"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+|3,1,1,1,1,0,1543053208,"\"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
+"2	LINE	0
+	"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+|3,0,2,1,1,0,1543053208,"\"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
 "3	LINE	0
-	        self.root.children.insert(0, self.favourites)
-|3,0,3,1,1,0,1542895935,"        self.root.children.insert(0, self.favourites)"
+			let gcc = a:mode . cc	
+|3,0,3,1,1,0,1543053027,"		let gcc = a:mode . cc	"
 "4	LINE	0
-	        self.favourites = self.load_favourites()
-|3,0,4,1,1,0,1542895930,"        self.favourites = self.load_favourites()"
+		exec "w"
+|3,0,4,1,1,0,1543052806,"	exec \"w\""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1542895924,""
+		"exec "w"
+|3,0,5,1,1,0,1543052803,"	\"exec \"w\""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1542895924,""
+		exec "w"
+|3,0,6,1,1,0,1543052763,"	exec \"w\""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1542895923,""
-"8	CHAR	0
-	
-	class OPMLFavourites(OPMLOutline):
-	    def __init__(self, text, attr):
-	        super().__init__("Custom Radio", {})
-	        self.dirty = False
-	        # self.url = attr['URL']
-	
-	    @classmethod
-	    def from_conf(cls, path):
-	        text = 'è‡ªå®šä¹‰ç”µå°'
-	        attr = {"URL":'test '}
-	        return cls(text, attr)
-	
-	    def flatten(self, result, depth=0):
-	        result.append((self, depth))
-	        if not self.collapsed:
-	            for c in self.children:
-	                c.flatten(result, depth + 1)
-	        return result
-	
-	    def toggle(self, other):
-	        self.dirty = True
-	        if other in self.children:
-	            self.children.remove(other)
-	        else:
-	            self.children.append(other)
-|3,0,8,0,26,0,1542895922,"","class OPMLFavourites(OPMLOutline):","    def __init__(self, text, attr):","        super().__init__(\"Custom Radio\", {})","        self.dirty = False","        # self.url = attr['URL']","","    @classmethod","    def from_conf(cls, path):","        text = 'è‡ªå®šä¹‰ç”µå°'","        attr = {\"URL\":'test '}","        return cls(text, attr)","","    def flatten(self, result, depth=0):","        result.append((self, depth))",>32
-|<"        if not self.collapsed:","            for c in self.children:","                c.flatten(result, depth + 1)","        return result","","    def toggle(self, other):","        self.dirty = True","        if other in self.children:","            self.children.remove(other)","        else:","            self.children.append(other)"
+		exec "w"
+|3,0,7,1,1,0,1543052738,"	exec \"w\""
+"8	LINE	0
+			exec "0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'"
+|3,0,8,1,1,0,1543052699,"		exec \"0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'\""
 "9	LINE	0
-	        self.flat = self.root.flatten([])
-|3,0,9,1,1,0,1542894958,"        self.flat = self.root.flatten([])"
+			echom clang_format
+|3,0,9,1,1,0,1543052399,"		echom clang_format"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -400,236 +369,184 @@ $rsync -av --delete
 |<kkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli€kb:wkojhhhhhhhhvjjj\\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkk
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
-""-	CHAR	0
-	6
-|3,1,36,0,1,0,1542982256,"6"
+"-	CHAR	0
+	-
+|3,0,36,0,1,0,1543053097,"-"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	21	0
+%~/.vim/vimrc	90	0
 
 # History of marks within files (newest to oldest):
 
-> ~/.config/mpv/playlist.m3u8
-	*	1542988047	0
-	"	21	0
-	.	1	0
-	+	1295	29
-	+	1295	27
-	+	1295	29
-	+	1295	72
-	+	1295	0
-	+	1295	27
-	+	1295	69
-	+	1295	30
-	+	1295	0
-	+	1295	32
-	+	1295	0
-	+	1295	26
-	+	1295	0
-	+	1295	33
-	+	1295	0
-	+	1295	24
-	+	1295	0
-	+	1295	27
-	+	1295	0
-	+	1295	27
-	+	1295	0
-	+	1295	30
-	+	1295	0
-	+	1295	33
-	+	1295	0
-	+	1295	34
-	+	1295	0
-	+	1295	30
-	+	1295	0
-	+	1295	33
-	+	1295	0
-	+	1295	40
-	+	1295	4
-	+	1295	0
-	+	1295	81
-	+	1295	0
-	+	1295	71
-	+	1295	0
-	+	1295	14
-	+	1295	134
-	+	1295	136
-	+	1295	155
-	+	1295	136
-	+	1295	146
-	+	1295	136
-	+	1295	155
-	+	1295	146
-	+	1295	155
-	+	1295	137
-	+	1295	0
-	+	1295	136
-	+	1295	134
-	+	1295	136
-	+	1295	130
-	+	1295	145
-	+	1295	130
-	+	1295	146
-	+	1295	136
-	+	1295	125
-	+	1295	136
-	+	1295	130
-	+	1295	76
-	+	1295	136
-	+	1295	80
-	+	1295	0
-	+	1295	80
-	+	1295	74
-	+	1295	136
-	+	1295	76
-	+	1295	103
-	+	1295	17
-	+	1295	0
-	+	1295	14
-	+	1295	0
-	+	1295	13
-	+	1295	0
-	+	1	0
-	+	1295	2
-	+	1295	0
-	+	1295	16
-	+	1295	0
-	+	1	78
-	+	1295	0
-	+	1	0
+> ~/.vim/vimrc
+	*	1543053213	0
+	"	90	0
+	.	108	0
+	+	57	27
+	+	80	27
+	+	85	18
+	+	85	0
+	+	90	18
+	+	94	7
+	+	90	23
+	+	86	18
+	+	89	19
+	+	108	0
+	+	103	36
+	+	107	0
+	+	104	22
+	+	105	0
+	+	106	0
+	+	104	16
+	+	94	5
+	+	96	6
+	+	90	4
+	+	94	62
+	+	89	20
+	+	94	12
+	+	89	12
+	+	94	7
+	+	89	64
+	+	94	47
+	+	89	47
+	+	94	62
+	+	89	54
+	+	57	0
+	+	89	51
+	+	85	20
+	+	89	0
+	+	85	17
+	+	89	4
+	+	90	4
+	+	89	0
+	+	90	0
+	+	89	0
+	+	90	0
+	+	89	0
+	+	103	41
+	+	104	42
+	+	105	48
+	+	106	48
+	+	85	20
+	+	88	13
+	+	94	0
+	+	89	0
+	+	89	67
+	+	89	0
+	+	87	62
+	+	87	81
+	+	87	21
+	+	88	0
+	+	87	11
+	+	88	39
+	+	89	18
+	+	103	38
+	+	88	0
+	+	89	0
+	+	88	21
+	+	89	19
+	+	90	0
+	+	89	0
+	+	104	36
+	+	103	38
+	+	104	41
+	+	105	41
+	+	107	0
+	+	106	46
+	+	91	15
+	+	92	35
+	+	91	10
+	+	92	30
+	+	94	0
+	+	93	19
+	+	94	0
+	+	95	0
+	+	83	0
+	+	86	0
+	+	83	0
+	+	71	20
+	+	75	11
+	+	75	22
+	+	75	10
+	+	75	0
+	+	75	25
+	+	76	0
+	+	75	9
+	+	76	0
+	+	77	0
+	+	83	0
+	+	108	0
 
-> ~/.config/privarcy/PreLogin
-	*	1542982298	0
-	"	3	49
-	^	3	50
-	.	3	49
-	+	3	49
+> ~/bayes.py
+	*	1543053194	0
+	"	4	3
+	.	5	0
+	+	2	7
+	+	5	7
+	+	5	0
 
-> ~/.config/privarcy/shadowsocks/config5.json
-	*	1542982276	0
-	"	11	18
-	^	6	32
-	.	6	31
-	+	2	27
-	+	3	23
-	+	6	31
-
-> ~/.config/privarcy/shadowsocks/config2.json
-	*	1542980431	0
-	"	6	21
-	^	6	22
-	.	6	21
-	+	6	21
-
-> ~/.config/privarcy/shadowsocks/config1.json
-	*	1542979949	0
-	"	3	1
-
-> ~/.config/privarcy/user/bin/curseradio
-	*	1542896089	0
-	"	272	35
-	.	1	0
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	13
-	+	1	19
-	+	1	26
-	+	1	0
-	+	1	8
-	+	1	0
-	+	1	27
-	+	1	0
-	+	1	30
-	+	1	31
-	+	1	0
-	+	297	0
-	+	297	9
-	+	297	8
-	+	297	0
-	+	1	0
-	+	293	27
-	+	297	0
-	+	298	0
-	+	301	0
-	+	323	30
-	+	325	31
-	+	1	0
-	+	328	48
-	+	330	47
-	+	245	0
-	+	50	24
-	+	51	0
-	+	73	0
-	+	1	0
-	+	245	0
-	+	217	0
-	+	217	21
-	+	217	0
-	+	217	17
-	+	217	0
-	+	217	19
-	+	238	0
-	+	232	0
-	+	217	0
-	+	217	4
-	+	217	0
-	+	232	33
-	+	217	8
-	+	217	0
-	+	232	0
-	+	217	16
-	+	217	26
-	+	217	0
-	+	217	27
-	+	217	0
-	+	217	29
-	+	217	27
-	+	217	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	232	0
-	+	217	8
-	+	217	19
-	+	217	28
-	+	217	24
-	+	71	0
-	+	232	0
-	+	217	0
-	+	232	0
-	+	1	0
-	+	245	0
-	+	1	0
-	a	245	0
-	b	227	26
-	u	333	41
-
-> ~/curseradio
-	*	1542714602	0
+> ~/Code/python/bayes.py
+	*	1543052899	0
 	"	1	0
 
-> ~/which
-	*	1542714583	0
-	"	1	0
+> ~/Code/C/ex13.c
+	*	1543052899	0
+	"	3	0
 
-> /usr/share/alsa/alsa.conf
-	*	1542713961	0
-	"	5	0
+> ~/Code/python/test.py
+	*	1543052879	0
+	"	3	0
+	.	4	0
+	+	1	0
+	+	1	14
+	+	1	7
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	11
+	+	1	0
+	+	3	0
+	+	1	0
+	+	4	0
 
-> ~/.config/privarcy/user/bin/radio
-	*	1542560208	0
-	"	288	33
-	^	36	8
-	.	38	0
-	+	38	0
-	+	38	8
-	+	38	0
-	+	40	18
-	+	38	18
-	+	38	16
-	+	40	18
-	+	36	7
-	+	38	0
-	+	37	0
-	+	38	0
+> ~/Code/python/NERD_tree_1
+	*	1543052868	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Code/C/ex14.c
+	*	1543052809	0
+	"	18	0
+	.	1	0
+	+	1	0
+	+	1	25
+	+	1	0
+	+	4	0
+	+	1	0
+	a	2	0
+
+> ~/Code/C/ex15.c
+	*	1543048919	0
+	"	24	0
+	^	23	1
+	.	23	0
+	+	43	0
+	+	32	0
+	+	41	0
+	+	22	24
+	+	23	0
+
+> ~/NERD_tree_1
+	*	1543048290	0
+	"	17	12
+	.	1	0
+	+	1	0
+
+> ~/Code/NERD_tree_1
+	*	1543047324	0
+	"	11	0
+	.	1	0
+	+	1	0
