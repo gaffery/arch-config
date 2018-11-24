@@ -82,15 +82,11 @@ func! CompileRun()
 	endif
 endfunc
 
-func! AutoFormat(mode)
+func! AutoFormat()
 	if &filetype == 'c'
-		let clang = "!clang-format -style='{BasedOnStyle: llvm, IndentWidth: 4}'"
-		let clang_format = a:mode . clang
-		exec clang_format
+		exec "0,$!clang-format -style='{BasedOnStyle: WebKit,  ColumnLimit: 120}'"
 	elseif &filetype == 'python'
-		let pypf = "!yapf --style='{based_on_style: pep8, column_limit: 120}'"
-		let python_format = a:mode . pypf
-		exec python_format
+		exec "0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'"
 	endif
 	exec "w"
 endfunc
@@ -100,10 +96,10 @@ noremap <leader>t ggO# -*- coding: utf-8 -*-<esc>
 noremap <leader>p ggO#!/usr/bin/env python<esc>
 noremap <leader>s ggO#!/bin/bash<esc>
 
-noremap <F10> m0: call AutoFormat("0,$")<CR> `0
-vnoremap <F10> m0: call AutoFormat("'<,'>")<CR> `0
-inoremap <F10> <ESC> m0:call AutoFormat("0,$")<CR> `0
-cnoremap <F10> <ESC> m0:call AutoFormat("0,$")<CR> `0
+noremap <F10> m0: call AutoFormat()<CR> `0
+vnoremap <F10> m0: call AutoFormat()<CR> `0
+inoremap <F10> <ESC> m0:call AutoFormat()<CR> `0
+cnoremap <F10> <ESC> m0:call AutoFormat()<CR> `0
 
 
 noremap <F12> :call CompileRun()<CR>
