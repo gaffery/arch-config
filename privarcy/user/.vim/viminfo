@@ -20,10 +20,42 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:source ~/.vim/vimrc
+|2,0,1543054487,,"source ~/.vim/vimrc"
 :w
-|2,0,1543053213,,"w"
+|2,0,1543054475,,"w"
+:'<,'> !yapf
+|2,0,1543054468,,"'<,'> !yapf"
+:'<,'> !python
+|2,0,1543054440,,"'<,'> !python"
+:'<,'> call AutoFormat("'<,'>")  h
+|2,0,1543054308,,"'<,'> call AutoFormat(\"'<,'>\")  h"
+:'<,'>!yapf 
+|2,0,1543054250,,"'<,'>!yapf "
+:'<,'> !ya
+|2,0,1543054516,,"'<,'> !ya"
+:'<,'>'<, >'!yapf
+|2,0,1543055039,,"'<,'>'<, >'!yapf"
+:'<
+|2,0,1543054990,,"'<"
+: '<
+|2,0,1543054986,," '<"
+:echom '<
+|2,0,1543054980,,"echom '<"
+:echo '<
+|2,0,1543054975,,"echo '<"
+:'>
+|2,0,1543054952,,"'>"
+:'<,'>'<,>'!yapf
+|2,0,1543054861,,"'<,'>'<,>'!yapf"
+:'<,'>h
+|2,0,1543054609,,"'<,'>h"
+:q
+|2,0,1543053813,,"q"
 :source .vim/vimrc
-|2,0,1543052602,,"source .vim/vimrc"
+|2,0,1543053728,,"source .vim/vimrc"
+:'<,'>!clang-format
+|2,0,1543053574,,"'<,'>!clang-format"
 ::
 |2,0,1543052282,,":"
 :call AutoFormat('test')
@@ -32,10 +64,6 @@ $rsync -av --delete
 |2,0,1543053158,,"'<,'>!python"
 :'<,'>!python %
 |2,0,1543053138,,"'<,'>!python %"
-:source ~/.vim/vimrc
-|2,0,1543049243,,"source ~/.vim/vimrc"
-:q
-|2,0,1543052817,,"q"
 :IndentWidth
 |2,0,1543051221,,"IndentWidth"
 :q!
@@ -92,34 +120,6 @@ $rsync -av --delete
 |2,0,1542297438,,"!proxychains mpv "
 :!proxychains mpv Desktop/Video/Alice\ in\ Wonderland\ 3D\ 2010\ 1080p\ Half-SBS\ BluRay\ DTS\ x264-z-man.mkv
 |2,0,1542297411,,"!proxychains mpv Desktop/Video/Alice\\ in\\ Wonderland\\ 3D\\ 2010\\ 1080p\\ Half-SBS\\ BluRay\\ DTS\\ x264-z-man.mkv"
-:!proxychains mpv
-|2,0,1542297391,,"!proxychains mpv"
-:!bash proxychains mpv
-|2,0,1542297385,,"!bash proxychains mpv"
-:!bash "proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542297180,,"!bash \"proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:!bash "mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542297159,,"!bash \"mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542297080,,"!bash proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:execute "proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542297032,,"execute \"proxychains mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:execute "proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542297025,,"execute \"proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:execute "proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542297004,,"execute \"proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:!proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296964,,"!proxychains4 mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:!proxychains "mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-|2,0,1542296943,,"!proxychains \"mpv http://data1.cache.directory/media/videos/iphone/4350.mp4\""
-:!proxychains !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296919,,"!proxychains !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:!SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296881,,"!SS mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:!SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296873,,"!SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
-:SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4
-|2,0,1542296865,,"SS !mpv http://data1.cache.directory/media/videos/iphone/4350.mp4"
 
 # Search String History (newest to oldest):
 ?/curser
@@ -244,32 +244,34 @@ $rsync -av --delete
 	'!python %'
 |3,0,0,0,1,0,1543053086,"'!python %'"
 ""1	LINE	0
-	"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
-|3,1,1,1,1,0,1543053208,"\"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
+			echom python_format
+|3,1,1,1,1,0,1543054345,"		echom python_format"
 "2	LINE	0
-	"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
-|3,0,2,1,1,0,1543053208,"\"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
-"3	LINE	0
-			let gcc = a:mode . cc	
-|3,0,3,1,1,0,1543053027,"		let gcc = a:mode . cc	"
-"4	LINE	0
-		exec "w"
-|3,0,4,1,1,0,1543052806,"	exec \"w\""
+			echo clang_format
+|3,0,2,1,1,0,1543054343,"		echo clang_format"
+"3	BLOCK	0
+	 
+	 
+|3,0,3,2,2,0,1543053691," "," "
+"4	BLOCK	2
+	m0:
+	m0:
+|3,0,4,2,2,2,1543053686,"m0:","m0:"
 "5	LINE	0
-		"exec "w"
-|3,0,5,1,1,0,1543052803,"	\"exec \"w\""
+	"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+|3,0,5,1,1,0,1543053208,"\"vnoremap <F10> ma:'<,'>!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
 "6	LINE	0
-		exec "w"
-|3,0,6,1,1,0,1543052763,"	exec \"w\""
+	"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a
+|3,0,6,1,1,0,1543053208,"\"noremap <F10> ma:0,$!yapf --style='{based_on_style:pep8,column_limit:120}'<CR> `a"
 "7	LINE	0
-		exec "w"
-|3,0,7,1,1,0,1543052738,"	exec \"w\""
+			let gcc = a:mode . cc	
+|3,0,7,1,1,0,1543053027,"		let gcc = a:mode . cc	"
 "8	LINE	0
-			exec "0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'"
-|3,0,8,1,1,0,1543052699,"		exec \"0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'\""
+		exec "w"
+|3,0,8,1,1,0,1543052806,"	exec \"w\""
 "9	LINE	0
-			echom clang_format
-|3,0,9,1,1,0,1543052399,"		echom clang_format"
+		"exec "w"
+|3,0,9,1,1,0,1543052803,"	\"exec \"w\""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -352,6 +354,9 @@ $rsync -av --delete
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
+"u	CHAR	0
+	uu:w
+|3,0,30,0,1,0,1543053994,"uu:w"
 "w	CHAR	0
 	6055
 <€ku€kr€ý,€ý.hhxxii€kbnetw€kb€kb€kb€kblxicustom hhhhhhrcrC:wjjjjjjjjjjkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjhhhhhhhhhhkkkkkkkkkkkkkjjjjjjjjjjjjjhkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkjjjjjjjjjjjjjjjjhhhhhhhhhjvj$\c :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkjllllljjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkjjjjkjjjjjjjjjjjjjjjjjj/from_xmlkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkhhhhhhhhjjjkkGggjjjjjjjjkoimp	€kb	 pi€kbki€kb€kbik€kbc	Gkgggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj:wjjjjjjjjkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjkkkkjjjjjjjjjjkkkkllllllllllopik	.dum	(pl€kbal	,€kb,open('€kb€kB€kb;€kB€kb€kb'~/playlistlli,w€kb'wb:w€kd€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kli€kb/h€kbh	ga€kb€kb/g	:w€ý,€ý.jjjjjjjjjjjjjkkj\c :w€ý,€ý-€ý.€ý,€ý.jkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkjjjllllllllllllllljjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjkkkjkkkkkkkkkkkkkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjknnnnnnnnjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/pick	€kbnyykkkkkkkkkkkkkkkkkkGggkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkllllllllllllljjkojjjjkkkki		pkj\c kjkddllllllllllllixxhxxxxxxxxxxires	:wkk:wjjyyjpkkddjllllllllllllll:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjkkkllllllllllllllllllllllllllllllllllllljkjjkkjjjjkkk\c :wjjjjjjjjjjjjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjkhhhhhhhhhjkhhvwy/"kkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkhhhhhhhhhh$hhhhhhhhhhhhhhhhhhhhhhhhhyyjjkhhhhhhhhhhhhhhhhhhhhhkvjj$ykkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli€kb:wkojhhhhhhhhvjjj\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\c lllllllllllllllhhhxxxxim3u	:w
@@ -370,33 +375,29 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-	-
-|3,0,36,0,1,0,1543053097,"-"
+	'
+|3,0,36,0,1,0,1543054596,"'"
 
 # Buffer list:
-%~/.vim/vimrc	90	0
+%~/.config/mpv/playlist.m3u8	2	0
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/mpv/playlist.m3u8
+	*	1543055120	0
+	"	2	0
+
+> ~/Code/python/bayes.py
+	*	1543055119	0
+	"	28	0
+	.	29	0
+	+	29	0
+
 > ~/.vim/vimrc
-	*	1543053213	0
-	"	90	0
-	.	108	0
-	+	57	27
-	+	80	27
-	+	85	18
-	+	85	0
-	+	90	18
-	+	94	7
-	+	90	23
-	+	86	18
-	+	89	19
-	+	108	0
-	+	103	36
-	+	107	0
-	+	104	22
-	+	105	0
-	+	106	0
+	*	1543055115	0
+	"	65	2
+	^	104	40
+	.	95	0
 	+	104	16
 	+	94	5
 	+	96	6
@@ -476,6 +477,52 @@ $rsync -av --delete
 	+	77	0
 	+	83	0
 	+	108	0
+	+	87	0
+	+	105	0
+	+	105	21
+	+	106	0
+	+	105	15
+	+	106	15
+	+	89	19
+	+	93	20
+	+	89	0
+	+	93	0
+	+	93	6
+	+	89	6
+	+	93	6
+	+	95	0
+	+	104	36
+	+	93	0
+	+	89	0
+	+	93	0
+	+	89	0
+	+	104	39
+	+	95	0
+
+> ~/Code/python/NERD_tree_1
+	*	1543054184	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Code/C/ex14.c
+	*	1543053812	0
+	"	27	0
+	.	5	0
+	+	1	0
+	+	1	25
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	3
+	+	24	0
+	+	1	0
+	+	21	0
+	+	1	0
+	+	21	0
+	+	16	0
+	+	5	0
+	a	3	0
 
 > ~/bayes.py
 	*	1543053194	0
@@ -484,10 +531,6 @@ $rsync -av --delete
 	+	2	7
 	+	5	7
 	+	5	0
-
-> ~/Code/python/bayes.py
-	*	1543052899	0
-	"	1	0
 
 > ~/Code/C/ex13.c
 	*	1543052899	0
@@ -511,23 +554,6 @@ $rsync -av --delete
 	+	1	0
 	+	4	0
 
-> ~/Code/python/NERD_tree_1
-	*	1543052868	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/Code/C/ex14.c
-	*	1543052809	0
-	"	18	0
-	.	1	0
-	+	1	0
-	+	1	25
-	+	1	0
-	+	4	0
-	+	1	0
-	a	2	0
-
 > ~/Code/C/ex15.c
 	*	1543048919	0
 	"	24	0
@@ -542,11 +568,5 @@ $rsync -av --delete
 > ~/NERD_tree_1
 	*	1543048290	0
 	"	17	12
-	.	1	0
-	+	1	0
-
-> ~/Code/NERD_tree_1
-	*	1543047324	0
-	"	11	0
 	.	1	0
 	+	1	0

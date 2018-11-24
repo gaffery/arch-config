@@ -102,8 +102,8 @@ noremap <leader>s ggO#!/bin/bash<esc>
 
 noremap <F10> m0: call AutoFormat("0,$")<CR> `0
 vnoremap <F10> m0: call AutoFormat("'<,'>")<CR> `0
-inoremap <F10> m0: <ESC> call AutoFormat("0,$")<CR> `0
-cnoremap <F10> m0: <ESC> call AutoFormat("0,$")<CR> `0
+inoremap <F10> <ESC> m0:call AutoFormat("0,$")<CR> `0
+cnoremap <F10> <ESC> m0:call AutoFormat("0,$")<CR> `0
 
 
 noremap <F12> :call CompileRun()<CR>
