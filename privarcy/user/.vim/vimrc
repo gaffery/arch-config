@@ -107,19 +107,17 @@ vnoremap <F12> :call CompileRun()<CR>
 inoremap <F12> <ESC>:call CompileRun()<CR>
 cnoremap <F12> <ESC>:call CompileRun()<CR>
 
-"lightline 状态栏配置"
-let g:lightline = {
-	  \	'active': {
-	  \	 'right': [['lineinfo'],['percent'],['filetype']]
-      \ },
-      \ }
-
-"NERDTree配置"
 noremap <F9> :NERDTreeToggle<CR>
 vnoremap <F9> <ESC>:NERDTreeToggle<CR>
 inoremap <F9> <ESC>:NERDTreeToggle<CR>
 cnoremap <F9> <ESC>:NERDTreeToggle<CR>
 
+noremap <leader>g mu:YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+"lightline 状态栏配置"
+let g:lightline = {'active': {'right': [['lineinfo'],['percent'],['filetype']]}}
+
+"NERDTree配置"
 let NERDTreeChDirMode=1
 let NERDTreeShowBookmarks=0
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
@@ -136,7 +134,8 @@ let g:NERDToggleCheckAllLines = 1
 "YCM 配置"
 let g:ycm_server_python_interpreter='/usr/bin/python'
 let g:ycm_python_binary_path='/usr/bin/python'
-let g:ycm_global_ycm_extra_conf='~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf=
+	\ '~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
 let g:ycm_confirm_extra_conf=0  
 let g:ycm_show_diagnostics_ui = 0
 let g:ycm_complete_in_comments=1
@@ -146,8 +145,7 @@ let g:ycm_seed_identifiers_with_syntax=1
 set completeopt=menu,menuone
 let g:ycm_add_preview_to_completeopt = 0
 let g:ycm_key_invoke_completion='<C-Space>'
-noremap <leader>g mu:YcmCompleter GoToDefinitionElseDeclaration<CR>
-let g:ycm_semantic_triggers =  {
-			\ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
-			\ 'cs,lua,javascript': ['re!\w{2}'],
-			\ }
+let g:ycm_semantic_triggers = {
+	\ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+	\ 'cs,lua,javascript': ['re!\w{2}'],
+	\ }
