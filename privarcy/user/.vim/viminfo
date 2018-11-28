@@ -1569,9 +1569,29 @@ $rsync -av --delete
 |3,0,36,0,1,0,1543405874," "
 
 # Buffer list:
-%~/.config/privarcy/user/bin/FM	2	1
+%~/.config/mpv/playlist.m3u8	13	0
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/mpv/playlist.m3u8
+	*	1543406628	0
+	"	13	0
+	^	97	50
+	.	86	0
+	+	122	0
+	+	135	0
+	+	137	0
+	+	138	0
+	+	139	0
+	+	137	0
+	+	141	0
+	+	140	0
+	+	141	0
+	+	100	0
+	+	98	0
+	+	97	49
+	+	2	0
+	+	86	0
 
 > ~/.config/privarcy/user/bin/FM
 	*	1543406440	0
@@ -1590,26 +1610,6 @@ $rsync -av --delete
 	+	2	35
 	+	3	0
 	+	2	26
-
-> ~/.config/mpv/playlist.m3u8
-	*	1543334398	0
-	"	78	0
-	^	97	50
-	.	86	0
-	+	122	0
-	+	135	0
-	+	137	0
-	+	138	0
-	+	139	0
-	+	137	0
-	+	141	0
-	+	140	0
-	+	141	0
-	+	100	0
-	+	98	0
-	+	97	49
-	+	2	0
-	+	86	0
 
 > ~/.sylpheed-2.0/tmp/tmpmsg-0x563d5eb765f0.txt
 	*	1543242684	0

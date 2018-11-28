@@ -1,2 +1,2 @@
 set fish_greeting
-set -gx PATH $PATH ~/.config/privarcy/user/bin
+set -gx PATH $PATH ~/.config/privarcy/bin

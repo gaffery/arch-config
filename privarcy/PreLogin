@@ -1,6 +1,6 @@
 #!/bin/bash
 # 影梭服务器链接
-ss-local -c ~/.config/privarcy/shadowsocks/config5.json > /dev/null 2>&1 &
+ss-local -c ~/.config/privarcy/etc/shadowsocks/config5.json > /dev/null 2>&1 &
 # ipfs 服务启动
 # export IPFS_PATH=/repo/IPFS&&ipfs daemon > /dev/null 2>&1 &
 # 校正数位板映射

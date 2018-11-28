@@ -9,8 +9,8 @@ rsync -av --delete .ipython /home/gaffey/.config/privarcy/user/.
 rsync -av --delete /etc/lxdm/lxdm.conf .config/privarcy/etc/.
 rsync -av --delete /etc/cron.d/* .config/privarcy/etc/.
 # 软件列表备份
-pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
-pip freeze > /home/gaffey/.config/privarcy/requirements.txt
+pacman -Qqen > /home/gaffey/.config/privarcy/user/pkglist.txt
+pip freeze > /home/gaffey/.config/privarcy/user/requirements.txt
 sleep 1
 # 提交文件至github
 sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Github!' '提交文件至Github服务器...'
