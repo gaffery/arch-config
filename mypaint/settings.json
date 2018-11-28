@@ -321,7 +321,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#b84200", 
+  "colors.current": "#c7b299", 
   "view.default_zoom": 1.0, 
   "brushmanager.selected_groups": [], 
   "ui.toolbar_items": {
@@ -400,15 +400,15 @@
     }
   }, 
   "colors.history": [
-    "#ff3621", 
-    "#ff3621", 
-    "#ff3621", 
-    "#ff3621", 
-    "#b84200"
+    "#d8990b", 
+    "#add9ba", 
+    "#000000", 
+    "#f2e3c6", 
+    "#c7b299"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
-  "brush_chooser.default.selected_group": "set#3", 
+  "brush_chooser.default.selected_group": "set#4", 
   "input.global_pressure_mapping": [
     [
       0.0, 
@@ -420,7 +420,7 @@
     ]
   ], 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "tanda/acrylic-03-with-water", 
+  "brushmanager.selected_brush": "kaerhon_v1/classic_sk", 
   "ui.support_smooth_scrolling": true, 
   "input.devices": {
     "Gaming KB  Gaming KB  Consumer Control:mouse:4": {}, 

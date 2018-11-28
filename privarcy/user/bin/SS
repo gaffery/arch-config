@@ -1,0 +1,2 @@
+#!/bin/bash
+proxychains4 -f ~/.config/privarcy/etc/proxychains.conf $@;

@@ -49,6 +49,7 @@ grep
 groff
 gtk-engine-murrine
 gtk-xfce-engine
+gvfs
 gzip
 htop
 inetutils
@@ -105,6 +106,7 @@ sed
 shadow
 shadowsocks-libev
 sudo
+sylpheed
 sysfsutils
 syslinux
 systemd
