@@ -390,9 +390,29 @@ $rsync -av --delete
 |3,0,36,0,1,0,1543412571," "
 
 # Buffer list:
-%~/Code/C/ex15.c	1	0
+%~/.config/mpv/playlist.m3u8	10	30
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/mpv/playlist.m3u8
+	*	1543928048	0
+	"	10	30
+	^	97	50
+	.	86	0
+	+	122	0
+	+	135	0
+	+	137	0
+	+	138	0
+	+	139	0
+	+	137	0
+	+	141	0
+	+	140	0
+	+	141	0
+	+	100	0
+	+	98	0
+	+	97	49
+	+	2	0
+	+	86	0
 
 > ~/Code/C/ex15.c
 	*	1543416516	0
@@ -443,26 +463,6 @@ $rsync -av --delete
 	"	10	0
 	.	1	0
 	+	1	0
-
-> ~/.config/mpv/playlist.m3u8
-	*	1543406628	0
-	"	13	0
-	^	97	50
-	.	86	0
-	+	122	0
-	+	135	0
-	+	137	0
-	+	138	0
-	+	139	0
-	+	137	0
-	+	141	0
-	+	140	0
-	+	141	0
-	+	100	0
-	+	98	0
-	+	97	49
-	+	2	0
-	+	86	0
 
 > ~/.config/privarcy/user/bin/FM
 	*	1543406440	0

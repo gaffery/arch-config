@@ -18,3 +18,4 @@ application/x-xbel=chromium.desktop;
 application/gzip=xarchiver.desktop;
 video/mp4=mpv.desktop;
 video/mp2t=mpv.desktop;
+application/pdf=epdfview.desktop;
