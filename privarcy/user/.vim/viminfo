@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\\
+~Msle0~/\<140\>
 
 # Last Substitute Search Pattern:
 ~MSle0&mms
@@ -21,15 +21,17 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1543416516,,"w"
+|2,0,1543940821,,"w"
+:nohl
+|2,0,1543938173,,"nohl"
+:w$a
+|2,0,1543938040,,"w$a"
 :ls
 |2,0,1543414625,,"ls"
 :j
 |2,0,1543405925,,"j"
 :q
 |2,0,1543404164,,"q"
-:nohl
-|2,0,1543089561,,"nohl"
 :nosl
 |2,0,1543089557,,"nosl"
 :source ~/.vim/vimrc
@@ -118,10 +120,16 @@ $rsync -av --delete
 |2,0,1542392214,," ~/tet.txt"
 :a ~/tet.txt
 |2,0,1542392209,,"a ~/tet.txt"
-:!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv
-|2,0,1542297534,,"!proxychains mpv http://liveal.quanmin.tv/live/2036316982.flv"
 
 # Search String History (newest to oldest):
+? \<140\>
+|2,1,1543938516,,"\\<140\\>"
+? \<who\>
+|2,1,1543938113,,"\\<who\\>"
+? ;
+|2,1,1543938111,,";"
+? \<name\>
+|2,1,1543938096,,"\\<name\\>"
 ?/ja
 |2,1,1543332586,47,"ja"
 ?/jav
@@ -214,14 +222,6 @@ $rsync -av --delete
 |2,1,1542560083,47,"favourite"
 ?/command
 |2,1,1542558791,47,"command"
-?/comm
-|2,1,1542558753,47,"comm"
-?/mpv
-|2,1,1542558749,47,"mpv"
-?/opml
-|2,1,1542558674,47,"opml"
-?/render
-|2,1,1542554236,47,"render"
 
 # Expression History (newest to oldest):
 
@@ -241,12 +241,33 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-	        printf("%s is %d years old.\n", *(cur_name + i), *(cur_age + i));
-|3,0,0,1,1,0,1543412542,"        printf(\"%s is %d years old.\\n\", *(cur_name + i), *(cur_age + i));"
+	    printf("The value is: %d\n", *p);
+|3,0,0,1,1,0,1543939729,"    printf(\"The value is: %d\\n\", *p);"
 ""1	LINE	0
+	
+|3,1,1,1,1,0,1543939949,""
+"2	LINE	0
+	    int wait;
+|3,0,2,1,1,0,1543939803,"    int wait;"
+"3	LINE	0
+	    scanf("%d", &wait);
+|3,0,3,1,1,0,1543939724,"    scanf(\"%d\", &wait);"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1543939631,""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1543939629,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1543939628,""
+"7	LINE	0
 		typeof *ptr
-|3,1,1,1,1,0,1543416285,"	typeof *ptr"
-"2	CHAR	0
+|3,0,7,1,1,0,1543939579,"	typeof *ptr"
+"8	LINE	0
+		typeof *ptr
+|3,0,8,1,1,0,1543416285,"	typeof *ptr"
+"9	CHAR	0
 	
 		int count = sizeof(ages) / sizeof(int);
 	    int i = 0;
@@ -255,34 +276,7 @@ $rsync -av --delete
 	        printf("%s has %d years alive. \n", names[i], ages[i]);
 	    }
 	
-|3,0,2,0,8,0,1543413978,"","	int count = sizeof(ages) / sizeof(int);","    int i = 0;","","    for (i = 0; i < count; i++) {","        printf(\"%s has %d years alive. \\n\", names[i], ages[i]);","    }",""
-"3	CHAR	0
-	    int count = sizeof(ages) / sizeof(int);
-	
-|3,0,3,0,2,0,1543413170,"    int count = sizeof(ages) / sizeof(int);",""
-"4	CHAR	0
-	int count = sizeof(ages) / sizeof(int);
-	    int i = 0;
-	
-	    for (i = 0; i < count; i++) {
-	        printf("%s has %d years alive. \n", names[i], ages[i]);
-	    
-|3,0,4,0,6,0,1543413159,"int count = sizeof(ages) / sizeof(int);","    int i = 0;","","    for (i = 0; i < count; i++) {","        printf(\"%s has %d years alive. \\n\", names[i], ages[i]);","    "
-"5	LINE	0
-	
-|3,0,5,1,1,0,1543413152,""
-"6	LINE	0
-		h
-|3,0,6,1,1,0,1543413150,"	h"
-"7	LINE	0
-		h
-|3,0,7,1,1,0,1543413146,"	h"
-"8	LINE	0
-		\c
-|3,0,8,1,1,0,1543413143,"	\\c"
-"9	LINE	0
-	\
-|3,0,9,1,1,0,1543413130,"\\"
+|3,0,9,0,8,0,1543413978,"","	int count = sizeof(ages) / sizeof(int);","    int i = 0;","","    for (i = 0; i < count; i++) {","        printf(\"%s has %d years alive. \\n\", names[i], ages[i]);","    }",""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -386,17 +380,17 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1543412571," "
+		
+|3,0,36,0,1,0,1543940102,"	"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	10	30
+%~/.config/mpv/playlist.m3u8	6	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1543928048	0
-	"	10	30
+	*	1544165399	0
+	"	6	0
 	^	97	50
 	.	86	0
 	+	122	0
@@ -413,6 +407,117 @@ $rsync -av --delete
 	+	97	49
 	+	2	0
 	+	86	0
+
+> ~/test.c
+	*	1544014982	0
+	"	1	0
+	^	6	2
+	.	1	0
+	+	3	0
+	+	2	1
+	+	2	0
+	+	4	4
+	+	2	6
+	+	5	4
+	+	5	3
+	+	7	8
+	+	10	3
+	+	2	3
+	+	10	5
+	+	2	5
+	+	2	4
+	+	2	3
+	+	2	0
+	+	5	0
+	+	7	0
+	+	10	0
+	+	2	0
+	+	3	0
+	+	1	17
+	+	1	0
+	+	2	4
+	+	1	0
+	+	4	12
+	+	10	0
+	+	8	27
+	+	5	0
+	+	8	33
+	+	1	0
+	+	9	9
+	+	1	0
+	+	5	13
+	+	9	10
+	+	4	12
+	+	7	0
+	+	6	2
+	+	5	10
+	+	6	2
+	+	1	0
+
+> ~/Code/C/ex16.c
+	*	1543940821	0
+	"	61	0
+	^	5	15
+	.	1	0
+	+	1	19
+	+	1	0
+	+	1	15
+	+	1	11
+	+	1	2
+	+	1	0
+	+	1	72
+	+	1	0
+	+	1	54
+	+	1	23
+	+	1	27
+	+	1	11
+	+	1	0
+	+	1	36
+	+	1	21
+	+	1	17
+	+	1	10
+	+	1	0
+	+	1	34
+	+	1	32
+	+	1	0
+	+	1	32
+	+	1	0
+	+	1	5
+	+	1	39
+	+	1	1
+	+	1	0
+	+	1	30
+	+	1	60
+	+	1	0
+	+	1	61
+	+	1	48
+	+	1	16
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	49
+	+	1	21
+	+	1	23
+	+	1	0
+	+	1	18
+	+	1	0
+	+	1	19
+	+	1	21
+	+	1	23
+	+	1	9
+	+	1	0
+	+	1	23
+	+	15	0
+	+	1	0
+	+	6	0
+	+	5	0
+	+	1	0
+
+> ~/NERD_tree_1
+	*	1543940701	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/Code/C/ex15.c
 	*	1543416516	0
@@ -458,12 +563,6 @@ $rsync -av --delete
 	.	1	0
 	+	1	0
 
-> ~/NERD_tree_1
-	*	1543411836	0
-	"	10	0
-	.	1	0
-	+	1	0
-
 > ~/.config/privarcy/user/bin/FM
 	*	1543406440	0
 	"	2	1
@@ -489,114 +588,3 @@ $rsync -av --delete
 > ~/.sylpheed-2.0/tmp/tmpmsg-0x55b91680e800.txt
 	*	1543242533	0
 	"	1	0
-
-> ~/test.json
-	*	1543129426	0
-	"	412	99
-	^	686	101
-	.	409	0
-	+	686	100
-	+	1	0
-	+	409	0
-
-> ~/.vim/vimrc
-	*	1543089797	0
-	"	50	32
-	^	114	0
-	.	115	0
-	+	89	15
-	+	90	35
-	+	89	10
-	+	90	30
-	+	90	0
-	+	90	19
-	+	90	0
-	+	91	0
-	+	83	0
-	+	86	0
-	+	83	0
-	+	71	20
-	+	75	11
-	+	75	22
-	+	75	10
-	+	75	0
-	+	75	25
-	+	76	0
-	+	75	9
-	+	76	0
-	+	77	0
-	+	83	0
-	+	104	0
-	+	87	0
-	+	101	0
-	+	101	21
-	+	102	0
-	+	101	15
-	+	102	15
-	+	88	19
-	+	90	20
-	+	88	0
-	+	90	0
-	+	90	6
-	+	88	6
-	+	90	6
-	+	91	0
-	+	100	36
-	+	90	0
-	+	88	0
-	+	90	0
-	+	88	0
-	+	100	39
-	+	91	0
-	+	85	17
-	+	88	0
-	+	87	2
-	+	90	0
-	+	87	5
-	+	88	0
-	+	87	6
-	+	88	0
-	+	89	6
-	+	90	0
-	+	87	52
-	+	99	34
-	+	100	35
-	+	101	40
-	+	102	0
-	+	90	0
-	+	99	34
-	+	100	35
-	+	101	40
-	+	102	40
-	+	87	53
-	+	88	0
-	+	87	53
-	+	118	85
-	+	118	83
-	+	118	85
-	+	118	84
-	+	121	0
-	+	137	66
-	+	137	37
-	+	137	34
-	+	139	0
-	+	137	32
-	+	149	0
-	+	151	0
-	+	149	0
-	+	148	0
-	+	135	0
-	+	152	0
-	+	137	32
-	+	137	0
-	+	138	0
-	+	120	0
-	+	121	0
-	+	109	0
-	+	110	0
-	+	116	0
-	+	119	0
-	+	121	0
-	+	152	0
-	+	114	0
-	+	115	0
