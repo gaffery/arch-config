@@ -21,7 +21,7 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1543940821,,"w"
+|2,0,1544354178,,"w"
 :nohl
 |2,0,1543938173,,"nohl"
 :w$a
@@ -244,39 +244,44 @@ $rsync -av --delete
 	    printf("The value is: %d\n", *p);
 |3,0,0,1,1,0,1543939729,"    printf(\"The value is: %d\\n\", *p);"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1543939949,""
+	http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 
+|3,1,1,1,1,0,1544354177,"http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 "
 "2	LINE	0
-	    int wait;
-|3,0,2,1,1,0,1543939803,"    int wait;"
-"3	LINE	0
-	    scanf("%d", &wait);
-|3,0,3,1,1,0,1543939724,"    scanf(\"%d\", &wait);"
+	
+|3,0,2,1,1,0,1544354175,""
+"3	CHAR	0
+	好萊塢電影台 2 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8
+	好萊塢電影台 3 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
+	好萊塢電影台 4 http://ws4.streamhls.huya.com/huyalive/29106097-2689448236-11551092217904889856-2789274572-10057-A-0-1_1200/playlist.m3u8?thebestfreeenglishchannels.m3u8
+	好萊塢電影台 5 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8
+	好萊塢電影台 6 http://aldirect.hls.huya.com/huyalive/29169025-2686220018-11537227127170531328-2847699120-10057-A-1524041208-1_1200.m3u8
+	好萊塢電影台 7 http://aldirect.hls.huya.com/huyalive/28466698-2689659358-11551998979990355968-2789274580-10057-A-0-1_1200.m3u8
+	好萊塢電影台 8 http://js.hls.huya.com/huyalive/30765679-2478268764-10644083292078342144-2847699106-10057-A-0-1_1200.m3u8
+	好萊塢電影台 9 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
+	好萊塢電影台 10 http://aldirect.hls.huya.com/huyalive/30765679-2499070088-10733424298371842048-2789274548-10057-A-1521102596-1_1200.m3u8
+	好萊塢電影台 11 http://aldirect.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1_1200.m3u8
+|3,0,3,0,10,0,1544354174,"好萊塢電影台 2 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8","好萊塢電影台 3 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8",>176
+|<"好萊塢電影台 4 http://ws4.streamhls.huya.com/huyalive/29106097-2689448236-11551092217904889856-2789274572-10057-A-0-1_1200/playlist.m3u8?thebestfreeenglishchannels.m3u8","好萊塢電影台 5 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8","好萊塢電影台 6 http://aldirect.hls.huya.com/huyalive/29169025-2686220018-11537227127170531328-2847699120-10057-A-1524041208-1_1200.m3u8",>134
+|<"好萊塢電影台 7 http://aldirect.hls.huya.com/huyalive/28466698-2689659358-11551998979990355968-2789274580-10057-A-0-1_1200.m3u8","好萊塢電影台 8 http://js.hls.huya.com/huyalive/30765679-2478268764-10644083292078342144-2847699106-10057-A-0-1_1200.m3u8","好萊塢電影台 9 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8",>144
+|<"好萊塢電影台 10 http://aldirect.hls.huya.com/huyalive/30765679-2499070088-10733424298371842048-2789274548-10057-A-1521102596-1_1200.m3u8","好萊塢電影台 11 http://aldirect.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1_1200.m3u8"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1543939631,""
+|3,0,4,1,1,0,1544354159,""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1543939629,""
+	﻿#EXTINF:-1,好萊塢電影台 1
+|3,0,5,1,1,0,1544354158,"﻿#EXTINF:-1,好萊塢電影台 1"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1543939628,""
+|3,0,6,1,1,0,1544354156,""
 "7	LINE	0
-		typeof *ptr
-|3,0,7,1,1,0,1543939579,"	typeof *ptr"
+	
+|3,0,7,1,1,0,1544354155,""
 "8	LINE	0
-		typeof *ptr
-|3,0,8,1,1,0,1543416285,"	typeof *ptr"
-"9	CHAR	0
 	
-		int count = sizeof(ages) / sizeof(int);
-	    int i = 0;
+|3,0,8,1,1,0,1544354155,""
+"9	LINE	0
 	
-	    for (i = 0; i < count; i++) {
-	        printf("%s has %d years alive. \n", names[i], ages[i]);
-	    }
-	
-|3,0,9,0,8,0,1543413978,"","	int count = sizeof(ages) / sizeof(int);","    int i = 0;","","    for (i = 0; i < count; i++) {","        printf(\"%s has %d years alive. \\n\", names[i], ages[i]);","    }",""
+|3,0,9,1,1,0,1544354154,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -384,29 +389,26 @@ $rsync -av --delete
 |3,0,36,0,1,0,1543940102,"	"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	6	0
+%~/.config/mpv/playlist.m3u8	120	59
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1544165399	0
-	"	6	0
-	^	97	50
-	.	86	0
-	+	122	0
-	+	135	0
-	+	137	0
-	+	138	0
-	+	139	0
-	+	137	0
-	+	141	0
-	+	140	0
-	+	141	0
+	*	1544354625	0
+	"	120	59
+	.	116	0
+	+	241	0
 	+	100	0
 	+	98	0
 	+	97	49
 	+	2	0
 	+	86	0
+	+	116	0
+	+	116	34
+	+	116	144
+	+	241	0
+	+	141	0
+	+	116	0
 
 > ~/test.c
 	*	1544014982	0
