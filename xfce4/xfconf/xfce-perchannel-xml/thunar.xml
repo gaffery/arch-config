@@ -11,13 +11,13 @@
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-file-size-binary" type="bool" value="true"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_ISO"/>
-  <property name="last-window-width" type="int" value="1304"/>
-  <property name="last-window-height" type="int" value="903"/>
+  <property name="last-window-width" type="int" value="1200"/>
+  <property name="last-window-height" type="int" value="667"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="hidden-bookmarks" type="array">
     <value type="string" value="network:///"/>
   </property>
-  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>

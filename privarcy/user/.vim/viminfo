@@ -21,7 +21,9 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1544354178,,"w"
+|2,0,1544479888,,"w"
+:q
+|2,0,1544479905,,"q"
 :nohl
 |2,0,1543938173,,"nohl"
 :w$a
@@ -30,8 +32,6 @@ $rsync -av --delete
 |2,0,1543414625,,"ls"
 :j
 |2,0,1543405925,,"j"
-:q
-|2,0,1543404164,,"q"
 :nosl
 |2,0,1543089557,,"nosl"
 :source ~/.vim/vimrc
@@ -244,12 +244,78 @@ $rsync -av --delete
 	    printf("The value is: %d\n", *p);
 |3,0,0,1,1,0,1543939729,"    printf(\"The value is: %d\\n\", *p);"
 ""1	LINE	0
-	http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 
-|3,1,1,1,1,0,1544354177,"http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 "
-"2	LINE	0
+	#include <stdio.h>
 	
-|3,0,2,1,1,0,1544354175,""
-"3	CHAR	0
+	int func(void)
+	{
+	    int i = 0;
+	
+	    i += 2;
+	    i *= 10;
+	
+	    return i;
+	}
+	
+	int main(void)
+	{
+	    int a = 0;
+	
+	    a = func();
+|3,1,1,1,17,0,1544478920,"#include <stdio.h>","","int func(void)","{","    int i = 0;","","    i += 2;","    i *= 10;","","    return i;","}","","int main(void)","{","    int a = 0;","","    a = func();"
+"2	LINE	0
+	    printf("%d\n", a)ggG
+	    return 0;
+	}
+|3,0,2,1,3,0,1544478918,"    printf(\"%d\\n\", a)ggG","    return 0;","}"
+"3	LINE	0
+	#include <pthread.h>
+	#include <stdio.h>
+	
+	typedef struct {
+	    int a;
+	    int b;
+	    int c;
+	    int d;
+	    pthread_mutex_t mutex;
+	} ex_st;
+	
+	int main(void)
+	{
+	    ex_st st = { 1, 2, 3, 4, PTHREAD_MUTEX_INITIALIZER };
+	    printf("%d,%d,%d,%d\n", st.a, st.b, st.c, st.d);
+	    return 0;
+	}
+|3,0,3,1,17,0,1544478438,"#include <pthread.h>","#include <stdio.h>","","typedef struct {","    int a;","    int b;","    int c;","    int d;","    pthread_mutex_t mutex;","} ex_st;","","int main(void)","{","    ex_st st = { 1, 2, 3, 4, PTHREAD_MUTEX_INITIALIZER };","    printf(\"%d,%d,%d,%d\\n\", st.a, st.b, st.c, st.d);","    return 0;","}"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1544478101,""
+"5	LINE	0
+	:w
+|3,0,5,1,1,0,1544478097,":w"
+"6	LINE	0
+	#include <stdio.h>
+	
+	int func(void)
+	{
+	    return 3;
+	}
+	
+	int main(void)
+	{
+	    int a = 0;
+	
+	    a = func();
+	    printf("%d\n", a);
+	    return 0;
+	}
+|3,0,6,1,15,0,1544478088,"#include <stdio.h>","","int func(void)","{","    return 3;","}","","int main(void)","{","    int a = 0;","","    a = func();","    printf(\"%d\\n\", a);","    return 0;","}"
+"7	LINE	0
+	http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 
+|3,0,7,1,1,0,1544354177,"http://ws4.streamhls.huya.com/huyalive/30765679-2484192572-10669525853706125312-2847687498-10057-A-1521100607-1_1200/playlist.m3u8 "
+"8	LINE	0
+	
+|3,0,8,1,1,0,1544354175,""
+"9	CHAR	0
 	好萊塢電影台 2 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8
 	好萊塢電影台 3 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
 	好萊塢電影台 4 http://ws4.streamhls.huya.com/huyalive/29106097-2689448236-11551092217904889856-2789274572-10057-A-0-1_1200/playlist.m3u8?thebestfreeenglishchannels.m3u8
@@ -260,28 +326,10 @@ $rsync -av --delete
 	好萊塢電影台 9 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8
 	好萊塢電影台 10 http://aldirect.hls.huya.com/huyalive/30765679-2499070088-10733424298371842048-2789274548-10057-A-1521102596-1_1200.m3u8
 	好萊塢電影台 11 http://aldirect.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1_1200.m3u8
-|3,0,3,0,10,0,1544354174,"好萊塢電影台 2 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8","好萊塢電影台 3 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8",>176
+|3,0,9,0,10,0,1544354174,"好萊塢電影台 2 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8","好萊塢電影台 3 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8",>176
 |<"好萊塢電影台 4 http://ws4.streamhls.huya.com/huyalive/29106097-2689448236-11551092217904889856-2789274572-10057-A-0-1_1200/playlist.m3u8?thebestfreeenglishchannels.m3u8","好萊塢電影台 5 http://ws4.streamhls.huya.com/huyalive/29106097-2689279104-11550365801496182784-2777026902-10057-A-0-1_1200/playlist.m3u8","好萊塢電影台 6 http://aldirect.hls.huya.com/huyalive/29169025-2686220018-11537227127170531328-2847699120-10057-A-1524041208-1_1200.m3u8",>134
 |<"好萊塢電影台 7 http://aldirect.hls.huya.com/huyalive/28466698-2689659358-11551998979990355968-2789274580-10057-A-0-1_1200.m3u8","好萊塢電影台 8 http://js.hls.huya.com/huyalive/30765679-2478268764-10644083292078342144-2847699106-10057-A-0-1_1200.m3u8","好萊塢電影台 9 http://aldirect.hls.huya.com/huyalive/29169025-2686219962-11537226886652362752-2710080226-10057-A-0-1_1200.m3u8",>144
 |<"好萊塢電影台 10 http://aldirect.hls.huya.com/huyalive/30765679-2499070088-10733424298371842048-2789274548-10057-A-1521102596-1_1200.m3u8","好萊塢電影台 11 http://aldirect.hls.huya.com/huyalive/30765679-2504742278-10757786168918540288-3049003128-10057-A-0-1_1200.m3u8"
-"4	LINE	0
-	
-|3,0,4,1,1,0,1544354159,""
-"5	LINE	0
-	﻿#EXTINF:-1,好萊塢電影台 1
-|3,0,5,1,1,0,1544354158,"﻿#EXTINF:-1,好萊塢電影台 1"
-"6	LINE	0
-	
-|3,0,6,1,1,0,1544354156,""
-"7	LINE	0
-	
-|3,0,7,1,1,0,1544354155,""
-"8	LINE	0
-	
-|3,0,8,1,1,0,1544354155,""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1544354154,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -385,17 +433,17 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o�kbpickyyG/path�kb�kb�kb�kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop�kbpkdd\\c lllllllllllldwipath:w�k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-		
-|3,0,36,0,1,0,1543940102,"	"
+	 
+|3,0,36,0,1,0,1544479874," "
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	120	59
+%~/.config/mpv/playlist.m3u8	7	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1544354625	0
-	"	120	59
+	*	1544483773	0
+	"	7	0
 	.	116	0
 	+	241	0
 	+	100	0
@@ -410,56 +458,10 @@ $rsync -av --delete
 	+	141	0
 	+	116	0
 
-> ~/test.c
-	*	1544014982	0
-	"	1	0
-	^	6	2
-	.	1	0
-	+	3	0
-	+	2	1
-	+	2	0
-	+	4	4
-	+	2	6
-	+	5	4
-	+	5	3
-	+	7	8
-	+	10	3
-	+	2	3
-	+	10	5
-	+	2	5
-	+	2	4
-	+	2	3
-	+	2	0
-	+	5	0
-	+	7	0
-	+	10	0
-	+	2	0
-	+	3	0
-	+	1	17
-	+	1	0
-	+	2	4
-	+	1	0
-	+	4	12
-	+	10	0
-	+	8	27
-	+	5	0
-	+	8	33
-	+	1	0
-	+	9	9
-	+	1	0
-	+	5	13
-	+	9	10
-	+	4	12
-	+	7	0
-	+	6	2
-	+	5	10
-	+	6	2
-	+	1	0
-
 > ~/Code/C/ex16.c
-	*	1543940821	0
-	"	61	0
-	^	5	15
+	*	1544480233	0
+	"	41	0
+	^	65	11
 	.	1	0
 	+	1	19
 	+	1	0
@@ -514,6 +516,93 @@ $rsync -av --delete
 	+	6	0
 	+	5	0
 	+	1	0
+	+	22	0
+	+	19	27
+	+	20	0
+	+	21	18
+	+	1	0
+	+	21	0
+	+	19	0
+	+	45	0
+	+	1	0
+	+	65	10
+	+	1	0
+
+> ~/.vim/vimrc
+	*	1544479936	0
+	"	72	0
+	^	75	21
+	.	75	20
+	+	75	20
+
+> .vim/vimrc
+	*	1544479904	0
+	"	1	0
+
+> ~/test2.c
+	*	1544479145	0
+	"	11	0
+	.	1	0
+	+	1	18
+	+	1	0
+	+	1	18
+	+	1	0
+	+	1	18
+	+	1	0
+
+> ~/test.c
+	*	1544477491	0
+	"	10	0
+	^	9	12
+	.	9	11
+	+	3	0
+	+	2	1
+	+	2	0
+	+	4	4
+	+	2	6
+	+	5	4
+	+	5	3
+	+	7	8
+	+	10	3
+	+	2	3
+	+	10	5
+	+	2	5
+	+	2	4
+	+	2	3
+	+	2	0
+	+	5	0
+	+	7	0
+	+	10	0
+	+	2	0
+	+	3	0
+	+	1	17
+	+	1	0
+	+	2	4
+	+	1	0
+	+	4	12
+	+	10	0
+	+	8	27
+	+	5	0
+	+	8	33
+	+	1	0
+	+	9	9
+	+	1	0
+	+	5	13
+	+	9	10
+	+	4	12
+	+	7	0
+	+	6	2
+	+	5	10
+	+	6	2
+	+	1	0
+	+	2	2
+	+	9	11
+
+> ~/Code/C/NERD_tree_1
+	*	1544473451	0
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~/NERD_tree_1
 	*	1543940701	0
@@ -564,29 +653,3 @@ $rsync -av --delete
 	"	15	0
 	.	1	0
 	+	1	0
-
-> ~/.config/privarcy/user/bin/FM
-	*	1543406440	0
-	"	2	1
-	^	2	3
-	.	2	2
-	+	2	2
-
-> ~/.config/privarcy/user/bin/sylpheed
-	*	1543404164	0
-	"	2	26
-	^	2	27
-	.	2	26
-	+	2	0
-	+	3	0
-	+	2	35
-	+	3	0
-	+	2	26
-
-> ~/.sylpheed-2.0/tmp/tmpmsg-0x563d5eb765f0.txt
-	*	1543242684	0
-	"	7	26
-
-> ~/.sylpheed-2.0/tmp/tmpmsg-0x55b91680e800.txt
-	*	1543242533	0
-	"	1	0

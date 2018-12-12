@@ -72,7 +72,7 @@ func! CompileRun()
 	exec "w"
 	silent !clear
 	if &filetype == 'c'
-		exec '!cc % -o %< && ./%<'
+		exec '!cc -g -Wall % -o %< && ./%<'
 	elseif &filetype == 'python'
 		exec '!python %'
 	elseif &filetype == 'sh'

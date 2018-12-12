@@ -10,6 +10,8 @@ bison
 bluez
 bluez-utils
 bzip2
+ca-certificates
+ca-certificates-mozilla
 chromium
 clang
 cmake
