@@ -84,9 +84,9 @@ endfunc
 
 func! AutoFormat()
 	if &filetype == 'c'
-		exec "0,$!clang-format -style='{BasedOnStyle: WebKit,  ColumnLimit: 120}'"
+		exec "0,$!clang-format -style='{BasedOnStyle: WebKit,  ColumnLimit: 80}'"
 	elseif &filetype == 'python'
-		exec "0,$!yapf --style='{based_on_style: pep8, column_limit: 120}'"
+		exec "0,$!yapf --style='{based_on_style: pep8, column_limit: 80}'"
 	endif
 	exec "w"
 endfunc

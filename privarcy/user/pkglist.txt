@@ -125,6 +125,7 @@ unrar
 unzip
 usbutils
 util-linux
+valgrind
 vim
 w3m
 wavpack
