@@ -1,3 +1,4 @@
 TerminalEmulator=terminator
-
 WebBrowser=chromium
+MailReader=sylpheed
+

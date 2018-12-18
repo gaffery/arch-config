@@ -45,7 +45,6 @@
       <property name="&lt;Primary&gt;Escape" type="string" value="xkill">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Pause" type="string" value="exo-open --launch WebBrowser"/>
       <property name="Alt_L" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
@@ -53,9 +52,6 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Primary&gt;Print" type="empty">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
-      <property name="&lt;Alt&gt;F2" type="string" value="exo-open --launch FileManager">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="KP_Multiply" type="empty">
@@ -73,11 +69,13 @@
       <property name="Print" type="string" value="xfce4-screenshooter -r -c">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;F3" type="string" value="terminator"/>
       <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
       <property name="KP_Add" type="string" value="amixer set PCM 5%+"/>
       <property name="KP_Subtract" type="string" value="amixer set PCM 5%-"/>
-      <property name="Scroll_Lock" type="string" value="sylpheed"/>
+      <property name="&lt;Alt&gt;F3" type="string" value="exo-open --launch TerminalEmulator"/>
+      <property name="&lt;Alt&gt;F2" type="string" value="exo-open --launch FileManager"/>
+      <property name="Scroll_Lock" type="string" value="exo-open --launch MailReader"/>
+      <property name="Pause" type="string" value="exo-open --launch WebBrowser"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

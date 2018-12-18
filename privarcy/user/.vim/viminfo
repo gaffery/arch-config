@@ -21,7 +21,9 @@ $rsync -av --delete
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1544974134,,"w"
+|2,0,1545062871,,"w"
+:we
+|2,0,1545062085,,"we"
 :q
 |2,0,1544971795,,"q"
 :nohl
@@ -118,12 +120,10 @@ $rsync -av --delete
 |2,0,1542392282,,"o tet.txt"
 : ~/tet.txt
 |2,0,1542392214,," ~/tet.txt"
-:a ~/tet.txt
-|2,0,1542392209,,"a ~/tet.txt"
 
 # Search String History (newest to oldest):
 ? \<Connection\>
-|2,1,1544973710,,"\\<Connection\\>"
+|2,1,1545055933,,"\\<Connection\\>"
 ? \<conn\>
 |2,1,1544970622,,"\\<conn\\>"
 ? \<atoi\>
@@ -241,71 +241,46 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-	    /*Database_write(conn);*/
-|3,0,0,1,1,0,1544973004,"    /*Database_write(conn);*/"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1544974065,""
-"2	CHAR	0
-	    /*char* filenme = argv[1];*/
-	    /*char action = argv[2][0];*/
-	    /*printf("%s/n %s/n", filename, &action);*/
-	    /*struct Connection* conn = Database_open(filename, action);*/
-	    /*Database_create(conn);*/
-	    /*Database_write(conn);*/
-	    /*Database_close(conn);*/
-	    /*printf("%s", filename);*/
-	    /*printf("%c", action);*/
-	    /*struct Connection* conn = Database_open(filename, action);*/
-	    /*Database_create(conn);*/
-|3,0,2,0,11,0,1544974064,"    /*char* filenme = argv[1];*/","    /*char action = argv[2][0];*/","    /*printf(\"%s/n %s/n\", filename, &action);*/","    /*struct Connection* conn = Database_open(filename, action);*/","    /*Database_create(conn);*/","    /*Database_write(conn);*/","    /*Database_close(conn);*/","    /*printf(\"%s\", filename);*/","    /*printf(\"%c\", action);*/","    /*struct Connection* conn = Database_open(filename, action);*/",>32
-|<"    /*Database_create(conn);*/"
-"3	CHAR	0
-	#include <assert.h>
-	#include <errno.h>
-	#include <stdio.h>
-	#include <stdlib.h>
-	#include <string.h>
-	
-	#define MAX_DATA 512
-	#define MAX_ROWS 100
-	
-|3,0,3,0,9,0,1544973687,"#include <assert.h>","#include <errno.h>","#include <stdio.h>","#include <stdlib.h>","#include <string.h>","","#define MAX_DATA 512","#define MAX_ROWS 100",""
+	    /*free(conn);*/
+|3,0,0,1,1,0,1545061265,"    /*free(conn);*/"
+"1	LINE	0
+	    struct Connection* temp = conn;
+|3,0,1,1,1,0,1545062829,"    struct Connection* temp = conn;"
+"2	LINE	0
+	    /*free(conn);*/
+|3,0,2,1,1,0,1545061281,"    /*free(conn);*/"
+"3	LINE	0
+	    /*rows[0].id = 5;*/
+|3,0,3,1,1,0,1545060500,"    /*rows[0].id = 5;*/"
 "4	LINE	0
-		printf("%s/n", filename);
-|3,0,4,1,1,0,1544970915,"	printf(\"%s/n\", filename);"
+	    /*struct Address rows[100];*/
+|3,0,4,1,1,0,1545060500,"    /*struct Address rows[100];*/"
 "5	LINE	0
-		printf("%s")
-|3,0,5,1,1,0,1544970914,"	printf(\"%s\")"
-"6	LINE	0
-		p
-|3,0,6,1,1,0,1544970786,"	p"
+	   
+|3,0,5,1,1,0,1545058695,"   "
+"6	CHAR	0
+	 rows[0].id = 6;
+	    strcpy(rows[0].name, "jazz");
+	    printf("%d id", rows[0].id);
+	    printf("%s name", rows[0].name);
+|3,0,6,0,4,0,1545058692," rows[0].id = 6;","    strcpy(rows[0].name, \"jazz\");","    printf(\"%d id\", rows[0].id);","    printf(\"%s name\", rows[0].name);"
 "7	CHAR	0
-	 if (argc < 3)
-	        die("USAGE: ex17 <dbfile> <action> [action params]");
-	    char* filename = argv[1];
-	    char action = argv[2][0];
-	    struct Connection* conn = Database_open(filename, action);
-	    int id = 0;
 	
-|3,0,7,0,7,0,1544970364," if (argc < 3)","        die(\"USAGE: ex17 <dbfile> <action> [action params]\");","    char* filename = argv[1];","    char action = argv[2][0];","    struct Connection* conn = Database_open(filename, action);","    int id = 0;",""
-"8	CHAR	0
-	  if (argc < 3)
-	        die("USAGE: ex17 <dbfile> <action> [action params]");
-	    char* filename = argv[1];
-	    char action = argv[2][0];
-	    struct Connection* conn = Database_open(filename, action);
-	    int id = 0;
-	
-	    if (argc > 3)
-	        id = atoi(argv[3]);
-	    if (id >= MAX_ROWS)
-	        die("There's not that records.");
-	
-|3,0,8,0,12,0,1544970336,"  if (argc < 3)","        die(\"USAGE: ex17 <dbfile> <action> [action params]\");","    char* filename = argv[1];","    char action = argv[2][0];","    struct Connection* conn = Database_open(filename, action);","    int id = 0;","","    if (argc > 3)","        id = atoi(argv[3]);","    if (id >= MAX_ROWS)","        die(\"There's not that records.\");",""
+	int main(int argc, char* argv[])
+	{
+		rows[0].id = 6;
+		strcpy(rows[0].name,"jazz");
+	    printf("%d id", rows[0].id);
+	    printf("%s name", rows[0].name);
+	    return 0;
+	}
+|3,0,7,0,9,0,1545058577,"","int main(int argc, char* argv[])","{","	rows[0].id = 6;","	strcpy(rows[0].name,\"jazz\");","    printf(\"%d id\", rows[0].id);","    printf(\"%s name\", rows[0].name);","    return 0;","}"
+"8	LINE	0
+	struct Address rows[MAX_ROWS];
+|3,0,8,1,1,0,1545058572,"struct Address rows[MAX_ROWS];"
 "9	LINE	0
-				__attribute_deprecated__;
-|3,0,9,1,1,0,1544901647,"			__attribute_deprecated__;"
+		 = "jazz";
+|3,0,9,1,1,0,1545057785,"	 = \"jazz\";"
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -408,14 +383,97 @@ $rsync -av --delete
 |<kkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli€kb:wkojhhhhhhhhvjjj\\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkk
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
-"-	CHAR	0
-	a
-|3,0,36,0,1,0,1544973293,"a"
+""-	CHAR	0
+	p
+|3,1,36,0,1,0,1545062841,"p"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	23	0
+%~/Code/C/ex17.c	29	25
 
 # History of marks within files (newest to oldest):
+
+> ~/Code/C/ex17.c
+	*	1545062872	0
+	"	29	25
+	^	31	23
+	.	1	0
+	+	1	0
+	+	1	15
+	+	1	25
+	+	1	22
+	+	1	33
+	+	1	8
+	+	1	1
+	+	1	27
+	+	1	0
+	+	1	28
+	+	1	0
+	+	1	24
+	+	1	21
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	25
+	+	1	0
+	+	1	15
+	+	1	0
+	+	1	25
+	+	1	0
+	+	1	29
+	+	1	0
+	+	1	45
+	+	1	0
+	+	1	17
+	+	1	18
+	+	1	15
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	29
+	+	1	27
+	+	1	28
+	+	1	29
+	+	1	0
+	+	1	28
+	+	1	21
+	+	1	8
+	+	1	4
+	+	1	22
+	+	1	0
+	+	1	28
+	+	1	60
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	38
+	+	1	0
+	+	29	0
+	+	29	1
+	+	22	0
+	+	29	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	77
+	+	1	0
+	+	30	0
+	+	1	0
+	+	29	10
+	+	1	0
+	+	31	0
+	+	29	31
+	+	1	0
+	+	31	38
+	+	28	62
+	+	29	0
+	+	31	22
+	+	29	0
+	+	31	0
+	+	32	0
+	+	1	0
+	u	20	14
 
 > ~/.config/mpv/playlist.m3u8
 	*	1544979513	0
@@ -435,71 +493,6 @@ $rsync -av --delete
 	+	116	0
 	+	37	0
 	+	2	0
-
-> ~/Code/C/ex17.c
-	*	1544974592	0
-	"	25	30
-	.	1	0
-	+	1	29
-	+	1	24
-	+	1	11
-	+	1	23
-	+	1	0
-	+	1	73
-	+	1	0
-	+	1	22
-	+	1	9
-	+	1	0
-	+	1	18
-	+	1	13
-	+	1	7
-	+	1	0
-	+	1	3
-	+	1	0
-	+	1	20
-	+	1	0
-	+	1	19
-	+	1	22
-	+	1	21
-	+	1	0
-	+	150	0
-	+	194	0
-	+	163	0
-	+	194	1
-	+	194	25
-	+	194	0
-	+	1	0
-	+	194	0
-	+	194	14
-	+	194	0
-	+	194	31
-	+	194	0
-	+	194	21
-	+	194	0
-	+	194	12
-	+	194	22
-	+	1	0
-	+	194	0
-	+	1	0
-	+	194	8
-	+	194	19
-	+	194	8
-	+	194	13
-	+	194	14
-	+	194	0
-	+	1	0
-	+	7	0
-	+	1	0
-	+	146	0
-	+	1	0
-	+	194	0
-	+	193	0
-	+	150	0
-	+	193	0
-	+	1	0
-	+	191	0
-	+	1	0
-	u	17	14
 
 > ~/Code/python/bayes.py
 	*	1544972434	0
