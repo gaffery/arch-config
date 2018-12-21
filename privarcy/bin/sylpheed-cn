@@ -1,2 +1,0 @@
-#!/bin/bash
-export LANG=zh_CN.UTF-8 && sylpheed

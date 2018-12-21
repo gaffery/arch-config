@@ -19,5 +19,5 @@ application/gzip=xarchiver.desktop;
 video/mp4=mpv.desktop;
 video/mp2t=mpv.desktop;
 application/pdf=epdfview.desktop;
-x-scheme-handler/mailto=exo-mail-reader.desktop
 text/x-makefile=vim.desktop;
+

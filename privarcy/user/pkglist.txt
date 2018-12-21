@@ -108,7 +108,6 @@ sed
 shadow
 shadowsocks-libev
 sudo
-sylpheed
 sysfsutils
 syslinux
 systemd
@@ -127,7 +126,6 @@ usbutils
 util-linux
 valgrind
 vim
-w3m
 wavpack
 which
 wqy-zenhei
