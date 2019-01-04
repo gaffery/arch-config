@@ -1,0 +1,1618 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=1;">
+  <meta name="referrer" content="origin">
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>c语言学习 at DuckDuckGo</title>
+  <link title="DuckDuckGo (Lite)" type="application/opensearchdescription+xml" rel="search" href="/opensearch_lite.xml">
+  <link href="/favicon.ico" rel="shortcut icon" />
+  <link rel="apple-touch-icon" href="/assets/logo_icon128.v101.png">
+  <link rel="image_src" href="/assets/logo_homepage.normal.v101.png"/>
+
+  <style type="text/css">
+    html {
+      font-family: 'Helvetica Neue','Segoe UI', Arial, sans-serif;
+    }
+    .header {
+      font-size: 32px;
+      font-weight: bold;
+      color: #dc5e47;
+      height: 32px;
+      line-height: 32px;
+    }
+    .extra {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      height: 1.3em;
+    }
+    #end-spacer {
+      height: 10em;
+    }
+    body {
+      padding-left: 20px;
+      width: 90%;
+      margin-top: 0;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    th, td {
+      margin: 0;
+      padding: 0;
+      font-size: 107.1%;
+    }
+    
+    span.no-results {
+      font-size: 110%;
+    }
+    .query {
+      height: 28px;
+      border-color: #dc5e47;
+      border-style: solid solid solid solid;
+      border-width: 1px 1px 1px 1px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      font-size: 20px;
+      padding: 5px 6px;
+      text-align: left;
+      width: 55%; 
+      max-width: 600px;
+    }
+    .submit {
+      padding-left: 7px;
+      padding-right: 7px;
+      height: 40px;
+      font-size: 16px;
+    /*
+      color: white;
+      background-color: #019801;
+      border-style: none none none;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      padding: 5px 6px;
+    */
+      cursor: pointer;
+    }
+    .link-text {
+      color: #662200;
+      font-size: 77.4%;
+    }
+    .result-link {
+      font-size: 107.1%;
+    }
+    .result-snippet {
+      font-size: 77.4%;
+    }
+
+    .result-sponsored:hover {
+      background: #eae3ad !important;
+    }
+
+    .result-sponsored {
+      background: #fff7d0;
+      border: 1px solid #fef9eb !important;
+    }
+
+    .did-you-mean {
+      color: #EE4444;
+      font-size: 107.1%;
+    }
+    a {
+      text-decoration: none;
+      color: #1168CC;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #6830BB;
+    }
+    .timestamp {
+      color:#555555;
+      font-size: 77.4%;
+    }
+    .navbutton {
+      background-color:transparent;
+      border: 0px none;
+      cursor:pointer;
+      font-size:16px;
+      font-weight:bold;
+      text-decoration: underline;
+      color: #1168CC;
+      border-bottom: 1px solid transparent;
+      padding: 0px;
+    }
+
+    .results--powered {
+      color: #888;
+      display: inline;
+      margin-left: 10px;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+    .results--powered a {
+      color: #888;
+      font-size: 13px;
+    }
+    .results--powered__badge {
+      vertical-align: baseline;
+    }
+    .badge--yahoo {
+      background-image: url("/assets/attribution/yahoo.v103.png");
+      background-size: 55px 13px;
+      width: 55px;
+      height: 13px;
+    }
+    .badge, .results--powered__badge {
+      text-indent: -999999px;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
+
+    .next_form {
+      float: left;
+    }
+    .prev_form {
+      float: left;
+    }
+
+    .filters {
+      margin-top: 10px;
+    }
+
+    @media only screen and (max-device-width: 700px) {
+      body {
+        width: 95%;
+        margin-left: 10px;
+        padding: 0;
+      }
+      .query {
+        width: 180px;
+        font-size: 12px;
+      }
+      .submit {
+        font-size: 12px;
+      }
+    }
+
+
+    @media only screen and (max-device-width: 701px) and (orientation:landscape) 
+    {
+      .query {
+        width: 273px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+<p class='extra'>&nbsp;</p>
+<div class="header">DuckDuckGo</div>
+<p class='extra'>&nbsp;</p>
+
+<form action="/lite/" method="post">
+  <input class='query' type="text" size="40" name="q" value="c语言学习" >
+  <input class='submit' type="submit" value="Search" >
+    
+    
+    
+    
+    
+
+
+  <input name="kl" value="us-en" type="hidden">
+    
+    
+</form>
+
+
+  <p class="extra">&nbsp;</p>
+    <table border="0"><tr>
+    <td>
+      
+    </td>
+    <td>
+      
+        <form action="/lite/" method="post">
+          <!-- <a rel="next" href="/lite/?q=c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0&amp;v=l&amp;l=us-en&amp;p=-1&amp;s=30&amp;ex=-1&amp;o=json&amp;ct=JP&amp;ss_mkt=us&amp;sp=1&amp;vqd=3-164276192757688486698491206837769683386-138622833846739133773308173542823632287&amp;dc=31&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+          <input type="submit" class='navbutton' value="Next Page &gt;">
+          <input type="hidden" name="q" value="c语言学习">
+          <input type="hidden" name="s" value="30">
+          <input type="hidden" name="nextParams" value="">
+          <input type="hidden" name="v" value="l">
+          <input type="hidden" name="o" value="json">
+          <input type="hidden" name="dc" value="31">
+          <input type="hidden" name="api" value="/d.js">
+              
+              
+          
+          <input name="kl" value="us-en" type="hidden">
+              
+              
+              
+              
+              
+        </form>
+      
+    </td>
+    </tr></table>
+
+
+
+
+<p class='extra'>&nbsp;</p>
+
+<table border="0">
+
+</table>
+
+<table border="0">
+
+<!-- Web results are present -->
+
+
+
+
+
+ <tr>
+
+    <td valign="top">1.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.zhihu.com/question/19668080" class='result-link'>如何学习 <b>C</b> 语言？ - 知乎 - zhihu.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      一、<b>c</b>语言是最值得学习的语言. 学习c语言，首先要明确地告诉自己：c语言是世界上最值得学习的语言。 如今决定学习任何一门其他语言之前，都要先考察这个语言有什么成功项目吗？
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.zhihu.com/question/19668080</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">2.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://www.runoob.com/cprogramming/c-tutorial.html" class='result-link'><b>C</b> 语言教程 | 菜鸟教程 - runoob.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>C</b> 语言是一种广泛使用的计算机语言，它与 Java 编程语言一样普及，二者在现代软件程序员之间都得到广泛使用。 当前最新的<b>C</b>语言标准为 C11 ，在它之前的<b>C</b>语言标准为 C99。 现在开始学习 <b>C</b> 编程! <b>C</b> 在线工具 谁适合阅读本教程？ 本教程是专门为需要从..
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.runoob.com/cprogramming/c-tutorial.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">3.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://jingyan.baidu.com/article/fec7a1e5fadf2e1190b4e78e.html" class='result-link'>如何快速进入<b>C</b>语言学习_百度经验</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      今天和大家分享一下我自己的<b>c</b>语言学习的过程，与大家共勉。嗯，由于我本人水平有限，出现错误在所难免，希望大家看到后能够指出来，以便大家共同进步。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>jingyan.baidu.com/article/fec7a1e5fadf2e1190b4e78e.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">4.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://c.biancheng.net/cpp/" class='result-link'>C语言中文网：c语言程序设计门户网站(入门教程、编程软件)</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言中文网是中国领先的c语言程序设计专业网站，提供c语言入门经典教程、c语言编译器、c语言函数手册，c语言编程技巧，c语言考试试题等，是学习、自学c语言程序设计的好帮手。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>c.biancheng.net/cpp/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">5.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://jingyan.baidu.com/article/d2b1d102767bd05c7e37d423.html" class='result-link'><b>c</b>语言学习心得 - 百度经验——实用生活指南</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言学习心得,在初学C语言时,可能会遇到有些问题理解不透,或者表达方式与以往数学学习中不同如运算符等,这就要求不气馁,不明白的地方多问多想,鼓足勇气进行学习，这不但是学习c语言，也时对任何一门学科学习的不二门法。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>jingyan.baidu.com/article/d2b1d102767bd05c7e37d423.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">6.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://wenku.baidu.com/view/0719ed3f856a561253d36f11.html" class='result-link'>学习<b>c</b>语言心得体会 - 百度文库</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      学习 <b>c</b> 语言可以让我们更好的锻炼自己的逻辑思维能力，还可以让你掌握更好的计算机 知识，在不断学习的过程中让自己真正的自信起来!学习 <b>c</b> 语言，对于以后的工作也是有所 帮助的，它也可以结合其他的科目，来灵活运用。例如单片机的运用。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>wenku.baidu.com/view/0719ed3f856a561253d36f11.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">7.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://www.dotcpp.com/" class='result-link'><b>C</b>语言网 - 领先实用的编程在线学习网站</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      C语言网(www.dotcpp.com)不仅提供C语言，还包括C++、java、算法与数据结构等课程在内的各种入门教程、视频录像、编程经验、编译器教程及软件下载、题解博客，源码分享等优质资源，提倡边学边练边分享，同时提供对口的IT工作，是国内领先实用的综合性编程学习网站!
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.dotcpp.com</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">8.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://c.biancheng.net/c/" class='result-link'>C语言入门教程，C语言学习教程（持续更新）</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>c</b>语言原子操作的应用（内存次序，内存屏障） 6.c语言线程间通信 7.c语言线程对象和线程存储 <b>c</b>语言学习资源推荐 1.李明c语言教程下载（中级水平）（42集高清原画） 2.gcc编译器使用入门教程（共16集） 3.c语言之指针专题讲解（含基础和进阶） 4.
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>c.biancheng.net/c/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">9.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://zhuanlan.zhihu.com/p/23677249" class='result-link'><b>C</b>语言学习资源整理 - 知乎 - zhuanlan.zhihu.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言实践项目：整理了一些c语言实战项目以及项目列表，可以找到很多项目开发点子；（有一定基础的c语言学习者，推荐看） <b>c</b>语言笔记文章整理：一些学习笔记的整理，主要是针对知识点；（选择看）
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>zhuanlan.zhihu.com/p/23677249</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">10.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://www.cnblogs.com/lua5/archive/2010/12/04/1895968.html" class='result-link'>漫谈c语言及如何学习c语言 - 林志玲 - 博客园</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      云风最近写了一篇博客《 <b>c</b>语言的前世今生 》。 作为长期使用c语言开发网络游戏服务器的程序员，云风是有理由写这样一篇文字，不过还是感觉谈的不够深入，c语言在业界使用的现状没有怎么描写，有些意犹未尽。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.cnblogs.com/lua5/archive/2010/12/04/1895968.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">11.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.jianshu.com/p/c82756512970" class='result-link'>C语言编程新手基础学习：Windows编程入门 - 简书</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言是面向过程的，而c＋＋是面向对象的 c和c++的区别： c是一个结构化语言，它的重点在于算法和数据结构。c程序的设计首要考虑的是如何通过一个过程，对输入（或环境条件）进行运算处理得到输出（或实现过程（事务）控制）。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.jianshu.com/p/c82756512970</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">12.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://blog.csdn.net/VarryTan/article/details/80627446" class='result-link'><b>C</b>语言学习心得 - VarryTan的博客 - CSDN博客</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>c</b>语言程序学习心得体会 通过一学期对c语言的学习，我感觉学习c语言是有一定难度却又是非常有趣的科目。 也是很有帮助的，特别是对将要面对的计算机二级考试。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>blog.csdn.net/VarryTan/article/details/80627446</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">13.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://www.mamicode.com/info-detail-2570648.html" class='result-link'><b>C</b>语言学习：通过 GDB如何学习C语言 - mamicode.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      最近我发现其实可以用 gdb 来作为 <b>c</b> 语言的伪 repl。我一直尝试使用 gdb 作为学习 <b>c</b> 语言的工具，而不仅仅是用来调试 <b>c</b> 程序，事实上这非常有趣。 这篇文章我的目的就是向你展示 gdb 是一个非常好的学习 <b>c</b> 语言工具。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.mamicode.com/info-detail-2570648.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">14.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.cnblogs.com/2f3d/p/10202285.html" class='result-link'><b>C</b>语言学习：通过 Gdb如何学习c语言 - 修语谈谈c/C++ - 博客园</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      最近我发现其实可以用 gdb 来作为 <b>c</b> 语言的伪 repl。我一直尝试使用 gdb 作为学习 <b>c</b> 语言的工具，而不仅仅是用来调试 <b>c</b> 程序，事实上这非常有趣。 这篇文章我的目的就是向你展示 gdb 是一个非常好的学习 <b>c</b> 语言工具。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.cnblogs.com/2f3d/p/10202285.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">15.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.jianshu.com/p/438ac28be034" class='result-link'>C语言c++新手入门基础学习书籍资料推荐 - 简书</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      1、c语言适合当第一门编程语言学习 、c语言语法相对简单，但又比较完整和严谨，包含该有的各种元素。学完c语言语法，要学习其它编程语言就很容易了。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.jianshu.com/p/438ac28be034</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">16.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://blog.csdn.net/iteye_12030/article/details/81893748" class='result-link'><b>C</b>语言学习表 - 小明^^ - Csdn博客</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      C语言笔记1C语言笔记C程语言笔记3 EOF与getchar()C语言笔记4C语言笔记5C语言笔记6C语言笔记7 字符常量与字符串C语言笔记8C语言笔记9 查找单词C语言笔记10 赋值运算符C语言笔记11 二分查找字符 C语言笔记12 C语言笔记13 C语言笔记14 ...
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>blog.csdn.net/iteye_12030/article/details/81893748</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">17.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.jikexueyuan.com/course/c/" class='result-link'>C语言视频教程_c语言在线学习-极客学院</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      极客学院（jikexueyuan.com）C视频课程：包括C在线视频、C从入门到精通视频、及C实例源码，让你全面学习C,快速掌握C开发技能。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.jikexueyuan.com/course/c/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">18.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://bubuko.com/infodetail-2903779.html" class='result-link'><b>C</b>语言学习：通过 GDB如何学习C语言-布布扣-bubuko.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      最近我发现其实可以用 gdb 来作为 <b>c</b> 语言的伪 repl。我一直尝试使用 gdb 作为学习 <b>c</b> 语言的工具，而不仅仅是用来调试 <b>c</b> 程序，事实上这非常有趣。 这篇文章我的目的就是向你展示 gdb 是一个非常好的学习 <b>c</b> 语言工具。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>bubuko.com/infodetail-2903779.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">19.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://zhidao.baidu.com/question/6784932.html" class='result-link'>如何学习<b>c</b>语言? 精选 - 百度知道</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      2、在学习c语言之前，应该学好计算机基础。里面的很多概念对于c程序员都是非常重要的。如果在着手学习c之前，或者已经开始学习c，但是碰到了很多问题，应该再把计算机基础的书拿来好好看看。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>zhidao.baidu.com/question/6784932.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">20.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://zhidao.baidu.com/question/1366327855054489259.html" class='result-link'>如何学习<b>c</b>语言 - 百度知道 - 全球最大中文互动 ...</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      还有一个&quot;<b>c</b>语言学习系统&quot;软件，不过感觉只是一个题库系统，如果你觉得题做的不够，不妨也可以试试。 2:葵花宝典学习计算机语言最好的方法是什么？答曰：读程序。没错，读程序是学习c语言入门最快，也是最好的方法。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>zhidao.baidu.com/question/1366327855054489259.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">21.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.qikan.com.cn/article/dnjl20102159.html" class='result-link'>《<b>C</b>语言》教学中学生学习兴趣的培养-龙源期刊网</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      摘要:目前,《<b>c</b>语言》作为高等院校计算机及相关专业的基础课程被广泛的推广,但是实践表明其教学过程中学生对这门课的兴趣并不大,怎样培养学生的学习兴趣一直是笔者考虑的问题,该文针对此问题提出自己的一些观点。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.qikan.com.cn/article/dnjl20102159.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">22.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://baike.baidu.com/item/c%E8%AF%AD%E8%A8%80" class='result-link'>c语言（c语言）_百度百科 - baike.baidu.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言是一门通用计算机编程语言，广泛应用于底层开发。c语言的设计目标是提供一种能以简易的方式编译、处理低级存储器、产生少量的机器码以及不需要任何运行环境支持便能运行的编程语言。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>baike.baidu.com/item/c语言</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">23.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://zhuanlan.zhihu.com/p/35628031" class='result-link'><b>C</b>语言学习路线 - 知乎 - zhuanlan.zhihu.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      很多评论指出谭浩强的《c程序设计》一书缺陷很多，我重新翻了翻这本书，另外看了看知乎问题【为什么这么多人黑谭浩强的c语言教材】，发现自己也被这本书带坏了不少（惭愧，当年自学完全没发现），所以推荐书目做了点修改。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>zhuanlan.zhihu.com/p/35628031</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">24.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://www.phpxs.com/post/c/" class='result-link'>C/C++_C语言开发 - 编程学习网 - phpxs.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言现在可以说是应用很广的一门计算机编程语言。它的底层可操作性很强~如果你是一位有志于软件开发的朋友，学习c语言 ...
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.phpxs.com/post/c/</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">25.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.imooc.com/course/programdetail/pid/37" class='result-link'>C语言学习路线_C语言学习计划_慕课网学习路径</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言—进入编程界的必修课程。想要快速进入编程行业吗？想要更好的理解编程语言是如何和计算机进行交互的吗？c语言学习路线从零开始，一路修炼，为自己的编程行业奠定着实的基础。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.imooc.com/course/programdetail/pid/37</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">26.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="http://tongxiehui.net/by/55379.html" class='result-link'><b>c</b>语言学习心得 - tongxiehui.net</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      c语言学习心得-[篇一:学习c语言心得]c语言是一种计算机程序设计语言。它既具有高级语言的特点，又具有汇编语言的特点。它可以作为工作系统设计语言，编写系统应用程序，也可以作为应用程序设计语言，编写不依赖计算机硬件的应用程序。那怎么才能学好c...
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>tongxiehui.net/by/55379.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">27.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.imooc.com/article/19212" class='result-link'><b>C</b>语言程序设计入门学习六步曲_慕课手记 - imooc.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      如果你对c语言感兴趣，为什么不把学习打游戏的经验用到学习c语言呢？如果这样的话，c语言还难学吗？ 最后送c语言初学者一句话来共勉：首先要相信自己是有能力学好c语言的，然后不惜一切代价把这种能力表现出来，你就成功了。做任何事，何尝不是这样呢？
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.imooc.com/article/19212</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">28.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.nhxz.com/doc/aab3238922bcc25a6f606eb525.html" class='result-link'><b>c</b>语言学习心得 - nhxz.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      <b>c</b>语言学习心得 平台用户的互动中精选与c语言学习心得相关的：3、c语言实训心得3000字 4、学习c语言的感想 5、学习c语言函数这一章的心得，和方法技巧。6、C语言，大家有学过c语言的吗，我想学习可不知道从哪里下手，请大家给我一点学习心得好吗谢谢。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.nhxz.com/doc/aab3238922bcc25a6f606eb525.html</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">29.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://study.163.com/course/introduction/1098065.htm" class='result-link'>C语言/C++学习指南（零基础入门） - 网易云课堂</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      网易云课堂 是网易公司（163.com）旗下专注职业技能提升的在线学习平台。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>study.163.com/course/introduction/1098065.htm</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+ <tr>
+
+    <td valign="top">30.&nbsp;</td>
+    <td>
+
+    
+        <a rel="nofollow" href="https://www.zhihu.com/question/20360094" class='result-link'>新手怎么开始学习<b>C</b>语言？ - 知乎 - zhihu.com</a>
+    
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td class='result-snippet'>
+      有问题，上知乎。知乎是中文互联网知名知识分享平台，以「知识连接一切」为愿景，致力于构建一个人人都可以便捷接入的知识分享网络，让人们便捷地与世界分享知识、经验和见解，发现更大的世界。
+    </td>
+  </tr>
+  
+
+  
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+      <span class='link-text'>www.zhihu.com/question/20360094</span>
+      
+    </td>
+  </tr>
+  
+
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+
+
+
+
+
+
+
+
+
+  
+    <tr>
+    <td colspan=2>
+      
+      
+        <form class="next_form" action="/lite/" method="post">
+          <!-- <a rel="next" href="/lite/?q=c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0&amp;v=l&amp;l=us-en&amp;p=-1&amp;s=30&amp;ex=-1&amp;o=json&amp;ct=JP&amp;ss_mkt=us&amp;sp=1&amp;vqd=3-164276192757688486698491206837769683386-138622833846739133773308173542823632287&amp;dc=31&amp;api=%2Fd.js">Next Page &gt;</a> //-->
+          <input type="submit" class='navbutton' value="Next Page &gt;">
+          <input type="hidden" name="q" value="c语言学习">
+          <input type="hidden" name="s" value="30">
+          <input type="hidden" name="o" value="json">
+          <input type="hidden" name="dc" value="31">
+          <input type="hidden" name="api" value="/d.js">
+          &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                
+          
+          <input name="kl" value="us-en" type="hidden">
+                
+              
+                
+                
+                
+        </form>
+      
+      
+    </td>
+  </tr>
+
+</table>
+
+<p class='extra'>&nbsp;</p>
+
+<form action="/lite/" method="post">
+  <input class='query' type="text" size="40" name="q" value="c语言学习" >
+  <input class='submit' type="submit" value="Search" >
+    
+    
+    
+    
+    
+
+
+  <input name="kl" value="us-en" type="hidden">
+    
+    
+</form>
+
+<p class='extra'>&nbsp;</p>
+
+<!--
+<a href="#top">Top</a>
+//-->
+
+
+  <img src="/t/sl_l"/>
+
+<div id='end-spacer'>&nbsp;</div>
+
+
+
+</body>
+</html>

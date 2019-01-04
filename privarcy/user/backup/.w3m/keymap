@@ -1,0 +1,11 @@
+keymap d NEXT_PAGE
+keymap e PREV_PAGE
+keymap x CLOSE_TAB
+keymap a TAB_LINK
+keymap v GOTO_LINK
+keymap f LIST_MENU
+keymap u GOTO
+keymap t TAB_GOTO
+keymap c EDIT_SCREEN
+keymap b PREV_WORD
+keymap i PEEK_LINK

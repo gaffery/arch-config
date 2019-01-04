@@ -2,6 +2,7 @@ alsa-utils
 arch-install-scripts
 archlinux-wallpaper
 aria2
+aspell
 autoconf
 automake
 bash
@@ -126,6 +127,7 @@ usbutils
 util-linux
 valgrind
 vim
+w3m
 wavpack
 which
 wqy-zenhei
