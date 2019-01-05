@@ -20,8 +20,12 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1546687164,,"q"
 :w
-|2,0,1546520111,,"w"
+|2,0,1546687163,,"w"
+:q!
+|2,0,1546619800,,"q!"
 :noh
 |2,0,1545660306,,"noh"
 :hol
@@ -30,16 +34,12 @@ $rsync -av --delete
 |2,0,1545659919,,"nohl"
 :Noh
 |2,0,1545559872,,"Noh"
-:q
-|2,0,1545556420,,"q"
 :wq
 |2,0,1545419732,,"wq"
 :ii
 |2,0,1545419446,,"ii"
 ::
 |2,0,1545419446,,":"
-:q!
-|2,0,1545411010,,"q!"
 :qw
 |2,0,1545146495,,"qw"
 :we
@@ -241,12 +241,27 @@ $rsync -av --delete
 
 # Registers:
 "0	LINE	0
-	    /*struct Address *ad = &temp;*/
-|3,0,0,1,1,0,1545149478,"    /*struct Address *ad = &temp;*/"
+	keymap i PEEK_LINK
+|3,0,0,1,1,0,1546618444,"keymap i PEEK_LINK"
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1546520110,""
-"2	CHAR	0
+|3,1,1,1,1,0,1546687135,""
+"2	LINE	0
+	keymap F PREV
+|3,0,2,1,1,0,1546619784,"keymap F PREV"
+"3	LINE	0
+	keymap c EDIT_SCREEN
+|3,0,3,1,1,0,1546619342,"keymap c EDIT_SCREEN"
+"4	LINE	0
+	keymap F PREV
+|3,0,4,1,1,0,1546618672,"keymap F PREV"
+"5	LINE	0
+	keymap t TAB_GOTO
+|3,0,5,1,1,0,1546618427,"keymap t TAB_GOTO"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1546520110,""
+"7	CHAR	0
 	LOOK HD,http://60.248.127.231:8006/0.ts
 	evilangle,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2141
 	X muvi,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2282
@@ -280,32 +295,17 @@ $rsync -av --delete
 	30,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41505
 	31,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2407
 	32,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2408
-|3,0,2,0,33,0,1546520109,"LOOK HD,http://60.248.127.231:8006/0.ts","evilangle,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2141","X muvi,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2282","X-Angels,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2157","black GFs,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2376","5,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31136","6,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31137",>57
+|3,0,7,0,33,0,1546520109,"LOOK HD,http://60.248.127.231:8006/0.ts","evilangle,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2141","X muvi,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2282","X-Angels,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2157","black GFs,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2376","5,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31136","6,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31137",>57
 |<"7,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31138","8,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41526","9,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41525","asiansexdiary,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41524","asiansexdiary2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41523","asiansexdiary3,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41522","HUSTLER HD,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2158",>65
 |<"POVDÅ¸oÂ´a,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2156","PENTHOUSE HD2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2155","NaughtyAmerica.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2154","XHERRYPIMPS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2153","TRUE AMATEURS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2152","POVDÅ¸oÂ´a2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2151","RacyAngel.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2150",>64
 |<"MOFOS.COM,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2149","TheLifeErotic,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2148","GONZO,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2147","BANG BROS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2146","25,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2145","26,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2144","27,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2143",>57
 |<"28,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2142","29,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41504","30,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41505","31,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2407","32,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2408"
-"3	LINE	0
-	
-|3,0,3,1,1,0,1546105589,""
-"4	LINE	0
-	
-|3,0,4,1,1,0,1546105588,""
-"5	LINE	0
-	
-|3,0,5,1,1,0,1546105588,""
-"6	LINE	0
-	
-|3,0,6,1,1,0,1546105587,""
-"7	LINE	0
-	
-|3,0,7,1,1,0,1546105587,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1546105587,""
+|3,0,8,1,1,0,1546105589,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1546105586,""
+|3,0,9,1,1,0,1546105588,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -389,8 +389,8 @@ $rsync -av --delete
 |<u€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku\nkjjjjjdddd:wkkkkj\\c kkjjjjjjjjjjjjjjjjjj
 |<jjjjjjjkkkkjjjjjjjjjkjjjjjjjjkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkhhhhhhhhhkkvjjjjjjjjjj$dddddddddk:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjvjjjjj$djddkkjjjjjjjjjjjjjjkkkkkkkkkkkkkdd:w/confignnnnnnnnnnnnnnnnnnnnkkkkkkkkkkkkkkkkkkkkkkkkkkkknnnnnnnn/lo"
 "q	CHAR	0
-	Q
-|3,0,26,0,1,0,1545414275,"Q"
+	
+|3,0,26,0,1,0,1546619797,""
 "t	CHAR	0
 	I# -*- coding: utf-8 -*-
 |3,0,29,0,1,0,1529740655,"I# -*- coding: utf-8 -*-"
@@ -415,25 +415,35 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-	i
-|3,0,36,0,1,0,1546054319,"i"
+	PEEK_LINK
+|3,0,36,0,1,0,1546618467,"PEEK_LINK"
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	6	0
+%~/.config/mpv/playlist.m3u8	7	0
 
 # History of marks within files (newest to oldest):
 
 > ~/.config/mpv/playlist.m3u8
-	*	1546520112	0
-	"	6	0
+	*	1546698773	0
+	"	7	0
 	.	2	0
 	+	2	0
 	+	1	0
 	+	2	0
 
+> ~/minimal.c
+	*	1546687163	0
+	"	3	8
+	^	4	10
+	.	3	8
+	+	1	9
+	+	4	9
+	+	1	0
+	+	3	8
+
 > ~/Code/C/ex18.c
-	*	1546054321	0
-	"	28	37
+	*	1546685796	0
+	"	10	0
 	^	28	38
 	.	28	37
 	+	1	0
@@ -532,6 +542,24 @@ $rsync -av --delete
 	+	1	0
 	+	28	37
 
+> ~/NERD_tree_1
+	*	1546685793	0
+	"	19	1
+	.	1	0
+	+	1	0
+
+> ~/.w3m/keymap
+	*	1546619461	0
+	"	5	0
+	.	5	0
+	+	4	7
+	+	8	0
+	+	10	0
+	+	7	7
+	+	8	0
+	+	6	0
+	+	5	0
+
 > ~/test.c
 	*	1546051341	0
 	"	1	9
@@ -570,22 +598,3 @@ $rsync -av --delete
 	"	4	0
 	.	1	0
 	+	1	0
-
-> ~/.mutt/muttrc
-	*	1545421653	0
-	"	16	0
-	.	27	0
-	+	16	0
-	+	30	0
-	+	27	0
-
-> /tmp/mutt-arch-1000-35347-16963816411935912422
-	*	1545420719	0
-	"	1	0
-
-> /tmp/mutt-arch-1000-33170-11920254431697119028
-	*	1545419727	0
-	"	2	21
-	^	2	24
-	.	2	21
-	+	2	21
