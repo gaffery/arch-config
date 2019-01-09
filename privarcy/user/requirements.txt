@@ -59,4 +59,4 @@ webencodings==0.5.1
 xdot==0.9
 yapf==0.25.0
 ydcv==0.6.1
-youtube-dl==2018.12.31
+youtube-dl==2019.1.2

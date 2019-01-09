@@ -120,6 +120,7 @@ texinfo
 thunar-archive-plugin
 thunar-volman
 tk
+transmission-gtk
 tumbler
 unrar
 unzip
