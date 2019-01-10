@@ -1,0 +1,4 @@
+#LWP-Cookies-2.0
+Set-Cookie3: MUSIC_U=c44b221563326d1daa62fc01eea75fb0ed50a0260893041809151ba316cb8ccac4426c9aa0bc75716b81c2d10a3be60141049cea1c6bb9b6; path="/"; domain=".music.163.com"; path_spec; domain_dot; expires="2019-01-20 11:02:20Z"; HttpOnly=None; version=0
+Set-Cookie3: __csrf=8725771c0331a705c7197dc4eb607387; path="/"; domain=".music.163.com"; path_spec; domain_dot; expires="2019-01-20 11:02:30Z"; version=0
+Set-Cookie3: __remember_me=true; path="/"; domain=".music.163.com"; path_spec; domain_dot; expires="2019-01-20 11:02:20Z"; HttpOnly=None; version=0

@@ -1,0 +1,12 @@
+{
+    "server":"45.77.118.140",
+    "server_port":15136,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"Yangli",
+    "timeout":300,
+    "method":"chacha20-ietf",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}

@@ -1,0 +1,12 @@
+{
+    "server":"45.77.201.7",
+    "server_port":9527,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"gaffey2046",
+    "timeout":300,
+    "method":"chacha20-ietf",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}

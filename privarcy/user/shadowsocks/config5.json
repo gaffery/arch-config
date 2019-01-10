@@ -1,0 +1,12 @@
+{
+    "server":"167.179.90.195",
+    "server_port":"11851",
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"renyi13764553925",
+    "timeout":300,
+    "method":"chacha20-ietf",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}

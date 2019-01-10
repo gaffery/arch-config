@@ -1,0 +1,22 @@
+#!/bin/bash
+sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'System Backup!' '开始拷贝文件进入git项目...'
+# 用户隐藏外部文件备份
+rsync -av --delete /home/gaffey/.vim /home/gaffey/.config/privarcy/user/
+rsync -av --delete /home/gaffey/.w3m /home/gaffey/.config/privarcy/user/
+rsync -av --delete /home/gaffey/.ipython /home/gaffey/.config/privarcy/user/
+rsync -av --delete /home/gaffey/.netease-musicbox /home/gaffey/.config/privarcy/user/
+# 系统配置备份
+rsync -av --delete /etc/bash.bashrc /home/gaffey/.config/privarcy/etc/
+rsync -av --delete /etc/lxdm/lxdm.conf /home/gaffey/.config/privarcy/etc/
+rsync -av --delete /etc/cron.d /home/gaffey/.config/privarcy/etc/
+rsync -av --delete /etc/sudoers /home/gaffey/.config/privarcy/etc/
+# 软件列表备份
+pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
+pip freeze > /home/gaffey/.config/privarcy/requirements.txt
+sleep 1
+# 提交文件至github
+cd /home/gaffey/.config
+sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Github!' '提交文件至Github服务器...'
+git add -A
+git commit -m 'Daily update'
+git push && sudo -u gaffey DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send 'Publish Successful!' '成功备份至Github...'	

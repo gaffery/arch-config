@@ -1,0 +1,12 @@
+{
+    "server":"149.28.37.199",
+    "server_port":18196,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"Fsp06040053",
+    "timeout":300,
+    "method":"chacha20-ietf",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}

@@ -1,0 +1,6 @@
+# Run the hourly jobs
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+0 0 * * * root run-parts /home/gaffey/.config/privarcy/lib/sysBackup
+# */1 * * * * root run-parts /home/gaffey/.config/privarcy/lib/sysBackup
