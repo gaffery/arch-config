@@ -1,3 +1,7 @@
 [user]
 	email = jiangze212@gmail.com
 	name = gaffey
+[http]
+	proxy = socks5://127.0.0.1:1080
+[https]
+	proxy = socks5://127.0.0.1:1080
