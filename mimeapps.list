@@ -23,3 +23,4 @@ text/x-makefile=vim.desktop;
 x-scheme-handler/mailto=exo-mail-reader.desktop
 application/mbox=leafpad.desktop;
 application/x-bittorrent=transmission-gtk.desktop;
+application/xml=chromium.desktop;

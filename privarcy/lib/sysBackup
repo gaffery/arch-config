@@ -13,6 +13,8 @@ rsync -av --delete /etc/sudoers /home/gaffey/.config/privarcy/etc/
 # 软件列表备份
 pacman -Qqen > /home/gaffey/.config/privarcy/pkglist.txt
 pip freeze > /home/gaffey/.config/privarcy/requirements.txt
+# 主题设置
+rsync -av --delete /usr/share/themes/Blackbird /home/gaffey/.config/themes/
 sleep 1
 # 提交文件至github
 cd /home/gaffey/.config
