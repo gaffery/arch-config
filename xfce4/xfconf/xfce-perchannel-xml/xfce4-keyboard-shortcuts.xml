@@ -66,16 +66,14 @@
       <property name="1" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Print" type="string" value="xfce4-screenshooter -r -c">
+      <property name="Print" type="string" value="exo-open --launch WebBrowser">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
-      <property name="KP_Add" type="string" value="amixer set PCM 5%+"/>
-      <property name="KP_Subtract" type="string" value="amixer set PCM 5%-"/>
       <property name="&lt;Alt&gt;F3" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Alt&gt;F2" type="string" value="exo-open --launch FileManager"/>
-      <property name="Scroll_Lock" type="string" value="exo-open --launch MailReader"/>
-      <property name="Pause" type="string" value="exo-open --launch WebBrowser"/>
+      <property name="&lt;Super&gt;equal" type="string" value="amixer set PCM 5%+"/>
+      <property name="&lt;Super&gt;minus" type="string" value="amixer set PCM 5%-"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -139,15 +137,6 @@
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;KP_8" type="string" value="tile_up_key"/>
-      <property name="&lt;Super&gt;KP_4" type="string" value="tile_left_key"/>
-      <property name="&lt;Super&gt;KP_6" type="string" value="tile_right_key"/>
-      <property name="&lt;Super&gt;KP_7" type="string" value="tile_up_left_key"/>
-      <property name="&lt;Super&gt;KP_9" type="string" value="tile_up_right_key"/>
-      <property name="&lt;Super&gt;KP_2" type="string" value="tile_down_key"/>
-      <property name="&lt;Super&gt;KP_1" type="string" value="tile_down_left_key"/>
-      <property name="&lt;Super&gt;KP_3" type="string" value="tile_down_right_key"/>
-      <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
       <property name="&lt;Super&gt;r" type="string" value="resize_window_key"/>
       <property name="&lt;Super&gt;w" type="string" value="move_window_key"/>
       <property name="&lt;Super&gt;h" type="string" value="hide_window_key"/>
@@ -167,13 +156,16 @@
       <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
       <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
       <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
-      <property name="&lt;Super&gt;Up" type="string" value="move_window_left_workspace_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="move_window_right_workspace_key"/>
-      <property name="&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
-      <property name="&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;exclam" type="string" value="move_window_workspace_1_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;at" type="string" value="move_window_workspace_2_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;numbersign" type="string" value="move_window_workspace_3_key"/>
+      <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
+      <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
+      <property name="&lt;Super&gt;Up" type="string" value="tile_down_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="tile_up_key"/>
+      <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
+      <property name="&lt;Super&gt;Page_Up" type="string" value="prev_workspace_key"/>
+      <property name="&lt;Super&gt;Page_Down" type="string" value="next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">
