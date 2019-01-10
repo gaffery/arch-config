@@ -53,6 +53,7 @@ groff
 gtk-engine-murrine
 gtk-xfce-engine
 gvfs
+gvfs-mtp
 gzip
 htop
 inetutils
@@ -120,7 +121,6 @@ texinfo
 thunar-archive-plugin
 thunar-volman
 tk
-transmission-gtk
 tumbler
 unrar
 unzip
