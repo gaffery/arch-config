@@ -87,6 +87,7 @@ nano
 netctl
 network-manager-applet
 networkmanager
+ntfs-3g
 nvidia
 opencl-nvidia
 openssh

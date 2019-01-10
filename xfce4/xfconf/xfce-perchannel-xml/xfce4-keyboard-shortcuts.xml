@@ -141,7 +141,6 @@
       <property name="&lt;Super&gt;w" type="string" value="move_window_key"/>
       <property name="&lt;Super&gt;h" type="string" value="hide_window_key"/>
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
-      <property name="&lt;Super&gt;KP_5" type="string" value="maximize_window_key"/>
       <property name="Left" type="string" value="left_key"/>
       <property name="Right" type="string" value="right_key"/>
       <property name="Up" type="string" value="up_key"/>
@@ -163,9 +162,9 @@
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
       <property name="&lt;Super&gt;Up" type="string" value="tile_down_key"/>
       <property name="&lt;Super&gt;Down" type="string" value="tile_up_key"/>
-      <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
       <property name="&lt;Super&gt;Page_Up" type="string" value="prev_workspace_key"/>
       <property name="&lt;Super&gt;Page_Down" type="string" value="next_workspace_key"/>
+      <property name="&lt;Super&gt;d" type="string" value="maximize_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
