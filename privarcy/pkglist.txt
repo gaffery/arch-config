@@ -53,7 +53,11 @@ groff
 gtk-engine-murrine
 gtk-xfce-engine
 gvfs
+gvfs-afc
+gvfs-gphoto2
 gvfs-mtp
+gvfs-nfs
+gvfs-smb
 gzip
 htop
 inetutils

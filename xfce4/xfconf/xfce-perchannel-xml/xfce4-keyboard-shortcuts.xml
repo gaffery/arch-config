@@ -66,14 +66,32 @@
       <property name="1" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="Print" type="string" value="exo-open --launch WebBrowser">
+      <property name="Print" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
       <property name="&lt;Alt&gt;F3" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Alt&gt;F2" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Super&gt;equal" type="string" value="amixer set PCM 5%+"/>
       <property name="&lt;Super&gt;minus" type="string" value="amixer set PCM 5%-"/>
+      <property name="&lt;Alt&gt;F12" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="Alt_R" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;Menu" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;Control_R" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;BackSpace" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Alt&gt;F1" type="string" value="kupfer"/>
+      <property name="&lt;Alt&gt;Escape" type="string" value="exo-open --launch WebBrowser">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -138,7 +156,6 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;r" type="string" value="resize_window_key"/>
-      <property name="&lt;Super&gt;w" type="string" value="move_window_key"/>
       <property name="&lt;Super&gt;h" type="string" value="hide_window_key"/>
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="Left" type="string" value="left_key"/>
@@ -147,10 +164,7 @@
       <property name="&lt;Alt&gt;F4" type="string" value="close_window_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="raiselower_window_key"/>
-      <property name="&lt;Super&gt;s" type="string" value="shade_window_key"/>
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
-      <property name="&lt;Super&gt;q" type="string" value="maximize_horiz_key"/>
-      <property name="&lt;Super&gt;e" type="string" value="maximize_vert_key"/>
       <property name="F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
       <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
@@ -158,13 +172,21 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;exclam" type="string" value="move_window_workspace_1_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;at" type="string" value="move_window_workspace_2_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;numbersign" type="string" value="move_window_workspace_3_key"/>
-      <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
-      <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
-      <property name="&lt;Super&gt;Up" type="string" value="tile_down_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="tile_up_key"/>
-      <property name="&lt;Super&gt;Page_Up" type="string" value="prev_workspace_key"/>
-      <property name="&lt;Super&gt;Page_Down" type="string" value="next_workspace_key"/>
-      <property name="&lt;Super&gt;d" type="string" value="maximize_window_key"/>
+      <property name="&lt;Super&gt;w" type="string" value="tile_up_key"/>
+      <property name="&lt;Super&gt;x" type="string" value="tile_down_key"/>
+      <property name="&lt;Super&gt;a" type="string" value="tile_left_key"/>
+      <property name="&lt;Super&gt;d" type="string" value="tile_right_key"/>
+      <property name="&lt;Super&gt;q" type="string" value="tile_up_left_key"/>
+      <property name="&lt;Super&gt;e" type="string" value="tile_up_right_key"/>
+      <property name="&lt;Super&gt;z" type="string" value="tile_down_left_key"/>
+      <property name="&lt;Super&gt;c" type="string" value="tile_down_right_key"/>
+      <property name="&lt;Super&gt;s" type="string" value="maximize_window_key"/>
+      <property name="&lt;Super&gt;g" type="string" value="move_window_key"/>
+      <property name="&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
+      <property name="&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
+      <property name="Delete" type="string" value="down_workspace_key"/>
+      <property name="&lt;Super&gt;Up" type="string" value="move_window_prev_workspace_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="move_window_next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">
