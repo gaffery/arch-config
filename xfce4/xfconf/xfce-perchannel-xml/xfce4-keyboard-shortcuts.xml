@@ -71,8 +71,6 @@
       </property>
       <property name="&lt;Alt&gt;F3" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Alt&gt;F2" type="string" value="exo-open --launch FileManager"/>
-      <property name="&lt;Super&gt;equal" type="string" value="amixer set PCM 5%+"/>
-      <property name="&lt;Super&gt;minus" type="string" value="amixer set PCM 5%-"/>
       <property name="&lt;Alt&gt;F12" type="empty">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
@@ -92,6 +90,9 @@
       <property name="&lt;Alt&gt;Escape" type="string" value="exo-open --launch WebBrowser">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
+      <property name="XF86Calculator" type="string" value="amixer set PCM 5%+"/>
+      <property name="XF86HomePage" type="string" value="amixer set PCM 5%-"/>
+      <property name="XF86Explorer" type="string" value="amixer set PCM toggle"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

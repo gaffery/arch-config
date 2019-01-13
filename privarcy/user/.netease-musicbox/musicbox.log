@@ -9157,3 +9157,16 @@
 ################################################################################
 2019-01-13 10:33:19,428 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
 2019-01-13 10:33:19,428 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+################################################################################
+2019-01-13 11:04:23,334 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2019-01-13 11:04:23,334 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+################################################################################
+2019-01-13 11:04:54,372 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2019-01-13 11:04:54,373 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2019-01-13 11:17:55,261 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 11:28:21,704 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 11:39:29,187 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 11:47:52,021 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 11:58:00,425 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 12:12:28,684 - DEBUG - NEMbox.player:333: Callback
+2019-01-13 12:26:16,960 - DEBUG - NEMbox.player:333: Callback
