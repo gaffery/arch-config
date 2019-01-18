@@ -9178,3 +9178,6 @@
 2019-01-16 20:00:55,431 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
 2019-01-16 20:00:55,431 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
 2019-01-16 20:00:58,780 - WARNING - NEMbox.player:265: mpg123 error, halt, endless loop and high cpu use, then we kill it
+################################################################################
+2019-01-18 23:23:47,075 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2019-01-18 23:23:47,075 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
