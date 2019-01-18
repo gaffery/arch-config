@@ -97,12 +97,16 @@ opencl-nvidia
 openssh
 pacman
 patch
+pavucontrol
 pciutils
 perl
 pkgconf
 procps-ng
 proxychains-ng
 psmisc
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
 python-networkx
 python-numpy
 python-pip
@@ -145,7 +149,9 @@ xf86-input-wacom
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
+xfce4-pulseaudio-plugin
 xfce4-screenshooter
+xfce4-sensors-plugin
 xfce4-session
 xfce4-settings
 xfconf

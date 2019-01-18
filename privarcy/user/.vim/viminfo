@@ -20,10 +20,10 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1546959851,,"w"
 :q
-|2,0,1546959841,,"q"
+|2,0,1547642788,,"q"
+:w
+|2,0,1547641076,,"w"
 :q!
 |2,0,1546619800,,"q!"
 :noh
@@ -1345,9 +1345,26 @@ $rsync -av --delete
 |3,0,36,0,1,0,1546618467,"PEEK_LINK"
 
 # Buffer list:
-%/usr/share/th	1	0
 
 # History of marks within files (newest to oldest):
+
+> ~/NERD_tree_1
+	*	1547642788	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.asoundrc
+	*	1547641210	0
+	"	5	0
+	^	5	1
+	.	4	9
+	+	5	0
+	+	4	9
+
+> /usr/share/alsa/alsa.conf
+	*	1547641110	0
+	"	309	0
 
 > /usr/share/th
 	*	1547041939	0
@@ -1478,12 +1495,6 @@ $rsync -av --delete
 	+	1	0
 	+	28	37
 
-> ~/NERD_tree_1
-	*	1546685793	0
-	"	19	1
-	.	1	0
-	+	1	0
-
 > ~/.w3m/keymap
 	*	1546619461	0
 	"	5	0
@@ -1511,16 +1522,3 @@ $rsync -av --delete
 	+	3	3
 	+	7	0
 	+	8	0
-
-> ~/Desktop/awabest.com_2018 TRE 台北國際成人展女神粉丝见面会.txt
-	*	1545913395	0
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	21
-
-> ~/Code/NERD_tree_1
-	*	1545658151	0
-	"	17	0
-	.	1	0
-	+	1	0

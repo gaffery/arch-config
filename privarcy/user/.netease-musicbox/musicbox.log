@@ -9170,3 +9170,11 @@
 2019-01-13 11:58:00,425 - DEBUG - NEMbox.player:333: Callback
 2019-01-13 12:12:28,684 - DEBUG - NEMbox.player:333: Callback
 2019-01-13 12:26:16,960 - DEBUG - NEMbox.player:333: Callback
+################################################################################
+2019-01-16 20:00:48,647 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2019-01-16 20:00:48,647 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2019-01-16 20:00:49,951 - WARNING - NEMbox.player:265: mpg123 error, halt, endless loop and high cpu use, then we kill it
+################################################################################
+2019-01-16 20:00:55,431 - WARNING - NEMbox.osdlyrics:26: PyQt4 module not installed.
+2019-01-16 20:00:55,431 - WARNING - NEMbox.osdlyrics:27: Osdlyrics Not Available.
+2019-01-16 20:00:58,780 - WARNING - NEMbox.player:265: mpg123 error, halt, endless loop and high cpu use, then we kill it

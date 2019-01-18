@@ -90,9 +90,9 @@
       <property name="&lt;Alt&gt;Escape" type="string" value="exo-open --launch WebBrowser">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="XF86Calculator" type="string" value="amixer set PCM 5%+"/>
-      <property name="XF86HomePage" type="string" value="amixer set PCM 5%-"/>
-      <property name="XF86Explorer" type="string" value="amixer set PCM toggle"/>
+      <property name="XF86Calculator" type="string" value="pactl set-sink-volume 0 +10%"/>
+      <property name="XF86HomePage" type="string" value="pactl set-sink-volume 0 -10%"/>
+      <property name="XF86Explorer" type="string" value="pactl set-sink-mute 0 toggle"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -167,7 +167,6 @@
       <property name="&lt;Super&gt;Tab" type="string" value="raiselower_window_key"/>
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
       <property name="F11" type="string" value="fullscreen_key"/>
-      <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
       <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
       <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;exclam" type="string" value="move_window_workspace_1_key"/>
@@ -185,9 +184,9 @@
       <property name="&lt;Super&gt;g" type="string" value="move_window_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
-      <property name="Delete" type="string" value="down_workspace_key"/>
       <property name="&lt;Super&gt;Up" type="string" value="move_window_prev_workspace_key"/>
       <property name="&lt;Super&gt;Down" type="string" value="move_window_next_workspace_key"/>
+      <property name="&lt;Super&gt;1" type="string" value="workspace_1_key"/>
     </property>
   </property>
   <property name="providers" type="array">
