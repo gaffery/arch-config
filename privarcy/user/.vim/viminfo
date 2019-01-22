@@ -20,12 +20,12 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1547829036,,"q!"
 :q
-|2,0,1547642788,,"q"
+|2,0,1547829033,,"q"
 :w
 |2,0,1547641076,,"w"
-:q!
-|2,0,1546619800,,"q!"
 :noh
 |2,0,1545660306,,"noh"
 :hol
@@ -1345,8 +1345,13 @@ $rsync -av --delete
 |3,0,36,0,1,0,1546618467,"PEEK_LINK"
 
 # Buffer list:
+%/etc/ddclient/ddclient.conf	1	0
 
 # History of marks within files (newest to oldest):
+
+> /etcsudo
+	*	1547829033	0
+	"	1	0
 
 > ~/NERD_tree_1
 	*	1547642788	0
@@ -1506,19 +1511,3 @@ $rsync -av --delete
 	+	8	0
 	+	6	0
 	+	5	0
-
-> ~/test.c
-	*	1546051341	0
-	"	1	9
-	^	8	0
-	.	8	0
-	+	1	18
-	+	2	25
-	+	1	0
-	+	3	10
-	+	6	11
-	+	1	0
-	+	7	9
-	+	3	3
-	+	7	0
-	+	8	0
