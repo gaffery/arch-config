@@ -1,3 +1,4 @@
+acpid
 alsa-utils
 arch-install-scripts
 archlinux-wallpaper
