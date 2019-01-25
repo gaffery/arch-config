@@ -20,12 +20,12 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
+:w
+|2,0,1548431809,,"w"
+:q
+|2,0,1548426764,,"q"
 :q!
 |2,0,1547829036,,"q!"
-:q
-|2,0,1547829033,,"q"
-:w
-|2,0,1547641076,,"w"
 :noh
 |2,0,1545660306,,"noh"
 :hol
@@ -243,7 +243,31 @@ $rsync -av --delete
 "0	LINE	0
 	keymap i PEEK_LINK
 |3,0,0,1,1,0,1546618444,"keymap i PEEK_LINK"
-""1	LINE	0
+"1	LINE	0
+	/*KillMode=process*/
+|3,0,1,1,1,0,1548431747,"/*KillMode=process*/"
+"2	LINE	0
+	RestartSec=42s
+|3,0,2,1,1,0,1548431682,"RestartSec=42s"
+"3	LINE	0
+	RestartSec=42s
+|3,0,3,1,1,0,1548431236,"RestartSec=42s"
+"4	LINE	0
+	EnvironmentFile=/etc/sysconfig/sshd
+|3,0,4,1,1,0,1548429928,"EnvironmentFile=/etc/sysconfig/sshd"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1548429873,""
+"6	LINE	0
+	/*Wants=sshd-keygen.service*/
+|3,0,6,1,1,0,1548429837,"/*Wants=sshd-keygen.service*/"
+"7	LINE	0
+	/*After=network.target sshd-keygen.service*/
+|3,0,7,1,1,0,1548429836,"/*After=network.target sshd-keygen.service*/"
+"8	LINE	0
+	[Unit]dd
+|3,0,8,1,1,0,1548429753,"[Unit]dd"
+"9	LINE	0
 	################################电视广播###################################
 	电影直播
 	熊猫直播,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221226619/1.m3u8
@@ -1045,7 +1069,7 @@ $rsync -av --delete
 	衡阳好朋友 FM105.4,http://ls.qingting.fm/live/1319363.m3u8
 	衡阳好朋友 FM105.4,http://live.xmcdn.com/live/1683/64.m3u8
 	衡阳新闻广播 FM98.9,http://live.xmcdn.com/live/1185/64.m3u8
-|3,1,1,1,800,0,1546948134,"################################电视广播###################################","电影直播","熊猫直播,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221226619/1.m3u8","NEWTV爱情喜剧,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225877/1.m3u8","NEWTV搏击,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225895/1.m3u8",>96
+|3,0,9,1,800,0,1546948134,"################################电视广播###################################","电影直播","熊猫直播,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221226619/1.m3u8","NEWTV爱情喜剧,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225877/1.m3u8","NEWTV搏击,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225895/1.m3u8",>96
 |<"NEWTV超级电视剧FHD,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225806/1.m3u8","NEWTV超级电影FHD,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225804/1.m3u8","NEWTV超级体育FHD,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225803/1.m3u8","NEWTV超级综艺FHD,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225801/1.m3u8","NEWTV电竞,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225894/1.m3u8",>90
 |<"NEWTV动画王国,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225878/1.m3u8","NEWTV动作电影,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225879/1.m3u8","NEWTV古装剧场,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225880/1.m3u8","NEWTV海外剧场,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225881/1.m3u8","NEWTV家庭剧场,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225882/1.m3u8",>90
 |<"NEWTV健康有约,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225883/1.m3u8","NEWTV金牌综艺,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225884/1.m3u8","NEWTV惊悚悬疑,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225885/1.m3u8","NEWTV精品大剧,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225889/1.m3u8","NEWTV精品电影,http://120.198.235.68/112.50.243.7/pLTV/88888888/224/3221225891/1.m3u8",>90
@@ -1172,66 +1196,6 @@ $rsync -av --delete
 |<"荆门交通音乐频率 FM99.3,http://live.jmtv.com.cn/jtyypl/sd/live.m3u8","荆门交通音乐频率 FM99.3,http://ls.qingting.fm/live/60808.m3u8","麻城人民广播电台,http://219.139.52.74:8086/mcrd","公安县广播电台 FM102.6,http://ls.qingting.fm/live/5063.m3u8","长沙交通音乐广播 FM106.1,http://ls.qingting.fm/live/3967.m3u8","长沙城市之声 FM101.7,http://ls.qingting.fm/live/4237.m3u8","长沙新闻广播 FM105.0,http://ls.qingting.fm/live/4877.m3u8",>65
 |<"长沙新闻广播 FM105.0,http://ls.qingting.fm/live/4877.m3u8","金鹰955电台,http://live.xmcdn.com/live/405/64.m3u8","金鹰955电台,http://ls.qingting.fm/live/4937.m3u8","大眼睛湘潭1065电台,http://live.xmcdn.com/live/421/64.m3u8","大眼睛湘潭1065电台,http://ls.qingting.fm/live/2412.m3u8","衡阳好朋友 FM105.4,http://ls.qingting.fm/live/1319363.m3u8","衡阳好朋友 FM105.4,http://live.xmcdn.com/live/1683/64.m3u8",>67
 |<"衡阳新闻广播 FM98.9,http://live.xmcdn.com/live/1185/64.m3u8"
-"2	LINE	0
-	
-|3,0,2,1,1,0,1546687135,""
-"3	LINE	0
-	keymap F PREV
-|3,0,3,1,1,0,1546619784,"keymap F PREV"
-"4	LINE	0
-	keymap c EDIT_SCREEN
-|3,0,4,1,1,0,1546619342,"keymap c EDIT_SCREEN"
-"5	LINE	0
-	keymap F PREV
-|3,0,5,1,1,0,1546618672,"keymap F PREV"
-"6	LINE	0
-	keymap t TAB_GOTO
-|3,0,6,1,1,0,1546618427,"keymap t TAB_GOTO"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1546520110,""
-"8	CHAR	0
-	LOOK HD,http://60.248.127.231:8006/0.ts
-	evilangle,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2141
-	X muvi,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2282
-	X-Angels,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2157
-	black GFs,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2376
-	5,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31136
-	6,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31137
-	7,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31138
-	8,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41526
-	9,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41525
-	asiansexdiary,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41524
-	asiansexdiary2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41523
-	asiansexdiary3,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41522
-	HUSTLER HD,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2158
-	POVDŸo´a,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2156
-	PENTHOUSE HD2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2155
-	NaughtyAmerica.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2154
-	XHERRYPIMPS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2153
-	TRUE AMATEURS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2152
-	POVDŸo´a2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2151
-	RacyAngel.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2150
-	MOFOS.COM,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2149
-	TheLifeErotic,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2148
-	GONZO,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2147
-	BANG BROS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2146
-	25,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2145
-	26,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2144
-	27,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2143
-	28,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2142
-	29,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41504
-	30,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41505
-	31,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2407
-	32,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2408
-|3,0,8,0,33,0,1546520109,"LOOK HD,http://60.248.127.231:8006/0.ts","evilangle,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2141","X muvi,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2282","X-Angels,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2157","black GFs,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2376","5,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31136","6,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31137",>57
-|<"7,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/31138","8,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41526","9,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41525","asiansexdiary,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41524","asiansexdiary2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41523","asiansexdiary3,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41522","HUSTLER HD,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2158",>65
-|<"POVDŸo´a,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2156","PENTHOUSE HD2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2155","NaughtyAmerica.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2154","XHERRYPIMPS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2153","TRUE AMATEURS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2152","POVDŸo´a2,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2151","RacyAngel.com,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2150",>64
-|<"MOFOS.COM,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2149","TheLifeErotic,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2148","GONZO,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2147","BANG BROS,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2146","25,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2145","26,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2144","27,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2143",>57
-|<"28,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2142","29,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41504","30,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/41505","31,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2407","32,http://wildsides.xyz:2086/XcYTapnwtu/esuYHLvGxo/2408"
-"9	LINE	0
-	
-|3,0,9,1,1,0,1546105589,""
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -1340,24 +1304,56 @@ $rsync -av --delete
 |<kkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkjjjjjkljjjjjjkopklllllllljli�kb:wkojhhhhhhhhvjjj\\c :wkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkk
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o�kbpickyyG/path�kb�kb�kb�kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop�kbpkdd\\c lllllllllllldwipath:w�k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
-"-	CHAR	0
-	PEEK_LINK
-|3,0,36,0,1,0,1546618467,"PEEK_LINK"
+""-	CHAR	0
+	simple
+|3,1,36,0,1,0,1548431804,"simple"
 
 # Buffer list:
-%/etc/ddclient/ddclient.conf	1	0
+%~/ss-local.service	1	0
 
 # History of marks within files (newest to oldest):
+
+> ~/ss-local.service
+	*	1548431895	0
+	"	1	0
+	^	9	12
+	.	9	11
+	+	1	5
+	+	1	6
+	+	13	25
+	+	1	0
+	+	2	22
+	+	3	25
+	+	5	0
+	+	6	0
+	+	4	0
+	+	6	51
+	+	7	7
+	+	8	74
+	+	7	9
+	+	8	11
+	+	11	0
+	+	6	37
+	+	8	62
+	+	11	0
+	+	10	0
+	+	9	11
+
+> ~/NERD_tree_1
+	*	1548429359	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/.config/privarcy/PreLogin
+	*	1548426800	0
+	"	3	54
+	.	3	54
+	+	3	54
 
 > /etcsudo
 	*	1547829033	0
 	"	1	0
-
-> ~/NERD_tree_1
-	*	1547642788	0
-	"	1	0
-	.	1	0
-	+	1	0
 
 > ~/.asoundrc
 	*	1547641210	0
@@ -1374,12 +1370,6 @@ $rsync -av --delete
 > /usr/share/th
 	*	1547041939	0
 	"	1	0
-
-> ~/.config/privarcy/PreLogin
-	*	1546959851	0
-	"	3	53
-	.	3	53
-	+	3	53
 
 > ~/.config/mpv/playlist.m3u8
 	*	1546949557	0
@@ -1499,15 +1489,3 @@ $rsync -av --delete
 	+	89	0
 	+	1	0
 	+	28	37
-
-> ~/.w3m/keymap
-	*	1546619461	0
-	"	5	0
-	.	5	0
-	+	4	7
-	+	8	0
-	+	10	0
-	+	7	7
-	+	8	0
-	+	6	0
-	+	5	0
