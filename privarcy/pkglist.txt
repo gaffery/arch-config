@@ -92,6 +92,7 @@ nano
 netctl
 network-manager-applet
 networkmanager
+nload
 ntfs-3g
 nvidia
 opencl-nvidia

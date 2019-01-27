@@ -3,9 +3,9 @@ Description=shadowsocks server daemon
 Documentation=man:ss-local
 
 [Service]
-ExecStart=/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin
-ExecStop=-/bin/killall ss-local
-ExecReload=-/bin/killall ss-local;/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin 
+Type=oneshot
+ExecStart=/home/gaffey/.config/privarcy/PreLogin
+ExecStop=/bin/pkill -F /tmp/ss-local.pid
 
 [Install]
 WantedBy=multi-user.target
