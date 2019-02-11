@@ -63,10 +63,12 @@ gzip
 htop
 inetutils
 intel-ucode
+iotop
 iproute2
 iputils
 ipython
 jfsutils
+jupyter_console
 kupfer
 leafpad
 less

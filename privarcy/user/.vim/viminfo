@@ -11,19 +11,99 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<compare_cb\>
+~MSle0/jupyter_auto_connect
 
 # Last Substitute Search Pattern:
-~MSle0&mms
+~MSle0~&jupyter_auto_connect
 
 # Last Substitute String:
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:w
-|2,0,1548565022,,"w"
 :q
-|2,0,1548434704,,"q"
+|2,0,1549900335,,"q"
+:w
+|2,0,1549900335,,"w"
+:g:j
+|2,0,1549900257,,"g:j"
+:JupyterConnect
+|2,0,1549900023,,"JupyterConnect"
+:echo maplocalleader
+|2,0,1549899626,,"echo maplocalleader"
+:echo mapleader
+|2,0,1549898842,,"echo mapleader"
+:echo map leader
+|2,0,1549898817,,"echo map leader"
+:echo 
+|2,0,1549898808,,"echo "
+:JupyterUpdateShell
+|2,0,1549897834,,"JupyterUpdateShell"
+:[5]JupyterSendCount
+|2,0,1549897726,,"[5]JupyterSendCount"
+:5 JupyterSendCount
+|2,0,1549897712,,"5 JupyterSendCount"
+:JupyterSendCount [5]
+|2,0,1549897705,,"JupyterSendCount [5]"
+:JupyterSendCount 5
+|2,0,1549897680,,"JupyterSendCount 5"
+:JupyterSendCount
+|2,0,1549897671,,"JupyterSendCount"
+:JupyterSendCount 6
+|2,0,1549897643,,"JupyterSendCount 6"
+:JupyterSendCount 7
+|2,0,1549897632,,"JupyterSendCount 7"
+:'<,'>JupyterSendRange
+|2,0,1549897603,,"'<,'>JupyterSendRange"
+:JupyterSendCell
+|2,0,1549897554,,"JupyterSendCell"
+:[4-7]JupyterSendRange
+|2,0,1549897333,,"[4-7]JupyterSendRange"
+:JupyterSendRange[4,7]
+|2,0,1549897320,,"JupyterSendRange[4,7]"
+:JupyterSendRange[4-7]
+|2,0,1549897305,,"JupyterSendRange[4-7]"
+:JupyterSendCount 5,6
+|2,0,1549897168,,"JupyterSendCount 5,6"
+:JupyterSendCount 5 6
+|2,0,1549897164,,"JupyterSendCount 5 6"
+:JupyterSendCount 5-6
+|2,0,1549897160,,"JupyterSendCount 5-6"
+:JupyterSendCode {'print ('kkk')'}
+|2,0,1549897109,,"JupyterSendCode {'print ('kkk')'}"
+:JupyterSendCode {}
+|2,0,1549897082,,"JupyterSendCode {}"
+:JupyterSendCode {'c = 6'}
+|2,0,1549897016,,"JupyterSendCode {'c = 6'}"
+:JupyterSendCode {c = 6}
+|2,0,1549897008,,"JupyterSendCode {c = 6}"
+:JupyterSendCode
+|2,0,1549896996,,"JupyterSendCode"
+:JupyterImportThisFile
+|2,0,1549896923,,"JupyterImportThisFile"
+:JupyterCd /home/gaffey/Code/
+|2,0,1549896596,,"JupyterCd /home/gaffey/Code/"
+:w test.txt
+|2,0,1549896407,,"w test.txt"
+:help jupyter-vim
+|2,0,1549896389,,"help jupyter-vim"
+:JupyterSendRange
+|2,0,1549896342,,"JupyterSendRange"
+:'<,'>JupyterSendCount 5,6
+|2,0,1549896323,,"'<,'>JupyterSendCount 5,6"
+:'<,'>JupyterSendCell
+|2,0,1549896280,,"'<,'>JupyterSendCell"
+:JupyterRunFile
+|2,0,1549896137,,"JupyterRunFile"
+:JupyterCd
+|2,0,1549896019,,"JupyterCd"
+:'<,'>
+|2,0,1549896001,,"'<,'>"
+:JupyterSendCode {'test'}
+|2,0,1549895438,,"JupyterSendCode {'test'}"
+:JupyterSendCode %
+|2,0,1549895345,,"JupyterSendCode %"
+:PlugInstall
+|2,0,1549895120,,"PlugInstall"
 :q!
 |2,0,1547829036,,"q!"
 :noh
@@ -40,88 +120,10 @@ $rsync -av --delete
 |2,0,1545419446,,"ii"
 ::
 |2,0,1545419446,,":"
-:qw
-|2,0,1545146495,,"qw"
-:we
-|2,0,1545062085,,"we"
-:w$a
-|2,0,1543938040,,"w$a"
-:ls
-|2,0,1543414625,,"ls"
-:j
-|2,0,1543405925,,"j"
-:nosl
-|2,0,1543089557,,"nosl"
-:source ~/.vim/vimrc
-|2,0,1543088934,,"source ~/.vim/vimrc"
-:bd
-|2,0,1543087598,,"bd"
-:$
-|2,0,1543087276,,"$"
-:0
-|2,0,1543087270,,"0"
-:PlugClean
-|2,0,1543055477,,"PlugClean"
-:'<,'> !yapf
-|2,0,1543054468,,"'<,'> !yapf"
-:'<,'> !python
-|2,0,1543054440,,"'<,'> !python"
-:'<,'> call AutoFormat("'<,'>")  h
-|2,0,1543054308,,"'<,'> call AutoFormat(\"'<,'>\")  h"
-:'<,'>!yapf 
-|2,0,1543054250,,"'<,'>!yapf "
-:'<,'> !ya
-|2,0,1543054516,,"'<,'> !ya"
-:'<,'>'<, >'!yapf
-|2,0,1543055039,,"'<,'>'<, >'!yapf"
-:'<
-|2,0,1543054990,,"'<"
-: '<
-|2,0,1543054986,," '<"
-:echom '<
-|2,0,1543054980,,"echom '<"
-:echo '<
-|2,0,1543054975,,"echo '<"
-:'>
-|2,0,1543054952,,"'>"
-:'<,'>'<,>'!yapf
-|2,0,1543054861,,"'<,'>'<,>'!yapf"
-:'<,'>h
-|2,0,1543054609,,"'<,'>h"
-:source .vim/vimrc
-|2,0,1543053728,,"source .vim/vimrc"
-:'<,'>!clang-format
-|2,0,1543053574,,"'<,'>!clang-format"
-:call AutoFormat('test')
-|2,0,1543051536,,"call AutoFormat('test')"
-:'<,'>!python
-|2,0,1543053158,,"'<,'>!python"
-:'<,'>!python %
-|2,0,1543053138,,"'<,'>!python %"
-:IndentWidth
-|2,0,1543051221,,"IndentWidth"
-:'<,'>ClangFormat
-|2,0,1543050153,,"'<,'>ClangFormat"
-:ClangFormat
-|2,0,1543049628,,"ClangFormat"
-:!proxychains mpv "http://liveal.quanmin.tv/live/2036316982.flv"
-|2,0,1543049160,,"!proxychains mpv \"http://liveal.quanmin.tv/live/2036316982.flv\""
-:source .vim
-|2,0,1543049030,,"source .vim"
-:ClangFormatjj
-|2,0,1543048883,,"ClangFormatjj"
-:PlugInstall
-|2,0,1543048184,,"PlugInstall"
-:load_config
-|2,0,1542814312,,"load_config"
-:selected
-|2,0,1542807024,,"selected"
-:nohlsearch
-|2,0,1542717293,,"nohlsearch"
-:PlugUpdate
-|2,0,1542446737,,"PlugUpdate"
 
 # Search String History (newest to oldest):
+?/let
+|2,1,1549898940,47,"let"
 ? \<compare_cb\>
 |2,1,1545661091,,"\\<compare_cb\\>"
 ? }
@@ -220,8 +222,6 @@ $rsync -av --delete
 |2,1,1542814303,47,"lo"
 ? \<return\>
 |2,1,1542814124,,"\\<return\\>"
-?/pathlib
-|2,1,1542813799,47,"pathlib"
 
 # Expression History (newest to oldest):
 
@@ -240,36 +240,36 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	keymap i PEEK_LINK
-|3,0,0,1,1,0,1546618444,"keymap i PEEK_LINK"
-""1	LINE	0
-	Restart=on-failure
-|3,1,1,1,1,0,1548434878,"Restart=on-failure"
+""0	LINE	0
+	RRRRRR
+|3,1,0,1,1,0,1549900247,"RRRRRR"
+"1	LINE	0
+	RRRRRR
+|3,0,1,1,1,0,1549899863,"RRRRRR"
 "2	LINE	0
-	#ExecReload=-/bin/killall ss-local;/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin 
-|3,0,2,1,1,0,1548434869,"#ExecReload=-/bin/killall ss-local;/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin "
+	RRRRRR
+|3,0,2,1,1,0,1549899278,"RRRRRR"
 "3	LINE	0
-	Type=oneshot
-|3,0,3,1,1,0,1548434862,"Type=oneshot"
+	    import pdb; pdb.set_trace()
+|3,0,3,1,1,0,1549899148,"    import pdb; pdb.set_trace()"
 "4	LINE	0
-	/*KillMode=process*/
-|3,0,4,1,1,0,1548431747,"/*KillMode=process*/"
+	    import pdb; pdb.set_trace()
+|3,0,4,1,1,0,1549899147,"    import pdb; pdb.set_trace()"
 "5	LINE	0
-	RestartSec=42s
-|3,0,5,1,1,0,1548431682,"RestartSec=42s"
+	&&
+|3,0,5,1,1,0,1549898688,"&&"
 "6	LINE	0
-	RestartSec=42s
-|3,0,6,1,1,0,1548431236,"RestartSec=42s"
-"7	LINE	0
-	EnvironmentFile=/etc/sysconfig/sshd
-|3,0,7,1,1,0,1548429928,"EnvironmentFile=/etc/sysconfig/sshd"
-"8	LINE	0
 	
-|3,0,8,1,1,0,1548429873,""
+|3,0,6,1,1,0,1549895925,""
+"7	LINE	0
+	print ('test') 
+|3,0,7,1,1,0,1549895924,"print ('test') "
+"8	LINE	0
+	Restart=on-failure
+|3,0,8,1,1,0,1548434878,"Restart=on-failure"
 "9	LINE	0
-	/*Wants=sshd-keygen.service*/
-|3,0,9,1,1,0,1548429837,"/*Wants=sshd-keygen.service*/"
+	#ExecReload=-/bin/killall ss-local;/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin 
+|3,0,9,1,1,0,1548434869,"#ExecReload=-/bin/killall ss-local;/usr/sbin/bash /home/gaffey/.config/privarcy/PreLogin "
 "a	LINE	0
 	Traceback (most recent call last):
 	  File "/usr/lib/python3.6/site-packages/yapf/yapflib/pytree_utils.py", line 115, in ParseCodeToTree
@@ -379,13 +379,74 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-	e
-|3,0,36,0,1,0,1548434851,"e"
+	,
+|3,0,36,0,1,0,1549898674,","
 
 # Buffer list:
-%~/.config/mpv/playlist.m3u8	1	0
+%~/test.py	16	22
 
 # History of marks within files (newest to oldest):
+
+> ~/test.py
+	*	1549900335	0
+	"	16	22
+	^	14	5
+	.	14	4
+	+	1	13
+	+	1	14
+	+	1	4
+	+	2	0
+	+	1	0
+	+	2	4
+	+	3	0
+	+	7	11
+	+	8	17
+	+	7	0
+	+	4	4
+	+	15	8
+	+	15	20
+	+	6	5
+	+	3	1
+	+	10	2
+	+	10	0
+	+	10	5
+	+	8	16
+	+	10	0
+	+	8	16
+	+	10	0
+	+	15	0
+	+	15	30
+	+	15	0
+	+	15	13
+	+	15	0
+	+	12	4
+	+	14	4
+
+> ~/__jupyter_term__
+	*	1549899961	0
+	"	1	0
+	^	1	0
+
+> ~/.vim/vimrc
+	*	1549899330	0
+	"	1	0
+	^	154	24
+	.	154	23
+	+	49	0
+	+	154	23
+
+> ~/.vim/plugged/jupyter-vim/doc/jupyter-vim.txt
+	*	1549896407	0
+	"	115	0
+
+> ~/.config/privarcy/PreLogin
+	*	1549892980	0
+	"	1	0
+	^	3	34
+	.	3	54
+	+	3	74
+	+	3	0
+	+	3	54
 
 > ~/.config/mpv/playlist.m3u8
 	*	1548569015	0
@@ -415,54 +476,3 @@ $rsync -av --delete
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/ss-local.service
-	*	1548433189	0
-	"	1	0
-	^	9	12
-	.	9	11
-	+	1	5
-	+	1	6
-	+	13	25
-	+	1	0
-	+	2	22
-	+	3	25
-	+	5	0
-	+	6	0
-	+	4	0
-	+	6	51
-	+	7	7
-	+	8	74
-	+	7	9
-	+	8	11
-	+	11	0
-	+	6	37
-	+	8	62
-	+	11	0
-	+	10	0
-	+	9	11
-
-> ~/.config/privarcy/PreLogin
-	*	1548432517	0
-	"	8	21
-	^	3	34
-	.	3	60
-	+	3	74
-	+	3	0
-	+	3	60
-
-> /etcsudo
-	*	1547829033	0
-	"	1	0
-
-> ~/.asoundrc
-	*	1547641210	0
-	"	5	0
-	^	5	1
-	.	4	9
-	+	5	0
-	+	4	9
-
-> /usr/share/alsa/alsa.conf
-	*	1547641110	0
-	"	309	0

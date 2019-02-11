@@ -1,6 +1,6 @@
 #!/bin/bash
 # 影梭服务器链接
-ss-local -c ~/.config/privarcy/user/shadowsocks/config5.json
+ss-local -c ~/.config/privarcy/user/shadowsocks/config1.json
 # 校正数位板映射
 # xsetwacom --set "Wacom Intuos PT M 2 Pen stylus" Area 0 0 21600 9112
 # 自定义键盘映射

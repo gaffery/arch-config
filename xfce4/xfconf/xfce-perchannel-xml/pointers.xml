@@ -25,7 +25,7 @@
   <property name="Logitech_USB_Optical_Mouse" type="empty">
     <property name="RightHanded" type="bool" value="true"/>
     <property name="Threshold" type="int" value="1"/>
-    <property name="Acceleration" type="double" value="5.000000"/>
+    <property name="Acceleration" type="double" value="3.000000"/>
     <property name="ReverseScrolling" type="bool" value="false"/>
   </property>
   <property name="Gaming_KB__Gaming_KB__Consumer_Control" type="empty">

@@ -95,6 +95,7 @@ Indian:in:Punjabi (Gurmukhi):guru:pa
 Indian:in:Punjabi (Gurmukhi Jhelum):jhelum:pa
 Indian:in:Kannada:kan:kn
 Indian:in:Kannada (KaGaPa phonetic):kan-kagapa:kn
+Indian:in:Kannada (KaGaPa phonetic):kan-kagapa:kn
 Indian:in:Malayalam:mal:ml
 Indian:in:Malayalam (Lalitha):mal_lalitha:ml
 Indian:in:Malayalam (enhanced Inscript, with rupee):mal_enhanced:ml
@@ -108,6 +109,7 @@ Indian:in:Tamil (Inscript):tam:ta
 Indian:in:Telugu:tel:te
 Indian:in:Telugu (KaGaPa phonetic):tel-kagapa:te
 Indian:in:Telugu (Sarala):tel-sarala:te
+Indian:in:Telugu (KaGaPa phonetic):tel-kagapa:te
 Indian:in:Urdu (phonetic):urd-phonetic:ur
 Indian:in:Urdu (alt. phonetic):urd-phonetic3:ur
 Indian:in:Urdu (Win keys):urd-winkeys:ur
@@ -242,9 +244,10 @@ French:fr:French (AZERTY):azerty:fr
 French:fr:French (Breton):bre:fr
 French:fr:Occitan:oci:oc
 French:fr:Georgian (France, AZERTY Tskapo):geo:ka
-French:fr:French (US keyboard with French letters):us:fr
+French:fr:French (US, with French letters):us:fr
 French:fr:French (Sun Type 6/7):sun_type6:fr
 French:fr:French (US, with French letters, with dead keys, alternative):us-alt:fr
+French:fr:French (US, AZERTY):us-azerty:fr
 English (Ghana):gh:en
 English (Ghana):gh:English (Ghana, multilingual):generic:en
 English (Ghana):gh:Akan:akan:ak
@@ -366,6 +369,8 @@ Spanish (Latin American):latam:Spanish (Latin American, no dead keys):nodeadkeys
 Spanish (Latin American):latam:Spanish (Latin American, dead tilde):deadtilde:es
 Spanish (Latin American):latam:Spanish (Latin American, with Sun dead keys):sundeadkeys:es
 Spanish (Latin American):latam:Spanish (Latin American, Dvorak):dvorak:es
+Spanish (Latin American):latam:Spanish (Latin American, Colemak):colemak:es
+Spanish (Latin American):latam:Spanish (Latin American, Colemak for gaming):colemak-gaming:es
 Lithuanian:lt:lt
 Lithuanian:lt:Lithuanian (standard):std:lt
 Lithuanian:lt:Lithuanian (US, with Lithuanian letters):us:lt
@@ -438,6 +443,7 @@ Portuguese:pt:Portuguese (Nativo):nativo:pt
 Portuguese:pt:Portuguese (Nativo for US keyboards):nativo-us:pt
 Portuguese:pt:Esperanto (Portugal, Nativo):nativo-epo:eo
 Portuguese:pt:Portuguese (Sun Type 6/7):sun_type6:pt
+Portuguese:pt:Portuguese (Colemak):colemak:pt
 Romanian:ro:ro
 Romanian:ro:Romanian (cedilla):cedilla:ro
 Romanian:ro:Romanian (standard):std:ro
@@ -449,6 +455,7 @@ Romanian:ro:Romanian (Sun Type 6/7):sun_type6:ro
 Russian:ru:ru
 Russian:ru:Russian (phonetic):phonetic:ru
 Russian:ru:Russian (phonetic, with Win keys):phonetic_winkeys:ru
+Russian:ru:Russian (phonetic yazherty):phonetic_yazherty:ru
 Russian:ru:Russian (typewriter):typewriter:ru
 Russian:ru:Russian (legacy):legacy:ru
 Russian:ru:Russian (typewriter, legacy):typewriter-legacy:ru
@@ -575,6 +582,7 @@ English (UK):gb:English (UK, Dvorak, with UK punctuation):dvorakukp:en
 English (UK):gb:English (UK, Macintosh):mac:en
 English (UK):gb:English (UK, intl., Macintosh):mac_intl:en
 English (UK):gb:English (UK, Colemak):colemak:en
+English (UK):gb:Polish (British keyboard):pl:pl
 English (UK):gb:English (UK, Sun Type 6/7):sun_type6:en
 Uzbek:uz:uz
 Uzbek:uz:Uzbek (Latin):latin:uz
@@ -610,7 +618,9 @@ Amharic:et:am
 Wolof:sn:wo
 Braille:brai:
 Braille:brai:Braille (left-handed):left_hand:
+Braille:brai:Braille (left-handed inverted thumb):left_hand_invert:
 Braille:brai:Braille (right-handed):right_hand:
+Braille:brai:Braille (right-handed inverted thumb):right_hand_invert:
 Turkmen:tm:tk
 Turkmen:tm:Turkmen (Alt-Q):alt:tk
 Bambara:ml:bm
@@ -644,5 +654,5 @@ APL:apl:APL Keyboard Symbols: Unified Layout:unified:en
 APL:apl:APL Keyboard Symbols: IBM APL2:apl2:en
 APL:apl:APL Keyboard Symbols: Manugistics APL*PLUS II:aplplusII:en
 APL:apl:APL Keyboard Symbols: APLX Unified APL Layout:aplx:en
-EurKEY (US based layout with european letters):eu:ca
+EurKEY (US based layout with European letters):eu:ca
 International Phonetic Alphabet:trans:

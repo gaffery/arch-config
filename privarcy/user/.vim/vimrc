@@ -54,6 +54,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'Yggdroot/indentLine'
+Plug 'wmvanvliet/jupyter-vim'
 call plug#end()
 
 "自定义函数"
@@ -149,3 +150,6 @@ let g:ycm_semantic_triggers = {
 	\ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
 	\ 'cs,lua,javascript': ['re!\w{2}'],
 	\ }
+
+let maplocalleader = "\ "
+let g:jupyter_auto_connect = 1

@@ -30,6 +30,8 @@ text/x-install=leafpad.desktop;
 application/x-desktop=leafpad.desktop;
 application/zip=xarchiver.desktop;
 application/octet-stream=userapp-"houdini"-SPZZVZ.desktop;
+video/x-ms-wmv=mpv.desktop;
+application/x-matroska=mpv.desktop;
 
 [Default Applications]
 application/octet-stream=userapp-"houdini"-SPZZVZ.desktop
