@@ -95,6 +95,7 @@ netctl
 network-manager-applet
 networkmanager
 nload
+nmap
 ntfs-3g
 nvidia
 opencl-nvidia

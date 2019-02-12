@@ -20,14 +20,16 @@
 $rsync -av --delete
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1549900335,,"q"
 :w
-|2,0,1549900335,,"w"
+|2,0,1549986586,,"w"
+:q
+|2,0,1549986013,,"q"
+:e
+|2,0,1549900801,,"e"
+:JupyterConnect
+|2,0,1549900554,,"JupyterConnect"
 :g:j
 |2,0,1549900257,,"g:j"
-:JupyterConnect
-|2,0,1549900023,,"JupyterConnect"
 :echo maplocalleader
 |2,0,1549899626,,"echo maplocalleader"
 :echo mapleader
@@ -118,8 +120,6 @@ $rsync -av --delete
 |2,0,1545419732,,"wq"
 :ii
 |2,0,1545419446,,"ii"
-::
-|2,0,1545419446,,":"
 
 # Search String History (newest to oldest):
 ?/let
@@ -240,9 +240,10 @@ $rsync -av --delete
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	RRRRRR
-|3,1,0,1,1,0,1549900247,"RRRRRR"
+""0	CHAR	0
+	def test2():
+	    print ('test11111')
+|3,1,0,0,2,0,1549900875,"def test2():","    print ('test11111')"
 "1	LINE	0
 	RRRRRR
 |3,0,1,1,1,0,1549899863,"RRRRRR"
@@ -379,19 +380,39 @@ $rsync -av --delete
 |<kkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjlllllllllllpujdd:wkgGggjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj/o€kbpickyyG/path€kb€kb€kb€kbconfignnnnnnnjjjjjjjjjkkkkkkkkkkkjkkkkjkkkkkkkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjop€kbpkdd\\c lllllllllllldwipath:w€k;:wjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkk
 |<kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjj\\c /picklennnnnnnyyjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkjopkj\\c lllllllllllllllhhhxxxxim3u	:w"
 "-	CHAR	0
-	,
-|3,0,36,0,1,0,1549898674,","
+	0
+|3,0,36,0,1,0,1549986223,"0"
 
 # Buffer list:
-%~/test.py	16	22
+%~/.config/privarcy/PreLogin	4	20
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/privarcy/PreLogin
+	*	1549986586	0
+	"	4	20
+	^	3	34
+	.	3	54
+	+	3	74
+	+	3	0
+	+	3	54
+
+> ~/.config/privarcy/user/shadowsocks/config5.json
+	*	1549986579	0
+	"	12	0
+	^	3	23
+	.	3	22
+	+	3	22
+
+> ~/.config/privarcy/user/shadowsocks/config.json
+	*	1549983093	0
+	"	4	26
+
 > ~/test.py
-	*	1549900335	0
-	"	16	22
-	^	14	5
-	.	14	4
+	*	1549900889	0
+	"	16	9
+	^	20	21
+	.	20	20
 	+	1	13
 	+	1	14
 	+	1	4
@@ -421,9 +442,18 @@ $rsync -av --delete
 	+	15	0
 	+	12	4
 	+	14	4
+	+	10	0
+	+	9	0
+	+	12	0
+	+	13	10
+	+	17	11
+	+	22	0
+	+	18	8
+	+	19	16
+	+	20	20
 
 > ~/__jupyter_term__
-	*	1549899961	0
+	*	1549900784	0
 	"	1	0
 	^	1	0
 
@@ -439,15 +469,6 @@ $rsync -av --delete
 	*	1549896407	0
 	"	115	0
 
-> ~/.config/privarcy/PreLogin
-	*	1549892980	0
-	"	1	0
-	^	3	34
-	.	3	54
-	+	3	74
-	+	3	0
-	+	3	54
-
 > ~/.config/mpv/playlist.m3u8
 	*	1548569015	0
 	"	1	0
@@ -462,17 +483,3 @@ $rsync -av --delete
 > ~/Desktop/Software/Houdini17.0/crack/è¯´æ˜Ž.txt
 	*	1548563785	0
 	"	15	31
-
-> ~/.config/privarcy/lib/ss-local.service
-	*	1548434880	0
-	"	11	0
-	.	9	0
-	+	9	0
-	+	6	0
-	+	9	0
-
-> ~/NERD_tree_1
-	*	1548434702	0
-	"	1	0
-	.	1	0
-	+	1	0
